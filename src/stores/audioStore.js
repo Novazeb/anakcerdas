@@ -9,7 +9,7 @@ export const useAudioStore = defineStore('audio', {
 
   actions: {
     initAudio() {
-      const ctx = soundSynth.ensureContext()
+      soundSynth.ensureContext()
       if (!this.isMuted) {
         soundSynth.setMuted(false)
         soundSynth.startBgm()

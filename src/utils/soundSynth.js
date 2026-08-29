@@ -1,6 +1,6 @@
 /**
  * Robust Kid-Friendly Web Audio Synthesizer for SFX and BGM.
- * Bulletproof auto-resume, reliable clock-based scheduler, clear pleasant volume.
+ * Bulletproof auto-resume on load and first gesture, reliable scheduler, pleasant volume.
  */
 
 class KidSoundSynth {
@@ -12,21 +12,43 @@ class KidSoundSynth {
     this.gainMaster = null
     this.gainBgm = null
     this.gainSfx = null
+
+    // Auto-setup listeners on load
+    if (typeof window !== 'undefined') {
+      const autoUnlock = () => {
+        this.ensureContext()
+        if (!this.isMuted && !this.isPlayingBgm) {
+          this.startBgm()
+        }
+      }
+
+      // Proactively try immediate start
+      window.addEventListener('load', autoUnlock, { once: true })
+      document.addEventListener('DOMContentLoaded', autoUnlock, { once: true })
+
+      // Auto-unlock on any initial user gesture
+      const events = ['click', 'pointerdown', 'touchstart', 'touchend', 'mousedown', 'keydown', 'mousemove', 'scroll', 'wheel']
+      const handleFirstGesture = () => {
+        autoUnlock()
+        events.forEach(e => window.removeEventListener(e, handleFirstGesture))
+      }
+      events.forEach(e => window.addEventListener(e, handleFirstGesture, { passive: true }))
+    }
   }
 
   ensureContext() {
-    if (!this.ctx) {
+    if (!this.ctx && typeof window !== 'undefined') {
       const AudioCtx = window.AudioContext || window.webkitAudioContext
       if (AudioCtx) {
         this.ctx = new AudioCtx()
         
         // Master & Channel Gains
         this.gainMaster = this.ctx.createGain()
-        this.gainMaster.gain.setValueAtTime(1.0, this.ctx.currentTime)
+        this.gainMaster.gain.setValueAtTime(this.isMuted ? 0 : 1.0, this.ctx.currentTime)
         this.gainMaster.connect(this.ctx.destination)
 
         this.gainBgm = this.ctx.createGain()
-        this.gainBgm.gain.setValueAtTime(0.22, this.ctx.currentTime)
+        this.gainBgm.gain.setValueAtTime(0.24, this.ctx.currentTime)
         this.gainBgm.connect(this.gainMaster)
 
         this.gainSfx = this.ctx.createGain()
@@ -49,6 +71,9 @@ class KidSoundSynth {
     }
     if (muted) {
       this.stopBgm()
+    } else {
+      this.ensureContext()
+      this.startBgm()
     }
   }
 
@@ -84,7 +109,7 @@ class KidSoundSynth {
     if (!ctx) return
 
     try {
-      const notes = [523.25, 659.25, 783.99, 1046.50] // C5, E5, G5, C6 (Do-Mi-Sol-Do)
+      const notes = [523.25, 659.25, 783.99, 1046.50] // C5, E5, G5, C6
       const now = ctx.currentTime
 
       notes.forEach((freq, i) => {
@@ -114,7 +139,6 @@ class KidSoundSynth {
     if (!ctx) return
 
     try {
-      // Gentle comforting chimes (F4 -> D4)
       const notes = [349.23, 293.66]
       const now = ctx.currentTime
 
@@ -146,12 +170,12 @@ class KidSoundSynth {
 
     try {
       const fanfare = [
-        { f: 523.25, d: 0.12 }, // C5
-        { f: 659.25, d: 0.12 }, // E5
-        { f: 783.99, d: 0.12 }, // G5
-        { f: 1046.50, d: 0.25 }, // C6
-        { f: 880.00, d: 0.14 }, // A5
-        { f: 1046.50, d: 0.55 }  // C6 hold
+        { f: 523.25, d: 0.12 },
+        { f: 659.25, d: 0.12 },
+        { f: 783.99, d: 0.12 },
+        { f: 1046.50, d: 0.25 },
+        { f: 880.00, d: 0.14 },
+        { f: 1046.50, d: 0.55 }
       ]
 
       let timeOffset = 0
@@ -181,7 +205,7 @@ class KidSoundSynth {
   }
 
   /**
-   * Continuous, warm, upbeat kid-friendly background melody
+   * Continuous, warm, upbeat background melody
    */
   startBgm() {
     if (this.isMuted) return
@@ -189,14 +213,16 @@ class KidSoundSynth {
     if (!ctx) return
 
     if (ctx.state === 'suspended') {
-      ctx.resume().then(() => this.startBgm()).catch(() => {})
-      return
+      ctx.resume().then(() => {
+        if (!this.isPlayingBgm && !this.isMuted) {
+          this.startBgm()
+        }
+      }).catch(() => {})
     }
 
     if (this.isPlayingBgm) return
     this.isPlayingBgm = true
 
-    // Warm marimba + ukulele cheerful melody
     const melody = [
       // Phrase 1
       { f: 261.63, d: 0.32, pause: 0.38 }, // C4
@@ -227,7 +253,6 @@ class KidSoundSynth {
       const now = this.ctx.currentTime
 
       try {
-        // Melodic marimba tone
         const osc = this.ctx.createOscillator()
         const gain = this.ctx.createGain()
 
@@ -235,7 +260,7 @@ class KidSoundSynth {
         osc.frequency.setValueAtTime(item.f, now)
 
         gain.gain.setValueAtTime(0, now)
-        gain.gain.linearRampToValueAtTime(0.18, now + 0.03)
+        gain.gain.linearRampToValueAtTime(0.20, now + 0.03)
         gain.gain.exponentialRampToValueAtTime(0.001, now + item.d)
 
         osc.connect(gain)
@@ -244,13 +269,13 @@ class KidSoundSynth {
         osc.start(now)
         osc.stop(now + item.d + 0.05)
 
-        // Soft accompanying harmonic tone
+        // Harmonic bass note
         const subOsc = this.ctx.createOscillator()
         const subGain = this.ctx.createGain()
         subOsc.type = 'sine'
-        subOsc.frequency.setValueAtTime(item.f * 0.5, now) // 1 octave down
+        subOsc.frequency.setValueAtTime(item.f * 0.5, now)
         subGain.gain.setValueAtTime(0, now)
-        subGain.gain.linearRampToValueAtTime(0.08, now + 0.04)
+        subGain.gain.linearRampToValueAtTime(0.09, now + 0.04)
         subGain.gain.exponentialRampToValueAtTime(0.001, now + item.d)
         subOsc.connect(subGain)
         subGain.connect(this.gainBgm || this.ctx.destination)

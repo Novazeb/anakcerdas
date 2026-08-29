@@ -30,19 +30,17 @@ const handleUserGesture = () => {
 }
 
 onMounted(() => {
-  // Browser Autoplay Policy: resume audio context on first user interaction anywhere on the screen
+  // Proactively attempt immediate start on mount
+  audioStore.initAudio()
+
+  // Browser Autoplay Policy fallback: automatically resume on any interaction anywhere
   const unlockAudio = () => {
     audioStore.initAudio()
-    window.removeEventListener('click', unlockAudio)
-    window.removeEventListener('touchstart', unlockAudio)
-    window.removeEventListener('pointerdown', unlockAudio)
-    window.removeEventListener('keydown', unlockAudio)
+    events.forEach(e => window.removeEventListener(e, unlockAudio))
   }
 
-  window.addEventListener('click', unlockAudio, { passive: true })
-  window.addEventListener('touchstart', unlockAudio, { passive: true })
-  window.addEventListener('pointerdown', unlockAudio, { passive: true })
-  window.addEventListener('keydown', unlockAudio, { passive: true })
+  const events = ['click', 'pointerdown', 'touchstart', 'touchend', 'mousemove', 'scroll', 'wheel', 'keydown']
+  events.forEach(e => window.addEventListener(e, unlockAudio, { passive: true, once: true }))
 })
 </script>
 

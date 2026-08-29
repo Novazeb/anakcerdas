@@ -119,7 +119,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import MascotCharacter from '@/components/common/MascotCharacter.vue'
 import MenuCard from '@/components/home/MenuCard.vue'
@@ -136,6 +136,10 @@ const audioStore = useAudioStore()
 
 const isLoading = ref(false)
 const selectedMascot = ref('bear')
+
+onMounted(() => {
+  audioStore.initAudio()
+})
 
 const handleSelectCategory = (categoryId) => {
   audioStore.initAudio()
