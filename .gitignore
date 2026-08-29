@@ -22,11 +22,20 @@ pnpm-debug.log*
 lerna-debug.log*
 *.log
 
-# Video / Media artifacts
+# Video, Images & Media artifacts
 *.webm
 *.mp4
 *.mkv
 *.mov
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.bmp
+*.ico
+*.tiff
 
 # OS Files
 .DS_Store
@@ -41,6 +50,9 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Temporary Scripts
+scripts/
 
 # Specification & Internal PRD markdown files (Keep README.md public)
 prd.md
