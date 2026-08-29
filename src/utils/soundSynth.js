@@ -1,6 +1,6 @@
 /**
  * Robust Kid-Friendly Web Audio Synthesizer for SFX and BGM.
- * Bulletproof auto-resume, reliable scheduler, state-synchronized audio loop.
+ * Bulletproof auto-resume, reliable scheduler, crystal clear & audible marimba sound.
  */
 
 class KidSoundSynth {
@@ -26,12 +26,14 @@ class KidSoundSynth {
         this.gainMaster.gain.setValueAtTime(this.isMuted ? 0 : 1.0, this.ctx.currentTime)
         this.gainMaster.connect(this.ctx.destination)
 
+        // Boosted BGM Channel for Clear Audibility
         this.gainBgm = this.ctx.createGain()
-        this.gainBgm.gain.setValueAtTime(0.24, this.ctx.currentTime)
+        this.gainBgm.gain.setValueAtTime(0.75, this.ctx.currentTime)
         this.gainBgm.connect(this.gainMaster)
 
+        // Balanced SFX Channel
         this.gainSfx = this.ctx.createGain()
-        this.gainSfx.gain.setValueAtTime(0.35, this.ctx.currentTime)
+        this.gainSfx.gain.setValueAtTime(0.70, this.ctx.currentTime)
         this.gainSfx.connect(this.gainMaster)
       }
     }
@@ -67,10 +69,10 @@ class KidSoundSynth {
       osc.type = 'sine'
       const now = ctx.currentTime
 
-      osc.frequency.setValueAtTime(520, now)
-      osc.frequency.exponentialRampToValueAtTime(160, now + 0.08)
+      osc.frequency.setValueAtTime(540, now)
+      osc.frequency.exponentialRampToValueAtTime(180, now + 0.08)
 
-      gain.gain.setValueAtTime(0.4, now)
+      gain.gain.setValueAtTime(0.6, now)
       gain.gain.exponentialRampToValueAtTime(0.01, now + 0.08)
 
       osc.connect(gain)
@@ -99,7 +101,7 @@ class KidSoundSynth {
         osc.frequency.setValueAtTime(freq, startTime)
 
         gain.gain.setValueAtTime(0, startTime)
-        gain.gain.linearRampToValueAtTime(0.35, startTime + 0.02)
+        gain.gain.linearRampToValueAtTime(0.55, startTime + 0.02)
         gain.gain.exponentialRampToValueAtTime(0.001, startTime + 0.38)
 
         osc.connect(gain)
@@ -129,7 +131,7 @@ class KidSoundSynth {
         osc.frequency.setValueAtTime(freq, startTime)
 
         gain.gain.setValueAtTime(0, startTime)
-        gain.gain.linearRampToValueAtTime(0.25, startTime + 0.03)
+        gain.gain.linearRampToValueAtTime(0.45, startTime + 0.03)
         gain.gain.exponentialRampToValueAtTime(0.001, startTime + 0.32)
 
         osc.connect(gain)
@@ -168,7 +170,7 @@ class KidSoundSynth {
         osc.frequency.setValueAtTime(item.f, startTime)
 
         gain.gain.setValueAtTime(0, startTime)
-        gain.gain.linearRampToValueAtTime(0.4, startTime + 0.02)
+        gain.gain.linearRampToValueAtTime(0.6, startTime + 0.02)
         gain.gain.exponentialRampToValueAtTime(0.001, startTime + item.d + 0.2)
 
         osc.connect(gain)
@@ -183,7 +185,7 @@ class KidSoundSynth {
   }
 
   /**
-   * Continuous, warm, upbeat background melody
+   * Continuous, warm, rich & clearly audible background melody
    */
   async startBgm() {
     if (this.isMuted) return
@@ -194,7 +196,7 @@ class KidSoundSynth {
       try {
         await ctx.resume()
       } catch (e) {
-        return // Wait for user gesture
+        return
       }
     }
 
@@ -233,6 +235,7 @@ class KidSoundSynth {
       const now = this.ctx.currentTime
 
       try {
+        // Melodic Lead Marimba
         const osc = this.ctx.createOscillator()
         const gain = this.ctx.createGain()
 
@@ -240,7 +243,7 @@ class KidSoundSynth {
         osc.frequency.setValueAtTime(item.f, now)
 
         gain.gain.setValueAtTime(0, now)
-        gain.gain.linearRampToValueAtTime(0.20, now + 0.03)
+        gain.gain.linearRampToValueAtTime(0.55, now + 0.03)
         gain.gain.exponentialRampToValueAtTime(0.001, now + item.d)
 
         osc.connect(gain)
@@ -249,13 +252,13 @@ class KidSoundSynth {
         osc.start(now)
         osc.stop(now + item.d + 0.05)
 
-        // Harmonic bass note
+        // Warm Accompanying Sub-Harmonic Bass
         const subOsc = this.ctx.createOscillator()
         const subGain = this.ctx.createGain()
         subOsc.type = 'sine'
         subOsc.frequency.setValueAtTime(item.f * 0.5, now)
         subGain.gain.setValueAtTime(0, now)
-        subGain.gain.linearRampToValueAtTime(0.09, now + 0.04)
+        subGain.gain.linearRampToValueAtTime(0.30, now + 0.04)
         subGain.gain.exponentialRampToValueAtTime(0.001, now + item.d)
         subOsc.connect(subGain)
         subGain.connect(this.gainBgm || this.ctx.destination)
