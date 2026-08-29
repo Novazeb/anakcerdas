@@ -1,0 +1,131 @@
+{
+  "kategori": "pengetahuan-sosial",
+  "judul": "Pengetahuan Sosial",
+  "deskripsi": "Belajar budi pekerti, gotong royong, dan kebaikan bersama!",
+  "ikon": "🏘️",
+  "warna": "social",
+  "maskot": "cat",
+  "soal": [
+    {
+      "id": 1,
+      "pertanyaan": "Siapa yang biasanya merawat dan menyayangi kita sejak kecil?",
+      "pilihan": ["Orang tua", "Tetangga", "Orang asing"],
+      "jawaban_benar": "Orang tua"
+    },
+    {
+      "id": 2,
+      "pertanyaan": "Apa yang sebaiknya diucapkan saat menerima bantuan dari orang lain?",
+      "pilihan": ["Terima kasih", "Diam saja", "Pergi begitu saja"],
+      "jawaban_benar": "Terima kasih"
+    },
+    {
+      "id": 3,
+      "pertanyaan": "Bekerja sama membersihkan lingkungan bersama-sama disebut?",
+      "pilihan": ["Gotong royong", "Bertengkar", "Bersaing"],
+      "jawaban_benar": "Gotong royong"
+    },
+    {
+      "id": 4,
+      "pertanyaan": "Siapa yang bertugas mengajar kita di sekolah?",
+      "pilihan": ["Guru", "Dokter", "Polisi"],
+      "jawaban_benar": "Guru"
+    },
+    {
+      "id": 5,
+      "pertanyaan": "Siapa yang bertugas menjaga keamanan di lingkungan?",
+      "pilihan": ["Polisi", "Guru", "Petani"],
+      "jawaban_benar": "Polisi"
+    },
+    {
+      "id": 6,
+      "pertanyaan": "Siapa yang bertugas mengobati orang yang sakit?",
+      "pilihan": ["Dokter", "Guru", "Polisi"],
+      "jawaban_benar": "Dokter"
+    },
+    {
+      "id": 7,
+      "pertanyaan": "Apa yang sebaiknya kita lakukan saat teman sedang sedih?",
+      "pilihan": ["Menghiburnya", "Mengabaikannya", "Menertawakannya"],
+      "jawaban_benar": "Menghiburnya"
+    },
+    {
+      "id": 8,
+      "pertanyaan": "Bendera negara Indonesia berwarna apa?",
+      "pilihan": ["Merah dan putih", "Biru dan kuning", "Hijau dan putih"],
+      "jawaban_benar": "Merah dan putih"
+    },
+    {
+      "id": 9,
+      "pertanyaan": "Apa nama lagu kebangsaan Indonesia?",
+      "pilihan": ["Indonesia Raya", "Halo-Halo Bandung", "Garuda Pancasila"],
+      "jawaban_benar": "Indonesia Raya"
+    },
+    {
+      "id": 10,
+      "pertanyaan": "Sikap saling menghormati antar teman meski berbeda disebut?",
+      "pilihan": ["Toleransi", "Permusuhan", "Egois"],
+      "jawaban_benar": "Toleransi"
+    },
+    {
+      "id": 11,
+      "pertanyaan": "Apa yang sebaiknya dilakukan sebelum memakai barang milik teman?",
+      "pilihan": ["Meminta izin", "Mengambil langsung", "Menyembunyikannya"],
+      "jawaban_benar": "Meminta izin"
+    },
+    {
+      "id": 12,
+      "pertanyaan": "Siapa yang bertugas memadamkan api saat kebakaran?",
+      "pilihan": ["Petugas pemadam kebakaran", "Guru", "Petani"],
+      "jawaban_benar": "Petugas pemadam kebakaran"
+    },
+    {
+      "id": 13,
+      "pertanyaan": "Apa yang sebaiknya kita lakukan saat mengantre?",
+      "pilihan": ["Menunggu giliran dengan sabar", "Menyerobot antrean", "Marah-marah"],
+      "jawaban_benar": "Menunggu giliran dengan sabar"
+    },
+    {
+      "id": 14,
+      "pertanyaan": "Tempat kita tinggal bersama para tetangga disebut?",
+      "pilihan": ["Kampung/desa", "Sekolah", "Pasar"],
+      "jawaban_benar": "Kampung/desa"
+    },
+    {
+      "id": 15,
+      "pertanyaan": "Apa yang sebaiknya dilakukan jika melihat sampah berserakan?",
+      "pilihan": ["Membuangnya ke tempat sampah", "Membiarkannya", "Menambah sampah lagi"],
+      "jawaban_benar": "Membuangnya ke tempat sampah"
+    },
+    {
+      "id": 16,
+      "pertanyaan": "Sikap suka berbagi dengan orang lain disebut?",
+      "pilihan": ["Kedermawanan", "Keserakahan", "Kemalasan"],
+      "jawaban_benar": "Kedermawanan"
+    },
+    {
+      "id": 17,
+      "pertanyaan": "Apa nama hewan yang menjadi lambang negara Indonesia?",
+      "pilihan": ["Garuda", "Elang botak", "Merpati"],
+      "jawaban_benar": "Garuda"
+    },
+    {
+      "id": 18,
+      "pertanyaan": "Siapa yang biasa menjual sayur dan buah di pasar?",
+      "pilihan": ["Pedagang", "Dokter", "Polisi"],
+      "jawaban_benar": "Pedagang"
+    },
+    {
+      "id": 19,
+      "pertanyaan": "Apa yang sebaiknya diucapkan saat kita berbuat salah pada orang lain?",
+      "pilihan": ["Maaf", "Diam saja", "Menyalahkan orang lain"],
+      "jawaban_benar": "Maaf"
+    },
+    {
+      "id": 20,
+      "pertanyaan": "Kerja sama dalam kelompok untuk mencapai tujuan bersama disebut?",
+      "pilihan": ["Kerja tim", "Persaingan", "Perselisihan"],
+      "jawaban_benar": "Kerja tim"
+    }
+  ]
+}
+

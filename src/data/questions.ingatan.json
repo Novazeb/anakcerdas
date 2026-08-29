@@ -1,0 +1,141 @@
+{
+  "kategori": "ingatan",
+  "judul": "Ingatan",
+  "deskripsi": "Baca dongeng seru dan ingat ceritanya!",
+  "ikon": "🧠",
+  "warna": "memory",
+  "maskot": "rabbit",
+  "cerpen": {
+    "judul": "Kiki Si Kelinci dan Kebun Wortel Ajaib",
+    "paragraf": [
+      "Kiki adalah kelinci kecil berbulu putih yang tinggal bersama Ibunya di tepi hutan. Suatu pagi, Kiki mendengar cerita tentang kebun wortel ajaib di balik Bukit Bintang. Konon, wortel dari kebun itu bisa membuat siapa saja merasa sangat kuat dan sehat.",
+      "Kiki pun berangkat. Ia berjalan menyusuri sungai kecil, lalu melewati sebatang pohon apel besar. Di sana, ia bertemu seekor burung hantu bernama Ollie yang sedang bertengger di dahan. Ollie memberi tahu bahwa jalan menuju kebun ajaib harus melewati jembatan kayu tua.",
+      "Jembatan itu terlihat agak goyang, dan Kiki sempat merasa takut. Namun ia memberanikan diri dan berhasil menyeberang dengan hati-hati. Di seberang jembatan, Kiki bertemu seekor landak bernama Dudu yang sedang mengumpulkan buah beri. Dudu menunjukkan jalan pintas melalui semak-semak yang rimbun.",
+      "Akhirnya, Kiki tiba di kebun ajaib. Ia melihat wortel besar berwarna oranye terang dengan daun hijau berkilau. Kiki mengambil satu wortel secukupnya saja — ia ingat untuk tidak serakah. Dalam perjalanan pulang, Kiki membagi separuh wortelnya kepada Ollie dan Dudu sebagai ucapan terima kasih atas bantuan mereka.",
+      "Sesampainya di rumah, Ibu Kiki sangat bangga karena Kiki sudah berani, jujur, dan mau berbagi. Malam itu, mereka makan wortel bersama-sama sambil tertawa bahagia."
+    ]
+  },
+  "soal": [
+    {
+      "id": 1,
+      "pertanyaan": "Siapa nama tokoh utama dalam cerita ini?",
+      "pilihan": ["Kiki", "Dudu", "Ollie"],
+      "jawaban_benar": "Kiki"
+    },
+    {
+      "id": 2,
+      "pertanyaan": "Kiki adalah seekor apa?",
+      "pilihan": ["Kelinci", "Landak", "Burung Hantu"],
+      "jawaban_benar": "Kelinci"
+    },
+    {
+      "id": 3,
+      "pertanyaan": "Apa warna bulu Kiki?",
+      "pilihan": ["Putih", "Cokelat", "Abu-abu"],
+      "jawaban_benar": "Putih"
+    },
+    {
+      "id": 4,
+      "pertanyaan": "Kiki tinggal bersama siapa?",
+      "pilihan": ["Ibunya", "Ayahnya", "Sendirian"],
+      "jawaban_benar": "Ibunya"
+    },
+    {
+      "id": 5,
+      "pertanyaan": "Di mana letak kebun wortel ajaib?",
+      "pilihan": ["Di balik Bukit Bintang", "Di dalam gua", "Di tepi laut"],
+      "jawaban_benar": "Di balik Bukit Bintang"
+    },
+    {
+      "id": 6,
+      "pertanyaan": "Apa yang pertama dilewati Kiki dalam perjalanannya?",
+      "pilihan": ["Sungai kecil", "Jembatan kayu", "Semak-semak"],
+      "jawaban_benar": "Sungai kecil"
+    },
+    {
+      "id": 7,
+      "pertanyaan": "Pohon apa yang dilewati Kiki di awal perjalanan?",
+      "pilihan": ["Pohon apel", "Pohon pisang", "Pohon kelapa"],
+      "jawaban_benar": "Pohon apel"
+    },
+    {
+      "id": 8,
+      "pertanyaan": "Siapa nama burung hantu yang ditemui Kiki?",
+      "pilihan": ["Ollie", "Dudu", "Kiki"],
+      "jawaban_benar": "Ollie"
+    },
+    {
+      "id": 9,
+      "pertanyaan": "Ollie sedang berada di mana saat ditemui Kiki?",
+      "pilihan": ["Bertengger di dahan", "Berenang di sungai", "Tidur di gua"],
+      "jawaban_benar": "Bertengger di dahan"
+    },
+    {
+      "id": 10,
+      "pertanyaan": "Apa yang harus dilewati Kiki setelah bertemu Ollie?",
+      "pilihan": ["Jembatan kayu tua", "Gunung tinggi", "Danau"],
+      "jawaban_benar": "Jembatan kayu tua"
+    },
+    {
+      "id": 11,
+      "pertanyaan": "Bagaimana perasaan Kiki saat melihat jembatan itu?",
+      "pilihan": ["Agak takut", "Sangat senang", "Marah"],
+      "jawaban_benar": "Agak takut"
+    },
+    {
+      "id": 12,
+      "pertanyaan": "Siapa nama landak yang ditemui Kiki?",
+      "pilihan": ["Dudu", "Ollie", "Kiki"],
+      "jawaban_benar": "Dudu"
+    },
+    {
+      "id": 13,
+      "pertanyaan": "Apa yang sedang dilakukan Dudu saat ditemui Kiki?",
+      "pilihan": ["Mengumpulkan buah beri", "Tidur", "Bermain air"],
+      "jawaban_benar": "Mengumpulkan buah beri"
+    },
+    {
+      "id": 14,
+      "pertanyaan": "Dudu menunjukkan jalan pintas melalui apa?",
+      "pilihan": ["Semak-semak", "Sungai", "Jembatan"],
+      "jawaban_benar": "Semak-semak"
+    },
+    {
+      "id": 15,
+      "pertanyaan": "Apa warna wortel ajaib dalam cerita?",
+      "pilihan": ["Oranye terang", "Ungu", "Biru"],
+      "jawaban_benar": "Oranye terang"
+    },
+    {
+      "id": 16,
+      "pertanyaan": "Berapa banyak wortel yang diambil Kiki?",
+      "pilihan": ["Secukupnya", "Sebanyak mungkin", "Tidak mengambil"],
+      "jawaban_benar": "Secukupnya"
+    },
+    {
+      "id": 17,
+      "pertanyaan": "Apa yang dilakukan Kiki dengan wortelnya di jalan pulang?",
+      "pilihan": ["Membaginya dengan Ollie dan Dudu", "Menyembunyikannya", "Memakannya sendiri"],
+      "jawaban_benar": "Membaginya dengan Ollie dan Dudu"
+    },
+    {
+      "id": 18,
+      "pertanyaan": "Mengapa Ibu Kiki bangga pada Kiki?",
+      "pilihan": ["Karena berani, jujur, dan mau berbagi", "Karena Kiki paling cepat lari", "Karena membawa banyak wortel"],
+      "jawaban_benar": "Karena berani, jujur, dan mau berbagi"
+    },
+    {
+      "id": 19,
+      "pertanyaan": "Apa yang dilakukan keluarga Kiki di malam hari?",
+      "pilihan": ["Makan wortel bersama", "Tidur lebih awal", "Pergi ke kebun lagi"],
+      "jawaban_benar": "Makan wortel bersama"
+    },
+    {
+      "id": 20,
+      "pertanyaan": "Apa pelajaran yang bisa diambil dari cerita ini?",
+      "pilihan": ["Berani, jujur, dan suka berbagi itu baik", "Selalu mengambil sebanyak-banyaknya", "Tidak perlu berterima kasih"],
+      "jawaban_benar": "Berani, jujur, dan suka berbagi itu baik"
+    }
+  ]
+}
+

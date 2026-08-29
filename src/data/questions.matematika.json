@@ -1,0 +1,131 @@
+{
+  "kategori": "matematika",
+  "judul": "Matematika",
+  "deskripsi": "Berhitung ceria bersama Beruang Pintar!",
+  "ikon": "🧮",
+  "warna": "math",
+  "maskot": "bear",
+  "soal": [
+    {
+      "id": 1,
+      "pertanyaan": "5 + 3 = ?",
+      "pilihan": ["6", "8", "9"],
+      "jawaban_benar": "8"
+    },
+    {
+      "id": 2,
+      "pertanyaan": "10 - 4 = ?",
+      "pilihan": ["5", "6", "7"],
+      "jawaban_benar": "6"
+    },
+    {
+      "id": 3,
+      "pertanyaan": "2 x 3 = ?",
+      "pilihan": ["5", "6", "7"],
+      "jawaban_benar": "6"
+    },
+    {
+      "id": 4,
+      "pertanyaan": "12 - 7 = ?",
+      "pilihan": ["4", "5", "6"],
+      "jawaban_benar": "5"
+    },
+    {
+      "id": 5,
+      "pertanyaan": "4 + 6 = ?",
+      "pilihan": ["9", "10", "11"],
+      "jawaban_benar": "10"
+    },
+    {
+      "id": 6,
+      "pertanyaan": "9 - 3 = ?",
+      "pilihan": ["5", "6", "7"],
+      "jawaban_benar": "6"
+    },
+    {
+      "id": 7,
+      "pertanyaan": "3 x 3 = ?",
+      "pilihan": ["6", "9", "12"],
+      "jawaban_benar": "9"
+    },
+    {
+      "id": 8,
+      "pertanyaan": "8 + 7 = ?",
+      "pilihan": ["14", "15", "16"],
+      "jawaban_benar": "15"
+    },
+    {
+      "id": 9,
+      "pertanyaan": "20 - 10 = ?",
+      "pilihan": ["5", "10", "15"],
+      "jawaban_benar": "10"
+    },
+    {
+      "id": 10,
+      "pertanyaan": "6 x 2 = ?",
+      "pilihan": ["10", "12", "14"],
+      "jawaban_benar": "12"
+    },
+    {
+      "id": 11,
+      "pertanyaan": "15 + 5 = ?",
+      "pilihan": ["18", "20", "22"],
+      "jawaban_benar": "20"
+    },
+    {
+      "id": 12,
+      "pertanyaan": "18 - 9 = ?",
+      "pilihan": ["8", "9", "10"],
+      "jawaban_benar": "9"
+    },
+    {
+      "id": 13,
+      "pertanyaan": "10 dibagi 2 = ?",
+      "pilihan": ["4", "5", "6"],
+      "jawaban_benar": "5"
+    },
+    {
+      "id": 14,
+      "pertanyaan": "7 + 8 = ?",
+      "pilihan": ["14", "15", "16"],
+      "jawaban_benar": "15"
+    },
+    {
+      "id": 15,
+      "pertanyaan": "4 x 4 = ?",
+      "pilihan": ["14", "16", "18"],
+      "jawaban_benar": "16"
+    },
+    {
+      "id": 16,
+      "pertanyaan": "25 - 5 = ?",
+      "pilihan": ["18", "20", "22"],
+      "jawaban_benar": "20"
+    },
+    {
+      "id": 17,
+      "pertanyaan": "9 + 9 = ?",
+      "pilihan": ["16", "17", "18"],
+      "jawaban_benar": "18"
+    },
+    {
+      "id": 18,
+      "pertanyaan": "12 dibagi 3 = ?",
+      "pilihan": ["3", "4", "5"],
+      "jawaban_benar": "4"
+    },
+    {
+      "id": 19,
+      "pertanyaan": "6 + 6 + 6 = ?",
+      "pilihan": ["16", "18", "20"],
+      "jawaban_benar": "18"
+    },
+    {
+      "id": 20,
+      "pertanyaan": "Ada 5 apel, lalu ditambah 3 apel lagi. Semuanya ada berapa?",
+      "pilihan": ["7", "8", "9"],
+      "jawaban_benar": "8"
+    }
+  ]
+}
+

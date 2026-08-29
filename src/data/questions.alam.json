@@ -1,0 +1,131 @@
+{
+  "kategori": "pengetahuan-alam",
+  "judul": "Pengetahuan Alam",
+  "deskripsi": "Kenali hewan, tumbuhan, dan alam sekitar kita!",
+  "ikon": "🌱",
+  "warna": "nature",
+  "maskot": "hedgehog",
+  "soal": [
+    {
+      "id": 1,
+      "pertanyaan": "Hewan apa yang dikenal sebagai \"raja hutan\"?",
+      "pilihan": ["Singa", "Kucing", "Kelinci"],
+      "jawaban_benar": "Singa"
+    },
+    {
+      "id": 2,
+      "pertanyaan": "Apa yang paling dibutuhkan tumbuhan untuk tumbuh?",
+      "pilihan": ["Air dan sinar matahari", "Hanya kegelapan", "Air garam saja"],
+      "jawaban_benar": "Air dan sinar matahari"
+    },
+    {
+      "id": 3,
+      "pertanyaan": "Hewan apa yang punya bulu dan bisa terbang?",
+      "pilihan": ["Burung", "Ikan", "Ular"],
+      "jawaban_benar": "Burung"
+    },
+    {
+      "id": 4,
+      "pertanyaan": "Di mana ikan biasanya tinggal?",
+      "pilihan": ["Air", "Udara", "Tanah kering"],
+      "jawaban_benar": "Air"
+    },
+    {
+      "id": 5,
+      "pertanyaan": "Musim apa yang biasa terjadi di Indonesia?",
+      "pilihan": ["Hujan dan kemarau", "Salju", "Gugur daun"],
+      "jawaban_benar": "Hujan dan kemarau"
+    },
+    {
+      "id": 6,
+      "pertanyaan": "Bagian tubuh apa yang kita gunakan untuk bernapas?",
+      "pilihan": ["Paru-paru", "Jantung", "Lambung"],
+      "jawaban_benar": "Paru-paru"
+    },
+    {
+      "id": 7,
+      "pertanyaan": "Ulat lama-lama akan berubah menjadi apa?",
+      "pilihan": ["Kupu-kupu", "Katak", "Burung"],
+      "jawaban_benar": "Kupu-kupu"
+    },
+    {
+      "id": 8,
+      "pertanyaan": "Apa fungsi akar pada tumbuhan?",
+      "pilihan": ["Menyerap air dan makanan", "Membuat bunga mekar", "Membantu terbang"],
+      "jawaban_benar": "Menyerap air dan makanan"
+    },
+    {
+      "id": 9,
+      "pertanyaan": "Hewan apa yang bisa hidup di air dan di darat?",
+      "pilihan": ["Katak", "Singa", "Elang"],
+      "jawaban_benar": "Katak"
+    },
+    {
+      "id": 10,
+      "pertanyaan": "Bagian tubuh apa yang memompa darah ke seluruh tubuh?",
+      "pilihan": ["Jantung", "Paru-paru", "Otak"],
+      "jawaban_benar": "Jantung"
+    },
+    {
+      "id": 11,
+      "pertanyaan": "Hewan apa yang rajin mengumpulkan madu?",
+      "pilihan": ["Lebah", "Semut", "Laba-laba"],
+      "jawaban_benar": "Lebah"
+    },
+    {
+      "id": 12,
+      "pertanyaan": "Air yang jatuh dari langit disebut?",
+      "pilihan": ["Hujan", "Salju", "Angin"],
+      "jawaban_benar": "Hujan"
+    },
+    {
+      "id": 13,
+      "pertanyaan": "Hewan apa yang bisa mengubah warna kulitnya untuk bersembunyi?",
+      "pilihan": ["Bunglon", "Sapi", "Ayam"],
+      "jawaban_benar": "Bunglon"
+    },
+    {
+      "id": 14,
+      "pertanyaan": "Apa yang kita hirup saat bernapas?",
+      "pilihan": ["Udara segar", "Air", "Tanah"],
+      "jawaban_benar": "Udara segar"
+    },
+    {
+      "id": 15,
+      "pertanyaan": "Hewan berkaki empat yang sering dipelihara untuk menjaga rumah?",
+      "pilihan": ["Anjing", "Ikan", "Burung"],
+      "jawaban_benar": "Anjing"
+    },
+    {
+      "id": 16,
+      "pertanyaan": "Bagian tumbuhan yang berwarna-warni dan harum disebut?",
+      "pilihan": ["Bunga", "Akar", "Batang"],
+      "jawaban_benar": "Bunga"
+    },
+    {
+      "id": 17,
+      "pertanyaan": "Cuaca yang sangat panas dan cerah disebut?",
+      "pilihan": ["Kemarau", "Hujan deras", "Berkabut"],
+      "jawaban_benar": "Kemarau"
+    },
+    {
+      "id": 18,
+      "pertanyaan": "Hewan apa yang dikenal bergerak sangat lambat?",
+      "pilihan": ["Kura-kura", "Kelinci", "Kuda"],
+      "jawaban_benar": "Kura-kura"
+    },
+    {
+      "id": 19,
+      "pertanyaan": "Apa nama tempat tinggal lebah yang mereka buat sendiri?",
+      "pilihan": ["Sarang", "Kandang", "Sangkar"],
+      "jawaban_benar": "Sarang"
+    },
+    {
+      "id": 20,
+      "pertanyaan": "Bagian tubuh apa yang kita gunakan untuk melihat?",
+      "pilihan": ["Mata", "Telinga", "Hidung"],
+      "jawaban_benar": "Mata"
+    }
+  ]
+}
+
