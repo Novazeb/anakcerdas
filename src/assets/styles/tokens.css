@@ -1,0 +1,36 @@
+:root {
+  /* Core Colors */
+  --color-cream-base: #FFF9F0;
+  --color-cream-deep: #FFF1DC;
+  --color-pink: #FF9EC4;
+  --color-raspberry: #E85C96;
+  --color-text: #5C3A4E;
+  --color-gold: #FFC94D;
+
+  /* Category Accents */
+  --color-math: #FFE8A3;
+  --color-math-dark: #E6C870;
+  --color-memory: #E3D4F0;
+  --color-memory-dark: #B89FD4;
+  --color-nature: #B8E8D4;
+  --color-nature-dark: #7CC7A7;
+  --color-social: #BFE3F5;
+  --color-social-dark: #83C2E6;
+
+  /* Typography */
+  --font-display: 'Baloo 2', cursive, sans-serif;
+  --font-body: 'Quicksand', sans-serif;
+  --font-numeric: 'Fredoka', sans-serif;
+
+  /* Radius */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-full: 999px;
+
+  /* Felt Shadow Tokens */
+  --shadow-felt-button: 0 4px 0 0 rgba(92, 58, 78, 0.25);
+  --shadow-felt-card: 0 6px 0 0 rgba(92, 58, 78, 0.12);
+  --shadow-felt-pressed: 0 1px 0 0 rgba(92, 58, 78, 0.25);
+}
+

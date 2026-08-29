@@ -1,0 +1,177 @@
+@import './tokens.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: var(--color-cream-base);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    color: var(--color-text);
+  }
+
+  button {
+    font-family: var(--font-display);
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 3px dashed var(--color-raspberry);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* Felt button style */
+  .felt-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    transition: transform 0.12s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-felt-button);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+  }
+
+  .felt-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 0 rgba(92, 58, 78, 0.28);
+  }
+
+  .felt-btn:active:not(:disabled) {
+    transform: translateY(3px);
+    box-shadow: var(--shadow-felt-pressed);
+  }
+
+  .felt-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+  /* Felt Card Style */
+  .felt-card {
+    background-color: var(--color-cream-deep);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-felt-card);
+    transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
+  }
+
+  .felt-card-interactive:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 10px 0 0 rgba(92, 58, 78, 0.18);
+  }
+
+  /* Stitch Border Elements */
+  .border-stitch-math {
+    border: 3px dashed var(--color-math-dark);
+  }
+
+  .border-stitch-memory {
+    border: 3px dashed var(--color-memory-dark);
+  }
+
+  .border-stitch-nature {
+    border: 3px dashed var(--color-nature-dark);
+  }
+
+  .border-stitch-social {
+    border: 3px dashed var(--color-social-dark);
+  }
+
+  .border-stitch-pink {
+    border: 3px dashed var(--color-raspberry);
+  }
+
+  .border-stitch-cocoa {
+    border: 2px dashed rgba(92, 58, 78, 0.35);
+  }
+
+  /* Option Buttons in Quiz */
+  .answer-option-btn {
+    min-height: 64px;
+    padding: 1rem 1.25rem;
+    background-color: #FFFFFF;
+    border: 2.5px solid rgba(92, 58, 78, 0.15);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-felt-button);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--color-text);
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .answer-option-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    background-color: var(--color-cream-deep);
+    border-color: var(--color-raspberry);
+    box-shadow: 0 6px 0 0 rgba(92, 58, 78, 0.28);
+  }
+
+  .answer-option-btn:active:not(:disabled) {
+    transform: translateY(3px);
+    box-shadow: var(--shadow-felt-pressed);
+  }
+
+  /* Correct & Wrong Answer Animations */
+  .option-correct {
+    background-color: #D1FAE5 !important;
+    border-color: #10B981 !important;
+    color: #065F46 !important;
+    animation: correct-bounce 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .option-wrong {
+    background-color: #FEF3C7 !important;
+    border-color: #F59E0B !important;
+    color: #92400E !important;
+    animation: gentle-shake 0.4s ease-in-out;
+  }
+}
+
+/* Keyframes */
+@keyframes correct-bounce {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.08) translateY(-6px); }
+  65% { transform: scale(0.96) translateY(2px); }
+  100% { transform: scale(1.02) translateY(0); }
+}
+
+@keyframes gentle-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+
+/* Reduced Motion Mode */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
