@@ -2,18 +2,60 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'><circle cx='6' cy='6' r='3.5' fill='%23E6A868' stroke='%235C3A4E' stroke-width='1.5'/><circle cx='18' cy='6' r='3.5' fill='%23E6A868' stroke='%235C3A4E' stroke-width='1.5'/><circle cx='12' cy='13' r='8' fill='%23F4BA7B' stroke='%235C3A4E' stroke-width='1.5'/><circle cx='9.5' cy='11.5' r='1.2' fill='%235C3A4E'/><circle cx='14.5' cy='11.5' r='1.2' fill='%235C3A4E'/><ellipse cx='12' cy='14.5' rx='3.2' ry='2.2' fill='%23FFF2DE'/><ellipse cx='12' cy='13.8' rx='1.2' ry='0.8' fill='%235C3A4E'/></svg>" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10' fill='%23FF9EC4'/><circle cx='8' cy='10' r='2' fill='%235C3A4E'/><circle cx='16' cy='10' r='2' fill='%235C3A4E'/><path d='M9 15c1 1.5 5 1.5 6 0' stroke='%235C3A4E' stroke-width='2' fill='none' stroke-linecap='round'/></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="theme-color" content="#FFF9F0" />
-    <meta name="description" content="AnakCerdas — Website latihan soal interaktif, ceria, dan menyenangkan untuk anak-anak." />
-    <title>AnakCerdas — Belajar Seru Bersama Boneka Ceria</title>
-    
-    <!-- Google Fonts: Baloo 2, Quicksand, Fredoka -->
+    <title>AnakCerdas - Belajar & Bermain Ceria</title>
+
+    <!-- Google Fonts for Kids -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Fredoka:wght@500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Fredoka:wght@500;600;700&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Anti-Inspect, Anti-Copy & Right Click Protection -->
+    <script>
+      (function() {
+        // 1. Disable Right Click Context Menu
+        document.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+          return false;
+        }, { capture: true });
+
+        // 2. Disable DevTools & Inspect Keyboard Shortcuts
+        document.addEventListener('keydown', function(e) {
+          // F12
+          if (e.key === 'F12' || e.keyCode === 123) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+          }
+
+          const isCtrl = e.ctrlKey || e.metaKey;
+          const key = (e.key || '').toLowerCase();
+
+          // Ctrl+Shift+I / J / C (DevTools)
+          if (isCtrl && e.shiftKey && (key === 'i' || key === 'j' || key === 'c')) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+          }
+
+          // Ctrl+U (View Source), Ctrl+S (Save), Ctrl+P (Print), Ctrl+A (Select All)
+          if (isCtrl && (key === 'u' || key === 's' || key === 'p' || key === 'a')) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+          }
+        }, { capture: true });
+
+        // 3. Disable Copy, Cut, Drag & Selection
+        document.addEventListener('copy', function(e) { e.preventDefault(); }, { capture: true });
+        document.addEventListener('cut', function(e) { e.preventDefault(); }, { capture: true });
+        document.addEventListener('dragstart', function(e) { e.preventDefault(); }, { capture: true });
+        document.addEventListener('selectstart', function(e) { e.preventDefault(); }, { capture: true });
+      })();
+    </script>
   </head>
-  <body class="bg-cream-base text-brand-cocoa font-body antialiased selection:bg-brand-pink/30 select-none">
+  <body class="bg-cream-base min-h-screen text-brand-cocoa font-body antialiased selection:bg-transparent">
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
