@@ -130,3 +130,4 @@ anakcerdas/
 ## 📄 Lisensi
 
 Dibuat dengan penuh cinta dan kasih untuk anak-anak Indonesia. © 2026 AnakCerdas.
+
