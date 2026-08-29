@@ -42,9 +42,10 @@ Thumbs.db
 *.sln
 *.sw?
 
-# Specification & PRD markdown files
+# Specification & Internal PRD markdown files (Keep README.md public)
 prd.md
 architecture.md
 content.md
 design.md
-*.md
+implementation_plan.md
+walkthrough.md
