@@ -4,29 +4,32 @@ import { soundSynth } from '@/utils/soundSynth'
 export const useAudioStore = defineStore('audio', {
   state: () => ({
     isMuted: typeof window !== 'undefined' ? sessionStorage.getItem('anakcerdas_muted') === 'true' : false,
-    isStarted: false
+    hasInteracted: false
   }),
+
+  getters: {
+    isPlaying: () => soundSynth.isPlayingBgm
+  },
 
   actions: {
     initAudio() {
-      soundSynth.ensureContext()
+      this.hasInteracted = true
+      const ctx = soundSynth.ensureContext()
       if (!this.isMuted) {
         soundSynth.setMuted(false)
         soundSynth.startBgm()
       }
-      this.isStarted = true
     },
 
     toggleMute() {
+      this.hasInteracted = true
       this.isMuted = !this.isMuted
       if (typeof window !== 'undefined') {
         sessionStorage.setItem('anakcerdas_muted', String(this.isMuted))
       }
       soundSynth.setMuted(this.isMuted)
 
-      if (this.isMuted) {
-        soundSynth.stopBgm()
-      } else {
+      if (!this.isMuted) {
         soundSynth.ensureContext()
         soundSynth.playPop()
         soundSynth.startBgm()

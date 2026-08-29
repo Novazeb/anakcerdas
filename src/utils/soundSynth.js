@@ -1,6 +1,6 @@
 /**
  * Robust Kid-Friendly Web Audio Synthesizer for SFX and BGM.
- * Bulletproof auto-resume on load and first gesture, reliable scheduler, pleasant volume.
+ * Bulletproof auto-resume, reliable scheduler, state-synchronized audio loop.
  */
 
 class KidSoundSynth {
@@ -12,28 +12,7 @@ class KidSoundSynth {
     this.gainMaster = null
     this.gainBgm = null
     this.gainSfx = null
-
-    // Auto-setup listeners on load
-    if (typeof window !== 'undefined') {
-      const autoUnlock = () => {
-        this.ensureContext()
-        if (!this.isMuted && !this.isPlayingBgm) {
-          this.startBgm()
-        }
-      }
-
-      // Proactively try immediate start
-      window.addEventListener('load', autoUnlock, { once: true })
-      document.addEventListener('DOMContentLoaded', autoUnlock, { once: true })
-
-      // Auto-unlock on any initial user gesture
-      const events = ['click', 'pointerdown', 'touchstart', 'touchend', 'mousedown', 'keydown', 'mousemove', 'scroll', 'wheel']
-      const handleFirstGesture = () => {
-        autoUnlock()
-        events.forEach(e => window.removeEventListener(e, handleFirstGesture))
-      }
-      events.forEach(e => window.addEventListener(e, handleFirstGesture, { passive: true }))
-    }
+    this.step = 0
   }
 
   ensureContext() {
@@ -72,7 +51,6 @@ class KidSoundSynth {
     if (muted) {
       this.stopBgm()
     } else {
-      this.ensureContext()
       this.startBgm()
     }
   }
@@ -80,7 +58,7 @@ class KidSoundSynth {
   playPop() {
     if (this.isMuted) return
     const ctx = this.ensureContext()
-    if (!ctx) return
+    if (!ctx || ctx.state !== 'running') return
 
     try {
       const osc = ctx.createOscillator()
@@ -106,7 +84,7 @@ class KidSoundSynth {
   playCorrect() {
     if (this.isMuted) return
     const ctx = this.ensureContext()
-    if (!ctx) return
+    if (!ctx || ctx.state !== 'running') return
 
     try {
       const notes = [523.25, 659.25, 783.99, 1046.50] // C5, E5, G5, C6
@@ -136,7 +114,7 @@ class KidSoundSynth {
   playWrong() {
     if (this.isMuted) return
     const ctx = this.ensureContext()
-    if (!ctx) return
+    if (!ctx || ctx.state !== 'running') return
 
     try {
       const notes = [349.23, 293.66]
@@ -166,7 +144,7 @@ class KidSoundSynth {
   playCelebration() {
     if (this.isMuted) return
     const ctx = this.ensureContext()
-    if (!ctx) return
+    if (!ctx || ctx.state !== 'running') return
 
     try {
       const fanfare = [
@@ -207,19 +185,20 @@ class KidSoundSynth {
   /**
    * Continuous, warm, upbeat background melody
    */
-  startBgm() {
+  async startBgm() {
     if (this.isMuted) return
     const ctx = this.ensureContext()
     if (!ctx) return
 
     if (ctx.state === 'suspended') {
-      ctx.resume().then(() => {
-        if (!this.isPlayingBgm && !this.isMuted) {
-          this.startBgm()
-        }
-      }).catch(() => {})
+      try {
+        await ctx.resume()
+      } catch (e) {
+        return // Wait for user gesture
+      }
     }
 
+    if (ctx.state !== 'running') return
     if (this.isPlayingBgm) return
     this.isPlayingBgm = true
 
@@ -244,12 +223,13 @@ class KidSoundSynth {
       { f: 261.63, d: 0.85, pause: 1.10 }  // C4
     ]
 
-    let step = 0
     const scheduleNext = () => {
-      if (!this.isPlayingBgm || this.isMuted) return
-      if (!this.ctx || this.ctx.state === 'suspended') return
+      if (!this.isPlayingBgm || this.isMuted || !this.ctx || this.ctx.state !== 'running') {
+        this.isPlayingBgm = false
+        return
+      }
 
-      const item = melody[step]
+      const item = melody[this.step]
       const now = this.ctx.currentTime
 
       try {
@@ -283,7 +263,7 @@ class KidSoundSynth {
         subOsc.stop(now + item.d + 0.05)
       } catch (e) {}
 
-      step = (step + 1) % melody.length
+      this.step = (this.step + 1) % melody.length
       this.bgmTimer = setTimeout(scheduleNext, item.pause * 1000)
     }
 
