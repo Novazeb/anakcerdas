@@ -1,14 +1,21 @@
 <template>
   <div class="felt-card p-6 sm:p-10 border-3 border-dashed border-brand-cocoa/25 bg-white/95 max-w-3xl mx-auto relative shadow-felt-card">
-    <!-- Header with Mascot & Question Number -->
-    <div class="flex items-center justify-between gap-4 mb-6 border-b-2 border-dashed border-brand-cocoa/15 pb-4">
-      <div class="flex items-center gap-3">
+    <!-- Header with Mascot, Question Number, and Tier Level Badge -->
+    <div class="flex items-center justify-between gap-3 mb-6 border-b-2 border-dashed border-brand-cocoa/15 pb-4">
+      <div class="flex flex-wrap items-center gap-2.5">
         <span class="w-10 h-10 rounded-full bg-brand-gold/40 border-2 border-brand-cocoa/20 font-numeric font-extrabold text-lg flex items-center justify-center text-brand-cocoa shadow-sm">
           {{ questionNumber }}
         </span>
-        <span class="text-sm font-numeric font-bold text-brand-cocoa/70">
-          Soal {{ questionNumber }} dari {{ totalQuestions }}
-        </span>
+        <div>
+          <div class="text-sm font-numeric font-bold text-brand-cocoa/80 leading-none">
+            Soal {{ questionNumber }} dari {{ totalQuestions }}
+          </div>
+          <!-- Level Tier Badge -->
+          <div class="mt-1 inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold font-numeric border" :class="tierBadgeClass">
+            <span>{{ tierIcon }}</span>
+            <span>{{ tierLabel }}</span>
+          </div>
+        </div>
       </div>
 
       <!-- Mascot helper -->
@@ -109,6 +116,31 @@ const emit = defineEmits(['select-answer', 'next'])
 const currentEmotion = computed(() => {
   if (!props.isAnswered) return 'thinking'
   return props.isCorrect ? 'happy' : 'empathetic'
+})
+
+// Progressive 4-tier labeling
+const tierLabel = computed(() => {
+  const num = props.questionNumber
+  if (num <= 5) return 'Level 1: Mudah'
+  if (num <= 10) return 'Level 2: Ringan'
+  if (num <= 15) return 'Level 3: Sedang'
+  return 'Level 4: Tantangan'
+})
+
+const tierIcon = computed(() => {
+  const num = props.questionNumber
+  if (num <= 5) return '🌱'
+  if (num <= 10) return '⭐'
+  if (num <= 15) return '🔥'
+  return '🏆'
+})
+
+const tierBadgeClass = computed(() => {
+  const num = props.questionNumber
+  if (num <= 5) return 'bg-emerald-50 text-emerald-700 border-emerald-300'
+  if (num <= 10) return 'bg-blue-50 text-blue-700 border-blue-300'
+  if (num <= 15) return 'bg-amber-50 text-amber-800 border-amber-300'
+  return 'bg-pink-50 text-pink-700 border-pink-300'
 })
 
 const handleOptionSelect = (option) => {

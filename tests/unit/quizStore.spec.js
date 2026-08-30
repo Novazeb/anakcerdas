@@ -7,17 +7,23 @@ describe('quizStore', () => {
     setActivePinia(createPinia())
   })
 
-  it('initializes quiz with 20 questions for all categories', () => {
+  it('initializes quiz with 20 questions sampled progressively from 50 questions pool', () => {
     const store = useQuizStore()
-
     const categories = ['matematika', 'ingatan', 'pengetahuan-alam', 'pengetahuan-sosial']
 
     for (const cat of categories) {
       store.startQuiz(cat)
+      expect(store.rawQuestions.length).toBe(50)
       expect(store.questions.length).toBe(20)
       expect(store.currentIndex).toBe(0)
       expect(store.answers.length).toBe(0)
       expect(store.isFinished).toBe(false)
+
+      // Verify 4-tier progressive difficulty (5 easy, 5 light, 5 medium, 5 challenge)
+      for (let i = 0; i < 5; i++) expect(store.questions[i].tingkat).toBe(1)
+      for (let i = 5; i < 10; i++) expect(store.questions[i].tingkat).toBe(2)
+      for (let i = 10; i < 15; i++) expect(store.questions[i].tingkat).toBe(3)
+      for (let i = 15; i < 20; i++) expect(store.questions[i].tingkat).toBe(4)
     }
   })
 
@@ -68,4 +74,3 @@ describe('quizStore', () => {
     expect(store.scorePercentage).toBe(100)
   })
 })
-

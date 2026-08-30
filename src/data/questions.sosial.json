@@ -1,131 +1,463 @@
 {
   "kategori": "pengetahuan-sosial",
   "judul": "Pengetahuan Sosial",
-  "deskripsi": "Belajar budi pekerti, gotong royong, dan kebaikan bersama!",
-  "ikon": "🏘️",
+  "deskripsi": "Pelajari budi pekerti, sopan santun, gotong royong, dan cinta tanah air bersama Kucing Ramah!",
+  "ikon": "community",
   "warna": "social",
   "maskot": "cat",
   "soal": [
     {
-      "id": 1,
-      "pertanyaan": "Siapa yang biasanya merawat dan menyayangi kita sejak kecil?",
-      "pilihan": ["Orang tua", "Tetangga", "Orang asing"],
-      "jawaban_benar": "Orang tua"
+      "id": "s1",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Apa yang sebaiknya kita ucapkan saat menerima bantuan atau hadiah dari orang lain?",
+      "pilihan": ["Terima kasih", "Minta lagi", "Sama-sama"],
+      "jawaban_benar": "Terima kasih",
+      "penjelasan": "Mengucapkan 'terima kasih' adalah wujud rasa syukur dan menghargai orang lain."
     },
     {
-      "id": 2,
-      "pertanyaan": "Apa yang sebaiknya diucapkan saat menerima bantuan dari orang lain?",
-      "pilihan": ["Terima kasih", "Diam saja", "Pergi begitu saja"],
-      "jawaban_benar": "Terima kasih"
+      "id": "s2",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Apa yang harus kita ucapkan jika tanpa sengaja menyenggol atau berbuat salah kepada teman?",
+      "pilihan": ["Minta maaf", "Tertawa", "Menyalahkan orang lain"],
+      "jawaban_benar": "Minta maaf",
+      "penjelasan": "Meminta maaf dengan tulus menunjukkan sikap kesatria dan bertanggung jawab."
     },
     {
-      "id": 3,
-      "pertanyaan": "Bekerja sama membersihkan lingkungan bersama-sama disebut?",
-      "pilihan": ["Gotong royong", "Bertengkar", "Bersaing"],
-      "jawaban_benar": "Gotong royong"
+      "id": "s3",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Apa warna bendera kebangsaan negara kita, Indonesia?",
+      "pilihan": ["Merah dan Putih", "Biru dan Putih", "Kuning dan Merah"],
+      "jawaban_benar": "Merah dan Putih",
+      "penjelasan": "Bendera Indonesia terdiri dari warna Merah di atas dan Putih di bawah."
     },
     {
-      "id": 4,
-      "pertanyaan": "Siapa yang bertugas mengajar kita di sekolah?",
-      "pilihan": ["Guru", "Dokter", "Polisi"],
-      "jawaban_benar": "Guru"
+      "id": "s4",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Lambang negara Indonesia adalah burung apa?",
+      "pilihan": ["Burung Garuda", "Burung Elang", "Burung Merpati"],
+      "jawaban_benar": "Burung Garuda",
+      "penjelasan": "Garuda Pancasila adalah lambang resmi persatuan negara Indonesia."
     },
     {
-      "id": 5,
-      "pertanyaan": "Siapa yang bertugas menjaga keamanan di lingkungan?",
-      "pilihan": ["Polisi", "Guru", "Petani"],
-      "jawaban_benar": "Polisi"
+      "id": "s5",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Apa yang kita lakukan sebelum makan bersama keluarga di meja makan?",
+      "pilihan": ["Berdoa dan cuci tangan", "Langsung mengambil makanan", "Bermain HP"],
+      "jawaban_benar": "Berdoa dan cuci tangan",
+      "penjelasan": "Berdoa dan mencuci tangan menjaga kebersihan dan wujud syukur atas rezeki."
     },
     {
-      "id": 6,
-      "pertanyaan": "Siapa yang bertugas mengobati orang yang sakit?",
-      "pilihan": ["Dokter", "Guru", "Polisi"],
-      "jawaban_benar": "Dokter"
+      "id": "s6",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Di manakah tempat yang tepat dan bersih untuk membuang bungkus makanan?",
+      "pilihan": ["Tempat sampah", "Di lantai", "Di selokan"],
+      "jawaban_benar": "Tempat sampah",
+      "penjelasan": "Membuang sampah pada tempatnya menjaga lingkungan tetap bersih dan asri."
     },
     {
-      "id": 7,
-      "pertanyaan": "Apa yang sebaiknya kita lakukan saat teman sedang sedih?",
-      "pilihan": ["Menghiburnya", "Mengabaikannya", "Menertawakannya"],
-      "jawaban_benar": "Menghiburnya"
+      "id": "s7",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Keluarga inti di rumah biasanya terdiri dari siapa saja?",
+      "pilihan": ["Ayah, Ibu, dan Anak", "Tetangga dan Guru", "Teman bermain"],
+      "jawaban_benar": "Ayah, Ibu, dan Anak",
+      "penjelasan": "Keluarga inti adalah unit keluarga terkecil yang terdiri dari ayah, ibu, dan anak."
     },
     {
-      "id": 8,
-      "pertanyaan": "Bendera negara Indonesia berwarna apa?",
-      "pilihan": ["Merah dan putih", "Biru dan kuning", "Hijau dan putih"],
-      "jawaban_benar": "Merah dan putih"
+      "id": "s8",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Apa yang sebaiknya kita lakukan saat bertemu bapak/ibu guru di sekolah?",
+      "pilihan": ["Memberi salam dan tersenyum", "Bersembunyi", "Pura-pura tidak melihat"],
+      "jawaban_benar": "Memberi salam dan tersenyum",
+      "penjelasan": "Menyapa dan mencium tangan guru adalah bentuk rasa hormat dan sopan santun."
     },
     {
-      "id": 9,
-      "pertanyaan": "Apa nama lagu kebangsaan Indonesia?",
-      "pilihan": ["Indonesia Raya", "Halo-Halo Bandung", "Garuda Pancasila"],
-      "jawaban_benar": "Indonesia Raya"
+      "id": "s9",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Bekerja bersama-sama membersihkan lingkungan warga secara sukarela disebut apa?",
+      "pilihan": ["Gotong royong / Kerja bakti", "Jual beli", "Bertamasya"],
+      "jawaban_benar": "Gotong royong / Kerja bakti",
+      "penjelasan": "Gotong royong membuat pekerjaan berat menjadi lebih ringan dan cepat selesai."
     },
     {
-      "id": 10,
-      "pertanyaan": "Sikap saling menghormati antar teman meski berbeda disebut?",
-      "pilihan": ["Toleransi", "Permusuhan", "Egois"],
-      "jawaban_benar": "Toleransi"
+      "id": "s10",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Lagu kebangsaan negara Indonesia berjudul apa?",
+      "pilihan": ["Indonesia Raya", "Garuda Pancasila", "Halo-Halo Bandung"],
+      "jawaban_benar": "Indonesia Raya",
+      "penjelasan": "Lagu 'Indonesia Raya' diciptakan oleh Wage Rudolf Supratman."
     },
     {
-      "id": 11,
-      "pertanyaan": "Apa yang sebaiknya dilakukan sebelum memakai barang milik teman?",
-      "pilihan": ["Meminta izin", "Mengambil langsung", "Menyembunyikannya"],
-      "jawaban_benar": "Meminta izin"
+      "id": "s11",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Apa yang harus kita ucapkan ketika ingin meminta bantuan dari teman?",
+      "pilihan": ["Tolong", "Cepat", "Beri aku"],
+      "jawaban_benar": "Tolong",
+      "penjelasan": "Kata 'tolong' adalah salah satu kata ajaib yang menunjukkan etika dan kesantunan."
     },
     {
-      "id": 12,
-      "pertanyaan": "Siapa yang bertugas memadamkan api saat kebakaran?",
-      "pilihan": ["Petugas pemadam kebakaran", "Guru", "Petani"],
-      "jawaban_benar": "Petugas pemadam kebakaran"
+      "id": "s12",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Apa yang kita lakukan ketika ada teman yang terjatuh saat bermain?",
+      "pilihan": ["Menolong dan menghiburnya", "Menertawakannya", "Meninggalkannya"],
+      "jawaban_benar": "Menolong dan menghiburnya",
+      "penjelasan": "Menolong teman yang tertimpa musibah adalah perbuatan mulia."
     },
     {
-      "id": 13,
-      "pertanyaan": "Apa yang sebaiknya kita lakukan saat mengantre?",
-      "pilihan": ["Menunggu giliran dengan sabar", "Menyerobot antrean", "Marah-marah"],
-      "jawaban_benar": "Menunggu giliran dengan sabar"
+      "id": "s13",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "pertanyaan": "Apa yang harus kita lakukan sebelum masuk ke rumah orang lain?",
+      "pilihan": ["Mengetuk pintu dan mengucapkan salam", "Langsung masuk saja", "Berteriak keras"],
+      "jawaban_benar": "Mengetuk pintu dan mengucapkan salam",
+      "penjelasan": "Mengetuk pintu dan mengucap salam adalah tata krama bertamu yang baik."
+    },
+
+    {
+      "id": "s14",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Semboyan persatuan bangsa Indonesia yang tertulis pada pita cengkeraman Burung Garuda adalah?",
+      "pilihan": ["Bhinneka Tunggal Ika", "Tut Wuri Handayani", "Pancasila Abadi"],
+      "jawaban_benar": "Bhinneka Tunggal Ika",
+      "penjelasan": "Bhinneka Tunggal Ika bermakna berbeda-beda tetapi tetap satu jua."
     },
     {
-      "id": 14,
-      "pertanyaan": "Tempat kita tinggal bersama para tetangga disebut?",
-      "pilihan": ["Kampung/desa", "Sekolah", "Pasar"],
-      "jawaban_benar": "Kampung/desa"
+      "id": "s15",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Pada tanggal dan bulan berapakah Hari Kemerdekaan Republik Indonesia diperingati setiap tahun?",
+      "pilihan": ["17 Agustus", "21 April", "28 Oktober"],
+      "jawaban_benar": "17 Agustus",
+      "penjelasan": "Indonesia memproklamasikan kemerdekaannya pada 17 Agustus 1945."
     },
     {
-      "id": 15,
-      "pertanyaan": "Apa yang sebaiknya dilakukan jika melihat sampah berserakan?",
-      "pilihan": ["Membuangnya ke tempat sampah", "Membiarkannya", "Menambah sampah lagi"],
-      "jawaban_benar": "Membuangnya ke tempat sampah"
+      "id": "s16",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Simbol sila pertama Pancasila ('Ketuhanan yang Maha Esa') adalah gambar apa?",
+      "pilihan": ["Bintang Emas", "Rantai Baja", "Pohon Beringin"],
+      "jawaban_benar": "Bintang Emas",
+      "penjelasan": "Bintang emas bersudut lima melambangkan cahaya kerohanian bagi bangsa Indonesia."
     },
     {
-      "id": 16,
-      "pertanyaan": "Sikap suka berbagi dengan orang lain disebut?",
-      "pilihan": ["Kedermawanan", "Keserakahan", "Kemalasan"],
-      "jawaban_benar": "Kedermawanan"
+      "id": "s17",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Siapakah nama Presiden pertama sekaligus Proklamator Kemerdekaan Indonesia?",
+      "pilihan": ["Ir. Soekarno", "Drs. Mohammad Hatta", "Jenderal Soedirman"],
+      "jawaban_benar": "Ir. Soekarno",
+      "penjelasan": "Ir. Soekarno (Bung Karno) adalah Presiden pertama RI dan pembaca teks Proklamasi."
     },
     {
-      "id": 17,
-      "pertanyaan": "Apa nama hewan yang menjadi lambang negara Indonesia?",
-      "pilihan": ["Garuda", "Elang botak", "Merpati"],
-      "jawaban_benar": "Garuda"
+      "id": "s18",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Siapakah pahlawan wanita pejuang emansipasi dan pendidikan perempuan dari Jepara?",
+      "pilihan": ["R.A. Kartini", "Cut Nyak Dien", "Dewi Sartika"],
+      "jawaban_benar": "R.A. Kartini",
+      "penjelasan": "R.A. Kartini memperjuangkan hak pendidikan bagi perempuan Indonesia."
     },
     {
-      "id": 18,
-      "pertanyaan": "Siapa yang biasa menjual sayur dan buah di pasar?",
-      "pilihan": ["Pedagang", "Dokter", "Polisi"],
-      "jawaban_benar": "Pedagang"
+      "id": "s19",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Kain tradisional bermotif indah khas Indonesia yang diakui dunia UNESCO adalah?",
+      "pilihan": ["Batik", "Sutra", "Denim"],
+      "jawaban_benar": "Batik",
+      "penjelasan": "Batik adalah warisan budaya takbenda Indonesia yang mendunia."
     },
     {
-      "id": 19,
-      "pertanyaan": "Apa yang sebaiknya diucapkan saat kita berbuat salah pada orang lain?",
-      "pilihan": ["Maaf", "Diam saja", "Menyalahkan orang lain"],
-      "jawaban_benar": "Maaf"
+      "id": "s20",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Tempat ibadah resmi bagi umat yang beragama Islam adalah?",
+      "pilihan": ["Masjid", "Gereja", "Pura"],
+      "jawaban_benar": "Masjid",
+      "penjelasan": "Umat Islam beribadah di Masjid, umat Kristen di Gereja, dan Hindu di Pura."
     },
     {
-      "id": 20,
-      "pertanyaan": "Kerja sama dalam kelompok untuk mencapai tujuan bersama disebut?",
-      "pilihan": ["Kerja tim", "Persaingan", "Perselisihan"],
-      "jawaban_benar": "Kerja tim"
+      "id": "s21",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Rumah adat tradisional khas dari daerah Sumatera Barat dengan atap runcing bertingkat disebut?",
+      "pilihan": ["Rumah Gadang", "Rumah Joglo", "Rumah Tongkonan"],
+      "jawaban_benar": "Rumah Gadang",
+      "penjelasan": "Rumah Gadang adalah rumah adat suku Minangkabau di Sumatera Barat."
+    },
+    {
+      "id": "s22",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Apa hak utama seorang anak di rumah maupun di sekolah?",
+      "pilihan": ["Mendapat kasih sayang dan pendidikan", "Bekerja mencari nafkah", "Membersihkan seluruh kota"],
+      "jawaban_benar": "Mendapat kasih sayang dan pendidikan",
+      "penjelasan": "Setiap anak berhak mendapatkan perlindungan, kasih sayang, dan pendidikan yang layak."
+    },
+    {
+      "id": "s23",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Alat musik tradisional dari Jawa Barat yang terbuat dari bambu dan dimainkan dengan digoyangkan adalah?",
+      "pilihan": ["Angklung", "Gamelan", "Sasando"],
+      "jawaban_benar": "Angklung",
+      "penjelasan": "Angklung adalah alat musik bambu bernada merdu asal Jawa Barat."
+    },
+    {
+      "id": "s24",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Di perpustakaan sekolah, aturan penting apakah yang harus dipatuhi?",
+      "pilihan": ["Menjaga ketenangan dan tidak berisik", "Bebas berteriak", "Makan makanan berkuah"],
+      "jawaban_benar": "Menjaga ketenangan dan tidak berisik",
+      "penjelasan": "Ketertiban di perpustakaan diperlukan agar pengunjung bisa membaca dengan fokus."
+    },
+    {
+      "id": "s25",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "pertanyaan": "Simbol sila ketiga Pancasila ('Persatuan Indonesia') adalah gambar apa?",
+      "pilihan": ["Pohon Beringin", "Kepala Banteng", "Padi dan Kapas"],
+      "jawaban_benar": "Pohon Beringin",
+      "penjelasan": "Pohon beringin yang rindang melambangkan tempat berteduh dan persatuan seluruh rakyat."
+    },
+
+    {
+      "id": "s26",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Ibu kota negara Indonesia yang berada di Pulau Jawa sebelum dipindahkan adalah?",
+      "pilihan": ["DKI Jakarta", "Surabaya", "Bandung"],
+      "jawaban_benar": "DKI Jakarta",
+      "penjelasan": "Jakarta adalah ibu kota negara Republik Indonesia."
+    },
+    {
+      "id": "s27",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Simbol sila kelima Pancasila ('Keadilan Sosial bagi Seluruh Rakyat Indonesia') adalah?",
+      "pilihan": ["Padi dan Kapas", "Bintang", "Rantai"],
+      "jawaban_benar": "Padi dan Kapas",
+      "penjelasan": "Padi (pangan) dan kapas (sandang) melambangkan kemakmuran dan keadilan merata."
+    },
+    {
+      "id": "s28",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Candi Buddha terbesar di dunia yang terletak di Magelang, Jawa Tengah adalah?",
+      "pilihan": ["Candi Borobudur", "Candi Prambanan", "Candi Mendut"],
+      "jawaban_benar": "Candi Borobudur",
+      "penjelasan": "Candi Borobudur adalah mahakarya warisan dunia bercorak Buddha."
+    },
+    {
+      "id": "s29",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Pulau terpadat penduduknya sekaligus pusat pemerintahan di Indonesia adalah?",
+      "pilihan": ["Pulau Jawa", "Pulau Sumatra", "Pulau Kalimantan"],
+      "jawaban_benar": "Pulau Jawa",
+      "penjelasan": "Pulau Jawa adalah pulau terpadat di kepulauan Indonesia."
+    },
+    {
+      "id": "s30",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Senjata tradisional khas suku Jawa yang berlekuk dan memiliki pamor mistis adalah?",
+      "pilihan": ["Keris", "Rencong", "Mandau"],
+      "jawaban_benar": "Keris",
+      "penjelasan": "Keris adalah senjata tikam tradisional berlekuk khas tanah Jawa."
+    },
+    {
+      "id": "s31",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Alat musik petik khas dari Pulau Rote, Nusa Tenggara Timur yang terbuat dari daun lontar adalah?",
+      "pilihan": ["Sasando", "Kolintang", "Gong"],
+      "jawaban_benar": "Sasando",
+      "penjelasan": "Sasando dimainkan dengan dipetik menggunakan kedua tangan di dalam wadah daun lontar."
+    },
+    {
+      "id": "s32",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Kegiatan musyawarah mufakat di lingkungan warga bertujuan untuk apa?",
+      "pilihan": ["Mencapai keputusan bersama yang adil", "Mencari pemenang debat", "Menghukum warga"],
+      "jawaban_benar": "Mencapai keputusan bersama yang adil",
+      "penjelasan": "Musyawarah mengutamakan suara dan kepentingan bersama tanpa memaksakan kehendak."
+    },
+    {
+      "id": "s33",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Siapakah Bapak Pendidikan Nasional yang semboyannya 'Tut Wuri Handayani'?",
+      "pilihan": ["Ki Hajar Dewantara", "Bung Tomo", "Haji Agus Salim"],
+      "jawaban_benar": "Ki Hajar Dewantara",
+      "penjelasan": "Ki Hajar Dewantara mendirikan perguruan Taman Siswa dan diabadikan sebagai Bapak Pendidikan."
+    },
+    {
+      "id": "s34",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Hari Sumpah Pemuda yang mengikrarkan satu nusa, satu bangsa, dan satu bahasa diperingati tanggal?",
+      "pilihan": ["28 Oktober", "10 November", "1 Juni"],
+      "jawaban_benar": "28 Oktober",
+      "penjelasan": "Kongres Pemuda II pada 28 Oktober 1928 melahirkan ikrar Sumpah Pemuda."
+    },
+    {
+      "id": "s35",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Hari Pahlawan Nasional untuk mengenang perjuangan arek-arek Surabaya diperingati tanggal?",
+      "pilihan": ["10 November", "2 Mei", "17 Agustus"],
+      "jawaban_benar": "10 November",
+      "penjelasan": "Hari Pahlawan 10 November mengenang pertempuran heroik 1945 di Surabaya."
+    },
+    {
+      "id": "s36",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Tari Saman yang terkenal dengan gerakan tepuk tangan cepat dan kompak berasal dari provinsi mana?",
+      "pilihan": ["Aceh", "Bali", "Papua"],
+      "jawaban_benar": "Aceh",
+      "penjelasan": "Tari Saman adalah tarian suku Gayo di Aceh yang diakui UNESCO."
+    },
+    {
+      "id": "s37",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "pertanyaan": "Tari Kecak yang menceritakan kisah Ramayana diiringi suara paduan suara 'cak-cak' berasal dari daerah?",
+      "pilihan": ["Bali", "Yogyakarta", "Sulawesi Selatan"],
+      "jawaban_benar": "Bali",
+      "penjelasan": "Tari Kecak adalah tarian seni drama khas Pulau Dewata, Bali."
+    },
+
+    {
+      "id": "s38",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Berapakah jumlah bulu pada masing-masing sayap Burung Garuda Pancasila yang melambangkan tanggal kemerdekaan?",
+      "pilihan": ["17 helai", "8 helai", "45 helai"],
+      "jawaban_benar": "17 helai",
+      "penjelasan": "Sayap: 17 helai (tanggal 17), ekor: 8 helai (bulan Agustus), leher: 45 helai (tahun 1945)."
+    },
+    {
+      "id": "s39",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Berapakah jumlah bulu ekor pada Burung Garuda yang melambangkan bulan Agustus?",
+      "pilihan": ["8 helai", "17 helai", "19 helai"],
+      "jawaban_benar": "8 helai",
+      "penjelasan": "8 helai bulu pada ekor burung Garuda melambangkan bulan ke-8, yaitu Agustus."
+    },
+    {
+      "id": "s40",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Siapakah yang menjahit Bendera Pusaka Sang Saka Merah Putih pertama kali?",
+      "pilihan": ["Ibu Fatmawati", "R.A. Kartini", "Cut Nyak Meutia"],
+      "jawaban_benar": "Ibu Fatmawati",
+      "penjelasan": "Ibu Fatmawati (istri Bung Karno) menjahit langsung bendera pusaka merah putih."
+    },
+    {
+      "id": "s41",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Siapakah tokoh yang mengetik naskah teks Proklamasi Kemerdekaan Indonesia?",
+      "pilihan": ["Sayuti Melik", "Sukarni", "Chaerrul Saleh"],
+      "jawaban_benar": "Sayuti Melik",
+      "penjelasan": "Sayuti Melik menyempurnakan dan mengetik naskah proklamasi yang ditulis tangan oleh Soekarno."
+    },
+    {
+      "id": "s42",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Hewan purba endemik langka khas Indonesia yang hanya hidup di pulau NTT adalah?",
+      "pilihan": ["Komodo", "Badak Bercula Satu", "Orangutan"],
+      "jawaban_benar": "Komodo",
+      "penjelasan": "Kadal raksasa Komodo (Varanus komodoensis) hidup di Pulau Komodo dan Rinca, NTT."
+    },
+    {
+      "id": "s43",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Danau vulkanik terbesar di Asia Tenggara yang di tengahnya terdapat Pulau Samosir adalah?",
+      "pilihan": ["Danau Toba", "Danau Singkarak", "Danau Sentani"],
+      "jawaban_benar": "Danau Toba",
+      "penjelasan": "Danau Toba di Sumatera Utara terbentuk dari letusan gunung api purba dahsyat."
+    },
+    {
+      "id": "s44",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Kitab kuno karangan Empu Tantular dari zaman Kerajaan Majapahit yang memuat semboyan 'Bhinneka Tunggal Ika' adalah?",
+      "pilihan": ["Kakawin Sutasoma", "Negarakertagama", "Pararaton"],
+      "jawaban_benar": "Kakawin Sutasoma",
+      "penjelasan": "Kalimat 'Bhinneka Tunggal Ika Tan Hana Dharma Mangrwa' berasal dari Kakawin Sutasoma."
+    },
+    {
+      "id": "s45",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Tiga pilar pembagian zona waktu di Indonesia secara resmi terbagi menjadi apa saja?",
+      "pilihan": ["WIB, WITA, dan WIT", "WIB, WIK, dan WIS", "Waktu Pagi, Siang, dan Malam"],
+      "jawaban_benar": "WIB, WITA, dan WIT",
+      "penjelasan": "Waktu Indonesia Barat (WIB), Waktu Indonesia Tengah (WITA), dan Waktu Indonesia Timur (WIT)."
+    },
+    {
+      "id": "s46",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Selat sempit yang memisahkan Pulau Jawa dan Pulau Sumatra dinamakan selat apa?",
+      "pilihan": ["Selat Sunda", "Selat Malaka", "Selat Bali"],
+      "jawaban_benar": "Selat Sunda",
+      "penjelasan": "Selat Sunda menghubungkan Laut Jawa dengan Samudra Hindia di antara Jawa dan Sumatra."
+    },
+    {
+      "id": "s47",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Tari Piring yang penarinya menari sambil memegang piring di telapak tangan berasal dari daerah mana?",
+      "pilihan": ["Minangkabau (Sumatera Barat)", "Palembang (Sumatera Selatan)", "Bengkulu"],
+      "jawaban_benar": "Minangkabau (Sumatera Barat)",
+      "penjelasan": "Tari Piring adalah tarian tradisional khas Minangkabau yang atraktif dan dinamis."
+    },
+    {
+      "id": "s48",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Sikap menghargai perbedaan suku, agama, dan adat istiadat teman di sekolah disebut?",
+      "pilihan": ["Toleransi", "Diskriminasi", "Egoisme"],
+      "jawaban_benar": "Toleransi",
+      "penjelasan": "Toleransi adalah kunci kerukunan dan persatuan hidup bersama di Indonesia."
+    },
+    {
+      "id": "s49",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Bunga bangkai raksasa endemik pulau Sumatra yang pertama kali ditemukan oleh Dr. Joseph Arnold dan Sir Thomas Stamford Raffles adalah?",
+      "pilihan": ["Rafflesia arnoldii", "Bunga Anggrek Bulan", "Bunga Melati Putih"],
+      "jawaban_benar": "Rafflesia arnoldii",
+      "penjelasan": "Rafflesia arnoldii adalah bunga tunggal terbesar di dunia tanpa daun dan batang sejati."
+    },
+    {
+      "id": "s50",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "pertanyaan": "Apakah makna filosofis warna Putih pada bendera Merah Putih Indonesia?",
+      "pilihan": ["Kesucian dan kebersihan jiwa", "Keberanian dan darah pejuang", "Kemakmuran hasil bumi"],
+      "jawaban_benar": "Kesucian dan kebersihan jiwa",
+      "penjelasan": "Merah melambangkan keberanian, sedangkan Putih melambangkan kesucian."
     }
   ]
 }
-
