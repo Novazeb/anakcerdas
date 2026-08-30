@@ -2,28 +2,34 @@
 
 > **Website Latihan Soal Interaktif, Ceria, dan Ramah Anak (Usia di Bawah 12 Tahun)**
 
-AnakCerdas adalah platform web edukasi berbasis **Vue 3** yang dirancang dengan konsep *"Kamar Bermain Boneka Flanel"*. Aplikasi ini menghadirkan pengalaman belajar yang menyenangkan seperti bermain, dilengkapi visual boneka jahitan tangan, efek suara marimba ceria, dan umpan balik positif tanpa rasa takut gagal.
+AnakCerdas adalah platform web edukasi berbasis **Vue 3** yang dirancang dengan konsep *"Kamar Bermain Boneka Flanel"*. Aplikasi ini menghadirkan pengalaman belajar yang menyenangkan seperti bermain, dilengkapi visual boneka jahitan tangan, efek suara marimba ceria, 3 pilihan tema musik, dan bank soal 200 soal bertingkat tanpa rasa takut gagal.
 
 ---
 
 ## ✨ Fitur Utama
 
-- **4 Modul Petualangan (Total 80 Soal Interaktif)**:
-  - 🧮 **Matematika (20 Soal)**: Penjumlahan, pengurangan, perkalian, dan pembagian sederhana dipandu *Beruang Kiki*.
-  - 🧠 **Ingatan (Cerpen + 20 Soal)**: Membaca cerpen bergambar *"Kiki Si Kelinci dan Kebun Wortel Ajaib"* disusul uji daya ingat dipandu *Kelinci Kiki*.
-  - 🌱 **Pengetahuan Alam (20 Soal)**: Hewan, tumbuhan, cuaca, dan tubuh manusia dipandu *Landak Dudu*.
-  - 🏘️ **Pengetahuan Sosial (20 Soal)**: Budi pekerti, gotong royong, sopan santun, dan simbol negara dipandu *Kucing Ramah*.
+- **4 Modul Petualangan (Total 200 Bank Soal, 20 Soal Bertingkat per Sesi Permainan)**:
+  - 🧮 **Matematika (50 Soal)**: Penjumlahan, pengurangan, perkalian, pembagian, dan teka-teki logika dipandu *Beruang Kiki*.
+  - 🧠 **Ingatan (Cerpen + 50 Soal)**: Membaca cerpen bergambar *"Kiki Si Kelinci dan Kebun Wortel Ajaib"* disusul uji daya ingat bertingkat dipandu *Kelinci Kiki*.
+  - 🌱 **Pengetahuan Alam (50 Soal)**: Flora, fauna, cuaca, tata surya, dan anatomi tubuh manusia dipandu *Landak Dudu*.
+  - 🏘️ **Pengetahuan Sosial (50 Soal)**: Budi pekerti, gotong royong, sopan santun, sejarah, budaya nusantara, dan simbol negara dipandu *Kucing Ramah*.
+- **Sistem Level Progresif 4 Tingkat (Selalu Diacak & Berjenjang)**:
+  - 🌱 **Soal 1 – 5**: *Level 1 (Mudah / Pengenalan)*
+  - ⭐ **Soal 6 – 10**: *Level 2 (Ringan / Pemahaman)*
+  - 🔥 **Soal 11 – 15**: *Level 3 (Sedang / Penerapan)*
+  - 🏆 **Soal 16 – 20**: *Level 4 (Tantangan / Logika & Penalaran)*
+- **3 Tema Musik Anak & Pop-up Sambutan**:
+  - 🎈 *Marimba Ceria* (Upbeat & Semangat)
+  - 🌙 *Bintang Santai* (Lullaby / Kotak Musik Tenang & Fokus)
+  - 🌲 *Petualangan Riang* (Acoustic Breeze Ceria)
 - **Desain Flanel & Jalur Jahitan (*Stitch Trail*)**:
   - Palet warna pastel lembut (*Cream Base, Cream Deep, Bubblegum Pink, Raspberry, Gold Star*).
   - Garis jahitan flanel interaktif sebagai indikator progres soal dan **Kalung Bintang Prestasi** pada halaman hasil.
   - Tombol sentuh timbul-tenggelam (*felt button shadow*) yang ramah untuk tablet dan smartphone.
 - **Ikon SVG Kustom**:
   - Seluruh 22 elemen visual dibuat menggunakan format SVG kustom murni (bebas emoji sistem operasi).
-- **Synthesizer Audio Web Audio API**:
-  - Musik latar marimba & ukulele ceria, jingle jawaban benar (Do-Mi-Sol), chime lembut saat salah, dan fanfare perayaan.
-  - Kontrol mute/unmute persisten di seluruh sesi.
-- **Umpan Balik Positif & Review 20 Soal**:
-  - Penjelasan ramah anak tanpa kata menghakimi serta rincian ulasan lengkap jawaban benar vs jawaban anak.
+- **Proteksi Anti-Inspect & Anti-Copy**:
+  - Mencegah klik kanan, seleksi teks, dan inspect element agar ramah anak dan aman.
 
 ---
 
@@ -36,7 +42,7 @@ AnakCerdas adalah platform web edukasi berbasis **Vue 3** yang dirancang dengan 
 | **State Management** | [Pinia](https://pinia.vuejs.org/) |
 | **Routing** | [Vue Router 4](https://router.vuejs.org/) |
 | **Styling** | [Tailwind CSS](https://tailwindcss.com/) + Custom Felt Design Tokens |
-| **Audio Engine** | Web Audio API Synthesizer |
+| **Audio Engine** | Web Audio API Synthesizer (3 Themes + SFX) |
 | **Testing** | [Vitest](https://vitest.dev/) |
 | **Deployment** | [Vercel](https://vercel.com/) (SPA History Mode ready) |
 
@@ -104,21 +110,21 @@ anakcerdas/
 ├── src/
 │   ├── assets/            # CSS Variables, Design Tokens, Base Styles
 │   ├── components/
-│   │   ├── common/        # AppHeader, AudioToggle, MascotCharacter, StitchTrail
+│   │   ├── common/        # AppHeader, AudioToggle, MascotCharacter, StitchTrail, MusicSelectorModal
 │   │   ├── home/          # MenuCard
 │   │   ├── icons/         # 22 Ikon SVG Kustom
 │   │   ├── quiz/          # QuestionCard, AnswerOption, AnswerFeedback, StoryIntro
 │   │   └── result/        # ScoreSummary, MotivationQuote, StarNecklace, AnswerReviewList
-│   ├── composables/       # useShuffle, useConfetti, useReducedMotion
-│   ├── data/              # 80 Bank Soal JSON (Matematika, Ingatan, Alam, Sosial)
+│   ├── composables/       # useShuffle (4-tier sampler), useConfetti, useReducedMotion
+│   ├── data/              # 200 Bank Soal JSON (Matematika, Ingatan, Alam, Sosial @50 soal)
 │   ├── router/            # Vue Router dengan Navigation Guards
 │   ├── stores/            # Pinia Stores (quizStore, audioStore)
-│   ├── utils/             # Web Audio sound synthesizer
+│   ├── utils/             # Web Audio sound synthesizer (3 themes)
 │   ├── views/             # HomeView, QuizView, ResultView
 │   ├── App.vue
 │   └── main.js
 ├── tests/
-│   └── unit/              # Vitest test suites
+│   └── unit/              # Vitest test suites (scoring, store progression)
 ├── index.html
 ├── tailwind.config.js
 ├── vercel.json
@@ -130,4 +136,3 @@ anakcerdas/
 ## 📄 Lisensi
 
 Dibuat dengan penuh cinta dan kasih untuk anak-anak Indonesia. © 2026 AnakCerdas.
-
