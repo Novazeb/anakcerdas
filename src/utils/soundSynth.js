@@ -1,6 +1,9 @@
 /**
- * Robust Kid-Friendly Web Audio Synthesizer for SFX and BGM.
- * Bulletproof auto-resume, reliable scheduler, crystal clear & audible marimba sound.
+ * Robust Kid-Friendly Web Audio Synthesizer for SFX and 3 BGM Themes.
+ * Features:
+ * 1. 'ceria'       : Marimba Ceria (Playful, bouncy & upbeat)
+ * 2. 'santai'      : Bintang Santai (Gentle, relaxing music box lullaby)
+ * 3. 'petualangan' : Petualangan Riang (Whimsical, breezy & bouncy acoustic)
  */
 
 class KidSoundSynth {
@@ -13,6 +16,74 @@ class KidSoundSynth {
     this.gainBgm = null
     this.gainSfx = null
     this.step = 0
+    this.currentTrack = 'ceria'
+
+    this.tracks = {
+      ceria: {
+        id: 'ceria',
+        title: 'Marimba Ceria',
+        subtitle: 'Ceria, bersemangat, & gembira',
+        icon: 'balloon',
+        color: '#FF9EC4',
+        melody: [
+          { f: 261.63, d: 0.32, pause: 0.38 }, // C4
+          { f: 329.63, d: 0.32, pause: 0.38 }, // E4
+          { f: 392.00, d: 0.32, pause: 0.38 }, // G4
+          { f: 523.25, d: 0.55, pause: 0.65 }, // C5
+          { f: 440.00, d: 0.32, pause: 0.38 }, // A4
+          { f: 392.00, d: 0.32, pause: 0.38 }, // G4
+          { f: 329.63, d: 0.55, pause: 0.65 }, // E4
+          { f: 349.23, d: 0.32, pause: 0.38 }, // F4
+          { f: 392.00, d: 0.32, pause: 0.38 }, // G4
+          { f: 440.00, d: 0.32, pause: 0.38 }, // A4
+          { f: 392.00, d: 0.65, pause: 0.75 }, // G4
+          { f: 293.66, d: 0.32, pause: 0.38 }, // D4
+          { f: 392.00, d: 0.32, pause: 0.38 }, // G4
+          { f: 261.63, d: 0.85, pause: 1.10 }  // C4
+        ]
+      },
+      santai: {
+        id: 'santai',
+        title: 'Bintang Santai',
+        subtitle: 'Tenang, rileks, & kotak musik lembut',
+        icon: 'moon',
+        color: '#B89FD4',
+        melody: [
+          { f: 349.23, d: 0.55, pause: 0.70 }, // F4
+          { f: 440.00, d: 0.55, pause: 0.70 }, // A4
+          { f: 523.25, d: 0.75, pause: 0.90 }, // C5
+          { f: 587.33, d: 0.55, pause: 0.70 }, // D5
+          { f: 523.25, d: 0.75, pause: 0.90 }, // C5
+          { f: 440.00, d: 0.55, pause: 0.70 }, // A4
+          { f: 466.16, d: 0.55, pause: 0.70 }, // Bb4
+          { f: 392.00, d: 0.55, pause: 0.70 }, // G4
+          { f: 349.23, d: 0.75, pause: 0.90 }, // F4
+          { f: 329.63, d: 0.55, pause: 0.70 }, // E4
+          { f: 349.23, d: 1.10, pause: 1.40 }  // F4 long
+        ]
+      },
+      petualangan: {
+        id: 'petualangan',
+        title: 'Petualangan Riang',
+        subtitle: 'Riang menjelajah alam & petualangan',
+        icon: 'sprout',
+        color: '#7CC7A7',
+        melody: [
+          { f: 392.00, d: 0.28, pause: 0.32 }, // G4
+          { f: 493.88, d: 0.28, pause: 0.32 }, // B4
+          { f: 587.33, d: 0.40, pause: 0.48 }, // D5
+          { f: 659.25, d: 0.45, pause: 0.55 }, // E5
+          { f: 587.33, d: 0.28, pause: 0.32 }, // D5
+          { f: 493.88, d: 0.40, pause: 0.48 }, // B4
+          { f: 523.25, d: 0.28, pause: 0.32 }, // C5
+          { f: 587.33, d: 0.28, pause: 0.32 }, // D5
+          { f: 659.25, d: 0.45, pause: 0.55 }, // E5
+          { f: 587.33, d: 0.55, pause: 0.65 }, // D5
+          { f: 440.00, d: 0.30, pause: 0.36 }, // A4
+          { f: 392.00, d: 0.90, pause: 1.15 }  // G4
+        ]
+      }
+    }
   }
 
   ensureContext() {
@@ -26,12 +97,12 @@ class KidSoundSynth {
         this.gainMaster.gain.setValueAtTime(this.isMuted ? 0 : 1.0, this.ctx.currentTime)
         this.gainMaster.connect(this.ctx.destination)
 
-        // Boosted BGM Channel for Clear Audibility
+        // Boosted BGM Channel
         this.gainBgm = this.ctx.createGain()
         this.gainBgm.gain.setValueAtTime(0.75, this.ctx.currentTime)
         this.gainBgm.connect(this.gainMaster)
 
-        // Balanced SFX Channel
+        // SFX Channel
         this.gainSfx = this.ctx.createGain()
         this.gainSfx.gain.setValueAtTime(0.70, this.ctx.currentTime)
         this.gainSfx.connect(this.gainMaster)
@@ -43,6 +114,17 @@ class KidSoundSynth {
     }
 
     return this.ctx
+  }
+
+  setTrack(trackId) {
+    if (this.tracks[trackId]) {
+      this.currentTrack = trackId
+      this.step = 0
+      if (this.isPlayingBgm && !this.isMuted) {
+        this.stopBgm()
+        this.startBgm()
+      }
+    }
   }
 
   setMuted(muted) {
@@ -185,7 +267,7 @@ class KidSoundSynth {
   }
 
   /**
-   * Continuous, warm, rich & clearly audible background melody
+   * Continuous background melody based on current selected track
    */
   async startBgm() {
     if (this.isMuted) return
@@ -204,26 +286,8 @@ class KidSoundSynth {
     if (this.isPlayingBgm) return
     this.isPlayingBgm = true
 
-    const melody = [
-      // Phrase 1
-      { f: 261.63, d: 0.32, pause: 0.38 }, // C4
-      { f: 329.63, d: 0.32, pause: 0.38 }, // E4
-      { f: 392.00, d: 0.32, pause: 0.38 }, // G4
-      { f: 523.25, d: 0.55, pause: 0.65 }, // C5
-      // Phrase 2
-      { f: 440.00, d: 0.32, pause: 0.38 }, // A4
-      { f: 392.00, d: 0.32, pause: 0.38 }, // G4
-      { f: 329.63, d: 0.55, pause: 0.65 }, // E4
-      // Phrase 3
-      { f: 349.23, d: 0.32, pause: 0.38 }, // F4
-      { f: 392.00, d: 0.32, pause: 0.38 }, // G4
-      { f: 440.00, d: 0.32, pause: 0.38 }, // A4
-      { f: 392.00, d: 0.65, pause: 0.75 }, // G4
-      // Phrase 4
-      { f: 293.66, d: 0.32, pause: 0.38 }, // D4
-      { f: 392.00, d: 0.32, pause: 0.38 }, // G4
-      { f: 261.63, d: 0.85, pause: 1.10 }  // C4
-    ]
+    const activeTrack = this.tracks[this.currentTrack] || this.tracks.ceria
+    const melody = activeTrack.melody
 
     const scheduleNext = () => {
       if (!this.isPlayingBgm || this.isMuted || !this.ctx || this.ctx.state !== 'running') {
@@ -235,22 +299,38 @@ class KidSoundSynth {
       const now = this.ctx.currentTime
 
       try {
-        // Melodic Lead Marimba
         const osc = this.ctx.createOscillator()
         const gain = this.ctx.createGain()
 
-        osc.type = 'triangle'
-        osc.frequency.setValueAtTime(item.f, now)
-
-        gain.gain.setValueAtTime(0, now)
-        gain.gain.linearRampToValueAtTime(0.55, now + 0.03)
-        gain.gain.exponentialRampToValueAtTime(0.001, now + item.d)
+        // Track-specific tone customization
+        if (this.currentTrack === 'santai') {
+          // Soft music-box chime sine tone
+          osc.type = 'sine'
+          osc.frequency.setValueAtTime(item.f, now)
+          gain.gain.setValueAtTime(0, now)
+          gain.gain.linearRampToValueAtTime(0.50, now + 0.05)
+          gain.gain.exponentialRampToValueAtTime(0.001, now + item.d + 0.2)
+        } else if (this.currentTrack === 'petualangan') {
+          // Bright, playful wooden marimba tone
+          osc.type = 'triangle'
+          osc.frequency.setValueAtTime(item.f, now)
+          gain.gain.setValueAtTime(0, now)
+          gain.gain.linearRampToValueAtTime(0.58, now + 0.02)
+          gain.gain.exponentialRampToValueAtTime(0.001, now + item.d)
+        } else {
+          // Classic cheerful marimba
+          osc.type = 'triangle'
+          osc.frequency.setValueAtTime(item.f, now)
+          gain.gain.setValueAtTime(0, now)
+          gain.gain.linearRampToValueAtTime(0.55, now + 0.03)
+          gain.gain.exponentialRampToValueAtTime(0.001, now + item.d)
+        }
 
         osc.connect(gain)
         gain.connect(this.gainBgm || this.ctx.destination)
 
         osc.start(now)
-        osc.stop(now + item.d + 0.05)
+        osc.stop(now + item.d + (this.currentTrack === 'santai' ? 0.25 : 0.05))
 
         // Warm Accompanying Sub-Harmonic Bass
         const subOsc = this.ctx.createOscillator()
@@ -258,8 +338,8 @@ class KidSoundSynth {
         subOsc.type = 'sine'
         subOsc.frequency.setValueAtTime(item.f * 0.5, now)
         subGain.gain.setValueAtTime(0, now)
-        subGain.gain.linearRampToValueAtTime(0.30, now + 0.04)
-        subGain.gain.exponentialRampToValueAtTime(0.001, now + item.d)
+        subGain.gain.linearRampToValueAtTime(this.currentTrack === 'santai' ? 0.22 : 0.30, now + 0.04)
+        subGain.gain.exponentialRampToValueAtTime(0.001, now + item.d + (this.currentTrack === 'santai' ? 0.2 : 0))
         subOsc.connect(subGain)
         subGain.connect(this.gainBgm || this.ctx.destination)
         subOsc.start(now)
