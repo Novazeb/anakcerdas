@@ -22,9 +22,18 @@
       <div class="w-10 h-10 rounded-full bg-white/90 border border-brand-cocoa/20 flex items-center justify-center shadow-sm group-hover:scale-110 group-hover:rotate-6 transition-transform">
         <IconCategory :category="id" custom-class="w-6 h-6 text-brand-cocoa" />
       </div>
-      <span class="text-xs font-numeric font-bold px-2.5 py-0.5 rounded-full bg-white/80 text-brand-cocoa border border-brand-cocoa/15 shadow-sm">
-        {{ questionCount }} Soal
-      </span>
+      <div class="flex flex-wrap items-center gap-1.5">
+        <span class="text-xs font-numeric font-bold px-2.5 py-0.5 rounded-full bg-white/80 text-brand-cocoa border border-brand-cocoa/15 shadow-sm">
+          {{ questionCount }} Soal
+        </span>
+        <span
+          v-if="savedStars > 0"
+          class="text-[11px] font-numeric font-extrabold px-2 py-0.5 rounded-full bg-brand-gold/30 text-amber-900 border border-brand-gold/60 shadow-xs flex items-center gap-1"
+        >
+          <span>⭐</span>
+          <span>{{ savedStars }}/{{ questionCount }}</span>
+        </span>
+      </div>
     </div>
 
     <!-- Title -->
@@ -44,7 +53,7 @@
         btnBgClass
       ]"
     >
-      <span>Mulai Main</span>
+      <span>{{ savedStars > 0 ? 'Main Lagi' : 'Mulai Main' }}</span>
       <IconArrowRight class="w-4 h-4 text-brand-cocoa group-hover:translate-x-1 transition-transform" />
     </div>
   </div>
@@ -81,6 +90,10 @@ const props = defineProps({
   questionCount: {
     type: Number,
     default: 20
+  },
+  savedStars: {
+    type: Number,
+    default: 0
   }
 })
 

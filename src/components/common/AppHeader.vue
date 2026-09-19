@@ -12,7 +12,7 @@
       <div>
         <h1 class="text-2xl sm:text-3xl font-display font-extrabold text-brand-cocoa tracking-tight leading-none flex items-center gap-1.5">
           Anak<span class="text-brand-raspberry">Cerdas</span>
-          <span class="text-xs px-2 py-0.5 bg-brand-gold/40 text-brand-cocoa font-numeric font-bold rounded-full border border-brand-gold/60">v1.0</span>
+          <span class="text-xs px-2 py-0.5 bg-brand-gold/40 text-brand-cocoa font-numeric font-bold rounded-full border border-brand-gold/60">v1.1</span>
         </h1>
         <p class="text-xs font-body font-semibold text-brand-cocoa/70 hidden sm:block">Belajar & Bermain Ceria</p>
       </div>

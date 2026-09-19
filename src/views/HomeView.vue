@@ -38,9 +38,20 @@
           <MascotCharacter character="bear" emotion="happy" size="md" />
         </div>
 
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cream-deep border-2 border-dashed border-brand-raspberry/50 text-brand-cocoa font-numeric font-bold text-xs sm:text-sm shadow-sm">
-          <IconSparkle class="w-4 h-4 text-brand-raspberry" />
-          <span>Kumpulan Latihan Soal Interaktif untuk Anak</span>
+        <div class="flex flex-wrap items-center justify-center gap-2">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cream-deep border-2 border-dashed border-brand-raspberry/50 text-brand-cocoa font-numeric font-bold text-xs sm:text-sm shadow-sm">
+            <IconSparkle class="w-4 h-4 text-brand-raspberry" />
+            <span>Kumpulan Latihan Soal Interaktif untuk Anak</span>
+          </div>
+
+          <!-- Total Stars Achievement Badge (if any) -->
+          <div
+            v-if="quizStore.totalStarsEarned > 0"
+            class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-brand-gold/40 border-2 border-brand-cocoa/20 text-brand-cocoa font-numeric font-extrabold text-xs sm:text-sm shadow-sm animate-bounce-gentle"
+          >
+            <span>⭐</span>
+            <span>{{ quizStore.totalStarsEarned }} Bintang Terkumpul!</span>
+          </div>
         </div>
 
         <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-brand-cocoa tracking-tight leading-tight">
@@ -65,6 +76,7 @@
           color-key="math"
           mascot-type="bear"
           :question-count="20"
+          :saved-stars="quizStore.getCategoryStars('matematika')"
           @select="handleSelectCategory"
         />
 
@@ -76,6 +88,7 @@
           color-key="memory"
           mascot-type="rabbit"
           :question-count="20"
+          :saved-stars="quizStore.getCategoryStars('ingatan')"
           @select="handleSelectCategory"
         />
 
@@ -87,6 +100,7 @@
           color-key="nature"
           mascot-type="hedgehog"
           :question-count="20"
+          :saved-stars="quizStore.getCategoryStars('pengetahuan-alam')"
           @select="handleSelectCategory"
         />
 
@@ -98,6 +112,7 @@
           color-key="social"
           mascot-type="cat"
           :question-count="20"
+          :saved-stars="quizStore.getCategoryStars('pengetahuan-sosial')"
           @select="handleSelectCategory"
         />
       </div>
@@ -130,15 +145,18 @@ import IconSparkle from '@/components/icons/IconSparkle.vue'
 import IconSprout from '@/components/icons/IconSprout.vue'
 import IconHeart from '@/components/icons/IconHeart.vue'
 import { useAudioStore } from '@/stores/audioStore'
+import { useQuizStore } from '@/stores/quizStore'
 
 const router = useRouter()
 const audioStore = useAudioStore()
+const quizStore = useQuizStore()
 
 const isLoading = ref(false)
 const selectedMascot = ref('bear')
 
 onMounted(() => {
   audioStore.initAudio()
+  quizStore.loadSavedProgress()
 })
 
 const handleSelectCategory = (categoryId) => {

@@ -1,17 +1,17 @@
 <template>
-  <div class="felt-card p-6 sm:p-10 border-3 border-dashed border-brand-cocoa/25 bg-white/95 max-w-3xl mx-auto relative shadow-felt-card">
+  <div class="felt-card p-4 sm:p-7 border-3 border-dashed border-brand-cocoa/25 bg-white/95 max-w-2xl mx-auto relative shadow-felt-card">
     <!-- Header with Mascot, Question Number, and Tier Level Badge -->
-    <div class="flex items-center justify-between gap-3 mb-6 border-b-2 border-dashed border-brand-cocoa/15 pb-4">
-      <div class="flex flex-wrap items-center gap-2.5">
-        <span class="w-10 h-10 rounded-full bg-brand-gold/40 border-2 border-brand-cocoa/20 font-numeric font-extrabold text-lg flex items-center justify-center text-brand-cocoa shadow-sm">
+    <div class="flex items-center justify-between gap-3 mb-4 border-b-2 border-dashed border-brand-cocoa/15 pb-3">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="w-9 h-9 rounded-full bg-brand-gold/40 border-2 border-brand-cocoa/20 font-numeric font-extrabold text-base flex items-center justify-center text-brand-cocoa shadow-sm">
           {{ questionNumber }}
         </span>
         <div>
-          <div class="text-sm font-numeric font-bold text-brand-cocoa/80 leading-none">
+          <div class="text-xs sm:text-sm font-numeric font-bold text-brand-cocoa/80 leading-none">
             Soal {{ questionNumber }} dari {{ totalQuestions }}
           </div>
           <!-- Level Tier Badge -->
-          <div class="mt-1 inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold font-numeric border" :class="tierBadgeClass">
+          <div class="mt-1 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] sm:text-[11px] font-bold font-numeric border" :class="tierBadgeClass">
             <span>{{ tierIcon }}</span>
             <span>{{ tierLabel }}</span>
           </div>
@@ -29,14 +29,14 @@
     </div>
 
     <!-- Question Text -->
-    <div class="mb-8 text-center sm:text-left">
-      <h3 class="text-2xl sm:text-3xl font-display font-extrabold text-brand-cocoa leading-snug">
+    <div class="mb-5 text-center sm:text-left">
+      <h3 class="text-xl sm:text-2xl md:text-3xl font-display font-extrabold text-brand-cocoa leading-snug">
         {{ question.pertanyaan }}
       </h3>
     </div>
 
     <!-- 3 Answer Choices -->
-    <div class="grid grid-cols-1 gap-3.5 sm:gap-4">
+    <div class="grid grid-cols-1 gap-2.5 sm:gap-3">
       <AnswerOption
         v-for="(opt, idx) in question.pilihan"
         :key="idx"
@@ -49,26 +49,6 @@
         @select="handleOptionSelect"
       />
     </div>
-
-    <!-- Answer Feedback -->
-    <AnswerFeedback
-      :show="isAnswered"
-      :is-correct="isCorrect"
-      :correct-answer="question.jawaban_benar"
-      :mascot="mascot"
-    />
-
-    <!-- Action Continue Button (Shown when answered) -->
-    <div v-if="isAnswered" class="mt-6 flex justify-end">
-      <button
-        @click="handleNext"
-        class="felt-btn px-6 py-3 bg-brand-pink hover:bg-brand-raspberry text-white font-display font-bold text-lg rounded-felt-md shadow-felt-button flex items-center gap-2.5 transition-all animate-bounce-gentle"
-      >
-        <span>{{ questionNumber === totalQuestions ? 'Lihat Hasil Selesai' : 'Soal Berikutnya' }}</span>
-        <IconTrophy v-if="questionNumber === totalQuestions" class="w-5 h-5 text-white" />
-        <IconArrowRight v-else class="w-5 h-5 text-white" />
-      </button>
-    </div>
   </div>
 </template>
 
@@ -76,9 +56,6 @@
 import { computed } from 'vue'
 import MascotCharacter from '@/components/common/MascotCharacter.vue'
 import AnswerOption from '@/components/quiz/AnswerOption.vue'
-import AnswerFeedback from '@/components/quiz/AnswerFeedback.vue'
-import IconArrowRight from '@/components/icons/IconArrowRight.vue'
-import IconTrophy from '@/components/icons/IconTrophy.vue'
 
 const props = defineProps({
   question: {
@@ -111,7 +88,7 @@ const props = defineProps({
   }
 })
 
-const emit = defineEmits(['select-answer', 'next'])
+const emit = defineEmits(['select-answer'])
 
 const currentEmotion = computed(() => {
   if (!props.isAnswered) return 'thinking'
@@ -145,9 +122,5 @@ const tierBadgeClass = computed(() => {
 
 const handleOptionSelect = (option) => {
   emit('select-answer', option)
-}
-
-const handleNext = () => {
-  emit('next')
 }
 </script>

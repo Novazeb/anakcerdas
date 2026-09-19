@@ -1,27 +1,27 @@
 <template>
-  <div class="quiz-view min-h-[calc(100vh-80px)] flex flex-col justify-between px-4 sm:px-6 pb-12 relative">
+  <div class="quiz-view min-h-[calc(100vh-80px)] flex flex-col justify-between px-3 sm:px-6 pb-6 sm:pb-10 relative">
     <!-- Top Quiz Navigation Header -->
-    <div class="max-w-4xl mx-auto w-full flex items-center justify-between py-2 mb-2 z-20">
+    <div class="max-w-3xl mx-auto w-full flex items-center justify-between py-2 mb-1 z-20">
       <!-- Back to Menu Button -->
       <button
         @click="handleBackClick"
-        class="felt-btn px-4 py-2 bg-cream-deep hover:bg-white text-brand-cocoa text-sm font-display font-bold rounded-felt-full border-2 border-brand-cocoa/20 flex items-center gap-1.5 shadow-sm transition-all"
+        class="felt-btn px-3.5 py-1.5 sm:px-4 sm:py-2 bg-cream-deep hover:bg-white text-brand-cocoa text-xs sm:text-sm font-display font-bold rounded-felt-full border-2 border-brand-cocoa/20 flex items-center gap-1.5 shadow-sm transition-all"
       >
-        <IconArrowLeft class="w-4 h-4 text-brand-cocoa" />
+        <IconArrowLeft class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-brand-cocoa" />
         <span>Menu</span>
       </button>
 
       <!-- Category Title Badge with SVG Icon -->
-      <div class="flex items-center gap-2 px-4 py-1.5 rounded-felt-full bg-white border-2 border-dashed border-brand-raspberry shadow-sm">
-        <IconCategory :category="quizStore.currentCategory" custom-class="w-5 h-5 text-brand-raspberry" />
-        <span class="text-sm sm:text-base font-display font-extrabold text-brand-cocoa">
+      <div class="flex items-center gap-1.5 sm:gap-2 px-3 py-1 sm:px-4 sm:py-1.5 rounded-felt-full bg-white border-2 border-dashed border-brand-raspberry shadow-sm">
+        <IconCategory :category="quizStore.currentCategory" custom-class="w-4 h-4 sm:w-5 sm:h-5 text-brand-raspberry" />
+        <span class="text-xs sm:text-base font-display font-extrabold text-brand-cocoa">
           {{ quizStore.categoryMeta.judul }}
         </span>
       </div>
     </div>
 
     <!-- Main Container -->
-    <div class="max-w-4xl mx-auto w-full flex-1 flex flex-col justify-center my-auto">
+    <div class="max-w-3xl mx-auto w-full flex-1 flex flex-col justify-center my-auto">
       <!-- 1. STORY PHASE (Ingatan Module) -->
       <StoryIntro
         v-if="quizStore.isStoryPhase && quizStore.categoryMeta.cerpen"
@@ -30,7 +30,7 @@
       />
 
       <!-- 2. QUESTION PHASE -->
-      <div v-else-if="quizStore.currentQuestion" class="space-y-4">
+      <div v-else-if="quizStore.currentQuestion" class="space-y-3 sm:space-y-4">
         <!-- Progress Stitch Indicator -->
         <StitchTrail
           mode="progress"
@@ -38,7 +38,7 @@
           :total-steps="quizStore.totalQuestions"
         />
 
-        <!-- Question Card -->
+        <!-- Question Card (Compact, no scroll needed) -->
         <QuestionCard
           :question="quizStore.currentQuestion"
           :question-number="quizStore.currentQuestionNumber"
@@ -48,6 +48,16 @@
           :selected-option="quizStore.lastSelectedOption"
           :is-correct="quizStore.lastAnswerIsCorrect"
           @select-answer="handleSelectAnswer"
+        />
+
+        <!-- Interactive Pop-up Bottom Sheet Feedback -->
+        <AnswerFeedbackSheet
+          :show="quizStore.isAnswering"
+          :is-correct="quizStore.lastAnswerIsCorrect"
+          :correct-answer="quizStore.currentQuestion?.jawaban_benar || ''"
+          :explanation="quizStore.currentQuestion?.penjelasan || ''"
+          :mascot="quizStore.categoryMeta.maskot"
+          :is-last-question="quizStore.currentQuestionNumber === quizStore.totalQuestions"
           @next="handleNextQuestion"
         />
       </div>
@@ -99,6 +109,7 @@ import { useConfetti } from '@/composables/useConfetti'
 
 import StoryIntro from '@/components/quiz/StoryIntro.vue'
 import QuestionCard from '@/components/quiz/QuestionCard.vue'
+import AnswerFeedbackSheet from '@/components/quiz/AnswerFeedbackSheet.vue'
 import StitchTrail from '@/components/common/StitchTrail.vue'
 import IconCategory from '@/components/icons/IconCategory.vue'
 import IconArrowLeft from '@/components/icons/IconArrowLeft.vue'

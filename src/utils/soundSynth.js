@@ -17,6 +17,23 @@ class KidSoundSynth {
     this.gainSfx = null
     this.step = 0
     this.currentTrack = 'ceria'
+    this.wasPlayingBeforeHide = false
+
+    if (typeof document !== 'undefined') {
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          if (this.isPlayingBgm) {
+            this.wasPlayingBeforeHide = true
+            this.stopBgm()
+          }
+        } else {
+          if (this.wasPlayingBeforeHide && !this.isMuted) {
+            this.wasPlayingBeforeHide = false
+            this.startBgm()
+          }
+        }
+      })
+    }
 
     this.tracks = {
       ceria: {

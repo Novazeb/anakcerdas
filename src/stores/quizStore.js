@@ -15,6 +15,8 @@ const CATEGORY_MAP = {
   'sosial': socialData
 }
 
+const STORAGE_KEY = 'anakcerdas_stars_v1'
+
 export const useQuizStore = defineStore('quiz', {
   state: () => ({
     currentCategory: 'matematika',
@@ -34,7 +36,8 @@ export const useQuizStore = defineStore('quiz', {
     storyRead: false,
     isAnswering: false,
     lastSelectedOption: null,
-    lastAnswerIsCorrect: null
+    lastAnswerIsCorrect: null,
+    savedProgress: {}
   }),
 
   getters: {
@@ -57,11 +60,44 @@ export const useQuizStore = defineStore('quiz', {
     wrongAnswers: (state) => state.answers.filter((a) => !a.isCorrect),
     isStoryPhase: (state) => {
       return (state.currentCategory === 'ingatan' || state.currentCategory === 'memory') && !state.storyRead
+    },
+    totalStarsEarned: (state) => {
+      return Object.values(state.savedProgress).reduce((acc, stars) => acc + (Number(stars) || 0), 0)
+    },
+    getCategoryStars: (state) => (cat) => {
+      return state.savedProgress[cat] || 0
     }
   },
 
   actions: {
+    loadSavedProgress() {
+      if (typeof window === 'undefined' || !window.localStorage) return
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY)
+        if (raw) {
+          this.savedProgress = JSON.parse(raw) || {}
+        }
+      } catch (e) {
+        this.savedProgress = {}
+      }
+    },
+
+    saveCategoryStars(category, stars) {
+      if (typeof window === 'undefined' || !window.localStorage) return
+      try {
+        const currentBest = this.savedProgress[category] || 0
+        if (stars > currentBest) {
+          this.savedProgress = {
+            ...this.savedProgress,
+            [category]: stars
+          }
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(this.savedProgress))
+        }
+      } catch (e) {}
+    },
+
     startQuiz(categoryKey) {
+      this.loadSavedProgress()
       const key = categoryKey ? categoryKey.toLowerCase() : 'matematika'
       const data = CATEGORY_MAP[key] || CATEGORY_MAP['matematika']
 
@@ -125,6 +161,8 @@ export const useQuizStore = defineStore('quiz', {
       } else {
         this.isFinished = true
         this.isAnswering = false
+        // Persist stars to localStorage
+        this.saveCategoryStars(this.currentCategory, this.score)
       }
     },
 
@@ -133,4 +171,3 @@ export const useQuizStore = defineStore('quiz', {
     }
   }
 })
-
