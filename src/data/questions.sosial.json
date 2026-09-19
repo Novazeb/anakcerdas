@@ -867,6 +867,2481 @@
         "7-9",
         "10-12"
       ]
+    },
+    {
+      "id": "s51",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Kata santun apa yang kita ucapkan saat tidak sengaja menginjak kaki teman?",
+      "pilihan": [
+        "Maaf",
+        "Terima kasih",
+        "Biar saja"
+      ],
+      "jawaban_benar": "Maaf",
+      "penjelasan": "Meminta maaf dengan tulus menunjukkan sikap bertanggung jawab dan sopan."
+    },
+    {
+      "id": "s52",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Kata santun apa yang kita ucapkan saat menerima hadiah ulang tahun dari paman?",
+      "pilihan": [
+        "Terima kasih",
+        "Maaf",
+        "Sama-sama"
+      ],
+      "jawaban_benar": "Terima kasih",
+      "penjelasan": "Mengucap terima kasih adalah ungkapan rasa syukur dan menghargai kebaikan orang lain."
+    },
+    {
+      "id": "s53",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Ketika kita membutuhkan bantuan orang lain untuk mengambil benda tinggi, kita ucapkan?",
+      "pilihan": [
+        "Tolong",
+        "Cepat",
+        "Awas"
+      ],
+      "jawaban_benar": "Tolong",
+      "penjelasan": "Meminta tolong dengan sopan membuat orang lain senang membantu kita."
+    },
+    {
+      "id": "s54",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Sebelum berangkat ke sekolah di pagi hari, apa yang sebaiknya kita lakukan kepada ayah dan ibu?",
+      "pilihan": [
+        "Berpamitan dan mencium tangan",
+        "Langsung lari keluar",
+        "Menangis"
+      ],
+      "jawaban_benar": "Berpamitan dan mencium tangan",
+      "penjelasan": "Berpamitan adalah wujud hormat anak dan memohon doa restu orang tua."
+    },
+    {
+      "id": "s55",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Setelah selesai bermain dengan mobil-mobilan atau boneka di rumah, kita sebaiknya?",
+      "pilihan": [
+        "Merapikan kembali ke tempatnya",
+        "Membiarkan berserakan di lantai",
+        "Menyuruh adik merapikan"
+      ],
+      "jawaban_benar": "Merapikan kembali ke tempatnya",
+      "penjelasan": "Anak mandiri selalu menjaga kerapian rumah setelah bermain."
+    },
+    {
+      "id": "s56",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Jika ada teman di sekolah yang lupa membawa pensil saat ujian, sikap kita sebaiknya?",
+      "pilihan": [
+        "Meminjamkan pensil cadangan",
+        "Mengejeknya",
+        "Menyembunyikan pensil kita"
+      ],
+      "jawaban_benar": "Meminjamkan pensil cadangan",
+      "penjelasan": "Saling tolong-menolong membuat pertemanan menjadi indah dan rukun."
+    },
+    {
+      "id": "s57",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Di mana kita harus membuang bungkus permen atau kulit pisang?",
+      "pilihan": [
+        "Tempat sampah",
+        "Kolong meja",
+        "Halaman tetangga"
+      ],
+      "jawaban_benar": "Tempat sampah",
+      "penjelasan": "Membuang sampah pada tempatnya menjaga lingkungan tetap bersih dan sehat."
+    },
+    {
+      "id": "s58",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Saat antre membeli makanan di kantin sekolah, sikap yang baik adalah?",
+      "pilihan": [
+        "Tertib menunggu giliran",
+        "Menyerobot antrean depan",
+        "Mendorong teman"
+      ],
+      "jawaban_benar": "Tertib menunggu giliran",
+      "penjelasan": "Budaya antre melatih kedisiplinan dan rasa adil menghargai orang lain."
+    },
+    {
+      "id": "s59",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Ketika guru sedang menjelaskan pelajaran di depan kelas, kita sebaiknya?",
+      "pilihan": [
+        "Mendengarkan dengan tenang",
+        "Mengobrol dengan teman sebelah",
+        "Tidur di meja"
+      ],
+      "jawaban_benar": "Mendengarkan dengan tenang",
+      "penjelasan": "Memperhatikan guru tanda kita menghormati pengajar dan ingin pandai."
+    },
+    {
+      "id": "s60",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Ketika berpapasan dengan tetangga rumah di jalan pagi hari, kita menyapa dengan?",
+      "pilihan": [
+        "Tersenyum dan mengucapkan salam",
+        "Memalingkan muka",
+        "Menutup mata"
+      ],
+      "jawaban_benar": "Tersenyum dan mengucapkan salam",
+      "penjelasan": "Menyapa tetangga mempererat kerukunan dan tali persaudaraan."
+    },
+    {
+      "id": "s61",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Jika adik kita menangis karena terjatuh, apa yang sebaiknya kita lakukan?",
+      "pilihan": [
+        "Menghiburnya dan menolongnya berdiri",
+        "Menertawakannya",
+        "Meninggalkannya pergi"
+      ],
+      "jawaban_benar": "Menghiburnya dan menolongnya berdiri",
+      "penjelasan": "Kasih sayang antar saudara membuat keluarga selalu damai dan bahagia."
+    },
+    {
+      "id": "s62",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Tempat yang aman bagi pejalan kaki untuk menyeberang jalan raya adalah di?",
+      "pilihan": [
+        "Zebra cross atau jembatan penyeberangan",
+        "Tengah jalan tikungan",
+        "Di belakang truk besar"
+      ],
+      "jawaban_benar": "Zebra cross atau jembatan penyeberangan",
+      "penjelasan": "Garis hitam-putih zebra cross adalah rambu khusus penyeberangan pejalan kaki."
+    },
+    {
+      "id": "s63",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Saat lampu lalu lintas menyala warna MERAH, pengendara kendaraan harus?",
+      "pilihan": [
+        "Berhenti",
+        "Maju kencang",
+        "Belok putar arah"
+      ],
+      "jawaban_benar": "Berhenti",
+      "penjelasan": "Lampu merah mewajibkan seluruh kendaraan berhenti di belakang garis aman."
+    },
+    {
+      "id": "s64",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Saat lampu lalu lintas menyala warna HIJAU, artinya kendaraan boleh?",
+      "pilihan": [
+        "Berjalan maju dengan hati-hati",
+        "Berhenti mendadak",
+        "Mematikan mesin"
+      ],
+      "jawaban_benar": "Berjalan maju dengan hati-hati",
+      "penjelasan": "Lampu hijau menandakan giliran jalan bagi pengendara."
+    },
+    {
+      "id": "s65",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Lampu lalu lintas warna KUNING mengingatkan pengendara untuk bersiap-siap dan?",
+      "pilihan": [
+        "Berhati-hati melambatkan laju",
+        "Memacu kecepatan",
+        "Membunyikan klakson keras"
+      ],
+      "jawaban_benar": "Berhati-hati melambatkan laju",
+      "penjelasan": "Warna kuning adalah peringatan agar bersiap berhenti."
+    },
+    {
+      "id": "s66",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Jika kita meminjam mainan milik teman, setelah selesai kita harus?",
+      "pilihan": [
+        "Mengembalikannya dengan ucapan terima kasih",
+        "Membawanya pulang diam-diam",
+        "Merusaknya"
+      ],
+      "jawaban_benar": "Mengembalikannya dengan ucapan terima kasih",
+      "penjelasan": "Menjaga amanah barang pinjaman membuat kita dipercaya teman."
+    },
+    {
+      "id": "s67",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bila teman kita bersedih, kata-kata yang baik untuk diucapkan adalah?",
+      "pilihan": [
+        "Jangan sedih ya, kita main bersama lagi",
+        "Kamu cengeng sekali",
+        "Bukan urusanku"
+      ],
+      "jawaban_benar": "Jangan sedih ya, kita main bersama lagi",
+      "penjelasan": "Kalimat empati dan penghiburan memberikan semangat baru bagi teman."
+    },
+    {
+      "id": "s68",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Sebelum makan bersama keluarga di meja makan, kita dibiasakan untuk?",
+      "pilihan": [
+        "Cuci tangan bersih dan berdoa",
+        "Langsung mengambil makanan rebutan",
+        "Bermain HP terus"
+      ],
+      "jawaban_benar": "Cuci tangan bersih dan berdoa",
+      "penjelasan": "Mencuci tangan membunuh kuman dan berdoa wujud syukur rezeki."
+    },
+    {
+      "id": "s69",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah orang yang bertugas merawat dan mengobati kita saat sakit di rumah sakit?",
+      "pilihan": [
+        "Dokter dan Perawat",
+        "Masinis",
+        "Nahkoda"
+      ],
+      "jawaban_benar": "Dokter dan Perawat",
+      "penjelasan": "Dokter dan perawat adalah tenaga kesehatan yang membantu kesembuhan pasien."
+    },
+    {
+      "id": "s70",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Orang yang bertugas mengatur lalu lintas di jalan raya agar tertib dan aman adalah?",
+      "pilihan": [
+        "Polisi lalu lintas",
+        "Petani",
+        "Nelayan"
+      ],
+      "jawaban_benar": "Polisi lalu lintas",
+      "penjelasan": "Polisi lalu lintas menjaga ketertiban dan keselamatan seluruh pengguna jalan."
+    },
+    {
+      "id": "s71",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Orang yang berjasa menanam padi di sawah hingga menghasilkan beras adalah?",
+      "pilihan": [
+        "Petani",
+        "Tukang jahit",
+        "Tukang kayu"
+      ],
+      "jawaban_benar": "Petani",
+      "penjelasan": "Petani bekerja keras di sawah menyuplai bahan makanan pokok kita."
+    },
+    {
+      "id": "s72",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Orang yang mengemudikan kereta api disebut?",
+      "pilihan": [
+        "Masinis",
+        "Pilot",
+        "Sopir"
+      ],
+      "jawaban_benar": "Masinis",
+      "penjelasan": "Masinis memimpin perjalanan kereta api di atas rel."
+    },
+    {
+      "id": "s73",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Orang yang menerbangkan pesawat terbang di udara disebut?",
+      "pilihan": [
+        "Pilot",
+        "Nahkoda",
+        "Kondektur"
+      ],
+      "jawaban_benar": "Pilot",
+      "penjelasan": "Pilot mengemudikan pesawat melintasi awan dengan aman."
+    },
+    {
+      "id": "s74",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Orang yang mengemudikan kapal laut mengarungi samudera disebut?",
+      "pilihan": [
+        "Nahkoda",
+        "Masinis",
+        "Kusir"
+      ],
+      "jawaban_benar": "Nahkoda",
+      "penjelasan": "Nahkoda adalah kapten kapal yang bertanggung jawab atas pelayaran laut."
+    },
+    {
+      "id": "s75",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Jika ada teman baru yang pindah ke kelas kita, sikap kita sebaiknya?",
+      "pilihan": [
+        "Menyambut dan mengajaknya berkenalan ramah",
+        "Menjauhinya",
+        "Mengabaikannya"
+      ],
+      "jawaban_benar": "Menyambut dan mengajaknya berkenalan ramah",
+      "penjelasan": "Menyambut teman baru membuat ia merasa nyaman di lingkungan sekolah baru."
+    },
+    {
+      "id": "s76",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bila ada kakek atau nenek yang ingin menyeberang jalan dan kesulitan, kita sebaiknya?",
+      "pilihan": [
+        "Menolong menyeberangkan dengan aman",
+        "Menonton saja",
+        "Melewatinya terburu-buru"
+      ],
+      "jawaban_benar": "Menolong menyeberangkan dengan aman",
+      "penjelasan": "Menghormati dan membantu kaum lansia adalah budi pekerti luhur."
+    },
+    {
+      "id": "s77",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Di dalam perpustakaan sekolah, semua murid harus menjaga ketenangan dengan cara?",
+      "pilihan": [
+        "Tidak berbicara berteriak-teriak",
+        "Berlari kejar-kejaran",
+        "Memutar musik kencang"
+      ],
+      "jawaban_benar": "Tidak berbicara berteriak-teriak",
+      "penjelasan": "Perpustakaan adalah tempat membaca dan belajar yang butuh ketenangan."
+    },
+    {
+      "id": "s78",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Memotong kuku tangan dan kaki seminggu sekali bertujuan untuk?",
+      "pilihan": [
+        "Menjaga kebersihan dan mencegah kuman bersarang",
+        "Supaya kuku terlihat hitam",
+        "Membuang waktu"
+      ],
+      "jawaban_benar": "Menjaga kebersihan dan mencegah kuman bersarang",
+      "penjelasan": "Kuku pendek dan bersih mencegah kuman masuk ke perut saat makan."
+    },
+    {
+      "id": "s79",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Membantu ibu membersihkan piring sendiri setelah selesai makan adalah contoh anak yang?",
+      "pilihan": [
+        "Rajin dan berbakti",
+        "Malas",
+        "Suka mengeluh"
+      ],
+      "jawaban_benar": "Rajin dan berbakti",
+      "penjelasan": "Membantu tugas rumah meringankan beban orang tua tercinta."
+    },
+    {
+      "id": "s80",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bila kita berjanji untuk datang ke rumah teman pukul 4 sore, kita harus?",
+      "pilihan": [
+        "Menepati janji tepat waktu",
+        "Datang jam 7 malam tanpa kabar",
+        "Membatalkan seenaknya"
+      ],
+      "jawaban_benar": "Menepati janji tepat waktu",
+      "penjelasan": "Tepat waktu (disiplin) adalah tanda orang yang dapat dipercaya."
+    },
+    {
+      "id": "s81",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Uang saku sekolah yang bersisa sebaiknya kita?",
+      "pilihan": [
+        "Tabung di celengan",
+        "Habiskan untuk jajan berlebihan",
+        "Buang ke sungai"
+      ],
+      "jawaban_benar": "Tabung di celengan",
+      "penjelasan": "Hemat pangkal kaya: menabung sedikit demi sedikit untuk masa depan."
+    },
+    {
+      "id": "s82",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Ketika bermain bersama teman dan kalah dalam permainan, sikap ksatria kita adalah?",
+      "pilihan": [
+        "Menerima dengan sportif dan memberi selamat teman",
+        "Menangis guling-guling",
+        "Marah dan merusak mainan"
+      ],
+      "jawaban_benar": "Menerima dengan sportif dan memberi selamat teman",
+      "penjelasan": "Jiwa sportif membuat permainan tetap seru dan persahabatan terjaga."
+    },
+    {
+      "id": "s83",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bangun tidur di pagi hari tepat waktu membuat kita?",
+      "pilihan": [
+        "Segar dan tidak terlambat ke sekolah",
+        "Mengantuk seharian",
+        "Pusing"
+      ],
+      "jawaban_benar": "Segar dan tidak terlambat ke sekolah",
+      "penjelasan": "Disiplin bangun pagi adalah kunci mengawali hari dengan gembira."
+    },
+    {
+      "id": "s84",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bila kita melihat ada keran air di sekolah yang mengalir terbuang sia-sia, kita sebaiknya?",
+      "pilihan": [
+        "Menutup keran air tersebut rapat-rapat",
+        "Bermain air",
+        "Membiarkan saja meluap"
+      ],
+      "jawaban_benar": "Menutup keran air tersebut rapat-rapat",
+      "penjelasan": "Hemat air bersih adalah wujud kepedulian terhadap lingkungan hidup."
+    },
+    {
+      "id": "s85",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Saat batuk atau bersin di dekat orang lain, kita harus menutup mulut dengan?",
+      "pilihan": [
+        "Tisu atau siku bagian dalam",
+        "Tangan kotor terbuka",
+        "Menghadap wajah teman"
+      ],
+      "jawaban_benar": "Tisu atau siku bagian dalam",
+      "penjelasan": "Etika batuk yang benar mencegah penyebaran virus dan kuman ke teman."
+    },
+    {
+      "id": "s86",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan peliharaan seperti kucing atau kelinci di rumah harus kita?",
+      "pilihan": [
+        "Beri makan, minum, dan disayangi",
+        "Dipukul saat berisik",
+        "Dikurung tanpa makanan"
+      ],
+      "jawaban_benar": "Beri makan, minum, dan disayangi",
+      "penjelasan": "Menyayangi hewan ciptaan Tuhan adalah perbuatan terpuji."
+    },
+    {
+      "id": "s87",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Sebelum tidur malam hari, kita dibiasakan untuk menggosok gigi agar?",
+      "pilihan": [
+        "Gigi bersih dari sisa makanan dan tidak berlubang",
+        "Gigi cepat tanggal",
+        "Mulut berbusa"
+      ],
+      "jawaban_benar": "Gigi bersih dari sisa makanan dan tidak berlubang",
+      "penjelasan": "Menyikat gigi sebelum tidur melindungi gigi dari kuman perusak saat tidur."
+    },
+    {
+      "id": "s88",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Simbol Bintang emas pada perisai burung Garuda melambangkan sila Pancasila ke berapa?",
+      "pilihan": [
+        "Sila ke-1 (Ketuhanan Yang Maha Esa)",
+        "Sila ke-2",
+        "Sila ke-3"
+      ],
+      "jawaban_benar": "Sila ke-1 (Ketuhanan Yang Maha Esa)",
+      "penjelasan": "Bintang bersudut lima berlatar hitam adalah lambang sila pertama Pancasila."
+    },
+    {
+      "id": "s89",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Simbol Rantai emas lingkaran dan persegi melambangkan sila Pancasila ke berapa?",
+      "pilihan": [
+        "Sila ke-2 (Kemanusiaan yang Adil dan Beradab)",
+        "Sila ke-1",
+        "Sila ke-4"
+      ],
+      "jawaban_benar": "Sila ke-2 (Kemanusiaan yang Adil dan Beradab)",
+      "penjelasan": "Mata rantai melambangkan ikatan persaudaraan pria dan wanita yang kokoh."
+    },
+    {
+      "id": "s90",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Simbol Pohon Beringin yang rindang melambangkan sila Pancasila ke berapa?",
+      "pilihan": [
+        "Sila ke-3 (Persatuan Indonesia)",
+        "Sila ke-2",
+        "Sila ke-5"
+      ],
+      "jawaban_benar": "Sila ke-3 (Persatuan Indonesia)",
+      "penjelasan": "Pohon beringin melambangkan naungan tempat berteduh seluruh bangsa Indonesia."
+    },
+    {
+      "id": "s91",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Simbol Kepala Banteng melambangkan sila Pancasila ke berapa?",
+      "pilihan": [
+        "Sila ke-4 (Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan...)",
+        "Sila ke-3",
+        "Sila ke-5"
+      ],
+      "jawaban_benar": "Sila ke-4 (Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan...)",
+      "penjelasan": "Banteng hewan sosial yang suka berkumpul, melambangkan musyawarah mufakat."
+    },
+    {
+      "id": "s92",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Simbol Padi dan Kapas melambangkan sila Pancasila ke berapa?",
+      "pilihan": [
+        "Sila ke-5 (Keadilan Sosial bagi Seluruh Rakyat Indonesia)",
+        "Sila ke-4",
+        "Sila ke-1"
+      ],
+      "jawaban_benar": "Sila ke-5 (Keadilan Sosial bagi Seluruh Rakyat Indonesia)",
+      "penjelasan": "Padi (pangan) dan kapas (sandang) mencerminkan kemakmuran dan keadilan bagi semua."
+    },
+    {
+      "id": "s93",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Warna merah pada bendera pusaka Merah Putih memiliki arti apa?",
+      "pilihan": [
+        "Keberanian bangsa Indonesia",
+        "Kesucian hati",
+        "Kekayaan laut"
+      ],
+      "jawaban_benar": "Keberanian bangsa Indonesia",
+      "penjelasan": "Merah melambangkan keberanian dan darah pejuang dalam membela tanah air."
+    },
+    {
+      "id": "s94",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Warna putih pada bendera Merah Putih melambangkan?",
+      "pilihan": [
+        "Kesucian hati dan niat bangsa",
+        "Keberanian fisik",
+        "Kesuburan tanah"
+      ],
+      "jawaban_benar": "Kesucian hati dan niat bangsa",
+      "penjelasan": "Putih melambangkan ketulusan dan kesucian jiwa bangsa Indonesia."
+    },
+    {
+      "id": "s95",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Lagu kebangsaan negara Indonesia berjudul 'Indonesia Raya' diciptakan oleh?",
+      "pilihan": [
+        "Wage Rudolf Supratman (W.R. Supratman)",
+        "Ismail Marzuki",
+        "Ibu Sud"
+      ],
+      "jawaban_benar": "Wage Rudolf Supratman (W.R. Supratman)",
+      "penjelasan": "Lagu Indonesia Raya pertama kali dikumandangkan pada Kongres Pemuda 1928."
+    },
+    {
+      "id": "s96",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Rumah adat 'Rumah Gadang' yang memiliki atap runcing bertanduk kerbau berasal dari?",
+      "pilihan": [
+        "Sumatera Barat (Minangkabau)",
+        "Jawa Tengah",
+        "Kalimantan Barat"
+      ],
+      "jawaban_benar": "Sumatera Barat (Minangkabau)",
+      "penjelasan": "Atap gonjong Rumah Gadang mencerminkan keagungan budaya Minang."
+    },
+    {
+      "id": "s97",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Rumah adat 'Tongkonan' dengan atap melengkung mirip perahu berasal dari suku Toraja di?",
+      "pilihan": [
+        "Sulawesi Selatan",
+        "Sumatera Utara",
+        "Bali"
+      ],
+      "jawaban_benar": "Sulawesi Selatan",
+      "penjelasan": "Tongkonan adalah rumah adat kebanggaan masyarakat Toraja."
+    },
+    {
+      "id": "s98",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Rumah adat berbentuk jamur bulat beratap jerami bernama 'Honai' adalah rumah tradisional dari?",
+      "pilihan": [
+        "Papua",
+        "Aceh",
+        "Nusa Tenggara Barat"
+      ],
+      "jawaban_benar": "Papua",
+      "penjelasan": "Honai dibangun tanpa jendela agar tetap hangat di pegunungan dingin Papua."
+    },
+    {
+      "id": "s99",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Rumah adat 'Joglo' dengan ciri khas pendopo luas di bagian depan berasal dari daerah?",
+      "pilihan": [
+        "Jawa Tengah dan D.I. Yogyakarta",
+        "Kalimantan Timur",
+        "Maluku"
+      ],
+      "jawaban_benar": "Jawa Tengah dan D.I. Yogyakarta",
+      "penjelasan": "Joglo memiliki struktur tiang utama tumpang sari yang artistik."
+    },
+    {
+      "id": "s100",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Alat musik petik tradisional berbentuk melengkung indah dari pulau Rote NTT adalah?",
+      "pilihan": [
+        "Sasando",
+        "Kolintang",
+        "Angklung"
+      ],
+      "jawaban_benar": "Sasando",
+      "penjelasan": "Sasando terbuat dari bambu dengan wadah daun lontar melengkung."
+    },
+    {
+      "id": "s101",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Alat musik perkusi pukul dari bilah kayu khas Minahasa Sulawesi Utara disebut?",
+      "pilihan": [
+        "Kolintang",
+        "Rebana",
+        "Gong"
+      ],
+      "jawaban_benar": "Kolintang",
+      "penjelasan": "Kolintang dimainkan dengan dipukul stik menghasilkan tangga nada indah."
+    },
+    {
+      "id": "s102",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Alat musik perkusi tabung kendang tradisional dari Papua dan Maluku disebut?",
+      "pilihan": [
+        "Tifa",
+        "Gamelan",
+        "Suling"
+      ],
+      "jawaban_benar": "Tifa",
+      "penjelasan": "Tifa ditabuh dengan tangan kosong mengiringi tarian perang dan pesta rakyat."
+    },
+    {
+      "id": "s103",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Tarian tradisional Aceh yang terkenal dengan kekompakan tepukan tangan dan dada yang serempak adalah?",
+      "pilihan": [
+        "Tari Saman",
+        "Tari Piring",
+        "Tari Kecak"
+      ],
+      "jawaban_benar": "Tari Saman",
+      "penjelasan": "Tari Saman telah diakui UNESCO sebagai warisan budaya takbenda dunia."
+    },
+    {
+      "id": "s104",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Tarian dari Sumatera Barat di mana penarinya mengayunkan piring porselen di kedua tangan adalah?",
+      "pilihan": [
+        "Tari Piring",
+        "Tari Jaipong",
+        "Tari Serimpi"
+      ],
+      "jawaban_benar": "Tari Piring",
+      "penjelasan": "Tari Piring mencerminkan rasa syukur atas hasil panen sawah yang melimpah."
+    },
+    {
+      "id": "s105",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Tarian kolosal dari Bali dengan paduan suara puluhan pria duduk melingkar berseru 'cak-cak-cak' adalah?",
+      "pilihan": [
+        "Tari Kecak",
+        "Tari Pendet",
+        "Tari Barong"
+      ],
+      "jawaban_benar": "Tari Kecak",
+      "penjelasan": "Tari Kecak menceritakan kisah Ramayana di tebing Uluwatu saat matahari terbenam."
+    },
+    {
+      "id": "s106",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Kain tradisional bermotif indah khas Indonesia yang dibuat dengan canting dan malam disebut?",
+      "pilihan": [
+        "Batik",
+        "Kain Wol",
+        "Kain Jeans"
+      ],
+      "jawaban_benar": "Batik",
+      "penjelasan": "Batik Indonesia telah diakui dunia sebagai Warisan Kemanusiaan oleh UNESCO."
+    },
+    {
+      "id": "s107",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Kain tenun tradisional kebanggaan suku Batak di Sumatera Utara dinamakan kain?",
+      "pilihan": [
+        "Ulos",
+        "Songket",
+        "Sasirangan"
+      ],
+      "jawaban_benar": "Ulos",
+      "penjelasan": "Kain Ulos disematkan pada pundak dalam upacara adat tanda doa restu dan kasih sayang."
+    },
+    {
+      "id": "s108",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Kain tenun mewah bersulam benang emas dan perak khas Palembang dan Minangkabau disebut kain?",
+      "pilihan": [
+        "Songket",
+        "Lurik",
+        "Poleng"
+      ],
+      "jawaban_benar": "Songket",
+      "penjelasan": "Songket ditenun dengan tangan dan melambangkan kemewahan dan keanggunan."
+    },
+    {
+      "id": "s109",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Kegiatan warga membersihkan lingkungan dan selokan bersama-sama tanpa upah disebut?",
+      "pilihan": [
+        "Gotong royong / Kerja bakti",
+        "Piknik bersama",
+        "Jual beli"
+      ],
+      "jawaban_benar": "Gotong royong / Kerja bakti",
+      "penjelasan": "Gotong royong adalah warisan nilai luhur bangsa Indonesia yang mempererat persaudaraan."
+    },
+    {
+      "id": "s110",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Ibu kota negara Republik Indonesia saat ini yang berada di pulau Jawa adalah?",
+      "pilihan": [
+        "DKI Jakarta",
+        "Surabaya",
+        "Medan"
+      ],
+      "jawaban_benar": "DKI Jakarta",
+      "penjelasan": "Jakarta adalah pusat pemerintahan dan perekonomian utama Indonesia."
+    },
+    {
+      "id": "s111",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hari Kemerdekaan Republik Indonesia diperingati oleh seluruh rakyat setiap tanggal?",
+      "pilihan": [
+        "17 Agustus",
+        "2 Mei",
+        "28 Oktober"
+      ],
+      "jawaban_benar": "17 Agustus",
+      "penjelasan": "Pada tanggal 17 Agustus 1945, proklamasi kemerdekaan Indonesia dibacakan."
+    },
+    {
+      "id": "s112",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hari Pahlawan Nasional diperingati setiap tanggal 10 November untuk mengenang pertempuran di?",
+      "pilihan": [
+        "Surabaya",
+        "Bandung",
+        "Semarang"
+      ],
+      "jawaban_benar": "Surabaya",
+      "penjelasan": "Arek-arek Suroboyo dipimpin Bung Tomo berjuang gagah berani membela kedaulatan RI."
+    },
+    {
+      "id": "s113",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hari Sumpah Pemuda diperingati setiap tanggal berapa oleh para pemuda-pemudi Indonesia?",
+      "pilihan": [
+        "28 Oktober",
+        "10 November",
+        "21 April"
+      ],
+      "jawaban_benar": "28 Oktober",
+      "penjelasan": "Kongres Pemuda 28 Oktober 1928 menyatukan tekad satu nusa, satu bangsa, satu bahasa."
+    },
+    {
+      "id": "s114",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hari Kartini diperingati setiap tanggal 21 April untuk mengenang perjuangan?",
+      "pilihan": [
+        "Emansipasi pendidikan wanita Indonesia",
+        "Kemerdekaan bersenjata",
+        "Palang merah"
+      ],
+      "jawaban_benar": "Emansipasi pendidikan wanita Indonesia",
+      "penjelasan": "R.A. Kartini memperjuangkan hak perempuan Indonesia agar bisa bersekolah dan maju."
+    },
+    {
+      "id": "s115",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hari Pendidikan Nasional diperingati setiap tanggal 2 Mei, bertepatan hari lahir tokoh?",
+      "pilihan": [
+        "Ki Hajar Dewantara",
+        "Jenderal Sudirman",
+        "Pangeran Antasari"
+      ],
+      "jawaban_benar": "Ki Hajar Dewantara",
+      "penjelasan": "Ki Hajar Dewantara mendirikan Taman Siswa dengan semboyan Tut Wuri Handayani."
+    },
+    {
+      "id": "s116",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Semboyan pendidikan nasional ciptaan Ki Hajar Dewantara adalah?",
+      "pilihan": [
+        "Tut Wuri Handayani",
+        "Bhinneka Tunggal Ika",
+        "Pancasila Abadi"
+      ],
+      "jawaban_benar": "Tut Wuri Handayani",
+      "penjelasan": "Tut Wuri Handayani artinya: di belakang seorang pendidik memberi dorongan dan semangat."
+    },
+    {
+      "id": "s117",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Mata uang resmi yang digunakan di seluruh wilayah Negara Kesatuan Republik Indonesia adalah?",
+      "pilihan": [
+        "Rupiah (Rp)",
+        "Ringgit",
+        "Dolar"
+      ],
+      "jawaban_benar": "Rupiah (Rp)",
+      "penjelasan": "Rupiah diterbitkan dan diedarkan resmi oleh Bank Indonesia."
+    },
+    {
+      "id": "s118",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Tempat bertemunya penjual dan pembeli untuk melakukan transaksi barang kebutuhan sehari-hari disebut?",
+      "pilihan": [
+        "Pasar",
+        "Stadion",
+        "Kantor pos"
+      ],
+      "jawaban_benar": "Pasar",
+      "penjelasan": "Di pasar tradisional atau modern, terjadi aktivitas jual beli kebutuhan pangan."
+    },
+    {
+      "id": "s119",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Orang yang membuat atau menghasilkan barang kebutuhan disebut?",
+      "pilihan": [
+        "Produsen",
+        "Konsumen",
+        "Distributor"
+      ],
+      "jawaban_benar": "Produsen",
+      "penjelasan": "Contoh produsen adalah koki pembuat kue atau pabrik pembuat sepatu."
+    },
+    {
+      "id": "s120",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Orang yang menggunakan atau menghabiskan barang dan jasa disebut?",
+      "pilihan": [
+        "Konsumen",
+        "Produsen",
+        "Distributor"
+      ],
+      "jawaban_benar": "Konsumen",
+      "penjelasan": "Kita yang membeli dan memakan roti disebut sebagai konsumen."
+    },
+    {
+      "id": "s121",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Orang atau lembaga yang menyalurkan barang dari produsen ke tangan konsumen disebut?",
+      "pilihan": [
+        "Distributor",
+        "Kolektor",
+        "Petani"
+      ],
+      "jawaban_benar": "Distributor",
+      "penjelasan": "Distributor mengangkut barang dari pabrik ke toko-toko retail."
+    },
+    {
+      "id": "s122",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bila kita ingin mengirim surat atau paket dokumen melalui pos, kita membawanya ke?",
+      "pilihan": [
+        "Kantor Pos",
+        "Puskesmas",
+        "Terminal bus"
+      ],
+      "jawaban_benar": "Kantor Pos",
+      "penjelasan": "Kantor pos melayani pengiriman surat, perangko, dan paket kiriman barang."
+    },
+    {
+      "id": "s123",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Tempat pelayanan kesehatan di tingkat kecamatan atau kelurahan untuk warga sekitar disebut?",
+      "pilihan": [
+        "Puskesmas",
+        "Apotek saja",
+        "Pasar"
+      ],
+      "jawaban_benar": "Puskesmas",
+      "penjelasan": "Pusat Kesehatan Masyarakat (Puskesmas) melayani imunisasi dan pengobatan dasar."
+    },
+    {
+      "id": "s124",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bila kita tersesat di tempat umum yang ramai seperti mall atau stasiun, langkah paling aman adalah?",
+      "pilihan": [
+        "Mencari petugas satpam / pos informasi",
+        "Ikut orang asing yang tidak dikenal",
+        "Menangis sendirian di pojokan"
+      ],
+      "jawaban_benar": "Mencari petugas satpam / pos informasi",
+      "penjelasan": "Petugas berseragam resmi siap membantu mengumumkan nama kita kepada orang tua."
+    },
+    {
+      "id": "s125",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Senjata tradisional khas Jawa Barat berupa bilah melengkung berlubang lima disebut?",
+      "pilihan": [
+        "Kujang",
+        "Rencong",
+        "Mandau"
+      ],
+      "jawaban_benar": "Kujang",
+      "penjelasan": "Kujang adalah senjata pusaka tradisional masyarakat Sunda Jawa Barat."
+    },
+    {
+      "id": "s126",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Menghormati teman yang sedang menjalankan ibadah puasa atau shalat sesuai dengan pengamalan Pancasila sila ke?",
+      "pilihan": [
+        "Sila ke-1",
+        "Sila ke-3",
+        "Sila ke-5"
+      ],
+      "jawaban_benar": "Sila ke-1",
+      "penjelasan": "Sila pertama menekankan kebebasan beragama dan toleransi antarumat beriman."
+    },
+    {
+      "id": "s127",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Mengumpulkan sumbangan dan pakaian layak untuk korban bencana alam adalah cerminan sila ke?",
+      "pilihan": [
+        "Sila ke-2",
+        "Sila ke-4",
+        "Sila ke-1"
+      ],
+      "jawaban_benar": "Sila ke-2",
+      "penjelasan": "Sila kedua mengajarkan kepedulian kemanusiaan dan tolong-menolong sesama insan."
+    },
+    {
+      "id": "s128",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Mencintai produk buatan dalam negeri dan bangga memakai batik merupakan pengamalan sila ke?",
+      "pilihan": [
+        "Sila ke-3",
+        "Sila ke-2",
+        "Sila ke-4"
+      ],
+      "jawaban_benar": "Sila ke-3",
+      "penjelasan": "Sila ketiga berfokus pada persatuan bangsa dan rasa nasionalisme cinta tanah air."
+    },
+    {
+      "id": "s129",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Melakukan pemilihan ketua kelas secara musyawarah dan pemungutan suara adil mencerminkan sila ke?",
+      "pilihan": [
+        "Sila ke-4",
+        "Sila ke-1",
+        "Sila ke-3"
+      ],
+      "jawaban_benar": "Sila ke-4",
+      "penjelasan": "Sila keempat mengutamakan musyawarah mufakat dalam mengambil keputusan bersama."
+    },
+    {
+      "id": "s130",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Memberikan kesempatan yang sama bagi semua murid tanpa membeda-bedakan kaya atau miskin adalah sila ke?",
+      "pilihan": [
+        "Sila ke-5",
+        "Sila ke-2",
+        "Sila ke-3"
+      ],
+      "jawaban_benar": "Sila ke-5",
+      "penjelasan": "Sila kelima menegakkan keadilan sosial bagi seluruh lapisan masyarakat."
+    },
+    {
+      "id": "s131",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Siapakah dua tokoh bapak bangsa yang dijuluki sebagai 'Bapak Proklamator Indonesia'?",
+      "pilihan": [
+        "Ir. Soekarno dan Drs. Mohammad Hatta",
+        "Jenderal Sudirman dan Bung Tomo",
+        "Ki Hajar Dewantara dan Kartini"
+      ],
+      "jawaban_benar": "Ir. Soekarno dan Drs. Mohammad Hatta",
+      "penjelasan": "Bung Karno dan Bung Hatta memproklamasikan kemerdekaan atas nama bangsa Indonesia."
+    },
+    {
+      "id": "s132",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Tokoh pahlawan nasional wanita pemberani dari Aceh yang berjuang melawan penjajah Belanda adalah?",
+      "pilihan": [
+        "Cut Nyak Dien",
+        "Dewi Sartika",
+        "Christina Martha Tiahahu"
+      ],
+      "jawaban_benar": "Cut Nyak Dien",
+      "penjelasan": "Cut Nyak Dien memimpin perang gerilya di hutan Aceh dengan gigih."
+    },
+    {
+      "id": "s133",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Pahlawan nasional yang memimpin Perang Jawa (1825-1830) dengan taktik gerilya menunggang kuda adalah?",
+      "pilihan": [
+        "Pangeran Diponegoro",
+        "Pangeran Antasari",
+        "Sultan Hasanuddin"
+      ],
+      "jawaban_benar": "Pangeran Diponegoro",
+      "penjelasan": "Pangeran Diponegoro berjuang membela rakyat dari kesewenang-wenangan penjajah."
+    },
+    {
+      "id": "s134",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Tokoh pahlawan dari Maluku yang memimpin perlawanan di Benteng Duurstede Saparua adalah?",
+      "pilihan": [
+        "Kapitan Pattimura (Thomas Matulessy)",
+        "Frans Kaisiepo",
+        "Silas Papare"
+      ],
+      "jawaban_benar": "Kapitan Pattimura (Thomas Matulessy)",
+      "penjelasan": "Kapitan Pattimura berjuang mengusir penjajah VOC dari bumi Maluku."
+    },
+    {
+      "id": "s135",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Pahlawan dari Sulawesi Selatan yang dijuluki Belanda sebagai 'Ayam Jantan dari Timur' adalah?",
+      "pilihan": [
+        "Sultan Hasanuddin",
+        "Tuanku Imam Bonjol",
+        "Aru Palaka"
+      ],
+      "jawaban_benar": "Sultan Hasanuddin",
+      "penjelasan": "Sultan Hasanuddin dari Kerajaan Gowa berani dan gigih menentang monopoli perdagangan Belanda."
+    },
+    {
+      "id": "s136",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Pahlawan nasional dari Sumatera Barat yang memimpin Perang Padri adalah?",
+      "pilihan": [
+        "Tuanku Imam Bonjol",
+        "Sisingamangaraja XII",
+        "Teuku Umar"
+      ],
+      "jawaban_benar": "Tuanku Imam Bonjol",
+      "penjelasan": "Tuanku Imam Bonjol memimpin perjuangan rakyat Minangkabau melawan kolonial Belanda."
+    },
+    {
+      "id": "s137",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Panglima besar TNI pertama yang memimpin perang gerilya dalam keadaan sakit di atas tandu adalah?",
+      "pilihan": [
+        "Jenderal Soedirman",
+        "Jenderal Ahmad Yani",
+        "Gatot Soebroto"
+      ],
+      "jawaban_benar": "Jenderal Soedirman",
+      "penjelasan": "Semangat patriotisme Jenderal Soedirman membakar perjuangan mempertahankan kemerdekaan."
+    },
+    {
+      "id": "s138",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Kebutuhan pokok manusia yang paling mendasar meliputi pangan, sandang, dan papan. 'Papan' artinya?",
+      "pilihan": [
+        "Tempat tinggal / Rumah",
+        "Pakaian",
+        "Makanan"
+      ],
+      "jawaban_benar": "Tempat tinggal / Rumah",
+      "penjelasan": "Pangan = makanan, sandang = pakaian, papan = rumah tempat berlindung."
+    },
+    {
+      "id": "s139",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Contoh kebutuhan sekunder bagi seorang pelajar sekolah adalah?",
+      "pilihan": [
+        "Sepatu dan tas sekolah",
+        "Makanan pokok",
+        "Mobil mewah"
+      ],
+      "jawaban_benar": "Sepatu dan tas sekolah",
+      "penjelasan": "Kebutuhan sekunder melengkapi kebutuhan pokok agar aktivitas belajar lebih lancar."
+    },
+    {
+      "id": "s140",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Barang-barang mewah yang harganya mahal seperti perhiasan intan dan kapal pesiar tergolong kebutuhan?",
+      "pilihan": [
+        "Tersier",
+        "Primer",
+        "Pokok"
+      ],
+      "jawaban_benar": "Tersier",
+      "penjelasan": "Kebutuhan tersier dipenuhi setelah kebutuhan primer dan sekunder terpenuhi."
+    },
+    {
+      "id": "s141",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Menyisihkan sebagian uang saku ke dalam celengan atau rekening tabungan memiliki manfaat untuk?",
+      "pilihan": [
+        "Mempersiapkan kebutuhan masa depan",
+        "Supaya cepat habis",
+        "Pamer ke teman"
+      ],
+      "jawaban_benar": "Mempersiapkan kebutuhan masa depan",
+      "penjelasan": "Menabung melatih disiplin keuangan dan memberi rasa aman di kemudian hari."
+    },
+    {
+      "id": "s142",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Lembaga keuangan resmi tempat masyarakat menyimpan uang dan meminjam modal usaha adalah?",
+      "pilihan": [
+        "Bank",
+        "Koperasi simpan pinjam saja",
+        "Pegadaian saja"
+      ],
+      "jawaban_benar": "Bank",
+      "penjelasan": "Bank menjamin keamanan simpanan nasabah dan melayani transaksi keuangan."
+    },
+    {
+      "id": "s143",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Koperasi yang berasaskan kekeluargaan di Indonesia dicetuskan oleh salah satu proklamator yaitu?",
+      "pilihan": [
+        "Drs. Mohammad Hatta (Bung Hatta)",
+        "Ir. Soekarno",
+        "Sutan Sjahrir"
+      ],
+      "jawaban_benar": "Drs. Mohammad Hatta (Bung Hatta)",
+      "penjelasan": "Bung Hatta dijuluki sebagai 'Bapak Koperasi Indonesia'."
+    },
+    {
+      "id": "s144",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Upacara adat pembakaran jenazah di pulau Bali dinamakan upacara?",
+      "pilihan": [
+        "Ngaben",
+        "Rambu Solo",
+        "Sekaten"
+      ],
+      "jawaban_benar": "Ngaben",
+      "penjelasan": "Ngaben adalah ritual sakral umat Hindu Bali untuk menyucikan roh leluhur."
+    },
+    {
+      "id": "s145",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Upacara adat pemakaman jenazah leluhur di tebing batu oleh suku Toraja dinamakan?",
+      "pilihan": [
+        "Rambu Solo'",
+        "Ngaben",
+        "Kasada"
+      ],
+      "jawaban_benar": "Rambu Solo'",
+      "penjelasan": "Rambu Solo' melibatkan tari-tarian dan persembahan kerbau adat Toraja."
+    },
+    {
+      "id": "s146",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Upacara tradisi masyarakat suku Tengger di Gunung Bromo melempar sesaji ke kawah adalah?",
+      "pilihan": [
+        "Yadnya Kasada",
+        "Tiwah",
+        "Sekaten"
+      ],
+      "jawaban_benar": "Yadnya Kasada",
+      "penjelasan": "Kasada adalah bentuk syukur masyarakat Tengger atas keselamatan dan hasil panen."
+    },
+    {
+      "id": "s147",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Candi Buddha terbesar di dunia yang terletak di Magelang Jawa Tengah adalah Candi?",
+      "pilihan": [
+        "Borobudur",
+        "Prambanan",
+        "Mendut"
+      ],
+      "jawaban_benar": "Borobudur",
+      "penjelasan": "Candi Borobudur dibangun pada masa Dinasti Syailendra pada abad ke-8 masehi."
+    },
+    {
+      "id": "s148",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Candi Hindu termegah di Indonesia yang terkenal dengan relief kisah Ramayana adalah Candi?",
+      "pilihan": [
+        "Prambanan",
+        "Borobudur",
+        "Kalasan"
+      ],
+      "jawaban_benar": "Prambanan",
+      "penjelasan": "Candi Prambanan didedikasikan untuk Trimurti: Brahma, Wisnu, dan Siwa."
+    },
+    {
+      "id": "s149",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Kitab kuno karangan Mpu Prapanca yang memuat istilah Pancasila pada zaman Majapahit adalah?",
+      "pilihan": [
+        "Negarakertagama",
+        "Sutasoma",
+        "Arjunawiwaha"
+      ],
+      "jawaban_benar": "Negarakertagama",
+      "penjelasan": "Istilah Pancasila sudah dikenal sejak era kejayaan Majapahit dalam kitab ini."
+    },
+    {
+      "id": "s150",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Kerajaan maritim Hindu tertua di Indonesia yang meninggalkan prasasti Yupa di Kalimantan Timur adalah?",
+      "pilihan": [
+        "Kerajaan Kutai",
+        "Kerajaan Sriwijaya",
+        "Kerajaan Tarumanegara"
+      ],
+      "jawaban_benar": "Kerajaan Kutai",
+      "penjelasan": "Prasasti Yupa bertuliskan huruf Pallawa peninggalan Raja Mulawarman."
+    },
+    {
+      "id": "s151",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Kerajaan maritim Buddha yang sangat termasyhur sebagai pusat perdagangan laut dan studi agama di Palembang adalah?",
+      "pilihan": [
+        "Kerajaan Sriwijaya",
+        "Kerajaan Majapahit",
+        "Kerajaan Mataram"
+      ],
+      "jawaban_benar": "Kerajaan Sriwijaya",
+      "penjelasan": "Sriwijaya menguasai Selat Malaka dan menjadi kekuatan maritim Asia Tenggara."
+    },
+    {
+      "id": "s152",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Sumpah yang diucapkan oleh Patih Gajah Mada untuk menyatukan wilayah Nusantara di bawah Majapahit bernama?",
+      "pilihan": [
+        "Sumpah Palapa",
+        "Sumpah Pemuda",
+        "Prasasti Ciaruteun"
+      ],
+      "jawaban_benar": "Sumpah Palapa",
+      "penjelasan": "Gajah Mada bersumpah tidak akan menikmati kenikmatan duniawi sebelum Nusantara bersatu."
+    },
+    {
+      "id": "s153",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Kerajaan Islam pertama di pulau Jawa dengan rajanya Raden Patah adalah Kesultanan?",
+      "pilihan": [
+        "Demak",
+        "Banten",
+        "Mataram Islam"
+      ],
+      "jawaban_benar": "Demak",
+      "penjelasan": "Masjid Agung Demak dibangun dengan tiang tatal oleh para Walisongo."
+    },
+    {
+      "id": "s154",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Sembilan tokoh ulama penyebar agama Islam yang sangat dihormati di tanah Jawa disebut?",
+      "pilihan": [
+        "Walisongo",
+        "Pandawa",
+        "Pujangga Baru"
+      ],
+      "jawaban_benar": "Walisongo",
+      "penjelasan": "Walisongo menyebarkan ajaran luhur dengan pendekatan budaya lokal yang damai."
+    },
+    {
+      "id": "s155",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Senjata pusaka tradisional khas suku Dayak di Kalimantan yang memiliki hiasan bulu burung enggang adalah?",
+      "pilihan": [
+        "Mandau",
+        "Badik",
+        "Keris"
+      ],
+      "jawaban_benar": "Mandau",
+      "penjelasan": "Mandau adalah pedang pusaka kehormatan masyarakat Dayak."
+    },
+    {
+      "id": "s156",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Senjata tradisional khas Aceh yang memiliki ujung runcing melengkung menyerupai huruf 'L' adalah?",
+      "pilihan": [
+        "Rencong",
+        "Kujang",
+        "Golok"
+      ],
+      "jawaban_benar": "Rencong",
+      "penjelasan": "Rencong diselipkan di pinggang pejuang Aceh sebagai simbol keberanian."
+    },
+    {
+      "id": "s157",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Senjata tikam tradisional dengan bilah berkelok-kelok khas suku Jawa, Madura, dan Bali adalah?",
+      "pilihan": [
+        "Keris",
+        "Pedang",
+        "Tombak"
+      ],
+      "jawaban_benar": "Keris",
+      "penjelasan": "Keris adalah karya seni tempa logam tinggi yang sarat makna filosofis luhur."
+    },
+    {
+      "id": "s158",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Bangunan benteng peninggalan Belanda yang terkenal di kota Makassar adalah?",
+      "pilihan": [
+        "Benteng Rotterdam",
+        "Benteng Marlborough",
+        "Benteng Vredeburg"
+      ],
+      "jawaban_benar": "Benteng Rotterdam",
+      "penjelasan": "Benteng Fort Rotterdam awalnya dibangun oleh Kerajaan Gowa-Tallo."
+    },
+    {
+      "id": "s159",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Bangunan benteng bersejarah peninggalan Inggris yang terletak di kota Bengkulu adalah?",
+      "pilihan": [
+        "Benteng Marlborough",
+        "Benteng Pendem",
+        "Benteng Vastenburg"
+      ],
+      "jawaban_benar": "Benteng Marlborough",
+      "penjelasan": "Fort Marlborough adalah benteng pertahanan terkuat Inggris di Asia Tenggara masa itu."
+    },
+    {
+      "id": "s160",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Tugu peringatan nasional setinggi 132 meter dengan lidah api berlapis emas di Jakarta adalah?",
+      "pilihan": [
+        "Monas (Monumen Nasional)",
+        "Patung Pancoran",
+        "Tugu Muda"
+      ],
+      "jawaban_benar": "Monas (Monumen Nasional)",
+      "penjelasan": "Monas melambangkan kobaran semangat perjuangan rakyat merebut kemerdekaan."
+    },
+    {
+      "id": "s161",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hari Lahir Pancasila diperingati oleh bangsa Indonesia setiap tanggal?",
+      "pilihan": [
+        "1 Juni",
+        "1 Oktober",
+        "17 Agustus"
+      ],
+      "jawaban_benar": "1 Juni",
+      "penjelasan": "Pada 1 Juni 1945, Bung Karno menyampaikan pidato konsep dasar negara di sidang BPUPKI."
+    },
+    {
+      "id": "s162",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hari Kesaktian Pancasila diperingati setiap tanggal?",
+      "pilihan": [
+        "1 Oktober",
+        "1 Juni",
+        "10 November"
+      ],
+      "jawaban_benar": "1 Oktober",
+      "penjelasan": "1 Oktober diperingati untuk meneguhkan kembali Pancasila sebagai ideologi pemersatu bangsa."
+    },
+    {
+      "id": "s163",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Organisasi kepanduan resmi untuk anak-anak dan remaja di sekolah Indonesia adalah?",
+      "pilihan": [
+        "Gerakan Pramuka",
+        "PMR saja",
+        "Paskibra"
+      ],
+      "jawaban_benar": "Gerakan Pramuka",
+      "penjelasan": "Pramuka melatih kemandirian, cinta alam, dan kedisiplinan berlandaskan Dasa Darma."
+    },
+    {
+      "id": "s164",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Semboyan negara 'Bhinneka Tunggal Ika' diambil dari karya sastra kuno karangan Mpu Tantular yaitu?",
+      "pilihan": [
+        "Kakawin Sutasoma",
+        "Kitab Pararaton",
+        "Kakawin Bharatayuddha"
+      ],
+      "jawaban_benar": "Kakawin Sutasoma",
+      "penjelasan": "Frasa 'Bhinneka Tunggal Ika Tan Hana Dharma Mangrwa' mengajarkan toleransi persatuan."
+    },
+    {
+      "id": "s165",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Arti dari semboyan 'Bhinneka Tunggal Ika' yang tercengkeram pada kaki Garuda Pancasila adalah?",
+      "pilihan": [
+        "Berbeda-beda tetapi tetap satu jua",
+        "Bersatu kita teguh bercerai kita runtuh",
+        "Maju terus pantang mundur"
+      ],
+      "jawaban_benar": "Berbeda-beda tetapi tetap satu jua",
+      "penjelasan": "Meskipun berbeda suku, agama, dan bahasa, kita tetap satu bangsa Indonesia."
+    },
+    {
+      "id": "s166",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Organisasi regional antarnegara Asia Tenggara didirikan pada tahun 1967 bernama?",
+      "pilihan": [
+        "ASEAN",
+        "PBB",
+        "APEC"
+      ],
+      "jawaban_benar": "ASEAN",
+      "penjelasan": "Association of Southeast Asian Nations mempererat kerja sama politik dan ekonomi kawasan."
+    },
+    {
+      "id": "s167",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Deklarasi pembentukan ASEAN pada tanggal 8 Agustus 1967 ditandatangani di kota?",
+      "pilihan": [
+        "Bangkok (Thailand)",
+        "Jakarta (Indonesia)",
+        "Manila (Filipina)"
+      ],
+      "jawaban_benar": "Bangkok (Thailand)",
+      "penjelasan": "Deklarasi Bangkok diprakarsai oleh 5 menteri luar negeri negara pendiri."
+    },
+    {
+      "id": "s168",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Tokoh diplomat menteri luar negeri yang mewakili Indonesia dalam pendirian ASEAN adalah?",
+      "pilihan": [
+        "Adam Malik",
+        "Ali Alatas",
+        "Mochtar Kusumaatmadja"
+      ],
+      "jawaban_benar": "Adam Malik",
+      "penjelasan": "Adam Malik adalah salah satu dari 5 tokoh perintis pendiri organisasi ASEAN."
+    },
+    {
+      "id": "s169",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Gedung Sekretariat Jenderal ASEAN berada di negara mana?",
+      "pilihan": [
+        "Indonesia (di kota Jakarta)",
+        "Malaysia",
+        "Singapura"
+      ],
+      "jawaban_benar": "Indonesia (di kota Jakarta)",
+      "penjelasan": "Jakarta ditetapkan sebagai markas pusat sekretariat ASEAN."
+    },
+    {
+      "id": "s170",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Negara anggota ASEAN yang tidak memiliki wilayah laut sama sekali (landlocked) adalah?",
+      "pilihan": [
+        "Laos",
+        "Kamboja",
+        "Myanmar"
+      ],
+      "jawaban_benar": "Laos",
+      "penjelasan": "Wilayah Laos dikelilingi oleh daratan negara tetangga dan pegunungan."
+    },
+    {
+      "id": "s171",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Negara tetangga di Asia Tenggara yang dijuluki sebagai 'Negara Gajah Putih' adalah?",
+      "pilihan": [
+        "Thailand",
+        "Vietnam",
+        "Filipina"
+      ],
+      "jawaban_benar": "Thailand",
+      "penjelasan": "Gajah putih dianggap sebagai lambang kerajaan dan kemakmuran sakral di Thailand."
+    },
+    {
+      "id": "s172",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Secara geografis, wilayah Indonesia terletak di antara dua benua besar yaitu benua?",
+      "pilihan": [
+        "Asia dan Australia",
+        "Asia dan Eropa",
+        "Afrika dan Australia"
+      ],
+      "jawaban_benar": "Asia dan Australia",
+      "penjelasan": "Posisi silang Indonesia menjadikannya jalur perdagangan internasional yang strategis."
+    },
+    {
+      "id": "s173",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Wilayah perairan Indonesia terletak di antara dua samudera luas di dunia yaitu?",
+      "pilihan": [
+        "Samudera Hindia dan Samudera Pasifik",
+        "Samudera Atlantik dan Arktik",
+        "Samudera Pasifik dan Atlantik"
+      ],
+      "jawaban_benar": "Samudera Hindia dan Samudera Pasifik",
+      "penjelasan": "Samudera Hindia di sisi barat/selatan dan Samudera Pasifik di sisi timur/utara."
+    },
+    {
+      "id": "s174",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Garis khayal yang membagi bumi menjadi belahan utara dan selatan serta melewati kota Pontianak disebut?",
+      "pilihan": [
+        "Garis Khatulistiwa (Ekuator)",
+        "Garis Bujur Greenwich",
+        "Garis Balik Utara"
+      ],
+      "jawaban_benar": "Garis Khatulistiwa (Ekuator)",
+      "penjelasan": "Kota Pontianak Kalimantan Barat dilewati persis garis ekuator (lintang 0°)."
+    },
+    {
+      "id": "s175",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Karena dilewati garis khatulistiwa, Indonesia memiliki iklim apa?",
+      "pilihan": [
+        "Tropis",
+        "Subtropis",
+        "Kutub"
+      ],
+      "jawaban_benar": "Tropis",
+      "penjelasan": "Iklim tropis membuat Indonesia disinari matahari sepanjang tahun dengan keanekaragaman hayati melimpah."
+    },
+    {
+      "id": "s176",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Garis khayal yang memisahkan fauna tipe Asiatis dan fauna tipe Peralihan di Indonesia adalah garis?",
+      "pilihan": [
+        "Garis Wallace",
+        "Garis Weber",
+        "Garis Khatulistiwa"
+      ],
+      "jawaban_benar": "Garis Wallace",
+      "penjelasan": "Garis Wallace membatasi fauna Kalimantan-Bali dengan Sulawesi-Lombok."
+    },
+    {
+      "id": "s177",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Garis khayal yang memisahkan fauna tipe Peralihan dengan fauna tipe Australis di Indonesia adalah garis?",
+      "pilihan": [
+        "Garis Weber",
+        "Garis Wallace",
+        "Garis Ekuator"
+      ],
+      "jawaban_benar": "Garis Weber",
+      "penjelasan": "Garis Weber membatasi fauna Maluku-Papua yang bercorak Australia (berkantung dan kasuari)."
+    },
+    {
+      "id": "s178",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Hewan endemik purba khas Indonesia yang hanya hidup di pulau Komodo NTT adalah?",
+      "pilihan": [
+        "Komodo (Varanus komodoensis)",
+        "Anoa",
+        "Babirusa"
+      ],
+      "jawaban_benar": "Komodo (Varanus komodoensis)",
+      "penjelasan": "Komodo adalah kadal terbesar di dunia yang dilindungi di Taman Nasional Komodo."
+    },
+    {
+      "id": "s179",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Hewan endemik pulau Papua yang terkenal memiliki bulu sangat indah mempesona dijuluki burung?",
+      "pilihan": [
+        "Cenderawasih (Bird of Paradise)",
+        "Jalak Bali",
+        "Merak Jawa"
+      ],
+      "jawaban_benar": "Cenderawasih (Bird of Paradise)",
+      "penjelasan": "Burung cenderawasih adalah lambang keindahan satwa khas tanah Papua."
+    },
+    {
+      "id": "s180",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Hewan mamalia langka bercula satu yang dilindungi di Taman Nasional Ujung Kulon Banten adalah?",
+      "pilihan": [
+        "Badak Jawa",
+        "Gajah Sumatera",
+        "Banteng"
+      ],
+      "jawaban_benar": "Badak Jawa",
+      "penjelasan": "Badak bercula satu adalah salah satu mamalia paling langka di muka bumi."
+    },
+    {
+      "id": "s181",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Bunga raksasa parasit tanpa daun dan akar yang mengeluarkan bau bangkai khas Bengkulu adalah?",
+      "pilihan": [
+        "Rafflesia arnoldii",
+        "Bunga Bangkai Amorphophallus",
+        "Bunga Kantong Semar"
+      ],
+      "jawaban_benar": "Rafflesia arnoldii",
+      "penjelasan": "Rafflesia arnoldii ditemukan oleh ekspedisi Thomas Stamford Raffles dan Dr. Joseph Arnold."
+    },
+    {
+      "id": "s182",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Pemberian hak dan kebebasan bagi setiap warga negara untuk memeluk agama dan beribadah dijamin dalam UUD 1945 pasal?",
+      "pilihan": [
+        "Pasal 29",
+        "Pasal 33",
+        "Pasal 31"
+      ],
+      "jawaban_benar": "Pasal 29",
+      "penjelasan": "Pasal 29 menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing."
+    },
+    {
+      "id": "s183",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Hak setiap warga negara Indonesia untuk mendapatkan pengajaran dan pendidikan diatur dalam UUD 1945 pasal?",
+      "pilihan": [
+        "Pasal 31",
+        "Pasal 27",
+        "Pasal 34"
+      ],
+      "jawaban_benar": "Pasal 31",
+      "penjelasan": "Pasal 31 ayat 1 menyatakan setiap warga negara berhak mendapat pendidikan."
+    },
+    {
+      "id": "s184",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Asas perekonomian nasional yang disusun sebagai usaha bersama berdasarkan asas kekeluargaan diatur dalam UUD 1945 pasal?",
+      "pilihan": [
+        "Pasal 33",
+        "Pasal 28",
+        "Pasal 30"
+      ],
+      "jawaban_benar": "Pasal 33",
+      "penjelasan": "Pasal 33 menjadi landasan perekonomian dan pengelolaan sumber daya alam untuk kemakmuran rakyat."
+    },
+    {
+      "id": "s185",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Lembaga negara yang memiliki wewenang membuat dan mengesahkan Undang-Undang di Indonesia adalah?",
+      "pilihan": [
+        "DPR (Dewan Perwakilan Rakyat) bersama Presiden",
+        "Mahkamah Agung",
+        "Badan Pemeriksa Keuangan"
+      ],
+      "jawaban_benar": "DPR (Dewan Perwakilan Rakyat) bersama Presiden",
+      "penjelasan": "DPR menjalankan fungsi legislasi, anggaran, dan pengawasan pemerintahan."
+    },
+    {
+      "id": "s186",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Lembaga peradilan tertinggi di Indonesia yang mengadili kasasi adalah?",
+      "pilihan": [
+        "Mahkamah Agung (MA)",
+        "Mahkamah Konstitusi (MK)",
+        "Komisi Yudisial (KY)"
+      ],
+      "jawaban_benar": "Mahkamah Agung (MA)",
+      "penjelasan": "MA adalah puncak lembaga peradilan umum, agama, militer, dan tata usaha negara."
+    },
+    {
+      "id": "s187",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Lembaga negara yang berwenang menguji undang-undang terhadap UUD 1945 dan memutus sengketa hasil pemilu adalah?",
+      "pilihan": [
+        "Mahkamah Konstitusi (MK)",
+        "Mahkamah Agung",
+        "DPR"
+      ],
+      "jawaban_benar": "Mahkamah Konstitusi (MK)",
+      "penjelasan": "MK adalah penjaga konstitusi negara Republik Indonesia."
+    },
+    {
+      "id": "s188",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Sistem pemerintahan di mana kekuasaan berasal dari rakyat, oleh rakyat, dan untuk rakyat disebut?",
+      "pilihan": [
+        "Demokrasi",
+        "Monarki",
+        "Oligarki"
+      ],
+      "jawaban_benar": "Demokrasi",
+      "penjelasan": "Indonesia adalah negara republik dengan sistem demokrasi berlandaskan Pancasila."
+    },
+    {
+      "id": "s189",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Pemilihan Umum (Pemilu) di Indonesia diselenggarakan berlandaskan asas LUBER dan JURDIL. 'LUBER' artinya?",
+      "pilihan": [
+        "Langsung, Umum, Bebas, Rahasia",
+        "Lancar, Unggul, Bersih, Rapi",
+        "Luas, Utuh, Bersatu, Rukun"
+      ],
+      "jawaban_benar": "Langsung, Umum, Bebas, Rahasia",
+      "penjelasan": "Asas pemilu menjamin hak suara pemilih terjaga bebas dari tekanan."
+    },
+    {
+      "id": "s190",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Konferensi Asia-Afrika (KAA) yang melahirkan Dasa Sila Bandung pada tahun 1955 diselenggarakan di kota?",
+      "pilihan": [
+        "Bandung",
+        "Jakarta",
+        "Yogyakarta"
+      ],
+      "jawaban_benar": "Bandung",
+      "penjelasan": "KAA 1955 di Gedung Merdeka Bandung membangkitkan kemerdekaan bangsa-bangsa terjajah di dunia."
+    },
+    {
+      "id": "s191",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Gerakan Non-Blok (GNB) didirikan oleh negara-negara yang tidak memihak blok Barat maupun Timur masa?",
+      "pilihan": [
+        "Perang Dingin",
+        "Perang Dunia I",
+        "Revolusi Industri"
+      ],
+      "jawaban_benar": "Perang Dingin",
+      "penjelasan": "Indonesia menjadi salah satu pelopor Gerakan Non-Blok dipimpin Presiden Soekarno."
+    },
+    {
+      "id": "s192",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Danau vulkanik terbesar di Asia Tenggara yang di tengahnya terdapat pulau Samosir adalah?",
+      "pilihan": [
+        "Danau Toba",
+        "Danau Singkarak",
+        "Danau Sentani"
+      ],
+      "jawaban_benar": "Danau Toba",
+      "penjelasan": "Danau Toba di Sumatera Utara terbentuk dari letusan dahsyat gunung berapi purba."
+    },
+    {
+      "id": "s193",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Puncak gunung tertinggi di Indonesia yang memiliki gletser salju abadi di Papua adalah?",
+      "pilihan": [
+        "Puncak Jaya (Carstensz Pyramid)",
+        "Gunung Rinjani",
+        "Gunung Semeru"
+      ],
+      "jawaban_benar": "Puncak Jaya (Carstensz Pyramid)",
+      "penjelasan": "Puncak Jaya berketinggian 4.884 meter di atas permukaan laut di pegunungan Sudirman."
+    },
+    {
+      "id": "s194",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Selat sempit yang memisahkan antara pulau Jawa dan pulau Sumatera adalah?",
+      "pilihan": [
+        "Selat Sunda",
+        "Selat Malaka",
+        "Selat Bali"
+      ],
+      "jawaban_benar": "Selat Sunda",
+      "penjelasan": "Di Selat Sunda terdapat gugusan kepulauan Gunung Krakatau yang melegenda."
+    },
+    {
+      "id": "s195",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Selat perdagangan tersibuk di dunia yang memisahkan pulau Sumatera dengan semenanjung Malaysia adalah?",
+      "pilihan": [
+        "Selat Malaka",
+        "Selat Karimata",
+        "Selat Makassar"
+      ],
+      "jawaban_benar": "Selat Malaka",
+      "penjelasan": "Selat Malaka sejak berabad-abad lalu menjadi urat nadi perdagangan dunia."
+    },
+    {
+      "id": "s196",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Selat yang memisahkan antara pulau Jawa dengan pulau Bali adalah?",
+      "pilihan": [
+        "Selat Bali",
+        "Selat Lombok",
+        "Selat Madura"
+      ],
+      "jawaban_benar": "Selat Bali",
+      "penjelasan": "Feri penyeberangan Ketapang-Gilimanuk menghubungkan Jawa dan Bali melintasi Selat Bali."
+    },
+    {
+      "id": "s197",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Wilayah daratan yang menjorok masuk ke arah lautan disebut?",
+      "pilihan": [
+        "Tanjung",
+        "Teluk",
+        "Semenanjung raksasa"
+      ],
+      "jawaban_benar": "Tanjung",
+      "penjelasan": "Contoh tanjung adalah Tanjung Priok dan Tanjung Perak."
+    },
+    {
+      "id": "s198",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Wilayah lautan yang menjorok masuk ke arah daratan disebut?",
+      "pilihan": [
+        "Teluk",
+        "Tanjung",
+        "Selat"
+      ],
+      "jawaban_benar": "Teluk",
+      "penjelasan": "Teluk memiliki ombak yang lebih tenang sehingga cocok dijadikan pelabuhan kapal."
+    },
+    {
+      "id": "s199",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Perpindahan penduduk dari desa ke kota besar untuk mencari pekerjaan disebut?",
+      "pilihan": [
+        "Urbanisasi",
+        "Transmigrasi",
+        "Imigrasi"
+      ],
+      "jawaban_benar": "Urbanisasi",
+      "penjelasan": "Urbanisasi terjadi karena daya tarik fasilitas dan lapangan kerja perkotaan."
+    },
+    {
+      "id": "s200",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Program pemerintah memindahkan penduduk dari pulau yang padat ke pulau yang masih jarang penduduknya disebut?",
+      "pilihan": [
+        "Transmigrasi",
+        "Emigrasi",
+        "Remigrasi"
+      ],
+      "jawaban_benar": "Transmigrasi",
+      "penjelasan": "Transmigrasi bertujuan meratakan persebaran penduduk dan pembangunan ekonomi daerah."
     }
   ]
 }

@@ -5,15 +5,18 @@ import { useQuizStore } from '@/stores/quizStore'
 describe('quizStore', () => {
   beforeEach(() => {
     setActivePinia(createPinia())
+    if (typeof window !== 'undefined' && window.localStorage) {
+      window.localStorage.clear()
+    }
   })
 
-  it('initializes quiz with 20 questions sampled progressively from 50 questions pool', () => {
+  it('initializes quiz with 20 questions sampled progressively from 200 questions pool', () => {
     const store = useQuizStore()
     const categories = ['matematika', 'pengetahuan-alam', 'pengetahuan-sosial']
 
     for (const cat of categories) {
       store.startQuiz(cat)
-      expect(store.rawQuestions.length).toBe(50)
+      expect(store.rawQuestions.length).toBe(200)
       expect(store.questions.length).toBe(20)
       expect(store.currentIndex).toBe(0)
       expect(store.answers.length).toBe(0)
@@ -124,5 +127,20 @@ describe('quizStore', () => {
     expect(store.isFinished).toBe(true)
     expect(store.score).toBe(20)
     expect(store.scorePercentage).toBe(100)
+  })
+
+  it('anti-repeat mechanism prioritizes unseen questions across consecutive sessions', () => {
+    const store = useQuizStore()
+    store.startQuiz('matematika')
+    const firstSessionIds = new Set(store.questions.map(q => q.id))
+    expect(firstSessionIds.size).toBe(20)
+
+    // Start a second session in the same category
+    store.startQuiz('matematika')
+    const secondSessionIds = store.questions.map(q => q.id)
+
+    // Verify that the second session did not repeat the 20 questions from session 1
+    const duplicates = secondSessionIds.filter(id => firstSessionIds.has(id))
+    expect(duplicates.length).toBe(0)
   })
 })

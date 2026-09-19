@@ -17,6 +17,7 @@ const CATEGORY_MAP = {
 
 const STORAGE_KEY = 'anakcerdas_stars_v1'
 const PROFILE_KEY = 'anakcerdas_profile_v1'
+const SEEN_KEY_PREFIX = 'anakcerdas_seen_v1_'
 
 const MASCOT_NAMES = {
   'bear': 'Beruang Kiki',
@@ -173,6 +174,29 @@ export const useQuizStore = defineStore('quiz', {
       } catch (e) {}
     },
 
+    getSeenQuestionIds(category) {
+      if (typeof window === 'undefined' || !window.localStorage) return []
+      try {
+        const raw = localStorage.getItem(`${SEEN_KEY_PREFIX}${category}`)
+        if (raw) {
+          const parsed = JSON.parse(raw)
+          return Array.isArray(parsed) ? parsed : []
+        }
+      } catch (e) {}
+      return []
+    },
+
+    recordSeenQuestionIds(category, newIds) {
+      if (typeof window === 'undefined' || !window.localStorage || !newIds || newIds.length === 0) return
+      try {
+        const existing = this.getSeenQuestionIds(category)
+        const updated = [...existing, ...newIds]
+        // Keep up to 160 seen IDs out of 200 to allow smooth cycling when pool is almost exhausted
+        const pruned = updated.length > 160 ? updated.slice(-40) : updated
+        localStorage.setItem(`${SEEN_KEY_PREFIX}${category}`, JSON.stringify(pruned))
+      } catch (e) {}
+    },
+
     startQuiz(categoryKey) {
       this.loadSavedProgress()
       this.loadUserProfile()
@@ -190,7 +214,9 @@ export const useQuizStore = defineStore('quiz', {
         cerpen: data.cerpen || null
       }
       this.rawQuestions = data.soal
-      this.questions = prepareQuizQuestions(data.soal, this.userAgeGroup, data.kategori)
+      const seenIds = this.getSeenQuestionIds(data.kategori)
+      this.questions = prepareQuizQuestions(data.soal, this.userAgeGroup, data.kategori, seenIds)
+      this.recordSeenQuestionIds(data.kategori, this.questions.map(q => q.id))
       this.currentIndex = 0
       this.answers = []
       this.isFinished = false

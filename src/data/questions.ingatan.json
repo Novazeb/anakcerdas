@@ -54,9 +54,17 @@
       "bab": 1,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Siapakah nama tokoh kelinci dalam cerita tadi?",
-      "pilihan": ["Kiki", "Ciko", "Piko"],
+      "pilihan": [
+        "Kiki",
+        "Ciko",
+        "Piko"
+      ],
       "jawaban_benar": "Kiki",
       "penjelasan": "Tokoh utama dalam cerita adalah kelinci putih bernama Kiki."
     },
@@ -65,9 +73,17 @@
       "bab": 1,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa warna bulu Kiki si kelinci?",
-      "pilihan": ["Putih", "Cokelat", "Abu-abu"],
+      "pilihan": [
+        "Putih",
+        "Cokelat",
+        "Abu-abu"
+      ],
       "jawaban_benar": "Putih",
       "penjelasan": "Kiki adalah seekor kelinci yang memiliki bulu putih bersih."
     },
@@ -76,9 +92,17 @@
       "bab": 2,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Hewan apakah Piko dalam cerita?",
-      "pilihan": ["Burung pipit", "Tupai", "Kucing"],
+      "pilihan": [
+        "Burung pipit",
+        "Tupai",
+        "Kucing"
+      ],
       "jawaban_benar": "Burung pipit",
       "penjelasan": "Piko adalah seekor burung pipit yang ceria."
     },
@@ -87,9 +111,17 @@
       "bab": 1,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Di manakah Kiki tinggal bersama teman-temannya?",
-      "pilihan": ["Di tepi Hutan Pelangi", "Di tengah kota", "Di tepi pantai"],
+      "pilihan": [
+        "Di tepi Hutan Pelangi",
+        "Di tengah kota",
+        "Di tepi pantai"
+      ],
       "jawaban_benar": "Di tepi Hutan Pelangi",
       "penjelasan": "Kiki tinggal di tepi Hutan Pelangi yang damai."
     },
@@ -98,9 +130,17 @@
       "bab": 1,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa warna pita yang dipakai di telinga kiri Kiki?",
-      "pilihan": ["Ungu", "Merah", "Hijau"],
+      "pilihan": [
+        "Ungu",
+        "Merah",
+        "Hijau"
+      ],
       "jawaban_benar": "Ungu",
       "penjelasan": "Kiki memiliki pita berwarna ungu di telinga kirinya."
     },
@@ -109,9 +149,17 @@
       "bab": 1,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa warna tas rajut kecil yang dibawa Kiki?",
-      "pilihan": ["Kuning", "Biru", "Hitam"],
+      "pilihan": [
+        "Kuning",
+        "Biru",
+        "Hitam"
+      ],
       "jawaban_benar": "Kuning",
       "penjelasan": "Kiki memakai tas rajut kecil berwarna kuning buatan neneknya."
     },
@@ -120,9 +168,17 @@
       "bab": 1,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Siapakah yang membuat tas rajut kuning milik Kiki?",
-      "pilihan": ["Neneknya", "Ibunya", "Piko"],
+      "pilihan": [
+        "Neneknya",
+        "Ibunya",
+        "Piko"
+      ],
       "jawaban_benar": "Neneknya",
       "penjelasan": "Tas rajut kuning tersebut dibuat dengan penuh kasih oleh nenek Kiki."
     },
@@ -131,9 +187,17 @@
       "bab": 1,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Pintu kayu kecil tersembunyi di balik semak bunga apa?",
-      "pilihan": ["Bunga matahari", "Bunga mawar", "Bunga melati"],
+      "pilihan": [
+        "Bunga matahari",
+        "Bunga mawar",
+        "Bunga melati"
+      ],
       "jawaban_benar": "Bunga matahari",
       "penjelasan": "Pintu kayu tersembunyi di balik semak bunga matahari."
     },
@@ -142,9 +206,17 @@
       "bab": 2,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Ada berapa jenis wortel unik yang ditemukan di dalam kebun?",
-      "pilihan": ["3 jenis", "2 jenis", "4 jenis"],
+      "pilihan": [
+        "3 jenis",
+        "2 jenis",
+        "4 jenis"
+      ],
       "jawaban_benar": "3 jenis",
       "penjelasan": "Ada 3 jenis wortel: bersinar, merah muda aroma stroberi, dan emas raksasa."
     },
@@ -153,9 +225,17 @@
       "bab": 2,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa warna bulu Piko si burung pipit?",
-      "pilihan": ["Biru laut", "Kuning cerah", "Merah tua"],
+      "pilihan": [
+        "Biru laut",
+        "Kuning cerah",
+        "Merah tua"
+      ],
       "jawaban_benar": "Biru laut",
       "penjelasan": "Piko memiliki bulu berwarna biru laut yang indah."
     },
@@ -164,9 +244,17 @@
       "bab": 2,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Wortel apakah yang berada di dekat pohon ek tua?",
-      "pilihan": ["Wortel emas raksasa", "Wortel perak", "Wortel biru"],
+      "pilihan": [
+        "Wortel emas raksasa",
+        "Wortel perak",
+        "Wortel biru"
+      ],
       "jawaban_benar": "Wortel emas raksasa",
       "penjelasan": "Wortel emas raksasa berada di dekat pohon ek tua di tengah kebun."
     },
@@ -175,9 +263,17 @@
       "bab": 3,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Kiki menggunakan keranjang berbahan apa untuk memetik wortel?",
-      "pilihan": ["Keranjang bambu", "Keranjang plastik", "Keranjang besi"],
+      "pilihan": [
+        "Keranjang bambu",
+        "Keranjang plastik",
+        "Keranjang besi"
+      ],
       "jawaban_benar": "Keranjang bambu",
       "penjelasan": "Kiki mengambil keranjang bambu miliknya untuk membawa wortel."
     },
@@ -186,9 +282,17 @@
       "bab": 2,
       "tingkat": 1,
       "tingkat_nama": "Mudah",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Wortel merah muda dalam cerita memiliki aroma buah apa?",
-      "pilihan": ["Stroberi", "Jeruk", "Apel"],
+      "pilihan": [
+        "Stroberi",
+        "Jeruk",
+        "Apel"
+      ],
       "jawaban_benar": "Stroberi",
       "penjelasan": "Wortel merah muda beraroma manis buah stroberi."
     },
@@ -197,9 +301,17 @@
       "bab": 1,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Pada hari apa Kiki menemukan kebun wortel ajaib?",
-      "pilihan": ["Selasa", "Senin", "Minggu"],
+      "pilihan": [
+        "Selasa",
+        "Senin",
+        "Minggu"
+      ],
       "jawaban_benar": "Selasa",
       "penjelasan": "Cerita menyebutkan peristiwa terjadi pada suatu pagi cerah di hari Selasa."
     },
@@ -208,9 +320,17 @@
       "bab": 2,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Berapa banyak wortel bersinar yang harus dibagikan Kiki?",
-      "pilihan": ["5 wortel", "3 wortel", "7 wortel"],
+      "pilihan": [
+        "5 wortel",
+        "3 wortel",
+        "7 wortel"
+      ],
       "jawaban_benar": "5 wortel",
       "penjelasan": "Piko meminta Kiki membagikan 5 wortel bersinar kepada teman-teman hutan."
     },
@@ -219,9 +339,17 @@
       "bab": 3,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Berapa wortel yang diberikan kepada keluarga Beruang Ciko?",
-      "pilihan": ["2 wortel", "1 wortel", "3 wortel"],
+      "pilihan": [
+        "2 wortel",
+        "1 wortel",
+        "3 wortel"
+      ],
       "jawaban_benar": "2 wortel",
       "penjelasan": "Kiki memberikan 2 wortel bersinar untuk keluarga Beruang Ciko."
     },
@@ -230,9 +358,17 @@
       "bab": 3,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Siapakah nama beruang yang menerima wortel dari Kiki?",
-      "pilihan": ["Ciko", "Koko", "Piko"],
+      "pilihan": [
+        "Ciko",
+        "Koko",
+        "Piko"
+      ],
       "jawaban_benar": "Ciko",
       "penjelasan": "Nama beruang dalam cerita adalah Beruang Ciko."
     },
@@ -241,9 +377,17 @@
       "bab": 3,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Berapa wortel yang diberikan kepada Kancil Koko?",
-      "pilihan": ["2 wortel", "1 wortel", "3 wortel"],
+      "pilihan": [
+        "2 wortel",
+        "1 wortel",
+        "3 wortel"
+      ],
       "jawaban_benar": "2 wortel",
       "penjelasan": "Kiki memberikan 2 wortel untuk Kancil Koko."
     },
@@ -252,9 +396,17 @@
       "bab": 3,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Berapa wortel yang diterima oleh Nenek Kura-kura?",
-      "pilihan": ["1 wortel", "2 wortel", "3 wortel"],
+      "pilihan": [
+        "1 wortel",
+        "2 wortel",
+        "3 wortel"
+      ],
       "jawaban_benar": "1 wortel",
       "penjelasan": "Kiki memberikan 1 wortel untuk Nenek Kura-kura yang bijaksana."
     },
@@ -263,9 +415,17 @@
       "bab": 2,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Pohon apakah yang tumbuh kokoh di tengah kebun ajaib?",
-      "pilihan": ["Pohon ek tua", "Pohon beringin", "Pohon mangga"],
+      "pilihan": [
+        "Pohon ek tua",
+        "Pohon beringin",
+        "Pohon mangga"
+      ],
       "jawaban_benar": "Pohon ek tua",
       "penjelasan": "Pohon yang ada di tengah kebun ajaib adalah pohon ek tua."
     },
@@ -274,9 +434,17 @@
       "bab": 3,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Benda apakah yang dijatuhkan Piko sebagai tanda persahabatan sejati?",
-      "pilihan": ["Pita perak", "Batu permata", "Cincin emas"],
+      "pilihan": [
+        "Pita perak",
+        "Batu permata",
+        "Cincin emas"
+      ],
       "jawaban_benar": "Pita perak",
       "penjelasan": "Piko menjatuhkan pita perak sebagai simbol persahabatan sejati."
     },
@@ -285,9 +453,17 @@
       "bab": 1,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Di manakah posisi pita ungu yang dikenakan Kiki?",
-      "pilihan": ["Di telinga kirinya", "Di telinga kanannya", "Di lehernya"],
+      "pilihan": [
+        "Di telinga kirinya",
+        "Di telinga kanannya",
+        "Di lehernya"
+      ],
       "jawaban_benar": "Di telinga kirinya",
       "penjelasan": "Pita ungu berada tepat di telinga kiri Kiki."
     },
@@ -296,9 +472,17 @@
       "bab": 3,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa sifat Nenek Kura-kura yang disebutkan dalam dongeng?",
-      "pilihan": ["Bijaksana", "Pemarah", "Pemalu"],
+      "pilihan": [
+        "Bijaksana",
+        "Pemarah",
+        "Pemalu"
+      ],
       "jawaban_benar": "Bijaksana",
       "penjelasan": "Dalam cerita, Nenek Kura-kura digambarkan sebagai sosok yang bijaksana."
     },
@@ -307,9 +491,17 @@
       "bab": 1,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Tulisan apakah yang tertera di atas pintu kayu kecil?",
-      "pilihan": ["Kebun Wortel Ajaib", "Hutan Pelangi", "Taman Bunga Indah"],
+      "pilihan": [
+        "Kebun Wortel Ajaib",
+        "Hutan Pelangi",
+        "Taman Bunga Indah"
+      ],
       "jawaban_benar": "Kebun Wortel Ajaib",
       "penjelasan": "Di atas pintu kayu tertulis 'Kebun Wortel Ajaib'."
     },
@@ -318,9 +510,17 @@
       "bab": 3,
       "tingkat": 2,
       "tingkat_nama": "Ringan",
-      "usia": ["4-6", "7-9", "10-12"],
+      "usia": [
+        "4-6",
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa yang terjadi pada pohon ek tua setelah teman-teman Kiki kenyang?",
-      "pilihan": ["Mengeluarkan cahaya keemasan", "Daunnya berguguran", "Berbunga merah"],
+      "pilihan": [
+        "Mengeluarkan cahaya keemasan",
+        "Daunnya berguguran",
+        "Berbunga merah"
+      ],
       "jawaban_benar": "Mengeluarkan cahaya keemasan",
       "penjelasan": "Pohon ek tua memancarkan cahaya keemasan yang indah."
     },
@@ -329,9 +529,16 @@
       "bab": 3,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Siapa saja nama tiga penerima wortel yang dibagikan Kiki secara berurutan?",
-      "pilihan": ["Beruang Ciko, Kancil Koko, Nenek Kura-kura", "Kancil Koko, Piko, Nenek Kura-kura", "Beruang Ciko, Piko, Kancil Koko"],
+      "pilihan": [
+        "Beruang Ciko, Kancil Koko, Nenek Kura-kura",
+        "Kancil Koko, Piko, Nenek Kura-kura",
+        "Beruang Ciko, Piko, Kancil Koko"
+      ],
       "jawaban_benar": "Beruang Ciko, Kancil Koko, Nenek Kura-kura",
       "penjelasan": "Urutan penerima wortel: 2 untuk Beruang Ciko, 2 untuk Kancil Koko, 1 untuk Nenek Kura-kura."
     },
@@ -340,9 +547,16 @@
       "bab": 3,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Berapakah total wortel yang dibagikan kepada Beruang Ciko dan Kancil Koko jika digabungkan?",
-      "pilihan": ["4 wortel", "3 wortel", "5 wortel"],
+      "pilihan": [
+        "4 wortel",
+        "3 wortel",
+        "5 wortel"
+      ],
       "jawaban_benar": "4 wortel",
       "penjelasan": "2 wortel (Ciko) + 2 wortel (Koko) = 4 wortel."
     },
@@ -351,9 +565,16 @@
       "bab": 2,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa keunikan wortel yang berwarna oranye dalam cerita?",
-      "pilihan": ["Bisa bersinar seperti bintang", "Beraroma stroberi", "Berukuran raksasa"],
+      "pilihan": [
+        "Bisa bersinar seperti bintang",
+        "Beraroma stroberi",
+        "Berukuran raksasa"
+      ],
       "jawaban_benar": "Bisa bersinar seperti bintang",
       "penjelasan": "Wortel oranye bisa bersinar terang seperti bintang di langit."
     },
@@ -362,9 +583,16 @@
       "bab": 3,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Berapa banyak pihak penerima bantuan wortel yang diceritakan?",
-      "pilihan": ["3 pihak", "2 pihak", "4 pihak"],
+      "pilihan": [
+        "3 pihak",
+        "2 pihak",
+        "4 pihak"
+      ],
       "jawaban_benar": "3 pihak",
       "penjelasan": "Ada 3 penerima: Keluarga Beruang Ciko, Kancil Koko, dan Nenek Kura-kura."
     },
@@ -373,9 +601,16 @@
       "bab": 1,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Di mana letak persis pintu kayu rahasia itu ditemukan Kiki?",
-      "pilihan": ["Kebun belakang rumahnya", "Di tengah sungai", "Di dalam gua"],
+      "pilihan": [
+        "Kebun belakang rumahnya",
+        "Di tengah sungai",
+        "Di dalam gua"
+      ],
       "jawaban_benar": "Kebun belakang rumahnya",
       "penjelasan": "Kiki menemukannya saat berjalan menuju kebun belakang rumahnya."
     },
@@ -384,9 +619,16 @@
       "bab": 2,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa syarat utama agar wortel emas raksasa boleh dipetik?",
-      "pilihan": ["Membagikan 5 wortel bersinar ke teman lapar", "Menyiram pohon ek tua", "Menyanyikan lagu pagi"],
+      "pilihan": [
+        "Membagikan 5 wortel bersinar ke teman lapar",
+        "Menyiram pohon ek tua",
+        "Menyanyikan lagu pagi"
+      ],
       "jawaban_benar": "Membagikan 5 wortel bersinar ke teman lapar",
       "penjelasan": "Syaratnya adalah Kiki harus berbagi 5 wortel bersinar kepada teman-teman yang lapar."
     },
@@ -395,9 +637,16 @@
       "bab": 2,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa warna dari ketiga jenis wortel ajaib di kebun itu?",
-      "pilihan": ["Oranye, Merah Muda, dan Emas", "Kuning, Biru, dan Emas", "Merah, Hijau, dan Perak"],
+      "pilihan": [
+        "Oranye, Merah Muda, dan Emas",
+        "Kuning, Biru, dan Emas",
+        "Merah, Hijau, dan Perak"
+      ],
       "jawaban_benar": "Oranye, Merah Muda, dan Emas",
       "penjelasan": "Tiga jenis wortel: wortel oranye (bersinar), merah muda (stroberi), dan emas raksasa."
     },
@@ -406,9 +655,16 @@
       "bab": 3,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Sikap terpuji apakah yang paling menonjol ditunjukkan oleh Kiki?",
-      "pilihan": ["Suka berbagi dan peduli sesama", "Pemberani dan suka berburu", "Pandai bersembunyi"],
+      "pilihan": [
+        "Suka berbagi dan peduli sesama",
+        "Pemberani dan suka berburu",
+        "Pandai bersembunyi"
+      ],
       "jawaban_benar": "Suka berbagi dan peduli sesama",
       "penjelasan": "Kiki ikhlas berbagi makanan kepada teman-teman hutan yang lapar."
     },
@@ -417,9 +673,16 @@
       "bab": 3,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa nama kancil yang diberi 2 wortel bersinar oleh Kiki?",
-      "pilihan": ["Koko", "Kiki", "Ciko"],
+      "pilihan": [
+        "Koko",
+        "Kiki",
+        "Ciko"
+      ],
       "jawaban_benar": "Koko",
       "penjelasan": "Kancil dalam cerita tersebut bernama Koko."
     },
@@ -428,9 +691,16 @@
       "bab": 1,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Kapan waktu Kiki berjalan menuju kebun belakang rumahnya?",
-      "pilihan": ["Suatu pagi yang cerah", "Saat tengah malam", "Saat hujan badai sore"],
+      "pilihan": [
+        "Suatu pagi yang cerah",
+        "Saat tengah malam",
+        "Saat hujan badai sore"
+      ],
       "jawaban_benar": "Suatu pagi yang cerah",
       "penjelasan": "Cerita diawali dengan waktu suatu pagi yang cerah pada hari Selasa."
     },
@@ -439,9 +709,16 @@
       "bab": 3,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa yang dirasakan teman-teman Kiki setelah menerima wortel?",
-      "pilihan": ["Kenyang dan tersenyum bahagia", "Tertidur lelap", "Kembali menangis"],
+      "pilihan": [
+        "Kenyang dan tersenyum bahagia",
+        "Tertidur lelap",
+        "Kembali menangis"
+      ],
       "jawaban_benar": "Kenyang dan tersenyum bahagia",
       "penjelasan": "Setelah menerima wortel, semua teman merasa kenyang dan tersenyum bahagia."
     },
@@ -450,9 +727,16 @@
       "bab": 1,
       "tingkat": 3,
       "tingkat_nama": "Sedang",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Ciri khas apakah yang ada pada telinga kiri Kiki si kelinci?",
-      "pilihan": ["Memakai pita ungu", "Memakai topi kecil", "Telinganya berwarna hitam"],
+      "pilihan": [
+        "Memakai pita ungu",
+        "Memakai topi kecil",
+        "Telinganya berwarna hitam"
+      ],
       "jawaban_benar": "Memakai pita ungu",
       "penjelasan": "Kiki mengenakan pita ungu di telinga kirinya."
     },
@@ -461,9 +745,16 @@
       "bab": 3,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Jika Kiki membawa 5 wortel dan membagikan 2 ke Ciko serta 2 ke Koko, berapa sisa untuk Nenek Kura-kura?",
-      "pilihan": ["1 wortel", "0 wortel", "2 wortel"],
+      "pilihan": [
+        "1 wortel",
+        "0 wortel",
+        "2 wortel"
+      ],
       "jawaban_benar": "1 wortel",
       "penjelasan": "5 - 2 - 2 = 1 wortel untuk Nenek Kura-kura."
     },
@@ -472,9 +763,16 @@
       "bab": 3,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Manakah detail tentang Piko si burung pipit yang PALING tepat?",
-      "pilihan": ["Bulu biru laut & menjatuhkan pita perak", "Bulu kuning cerah & memakai pita ungu", "Bulu merah & tinggal di dalam gua"],
+      "pilihan": [
+        "Bulu biru laut & menjatuhkan pita perak",
+        "Bulu kuning cerah & memakai pita ungu",
+        "Bulu merah & tinggal di dalam gua"
+      ],
       "jawaban_benar": "Bulu biru laut & menjatuhkan pita perak",
       "penjelasan": "Piko berbulu biru laut dan menjatuhkan pita perak tanda persahabatan."
     },
@@ -483,9 +781,16 @@
       "bab": 1,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Berapa kombinasi warna utama aksesoris yang dikenakan oleh Kiki (pita telinga dan tas rajut)?",
-      "pilihan": ["Pita ungu & tas kuning", "Pita merah & tas biru", "Pita perak & tas hijau"],
+      "pilihan": [
+        "Pita ungu & tas kuning",
+        "Pita merah & tas biru",
+        "Pita perak & tas hijau"
+      ],
       "jawaban_benar": "Pita ungu & tas kuning",
       "penjelasan": "Kiki mengenakan pita ungu dan membawa tas rajut kuning."
     },
@@ -494,9 +799,16 @@
       "bab": 3,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apa urutan peristiwa yang benar dari awal hingga akhir dongeng?",
-      "pilihan": ["Menemukan pintu -> Bertemu Piko -> Membagikan 5 wortel -> Pohon bersinar emas", "Bertemu Piko -> Memetik wortel emas -> Menemukan pintu -> Pulang ke rumah", "Membagikan wortel -> Pohon ek tumbang -> Menemukan tas kuning"],
+      "pilihan": [
+        "Menemukan pintu -> Bertemu Piko -> Membagikan 5 wortel -> Pohon bersinar emas",
+        "Bertemu Piko -> Memetik wortel emas -> Menemukan pintu -> Pulang ke rumah",
+        "Membagikan wortel -> Pohon ek tumbang -> Menemukan tas kuning"
+      ],
       "jawaban_benar": "Menemukan pintu -> Bertemu Piko -> Membagikan 5 wortel -> Pohon bersinar emas",
       "penjelasan": "Alur cerita: Kiki menemukan pintu, bertemu Piko, membagikan 5 wortel, lalu pohon ek bersinar emas."
     },
@@ -505,9 +817,16 @@
       "bab": 3,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Pesan moral utama apakah yang ingin disampaikan melalui dongeng Kiki?",
-      "pilihan": ["Kebaikan hati dan suka berbagi membawa kebahagiaan sejati", "Jangan pernah masuk ke kebun orang lain", "Wortel emas hanya untuk kelinci"],
+      "pilihan": [
+        "Kebaikan hati dan suka berbagi membawa kebahagiaan sejati",
+        "Jangan pernah masuk ke kebun orang lain",
+        "Wortel emas hanya untuk kelinci"
+      ],
       "jawaban_benar": "Kebaikan hati dan suka berbagi membawa kebahagiaan sejati",
       "penjelasan": "Berbagi dengan tulus mendatangkan kebahagiaan dan persahabatan erat."
     },
@@ -516,9 +835,16 @@
       "bab": 3,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Hewan manakah yang TIDAK disebutkan menerima bagian wortel dari Kiki?",
-      "pilihan": ["Harimau", "Keluarga Beruang Ciko", "Kancil Koko"],
+      "pilihan": [
+        "Harimau",
+        "Keluarga Beruang Ciko",
+        "Kancil Koko"
+      ],
       "jawaban_benar": "Harimau",
       "penjelasan": "Harimau tidak ada dalam dongeng tersebut."
     },
@@ -527,9 +853,16 @@
       "bab": 2,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Apakah alasan Piko meminta Kiki membagikan wortel terlebih dahulu?",
-      "pilihan": ["Karena teman-teman hutan sedang lapar", "Agar kebun tidak terlalu penuh", "Karena wortel emas terlalu berat"],
+      "pilihan": [
+        "Karena teman-teman hutan sedang lapar",
+        "Agar kebun tidak terlalu penuh",
+        "Karena wortel emas terlalu berat"
+      ],
       "jawaban_benar": "Karena teman-teman hutan sedang lapar",
       "penjelasan": "Piko memberitahu bahwa ada teman-teman hutan yang sedang lapar dan butuh bantuan."
     },
@@ -538,9 +871,16 @@
       "bab": 1,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Berapakah jumlah kata dalam nama tempat tinggal Kiki, yaitu 'Hutan Pelangi'?",
-      "pilihan": ["2 kata", "3 kata", "1 kata"],
+      "pilihan": [
+        "2 kata",
+        "3 kata",
+        "1 kata"
+      ],
       "jawaban_benar": "2 kata",
       "penjelasan": "'Hutan' (1) dan 'Pelangi' (2), totalnya ada 2 kata."
     },
@@ -549,9 +889,16 @@
       "bab": 3,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Simbol apakah yang diberikan oleh pita perak di akhir cerita?",
-      "pilihan": ["Tanda persahabatan sejati", "Hadiah uang", "Tiket masuk hutan"],
+      "pilihan": [
+        "Tanda persahabatan sejati",
+        "Hadiah uang",
+        "Tiket masuk hutan"
+      ],
       "jawaban_benar": "Tanda persahabatan sejati",
       "penjelasan": "Pita perak dijatuhkan sebagai tanda persahabatan sejati di Hutan Pelangi."
     },
@@ -560,9 +907,16 @@
       "bab": 2,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Siapakah yang pertama kali berbicara kepada Kiki saat berada di kebun ajaib?",
-      "pilihan": ["Piko si burung pipit", "Beruang Ciko", "Pohon ek tua"],
+      "pilihan": [
+        "Piko si burung pipit",
+        "Beruang Ciko",
+        "Pohon ek tua"
+      ],
       "jawaban_benar": "Piko si burung pipit",
       "penjelasan": "Piko si burung pipit yang pertama kali menyapa dan memberi tahu Kiki."
     },
@@ -571,9 +925,16 @@
       "bab": 2,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Wadah apa yang digunakan Kiki untuk mengumpulkan 5 wortel bersinar?",
-      "pilihan": ["Keranjang bambu", "Tas rajut kuning", "Kantong kain"],
+      "pilihan": [
+        "Keranjang bambu",
+        "Tas rajut kuning",
+        "Kantong kain"
+      ],
       "jawaban_benar": "Keranjang bambu",
       "penjelasan": "Kiki memetik 5 wortel bersinar dan memasukkannya ke keranjang bambu miliknya."
     },
@@ -582,9 +943,16 @@
       "bab": 2,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Mengapa mata Kiki berbinar saat membuka pintu kayu kebun ajaib?",
-      "pilihan": ["Karena melihat 3 jenis wortel yang sangat unik", "Karena silau terkena matahari", "Karena menemukan kaca mata baru"],
+      "pilihan": [
+        "Karena melihat 3 jenis wortel yang sangat unik",
+        "Karena silau terkena matahari",
+        "Karena menemukan kaca mata baru"
+      ],
       "jawaban_benar": "Karena melihat 3 jenis wortel yang sangat unik",
       "penjelasan": "Mata Kiki berbinar kagum melihat wortel bersinar, wortel stroberi, dan wortel emas."
     },
@@ -593,11 +961,2643 @@
       "bab": 2,
       "tingkat": 4,
       "tingkat_nama": "Tantangan",
-      "usia": ["7-9", "10-12"],
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
       "pertanyaan": "Wortel mana yang memiliki wangi buah manis seperti stroberi?",
-      "pilihan": ["Wortel merah muda", "Wortel oranye bersinar", "Wortel emas raksasa"],
+      "pilihan": [
+        "Wortel merah muda",
+        "Wortel oranye bersinar",
+        "Wortel emas raksasa"
+      ],
       "jawaban_benar": "Wortel merah muda",
       "penjelasan": "Wortel merah muda memiliki aroma manis seperti buah stroberi."
+    },
+    {
+      "id": "i51",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah nama kelinci putih dalam dongeng ini?",
+      "pilihan": [
+        "Kiki",
+        "Miko",
+        "Dudu"
+      ],
+      "jawaban_benar": "Kiki",
+      "penjelasan": "Kiki adalah tokoh utama kelinci putih berbulu lembut."
+    },
+    {
+      "id": "i52",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan apakah tokoh Kiki dalam cerita?",
+      "pilihan": [
+        "Kelinci",
+        "Kucing",
+        "Beruang"
+      ],
+      "jawaban_benar": "Kelinci",
+      "penjelasan": "Kiki adalah seekor kelinci putih yang baik hati."
+    },
+    {
+      "id": "i53",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Apa warna pita yang menghias telinga Kiki?",
+      "pilihan": [
+        "Ungu",
+        "Merah",
+        "Kuning"
+      ],
+      "jawaban_benar": "Ungu",
+      "penjelasan": "Pita di telinga Kiki berwarna ungu cerah."
+    },
+    {
+      "id": "i54",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Benda apa yang selalu dibawa dan dipakai Kiki?",
+      "pilihan": [
+        "Tas rajut kecil",
+        "Topi koboi",
+        "Kacamata"
+      ],
+      "jawaban_benar": "Tas rajut kecil",
+      "penjelasan": "Kiki selalu memakai tas rajut kecil berwarna kuning."
+    },
+    {
+      "id": "i55",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Apa warna tas rajut milik Kiki?",
+      "pilihan": [
+        "Kuning",
+        "Hijau",
+        "Biru"
+      ],
+      "jawaban_benar": "Kuning",
+      "penjelasan": "Tas rajut Kiki berwarna kuning cerah buatan neneknya."
+    },
+    {
+      "id": "i56",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah yang membuatkan tas rajut kuning untuk Kiki?",
+      "pilihan": [
+        "Neneknya",
+        "Ibunya",
+        "Piko"
+      ],
+      "jawaban_benar": "Neneknya",
+      "penjelasan": "Tas rajut kuning dibuat dengan penuh kasih oleh nenek Kiki."
+    },
+    {
+      "id": "i57",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Di hutan mana Kiki tinggal bersama teman-temannya?",
+      "pilihan": [
+        "Hutan Pelangi",
+        "Hutan Pinus",
+        "Hutan Bakau"
+      ],
+      "jawaban_benar": "Hutan Pelangi",
+      "penjelasan": "Kiki tinggal di tepi Hutan Pelangi yang damai."
+    },
+    {
+      "id": "i58",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana suasana Hutan Pelangi tempat tinggal Kiki?",
+      "pilihan": [
+        "Damai dan tenang",
+        "Menakutkan",
+        "Bising"
+      ],
+      "jawaban_benar": "Damai dan tenang",
+      "penjelasan": "Hutan Pelangi digambarkan sebagai hutan yang damai."
+    },
+    {
+      "id": "i59",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Di kebun mana Kiki menemukan pintu rahasia?",
+      "pilihan": [
+        "Kebun belakang rumahnya",
+        "Kebun sekolah",
+        "Kebun kota"
+      ],
+      "jawaban_benar": "Kebun belakang rumahnya",
+      "penjelasan": "Kiki berjalan menuju kebun belakang rumahnya di pagi hari."
+    },
+    {
+      "id": "i60",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bunga apa yang tumbuh lebat menyembunyikan pintu kayu?",
+      "pilihan": [
+        "Bunga matahari",
+        "Bunga mawar",
+        "Bunga melati"
+      ],
+      "jawaban_benar": "Bunga matahari",
+      "penjelasan": "Pintu kayu tersembunyi di balik semak bunga matahari."
+    },
+    {
+      "id": "i61",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Terbuat dari bahan apa pintu kecil yang ditemukan Kiki?",
+      "pilihan": [
+        "Kayu",
+        "Besi",
+        "Kaca"
+      ],
+      "jawaban_benar": "Kayu",
+      "penjelasan": "Kiki menemukan sebuah pintu kayu kecil yang antik."
+    },
+    {
+      "id": "i62",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Apa tulisan yang tertera di atas pintu kayu kecil itu?",
+      "pilihan": [
+        "Kebun Wortel Ajaib",
+        "Hutan Rahasia",
+        "Rumah Piko"
+      ],
+      "jawaban_benar": "Kebun Wortel Ajaib",
+      "penjelasan": "Di atas pintu kayu tertulis jelas: 'Kebun Wortel Ajaib'."
+    },
+    {
+      "id": "i63",
+      "bab": 1,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana bentuk telinga Kiki si kelinci?",
+      "pilihan": [
+        "Panjang",
+        "Bulat pendek",
+        "Segitiga kaku"
+      ],
+      "jawaban_benar": "Panjang",
+      "penjelasan": "Kiki memiliki sepasang telinga panjang yang lucu."
+    },
+    {
+      "id": "i64",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Pada telinga sebelah mana pita ungu Kiki disematkan?",
+      "pilihan": [
+        "Telinga kiri",
+        "Telinga kanan",
+        "Kedua telinga"
+      ],
+      "jawaban_benar": "Telinga kiri",
+      "penjelasan": "Cerita menyebutkan pita ungu terpasang di telinga kirinya."
+    },
+    {
+      "id": "i65",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Pada hari apa Kiki berjalan menuju kebun belakang rumahnya?",
+      "pilihan": [
+        "Hari Selasa",
+        "Hari Minggu",
+        "Hari Jumat"
+      ],
+      "jawaban_benar": "Hari Selasa",
+      "penjelasan": "Petualangan Kiki dimulai pada suatu pagi hari Selasa."
+    },
+    {
+      "id": "i66",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana kondisi cuaca saat Kiki menemukan pintu kayu rahasia?",
+      "pilihan": [
+        "Pagi yang cerah",
+        "Hujan gerimis",
+        "Mendung berangin"
+      ],
+      "jawaban_benar": "Pagi yang cerah",
+      "penjelasan": "Kiki berjalan pada suatu pagi yang cerah penuh sinar matahari."
+    },
+    {
+      "id": "i67",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Di bagian mana dari Hutan Pelangi rumah Kiki berada?",
+      "pilihan": [
+        "Di tepi hutan",
+        "Di tengah rawa",
+        "Di puncak gunung"
+      ],
+      "jawaban_benar": "Di tepi hutan",
+      "penjelasan": "Kiki tinggal tepat di tepi Hutan Pelangi yang damai."
+    },
+    {
+      "id": "i68",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Kapan waktu Kiki berjalan menuju kebun belakang?",
+      "pilihan": [
+        "Pagi hari",
+        "Malam hari",
+        "Sore hari"
+      ],
+      "jawaban_benar": "Pagi hari",
+      "penjelasan": "Kiki keluar berjalan-jalan di pagi hari yang segar."
+    },
+    {
+      "id": "i69",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Apa ukuran pintu rahasia yang ditemukan Kiki?",
+      "pilihan": [
+        "Kecil",
+        "Raksasa",
+        "Sangat tinggi"
+      ],
+      "jawaban_benar": "Kecil",
+      "penjelasan": "Pintu kayu itu berukuran kecil dan tersembunyi."
+    },
+    {
+      "id": "i70",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana posisi pintu kayu terhadap semak bunga matahari?",
+      "pilihan": [
+        "Tersembunyi di baliknya",
+        "Tergantung di atasnya",
+        "Di depan gerbang"
+      ],
+      "jawaban_benar": "Tersembunyi di baliknya",
+      "penjelasan": "Pintu kayu kecil itu tersembunyi rapi di balik semak bunga."
+    },
+    {
+      "id": "i71",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa buah pita yang ada di telinga Kiki?",
+      "pilihan": [
+        "1 buah pita ungu",
+        "2 buah pita",
+        "3 buah pita"
+      ],
+      "jawaban_benar": "1 buah pita ungu",
+      "penjelasan": "Hanya ada satu pita ungu di telinga kirinya."
+    },
+    {
+      "id": "i72",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bahan apa yang digunakan nenek untuk membuat tas Kiki?",
+      "pilihan": [
+        "Benang rajut",
+        "Kulit sintetis",
+        "Kain terpal"
+      ],
+      "jawaban_benar": "Benang rajut",
+      "penjelasan": "Tas Kiki adalah tas rajut kecil buatan nenek."
+    },
+    {
+      "id": "i73",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Manakah warna yang TIDAK ada pada penampilan Kiki di Bab 1?",
+      "pilihan": [
+        "Merah terang",
+        "Putih",
+        "Kuning"
+      ],
+      "jawaban_benar": "Merah terang",
+      "penjelasan": "Bulu Kiki putih, pita ungu, tas kuning; tidak ada warna merah terang."
+    },
+    {
+      "id": "i74",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Sebelum melihat pintu rahasia, tanaman apa yang pertama dilihat Kiki?",
+      "pilihan": [
+        "Semak bunga matahari",
+        "Pohon apel",
+        "Rumput ilalang"
+      ],
+      "jawaban_benar": "Semak bunga matahari",
+      "penjelasan": "Kiki melihat semak bunga matahari sebelum menemukan pintunya."
+    },
+    {
+      "id": "i75",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Apa fungsi kebun di belakang rumah Kiki sebelum pintu dibuka?",
+      "pilihan": [
+        "Tempat jalan-jalan pagi Kiki",
+        "Tempat parkir sepeda",
+        "Kandang ayam"
+      ],
+      "jawaban_benar": "Tempat jalan-jalan pagi Kiki",
+      "penjelasan": "Kiki menikmati udara pagi dengan berjalan ke kebun belakang."
+    },
+    {
+      "id": "i76",
+      "bab": 1,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa kata yang menyusun tulisan di atas pintu kayu?",
+      "pilihan": [
+        "3 kata (Kebun Wortel Ajaib)",
+        "2 kata",
+        "4 kata"
+      ],
+      "jawaban_benar": "3 kata (Kebun Wortel Ajaib)",
+      "penjelasan": "Tulisan di atas pintu terdiri dari tiga kata: 'Kebun Wortel Ajaib'."
+    },
+    {
+      "id": "i77",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berdasarkan urutan waktu, setelah hari Senin adalah hari petualangan Kiki yaitu hari?",
+      "pilihan": [
+        "Selasa",
+        "Rabu",
+        "Kamis"
+      ],
+      "jawaban_benar": "Selasa",
+      "penjelasan": "Hari setelah Senin adalah Selasa, saat Kiki menemukan pintu."
+    },
+    {
+      "id": "i78",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Mengapa pintu kayu tersebut tidak mudah dilihat orang lain?",
+      "pilihan": [
+        "Karena tersembunyi di balik semak bunga",
+        "Karena dikunci gembok",
+        "Karena berada di dalam tanah"
+      ],
+      "jawaban_benar": "Karena tersembunyi di balik semak bunga",
+      "penjelasan": "Rimbunnya bunga matahari menyamarkan keberadaan pintu kayu kecil."
+    },
+    {
+      "id": "i79",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Apa bukti bahwa Kiki sangat menyayangi neneknya?",
+      "pilihan": [
+        "Selalu memakai tas rajut kuning buatan neneknya",
+        "Menjual tasnya",
+        "Menyimpan tas di lemari saja"
+      ],
+      "jawaban_benar": "Selalu memakai tas rajut kuning buatan neneknya",
+      "penjelasan": "Kiki selalu membawa tas rajut kuning buatan nenek ke mana pun pergi."
+    },
+    {
+      "id": "i80",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Bagaimana watak awal Kiki yang terlihat di Bab 1 saat menjelajah kebun?",
+      "pilihan": [
+        "Suka berjalan pagi dan penuh rasa ingin tahu",
+        "Pemalas dan suka tidur",
+        "Penakut"
+      ],
+      "jawaban_benar": "Suka berjalan pagi dan penuh rasa ingin tahu",
+      "penjelasan": "Kiki rajin bangun pagi dan memperhatikan hal tersembunyi di kebun."
+    },
+    {
+      "id": "i81",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Kata 'tersembunyi' dalam cerita memiliki arti yang sama dengan?",
+      "pilihan": [
+        "Tersamar / Tidak terlihat langsung",
+        "Rusak parah",
+        "Terbuka lebar"
+      ],
+      "jawaban_benar": "Tersamar / Tidak terlihat langsung",
+      "penjelasan": "Pintu itu tersamar oleh bunga matahari yang mekar."
+    },
+    {
+      "id": "i82",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Di manakah letak pita Kiki jika dilihat dari sudut pandang Kiki sendiri?",
+      "pilihan": [
+        "Di telinga kirinya",
+        "Di telinga kanannya",
+        "Di ekor"
+      ],
+      "jawaban_benar": "Di telinga kirinya",
+      "penjelasan": "Cerita menegaskan pita ungu ada di telinga kiri Kiki."
+    },
+    {
+      "id": "i83",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Bunga matahari yang tumbuh di kebun Kiki biasanya memiliki kelopak berwarna?",
+      "pilihan": [
+        "Kuning cerah",
+        "Biru laut",
+        "Hitam"
+      ],
+      "jawaban_benar": "Kuning cerah",
+      "penjelasan": "Bunga matahari identik dengan kelopak bunga kuning senada dengan tas Kiki."
+    },
+    {
+      "id": "i84",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Benda manakah di Bab 1 yang warnanya senada dengan bunga matahari?",
+      "pilihan": [
+        "Tas rajut kecil Kiki",
+        "Pita Kiki",
+        "Bulu Kiki"
+      ],
+      "jawaban_benar": "Tas rajut kecil Kiki",
+      "penjelasan": "Tas rajut Kiki berwarna kuning, sama seperti bunga matahari."
+    },
+    {
+      "id": "i85",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Apa yang membuat pintu tersebut istimewa dibanding pintu rumah biasa?",
+      "pilihan": [
+        "Terdapat tulisan 'Kebun Wortel Ajaib' dan tersembunyi di alam",
+        "Terbuat dari emas murni",
+        "Bisa terbang"
+      ],
+      "jawaban_benar": "Terdapat tulisan 'Kebun Wortel Ajaib' dan tersembunyi di alam",
+      "penjelasan": "Keistimewaannya terletak pada lokasi tersembunyi dan tulisan ajaib."
+    },
+    {
+      "id": "i86",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapa jumlah telinga yang dimiliki Kiki si kelinci?",
+      "pilihan": [
+        "2 telinga",
+        "1 telinga",
+        "4 telinga"
+      ],
+      "jawaban_benar": "2 telinga",
+      "penjelasan": "Kelinci memiliki sepasang telinga panjang (kiri dan kanan)."
+    },
+    {
+      "id": "i87",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Apakah di Bab 1 disebutkan Kiki pergi bersama teman atau sendirian?",
+      "pilihan": [
+        "Sendirian",
+        "Bersama Beruang Ciko",
+        "Bersama Burung Piko"
+      ],
+      "jawaban_benar": "Sendirian",
+      "penjelasan": "Di Bab 1, Kiki berjalan seorang diri saat pagi hari."
+    },
+    {
+      "id": "i88",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Jika Kiki menghadap ke depan, telinga yang TIDAK memakai pita adalah telinga?",
+      "pilihan": [
+        "Telinga kanan",
+        "Telinga kiri",
+        "Dua-duanya"
+      ],
+      "jawaban_benar": "Telinga kanan",
+      "penjelasan": "Karena telinga kiri berpita ungu, maka telinga kanan tanpa pita."
+    },
+    {
+      "id": "i89",
+      "bab": 1,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Latar suasana 'pagi yang cerah' memberi kesan cerita yang?",
+      "pilihan": [
+        "Hangat, ceria, dan penuh harapan",
+        "Sedih dan suram",
+        "Mencekam"
+      ],
+      "jawaban_benar": "Hangat, ceria, dan penuh harapan",
+      "penjelasan": "Pagi cerah mengawali petualangan Kiki dengan perasaan gembira."
+    },
+    {
+      "id": "i90",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa jumlah total warna yang melekat langsung pada penampilan Kiki di Bab 1?",
+      "pilihan": [
+        "3 warna (Putih bulu, ungu pita, kuning tas)",
+        "1 warna",
+        "5 warna"
+      ],
+      "jawaban_benar": "3 warna (Putih bulu, ungu pita, kuning tas)",
+      "penjelasan": "Kiki berbulu putih, memakai pita ungu, dan membawa tas rajut kuning."
+    },
+    {
+      "id": "i91",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Mengapa penulis menyebutkan 'Hari Selasa' secara spesifik pada kalimat pembuka petualangan?",
+      "pilihan": [
+        "Memberikan ketepatan latar waktu cerita",
+        "Agar anak bingung",
+        "Hari libur sekolah"
+      ],
+      "jawaban_benar": "Memberikan ketepatan latar waktu cerita",
+      "penjelasan": "Penyebutan hari menguatkan ingatan kronologis pembaca."
+    },
+    {
+      "id": "i92",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Jika Kiki menemukan pintu pada hari Selasa, dua hari sebelum penemuan itu adalah hari?",
+      "pilihan": [
+        "Minggu",
+        "Senin",
+        "Sabtu"
+      ],
+      "jawaban_benar": "Minggu",
+      "penjelasan": "Dua hari sebelum hari Selasa adalah hari Minggu."
+    },
+    {
+      "id": "i93",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Benda buatan manusia yang ditemukan Kiki di lingkungan alami kebun adalah?",
+      "pilihan": [
+        "Pintu kayu bertuliskan nama",
+        "Semak bunga",
+        "Pohon ek"
+      ],
+      "jawaban_benar": "Pintu kayu bertuliskan nama",
+      "penjelasan": "Pintu kayu dengan ukiran tulisan adalah artefak buatan yang tersembunyi."
+    },
+    {
+      "id": "i94",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Apa hubungan kekeluargaan yang disebutkan pada paragraf pertama dongeng?",
+      "pilihan": [
+        "Nenek dan cucu (Kiki)",
+        "Ibu dan anak",
+        "Paman dan keponakan"
+      ],
+      "jawaban_benar": "Nenek dan cucu (Kiki)",
+      "penjelasan": "Teks menyebutkan tas rajut kuning tersebut buatan neneknya."
+    },
+    {
+      "id": "i95",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Simpulan watak Kiki dari cara merawat tas buatan neneknya adalah?",
+      "pilihan": [
+        "Kiki anak yang menghargai pemberian dan penuh kasih sayang",
+        "Kiki anak pemboros",
+        "Kiki ceroboh"
+      ],
+      "jawaban_benar": "Kiki anak yang menghargai pemberian dan penuh kasih sayang",
+      "penjelasan": "Selalu memakai hadiah nenek membuktikan rasa hormat dan kasih Kiki."
+    },
+    {
+      "id": "i96",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Manakah pernyataan yang TIDAK sesuai dengan isi teks Bab 1?",
+      "pilihan": [
+        "Pintu kayu berada di kebun depan rumah",
+        "Pita Kiki berwarna ungu",
+        "Kiki tinggal di Hutan Pelangi"
+      ],
+      "jawaban_benar": "Pintu kayu berada di kebun depan rumah",
+      "penjelasan": "Pintu kayu berada di kebun BELAKANG rumahnya, bukan depan."
+    },
+    {
+      "id": "i97",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Secara tata bahasa, frasa 'Hutan Pelangi' pada kalimat pertama berfungsi sebagai?",
+      "pilihan": [
+        "Keterangan tempat",
+        "Subjek kalimat",
+        "Kata kerja"
+      ],
+      "jawaban_benar": "Keterangan tempat",
+      "penjelasan": "'Di tepi Hutan Pelangi' menjelaskan lokasi terjadinya cerita."
+    },
+    {
+      "id": "i98",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa huruf vokal yang ada pada nama panggilan sang kelinci ('Kiki')?",
+      "pilihan": [
+        "2 huruf vokal (huruf 'i' dan 'i')",
+        "1 huruf",
+        "3 huruf"
+      ],
+      "jawaban_benar": "2 huruf vokal (huruf 'i' dan 'i')",
+      "penjelasan": "Kata 'Kiki' memiliki dua huruf vokal 'i'."
+    },
+    {
+      "id": "i99",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa jumlah kata yang ada pada judul tulisan pintu: 'Kebun Wortel Ajaib'?",
+      "pilihan": [
+        "3 kata",
+        "2 kata",
+        "4 kata"
+      ],
+      "jawaban_benar": "3 kata",
+      "penjelasan": "Terdiri dari kata: 'Kebun' (1), 'Wortel' (2), 'Ajaib' (3)."
+    },
+    {
+      "id": "i100",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Karakteristik ekosistem tempat tinggal Kiki menunjukkan bahwa kelinci ini hidup di?",
+      "pilihan": [
+        "Wilayah daratan tropis tepi hutan",
+        "Kutub utara es",
+        "Gurun sahara"
+      ],
+      "jawaban_benar": "Wilayah daratan tropis tepi hutan",
+      "penjelasan": "Tepi Hutan Pelangi dengan kebun bunga matahari mencerminkan kawasan hijau asri."
+    },
+    {
+      "id": "i101",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Tindakan pertama yang dilakukan Kiki sebelum menemukan pintu adalah?",
+      "pilihan": [
+        "Berjalan menuju kebun belakang rumahnya",
+        "Membuka pintu kayu",
+        "Memetik bunga matahari"
+      ],
+      "jawaban_benar": "Berjalan menuju kebun belakang rumahnya",
+      "penjelasan": "Kiki berjalan ke kebun terlebih dahulu sebelum melihat pintu rahasia."
+    },
+    {
+      "id": "i102",
+      "bab": 1,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Apa kata sifat yang digunakan dongeng untuk mendeskripsikan Hutan Pelangi?",
+      "pilihan": [
+        "Damai",
+        "Gelap",
+        "Rimbun lebat"
+      ],
+      "jawaban_benar": "Damai",
+      "penjelasan": "Teks secara spesifik berbunyi: 'Di tepi Hutan Pelangi yang damai...'."
+    },
+    {
+      "id": "i103",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana reaksi mata Kiki saat membuka pintu kebun ajaib?",
+      "pilihan": [
+        "Berbinar kagum",
+        "Menangis ketakutan",
+        "Mengantuk terpejam"
+      ],
+      "jawaban_benar": "Berbinar kagum",
+      "penjelasan": "Mata Kiki berbinar-binar gembira melihat keajaiban kebun."
+    },
+    {
+      "id": "i104",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Ada berapa jenis wortel unik yang ditemukan Kiki di kebun ajaib?",
+      "pilihan": [
+        "3 jenis",
+        "2 jenis",
+        "5 jenis"
+      ],
+      "jawaban_benar": "3 jenis",
+      "penjelasan": "Di dalam kebun terdapat 3 jenis wortel yang sangat unik."
+    },
+    {
+      "id": "i105",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Wortel oranye di kebun ajaib bisa bersinar seperti apa?",
+      "pilihan": [
+        "Bintang di langit",
+        "Lampu mobil",
+        "Bulan purnama"
+      ],
+      "jawaban_benar": "Bintang di langit",
+      "penjelasan": "Wortel oranye memancarkan sinar kemilau bagaikan bintang."
+    },
+    {
+      "id": "i106",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Wortel merah muda (pink) di kebun ajaib beraroma buah apa?",
+      "pilihan": [
+        "Buah stroberi",
+        "Buah durian",
+        "Buah pisang"
+      ],
+      "jawaban_benar": "Buah stroberi",
+      "penjelasan": "Wortel merah muda harum semerbak seperti buah stroberi manis."
+    },
+    {
+      "id": "i107",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Apa warna wortel raksasa yang berada di tengah kebun?",
+      "pilihan": [
+        "Emas",
+        "Perak",
+        "Hitam"
+      ],
+      "jawaban_benar": "Emas",
+      "penjelasan": "Wortel emas raksasa tumbuh megah di tengah kebun."
+    },
+    {
+      "id": "i108",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Pohon apa yang tumbuh di dekat wortel emas raksasa?",
+      "pilihan": [
+        "Pohon ek tua",
+        "Pohon kelapa",
+        "Pohon cemara"
+      ],
+      "jawaban_benar": "Pohon ek tua",
+      "penjelasan": "Wortel emas raksasa berada dekat pohon ek tua."
+    },
+    {
+      "id": "i109",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah nama burung pipit yang tiba-tiba datang menghampiri Kiki?",
+      "pilihan": [
+        "Piko",
+        "Koko",
+        "Ciko"
+      ],
+      "jawaban_benar": "Piko",
+      "penjelasan": "Piko adalah burung pipit berbulu biru laut."
+    },
+    {
+      "id": "i110",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Apa warna bulu burung pipit bernama Piko?",
+      "pilihan": [
+        "Biru laut",
+        "Merah cabai",
+        "Kuning terang"
+      ],
+      "jawaban_benar": "Biru laut",
+      "penjelasan": "Bulu Piko berwarna biru laut yang indah."
+    },
+    {
+      "id": "i111",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Burung apakah tokoh Piko dalam dongeng ini?",
+      "pilihan": [
+        "Burung pipit",
+        "Burung hantu",
+        "Burung elang"
+      ],
+      "jawaban_benar": "Burung pipit",
+      "penjelasan": "Piko adalah seekor burung pipit kecil yang ceria."
+    },
+    {
+      "id": "i112",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana suara kicauan Piko saat menyapa Kiki?",
+      "pilihan": [
+        "Ceria",
+        "Serak menyeramkan",
+        "Marah membentak"
+      ],
+      "jawaban_benar": "Ceria",
+      "penjelasan": "Piko berkicau dengan riang dan ceria menyambut Kiki."
+    },
+    {
+      "id": "i113",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapa jumlah wortel bersinar yang harus dibagikan Kiki?",
+      "pilihan": [
+        "5 wortel",
+        "3 wortel",
+        "10 wortel"
+      ],
+      "jawaban_benar": "5 wortel",
+      "penjelasan": "Piko mensyaratkan membagikan 5 wortel bersinar kepada teman."
+    },
+    {
+      "id": "i114",
+      "bab": 2,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Wortel apa yang ukurannya paling raksasa di kebun?",
+      "pilihan": [
+        "Wortel emas",
+        "Wortel oranye",
+        "Wortel merah muda"
+      ],
+      "jawaban_benar": "Wortel emas",
+      "penjelasan": "Wortel emas adalah wortel berukuran raksasa di tengah kebun."
+    },
+    {
+      "id": "i115",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Di posisi mana wortel emas raksasa berada di dalam kebun?",
+      "pilihan": [
+        "Tepat di tengah kebun",
+        "Di pojok pintu masuk",
+        "Di atas pohon"
+      ],
+      "jawaban_benar": "Tepat di tengah kebun",
+      "penjelasan": "Wortel emas tumbuh persis di tengah kebun dekat pohon ek."
+    },
+    {
+      "id": "i116",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Pohon ek yang ada di dekat wortel emas digambarkan sebagai pohon yang?",
+      "pilihan": [
+        "Tua dan kokoh",
+        "Masih tunas kecil",
+        "Layu kering"
+      ],
+      "jawaban_benar": "Tua dan kokoh",
+      "penjelasan": "Teks menyebutkan wortel emas berada di dekat 'pohon ek tua'."
+    },
+    {
+      "id": "i117",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Apa syarat utama agar wortel emas raksasa boleh dipetik Kiki?",
+      "pilihan": [
+        "Membagikan 5 wortel bersinar kepada teman yang lapar",
+        "Memakan semua wortel sendiri",
+        "Menebang pohon ek"
+      ],
+      "jawaban_benar": "Membagikan 5 wortel bersinar kepada teman yang lapar",
+      "penjelasan": "Piko menjelaskan syarat berbagi sebelum memetik wortel emas."
+    },
+    {
+      "id": "i118",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Teman-teman hutan seperti apa yang harus diberi wortel oleh Kiki?",
+      "pilihan": [
+        "Teman yang sedang lapar",
+        "Teman yang sedang tidur",
+        "Teman yang kaya"
+      ],
+      "jawaban_benar": "Teman yang sedang lapar",
+      "penjelasan": "Wortel ditujukan untuk menolong teman-teman yang membutuhkan makanan."
+    },
+    {
+      "id": "i119",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Wortel manakah yang mengeluarkan aroma buah stroberi manis?",
+      "pilihan": [
+        "Wortel merah muda",
+        "Wortel oranye",
+        "Wortel emas"
+      ],
+      "jawaban_benar": "Wortel merah muda",
+      "penjelasan": "Wortel pink / merah muda memiliki aroma harum stroberi."
+    },
+    {
+      "id": "i120",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Wortel manakah yang bisa memancarkan cahaya bersinar?",
+      "pilihan": [
+        "Wortel oranye",
+        "Wortel merah muda",
+        "Wortel ungu"
+      ],
+      "jawaban_benar": "Wortel oranye",
+      "penjelasan": "Wortel oranye bercahaya kemilau seperti bintang."
+    },
+    {
+      "id": "i121",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Wortel jenis apakah yang dipersyaratkan Piko untuk dibagikan?",
+      "pilihan": [
+        "Wortel bersinar (oranye)",
+        "Wortel stroberi",
+        "Wortel biasa"
+      ],
+      "jawaban_benar": "Wortel bersinar (oranye)",
+      "penjelasan": "Piko berkata: 'jika kamu bisa membagikan 5 wortel bersinar...'."
+    },
+    {
+      "id": "i122",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Apakah Kiki langsung memetik wortel emas begitu melihatnya?",
+      "pilihan": [
+        "Tidak, ia mendengarkan nasehat Piko dahulu",
+        "Ya, langsung dicabut paksa",
+        "Kiki lari ketakutan"
+      ],
+      "jawaban_benar": "Tidak, ia mendengarkan nasehat Piko dahulu",
+      "penjelasan": "Kiki mematuhi petunjuk burung Piko untuk tidak sembarangan memetik."
+    },
+    {
+      "id": "i123",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa total jenis wortel ajaib jika wortel emas dihitung?",
+      "pilihan": [
+        "3 jenis",
+        "1 jenis",
+        "4 jenis"
+      ],
+      "jawaban_benar": "3 jenis",
+      "penjelasan": "Tiga jenis: oranye bersinar, merah muda stroberi, dan emas raksasa."
+    },
+    {
+      "id": "i124",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Apa warna burung Piko yang melambangkan warna lautan?",
+      "pilihan": [
+        "Biru laut",
+        "Hijau lumut",
+        "Cokelat tanah"
+      ],
+      "jawaban_benar": "Biru laut",
+      "penjelasan": "Bulu burung Piko adalah biru laut yang memikat."
+    },
+    {
+      "id": "i125",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan kedua yang muncul dan berbicara dalam dongeng ini adalah?",
+      "pilihan": [
+        "Burung pipit (Piko)",
+        "Beruang Ciko",
+        "Kancil Koko"
+      ],
+      "jawaban_benar": "Burung pipit (Piko)",
+      "penjelasan": "Piko muncul di Bab 2 memberi petunjuk berharga kepada Kiki."
+    },
+    {
+      "id": "i126",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Di manakah letak kebun ajaib tersebut bagi Kiki?",
+      "pilihan": [
+        "Di balik pintu kayu rahasia",
+        "Di atas gunung",
+        "Di dalam gua"
+      ],
+      "jawaban_benar": "Di balik pintu kayu rahasia",
+      "penjelasan": "Pintu kayu kecil menghubungkan rumah Kiki dengan kebun ajaib."
+    },
+    {
+      "id": "i127",
+      "bab": 2,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Pohon apa yang menjadi penanda posisi wortel emas raksasa?",
+      "pilihan": [
+        "Pohon ek",
+        "Pohon beringin",
+        "Pohon mangga"
+      ],
+      "jawaban_benar": "Pohon ek",
+      "penjelasan": "Wortel emas tumbuh berdampingan dengan pohon ek tua."
+    },
+    {
+      "id": "i128",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Pesan moral apa yang disampaikan oleh burung Piko kepada Kiki?",
+      "pilihan": [
+        "Pentingnya berbagi kepada sesama yang membutuhkan",
+        "Kehebatan mengumpulkan harta sendiri",
+        "Kekuatan fisik memetik sayur"
+      ],
+      "jawaban_benar": "Pentingnya berbagi kepada sesama yang membutuhkan",
+      "penjelasan": "Wortel emas mengajarkan bahwa kebahagiaan sejati diraih lewat berbagi."
+    },
+    {
+      "id": "i129",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Perbandingan ukuran antara wortel emas dengan wortel lainnya adalah?",
+      "pilihan": [
+        "Wortel emas berukuran raksasa paling besar",
+        "Wortel emas paling kerdil",
+        "Semua ukurannya persis sama"
+      ],
+      "jawaban_benar": "Wortel emas berukuran raksasa paling besar",
+      "penjelasan": "Teks menyebut wortel emas dengan predikat 'raksasa'."
+    },
+    {
+      "id": "i130",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Indra apakah yang dimanjakan oleh wortel merah muda?",
+      "pilihan": [
+        "Indra penciuman (hidung) karena harum stroberi",
+        "Indra pendengaran",
+        "Indra peraba saja"
+      ],
+      "jawaban_benar": "Indra penciuman (hidung) karena harum stroberi",
+      "penjelasan": "Aroma stroberi yang semerbak menyentuh indra penciuman."
+    },
+    {
+      "id": "i131",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Indra apakah yang paling terpukau saat melihat wortel oranye bercahaya?",
+      "pilihan": [
+        "Indra penglihatan (mata)",
+        "Indra pengecap",
+        "Indra pendengaran"
+      ],
+      "jawaban_benar": "Indra penglihatan (mata)",
+      "penjelasan": "Mata berbinar saat melihat sinar kemilau bintang dari wortel oranye."
+    },
+    {
+      "id": "i132",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Mengapa Piko melarang Kiki langsung memetik wortel emas?",
+      "pilihan": [
+        "Karena ada ujian kebaikan hati membagikan 5 wortel dahulu",
+        "Karena wortel emas beracun",
+        "Karena milik Piko pribadi"
+      ],
+      "jawaban_benar": "Karena ada ujian kebaikan hati membagikan 5 wortel dahulu",
+      "penjelasan": "Wortel emas adalah anugerah persahabatan bagi mereka yang gemar berbagi."
+    },
+    {
+      "id": "i133",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah jumlah kata dalam kalimat peringatan Piko: 'Kiki!'?",
+      "pilihan": [
+        "1 kata",
+        "2 kata",
+        "3 kata"
+      ],
+      "jawaban_benar": "1 kata",
+      "penjelasan": "Piko memanggil nama Kiki dengan seruan satu kata."
+    },
+    {
+      "id": "i134",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hubungan antara pohon ek tua dan wortel emas mencerminkan suasana yang?",
+      "pilihan": [
+        "Megah, sakral, dan penuh misteri kebaikan",
+        "Menakutkan",
+        "Kacau balau"
+      ],
+      "jawaban_benar": "Megah, sakral, dan penuh misteri kebaikan",
+      "penjelasan": "Pohon ek tua menjadi penjaga kebun wortel ajaib."
+    },
+    {
+      "id": "i135",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Jika Kiki hanya membagikan 4 wortel, apakah syarat Piko terpenuhi?",
+      "pilihan": [
+        "Belum, karena syaratnya tepat 5 wortel bersinar",
+        "Sudah cukup",
+        "Lebih dari cukup"
+      ],
+      "jawaban_benar": "Belum, karena syaratnya tepat 5 wortel bersinar",
+      "penjelasan": "Syarat yang ditentukan secara tegas adalah 5 wortel."
+    },
+    {
+      "id": "i136",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Apa persamaan antara Kiki dan Piko dalam dongeng ini?",
+      "pilihan": [
+        "Keduanya tokoh yang ramah dan saling berkomunikasi baik",
+        "Keduanya bisa terbang",
+        "Keduanya memiliki bulu putih"
+      ],
+      "jawaban_benar": "Keduanya tokoh yang ramah dan saling berkomunikasi baik",
+      "penjelasan": "Kiki mendengarkan dengan seksama dan Piko memberi arahan ceria."
+    },
+    {
+      "id": "i137",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Warna bulu Piko (biru laut) jika dipadukan dengan warna bulu Kiki (putih) memberi kesan?",
+      "pilihan": [
+        "Sejuk, bersih, dan menenangkan hati",
+        "Gelap gulita",
+        "Membingungkan"
+      ],
+      "jawaban_benar": "Sejuk, bersih, dan menenangkan hati",
+      "penjelasan": "Kombinasi biru laut dan putih sangat ramah sensorik dan estetik."
+    },
+    {
+      "id": "i138",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Bagaimana cara Piko datang mendekati Kiki di dalam kebun?",
+      "pilihan": [
+        "Tiba-tiba terbang datang dan berkicau ceria",
+        "Berjalan merangkak lambat",
+        "Menggali tanah"
+      ],
+      "jawaban_benar": "Tiba-tiba terbang datang dan berkicau ceria",
+      "penjelasan": "Teks berbunyi: 'Tiba-tiba, datanglah Piko si burung pipit...'."
+    },
+    {
+      "id": "i139",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Wortel bersinar disamakan dengan benda langit apa oleh penulis?",
+      "pilihan": [
+        "Bintang",
+        "Matahari",
+        "Komet"
+      ],
+      "jawaban_benar": "Bintang",
+      "penjelasan": "'Wortel oranye yang bisa bersinar seperti bintang'."
+    },
+    {
+      "id": "i140",
+      "bab": 2,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Siapakah yang menjadi subjek penerima bantuan wortel bersinar?",
+      "pilihan": [
+        "Teman-teman hutan yang lapar",
+        "Hewan pemangsa",
+        "Manusia pemburu"
+      ],
+      "jawaban_benar": "Teman-teman hutan yang lapar",
+      "penjelasan": "Bantuan ditujukan untuk hewan-hewan hutan yang sedang kelaparan."
+    },
+    {
+      "id": "i141",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa jumlah adjektiva (kata sifat warna) yang digunakan untuk mendeskripsikan 3 jenis wortel di Bab 2?",
+      "pilihan": [
+        "3 warna (oranye, merah muda, emas)",
+        "1 warna",
+        "4 warna"
+      ],
+      "jawaban_benar": "3 warna (oranye, merah muda, emas)",
+      "penjelasan": "Penulis menyebutkan wortel oranye, wortel merah muda, dan wortel emas."
+    },
+    {
+      "id": "i142",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Analisis majas: 'wortel oranye yang bisa bersinar seperti bintang' menggunakan gaya bahasa?",
+      "pilihan": [
+        "Simile / Asosiasi perumpamaan",
+        "Personifikasi",
+        "Metafora langsung"
+      ],
+      "jawaban_benar": "Simile / Asosiasi perumpamaan",
+      "penjelasan": "Penggunaan kata pembanding 'seperti' merupakan ciri khas majas simile."
+    },
+    {
+      "id": "i143",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Jika di kebun ada 3 jenis wortel dan Kiki harus memetik jenis pertama sebanyak 5 buah, jenis apakah itu?",
+      "pilihan": [
+        "Wortel oranye bersinar",
+        "Wortel merah muda",
+        "Wortel emas"
+      ],
+      "jawaban_benar": "Wortel oranye bersinar",
+      "penjelasan": "Wortel yang bersinar adalah jenis wortel oranye."
+    },
+    {
+      "id": "i144",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Apa peran naratif burung Piko dalam struktur alur dongeng ini?",
+      "pilihan": [
+        "Pemberi petunjuk misi (The Mentor / Guide)",
+        "Musuh utama (Antagonis)",
+        "Hanya figuran lewat"
+      ],
+      "jawaban_benar": "Pemberi petunjuk misi (The Mentor / Guide)",
+      "penjelasan": "Piko bertindak sebagai pemandu yang mengarahkan protagonis pada misi kebaikan."
+    },
+    {
+      "id": "i145",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Mengapa wortel emas diletakkan di dekat 'pohon ek tua' bukan di sembarang tempat?",
+      "pilihan": [
+        "Pohon ek tua melambangkan kebijaksanaan dan perlindungan abadi",
+        "Supaya tertimpa dahan",
+        "Agar tidak terlihat"
+      ],
+      "jawaban_benar": "Pohon ek tua melambangkan kebijaksanaan dan perlindungan abadi",
+      "penjelasan": "Dalam sastra dongeng, pohon ek tua simbol kearifan alam penjaga misteri."
+    },
+    {
+      "id": "i146",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa perbandingan jumlah kaki antara Kiki (kelinci) dan Piko (burung pipit)?",
+      "pilihan": [
+        "Kiki 4 kaki, Piko 2 kaki (rasio 4 : 2 atau 2 : 1)",
+        "Keduanya 2 kaki",
+        "Keduanya 4 kaki"
+      ],
+      "jawaban_benar": "Kiki 4 kaki, Piko 2 kaki (rasio 4 : 2 atau 2 : 1)",
+      "penjelasan": "Mamalia kelinci berkaki 4, sedangkan bangsa unggas burung berkaki 2."
+    },
+    {
+      "id": "i147",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Kata 'berbinar' pada kalimat 'matanya berbinar' mengekspresikan emosi?",
+      "pilihan": [
+        "Kekaguman dan kebahagiaan luar biasa",
+        "Ketakutan mendalam",
+        "Kekecewaan"
+      ],
+      "jawaban_benar": "Kekaguman dan kebahagiaan luar biasa",
+      "penjelasan": "Mata berbinar menunjukkan binar sukacita menyaksikan keindahan."
+    },
+    {
+      "id": "i148",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa huruf vokal yang terdapat pada nama sang burung ('Piko')?",
+      "pilihan": [
+        "2 huruf vokal ('i' dan 'o')",
+        "1 huruf",
+        "3 huruf"
+      ],
+      "jawaban_benar": "2 huruf vokal ('i' dan 'o')",
+      "penjelasan": "Kata 'Piko' tersusun dari konsonan P, K dan vokal I, O."
+    },
+    {
+      "id": "i149",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Manakah pernyataan yang PALING TEPAT mengenai syarat di Bab 2?",
+      "pilihan": [
+        "Kebaikan berbagi adalah kunci membuka anugerah wortel emas",
+        "Wortel emas boleh dimakan langsung",
+        "Piko meminta upah uang"
+      ],
+      "jawaban_benar": "Kebaikan berbagi adalah kunci membuka anugerah wortel emas",
+      "penjelasan": "Inti filosofis dongeng adalah berbagi membawa keberkahan."
+    },
+    {
+      "id": "i150",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Jika 5 wortel bersinar dipetik, wortel apa yang tetap tertanam di tanah?",
+      "pilihan": [
+        "Wortel emas dan sisa wortel lainnya",
+        "Semua wortel habis",
+        "Pohon ek tercabut"
+      ],
+      "jawaban_benar": "Wortel emas dan sisa wortel lainnya",
+      "penjelasan": "Wortel emas baru boleh disentuh setelah misi berbagi terlaksana."
+    },
+    {
+      "id": "i151",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Apa nama jenis burung Piko dalam taksonomi hewan?",
+      "pilihan": [
+        "Burung pipit (bangsa Passeriformes)",
+        "Burung pemangsa",
+        "Unggas air"
+      ],
+      "jawaban_benar": "Burung pipit (bangsa Passeriformes)",
+      "penjelasan": "Piko secara spesifik adalah burung pipit pemakan biji-bijian berbulu biru laut."
+    },
+    {
+      "id": "i152",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Secara urutan kemunculan tokoh, tokoh ketiga yang namanya disebutkan dalam teks adalah?",
+      "pilihan": [
+        "Piko",
+        "Kiki",
+        "Beruang Ciko"
+      ],
+      "jawaban_benar": "Piko",
+      "penjelasan": "Kiki muncul pertama (Bab 1), neneknya disebut (Bab 1), lalu Piko (Bab 2)."
+    },
+    {
+      "id": "i153",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Apakah di Bab 2 Kiki sudah membagikan wortelnya?",
+      "pilihan": [
+        "Belum, Kiki baru menerima syarat dari Piko",
+        "Sudah selesai",
+        "Sedang membagikan"
+      ],
+      "jawaban_benar": "Belum, Kiki baru menerima syarat dari Piko",
+      "penjelasan": "Bab 2 berakhir pada dialog Piko, aksi berbagi ada di Bab 3."
+    },
+    {
+      "id": "i154",
+      "bab": 2,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Karakter Piko digambarkan memiliki sifat?",
+      "pilihan": [
+        "Ceria, bijak, dan membimbing",
+        "Kasar dan angkuh",
+        "Licik"
+      ],
+      "jawaban_benar": "Ceria, bijak, dan membimbing",
+      "penjelasan": "Piko berkicau ceria dan mengajarkan tata cara memetik wortel emas."
+    },
+    {
+      "id": "i155",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Sifat apa yang dimiliki Kiki saat langsung bersiap membagikan wortel?",
+      "pilihan": [
+        "Baik hati dan suka menolong",
+        "Kikir dan pelit",
+        "Sombong"
+      ],
+      "jawaban_benar": "Baik hati dan suka menolong",
+      "penjelasan": "Teks menyebutkan: 'Kiki yang baik hati segera mengambil keranjang...'."
+    },
+    {
+      "id": "i156",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Wadah apa yang diambil Kiki untuk menaruh 5 wortel bersinar?",
+      "pilihan": [
+        "Keranjang bambu miliknya",
+        "Ember plastik",
+        "Kotak kardus"
+      ],
+      "jawaban_benar": "Keranjang bambu miliknya",
+      "penjelasan": "Kiki menggunakan keranjang bambu miliknya yang ramah lingkungan."
+    },
+    {
+      "id": "i157",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Terbuat dari bahan alami apa keranjang yang dipakai Kiki?",
+      "pilihan": [
+        "Bambu",
+        "Besi",
+        "Karet"
+      ],
+      "jawaban_benar": "Bambu",
+      "penjelasan": "Keranjang Kiki terbuat dari anyaman bambu."
+    },
+    {
+      "id": "i158",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapa banyak wortel yang diberikan Kiki untuk keluarga Beruang Ciko?",
+      "pilihan": [
+        "2 wortel",
+        "1 wortel",
+        "3 wortel"
+      ],
+      "jawaban_benar": "2 wortel",
+      "penjelasan": "Keluarga Beruang Ciko menerima 2 wortel bersinar."
+    },
+    {
+      "id": "i159",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah nama tokoh beruang yang menerima wortel dari Kiki?",
+      "pilihan": [
+        "Beruang Ciko",
+        "Beruang Kiki",
+        "Beruang Dudu"
+      ],
+      "jawaban_benar": "Beruang Ciko",
+      "penjelasan": "Nama keluarga beruang tersebut adalah Beruang Ciko."
+    },
+    {
+      "id": "i160",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapa banyak wortel yang diberikan Kiki untuk Kancil Koko?",
+      "pilihan": [
+        "2 wortel",
+        "1 wortel",
+        "4 wortel"
+      ],
+      "jawaban_benar": "2 wortel",
+      "penjelasan": "Kancil Koko mendapatkan 2 buah wortel bersinar."
+    },
+    {
+      "id": "i161",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah nama tokoh kancil yang diberi wortel oleh Kiki?",
+      "pilihan": [
+        "Kancil Koko",
+        "Kancil Piko",
+        "Kancil Ciko"
+      ],
+      "jawaban_benar": "Kancil Koko",
+      "penjelasan": "Nama kancil sahabat Kiki adalah Kancil Koko."
+    },
+    {
+      "id": "i162",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapa banyak wortel yang diberikan Kiki untuk Nenek Kura-kura?",
+      "pilihan": [
+        "1 wortel",
+        "2 wortel",
+        "3 wortel"
+      ],
+      "jawaban_benar": "1 wortel",
+      "penjelasan": "Nenek Kura-kura menerima 1 wortel bersinar yang manis."
+    },
+    {
+      "id": "i163",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana sifat Nenek Kura-kura dalam cerita?",
+      "pilihan": [
+        "Bijaksana",
+        "Pemarah",
+        "Suka berbohong"
+      ],
+      "jawaban_benar": "Bijaksana",
+      "penjelasan": "Teks menyebut Nenek Kura-kura sebagai sosok yang bijaksana."
+    },
+    {
+      "id": "i164",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana kondisi teman-teman Kiki setelah memakan wortel pembagian Kiki?",
+      "pilihan": [
+        "Kenyang dan tersenyum bahagia",
+        "Tetap kelaparan",
+        "Sakit perut"
+      ],
+      "jawaban_benar": "Kenyang dan tersenyum bahagia",
+      "penjelasan": "Semua teman merasa kenyang dan hatinya dipenuhi sukacita."
+    },
+    {
+      "id": "i165",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Warna cahaya indah apa yang dipancarkan oleh pohon ek tua di akhir cerita?",
+      "pilihan": [
+        "Cahaya keemasan",
+        "Cahaya merah darah",
+        "Cahaya hitam pekat"
+      ],
+      "jawaban_benar": "Cahaya keemasan",
+      "penjelasan": "Pohon ek tua memancarkan sinar cahaya keemasan yang memukau."
+    },
+    {
+      "id": "i166",
+      "bab": 3,
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Benda apa yang dijatuhkan Piko dari atas sebagai tanda persahabatan sejati?",
+      "pilihan": [
+        "Pita perak",
+        "Batu kerikil",
+        "Ranting patah"
+      ],
+      "jawaban_benar": "Pita perak",
+      "penjelasan": "Piko menjatuhkan sehelai pita perak berkilau indah."
+    },
+    {
+      "id": "i167",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa total jumlah teman yang didatangi Kiki untuk berbagi makanan?",
+      "pilihan": [
+        "3 pihak (Keluarga Ciko, Koko, Nenek Kura-kura)",
+        "1 pihak",
+        "5 pihak"
+      ],
+      "jawaban_benar": "3 pihak (Keluarga Ciko, Koko, Nenek Kura-kura)",
+      "penjelasan": "Kiki mengunjungi keluarga Beruang Ciko, Kancil Koko, dan Nenek Kura-kura."
+    },
+    {
+      "id": "i168",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa hitungan total wortel yang dibagikan: 2 + 2 + 1 sama dengan?",
+      "pilihan": [
+        "5 wortel",
+        "4 wortel",
+        "6 wortel"
+      ],
+      "jawaban_benar": "5 wortel",
+      "penjelasan": "2 (Beruang) + 2 (Kancil) + 1 (Kura-kura) = tepat 5 wortel."
+    },
+    {
+      "id": "i169",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Apakah ada wortel bersinar yang tersisa di keranjang bambu Kiki?",
+      "pilihan": [
+        "Tidak ada, habis terbagi pas 5 wortel",
+        "Sisa 2 wortel",
+        "Sisa 1 wortel"
+      ],
+      "jawaban_benar": "Tidak ada, habis terbagi pas 5 wortel",
+      "penjelasan": "Semua 5 wortel yang dipetik Kiki habis dibagikan dengan adil."
+    },
+    {
+      "id": "i170",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Pita perak yang dijatuhkan oleh burung Piko adalah lambang dari?",
+      "pilihan": [
+        "Persahabatan sejati di Hutan Pelangi",
+        "Hadiah uang juara",
+        "Tanda bahaya"
+      ],
+      "jawaban_benar": "Persahabatan sejati di Hutan Pelangi",
+      "penjelasan": "Teks berbunyi: 'sebagai tanda persahabatan sejati di Hutan Pelangi'."
+    },
+    {
+      "id": "i171",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Pohon apa yang mengeluarkan cahaya keemasan setelah teman-teman bahagia?",
+      "pilihan": [
+        "Pohon ek tua",
+        "Pohon pinus",
+        "Pohon beringin"
+      ],
+      "jawaban_benar": "Pohon ek tua",
+      "penjelasan": "Pohon ek tua merespons ketulusan hati Kiki dengan cahaya emas."
+    },
+    {
+      "id": "i172",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bagaimana ekspresi wajah teman-teman hutan saat menerima wortel Kiki?",
+      "pilihan": [
+        "Tersenyum bahagia",
+        "Cemberut",
+        "Menangis sedih"
+      ],
+      "jawaban_benar": "Tersenyum bahagia",
+      "penjelasan": "Senyuman bahagia terpancar dari wajah para sahabat hutan."
+    },
+    {
+      "id": "i173",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah penerima wortel pertama kali saat Kiki membagikannya?",
+      "pilihan": [
+        "Keluarga Beruang Ciko",
+        "Kancil Koko",
+        "Nenek Kura-kura"
+      ],
+      "jawaban_benar": "Keluarga Beruang Ciko",
+      "penjelasan": "Berdasarkan urutan teks: '2 wortel untuk keluarga Beruang Ciko...'."
+    },
+    {
+      "id": "i174",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah penerima wortel yang paling terakhir dikunjungi Kiki?",
+      "pilihan": [
+        "Nenek Kura-kura",
+        "Kancil Koko",
+        "Beruang Ciko"
+      ],
+      "jawaban_benar": "Nenek Kura-kura",
+      "penjelasan": "Urutan terakhir adalah 1 wortel untuk Nenek Kura-kura yang bijaksana."
+    },
+    {
+      "id": "i175",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Apa warna pita baru yang didapatkan Kiki di akhir cerita Bab 3?",
+      "pilihan": [
+        "Perak (Silver)",
+        "Ungu",
+        "Emas"
+      ],
+      "jawaban_benar": "Perak (Silver)",
+      "penjelasan": "Piko menjatuhkan pita perak berkilau dari langit."
+    },
+    {
+      "id": "i176",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Apa yang dilakukan Kiki setelah memetik 5 wortel bersinar dari kebun?",
+      "pilihan": [
+        "Memasukkannya ke keranjang bambu lalu berjalan membagikannya",
+        "Memakannya sendiri di kebun",
+        "Menyembunyikannya di tas"
+      ],
+      "jawaban_benar": "Memasukkannya ke keranjang bambu lalu berjalan membagikannya",
+      "penjelasan": "Kiki langsung bergegas membawa keranjang untuk berbagi."
+    },
+    {
+      "id": "i177",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Perasaan apa yang dirasakan pembaca di akhir cerita dongeng Kiki?",
+      "pilihan": [
+        "Haru, gembira, dan terinspirasi untuk suka berbagi",
+        "Takut dan cemas",
+        "Marah"
+      ],
+      "jawaban_benar": "Haru, gembira, dan terinspirasi untuk suka berbagi",
+      "penjelasan": "Kisah Kiki diakhiri dengan pesan kehangatan persahabatan sejati."
+    },
+    {
+      "id": "i178",
+      "bab": 3,
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Siapakah yang berkicau gembira sambil menjatuhkan pita perak?",
+      "pilihan": [
+        "Piko si burung pipit",
+        "Beruang Ciko",
+        "Kancil Koko"
+      ],
+      "jawaban_benar": "Piko si burung pipit",
+      "penjelasan": "Piko terbang di atas sambil berkicau sukacita."
+    },
+    {
+      "id": "i179",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Mengapa keluarga Beruang Ciko dan Kancil Koko masing-masing mendapat 2 wortel sedangkan Nenek Kura-kura 1 wortel?",
+      "pilihan": [
+        "Keluarga beruang dan kancil porsinya lebih banyak, sedangkan nenek kura-kura hidup tenang berporsi kecil",
+        "Karena Kiki tidak adil",
+        "Karena wortelnya busuk"
+      ],
+      "jawaban_benar": "Keluarga beruang dan kancil porsinya lebih banyak, sedangkan nenek kura-kura hidup tenang berporsi kecil",
+      "penjelasan": "Kiki membagikan wortel sesuai kebutuhan dan porsi masing-masing sahabat."
+    },
+    {
+      "id": "i180",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Nilai kebajikan utama yang paling menonjol pada Bab 3 adalah?",
+      "pilihan": [
+        "Kedermawanan dan keikhlasan berbagi (Altruisme)",
+        "Kecerdikan menipu lawan",
+        "Kecepatan berlari"
+      ],
+      "jawaban_benar": "Kedermawanan dan keikhlasan berbagi (Altruisme)",
+      "penjelasan": "Kiki memprioritaskan rasa lapar teman-temannya di atas keinginannya."
+    },
+    {
+      "id": "i181",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Apa bukti fisik penghargaan atas ketulusan hati Kiki di akhir cerita?",
+      "pilihan": [
+        "Pita perak dari Piko dan cahaya emas pohon ek",
+        "Uang emas sekarung",
+        "Mahkota permata"
+      ],
+      "jawaban_benar": "Pita perak dari Piko dan cahaya emas pohon ek",
+      "penjelasan": "Alam dan sahabat membalas budi baik Kiki dengan tanda kehormatan persahabatan."
+    },
+    {
+      "id": "i182",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapa selisih jumlah wortel yang diterima Beruang Ciko dibanding Nenek Kura-kura?",
+      "pilihan": [
+        "1 wortel (2 - 1 = 1)",
+        "2 wortel",
+        "0 wortel"
+      ],
+      "jawaban_benar": "1 wortel (2 - 1 = 1)",
+      "penjelasan": "Ciko menerima 2 wortel dan Nenek Kura-kura menerima 1 wortel, selisihnya 1."
+    },
+    {
+      "id": "i183",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Jika Kancil Koko dan Beruang Ciko digabungkan, berapa wortel yang mereka terima berdua?",
+      "pilihan": [
+        "4 wortel (2 + 2 = 4)",
+        "3 wortel",
+        "5 wortel"
+      ],
+      "jawaban_benar": "4 wortel (2 + 2 = 4)",
+      "penjelasan": "2 wortel Ciko ditambah 2 wortel Koko menghasilkan 4 wortel."
+    },
+    {
+      "id": "i184",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Bagaimana kaitan antara pohon ek tua di Bab 2 dengan Bab 3?",
+      "pilihan": [
+        "Di Bab 2 menjadi penjaga wortel emas, di Bab 3 bersinar keemasan merestui perbuatan Kiki",
+        "Di Bab 3 pohonnya roboh",
+        "Tidak ada hubungannya"
+      ],
+      "jawaban_benar": "Di Bab 2 menjadi penjaga wortel emas, di Bab 3 bersinar keemasan merestui perbuatan Kiki",
+      "penjelasan": "Pohon ek tua merespons langsung selesainya syarat kebaikan Kiki."
+    },
+    {
+      "id": "i185",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Benda pembawa wortel Kiki di Bab 3 berbeda dengan tas rajut di Bab 1. Benda di Bab 3 adalah?",
+      "pilihan": [
+        "Keranjang bambu (berkapasitas muat lebih besar)",
+        "Koper besi",
+        "Plastik kresek"
+      ],
+      "jawaban_benar": "Keranjang bambu (berkapasitas muat lebih besar)",
+      "penjelasan": "Kiki memilih keranjang bambu agar cukup membawa 5 buah wortel bersinar."
+    },
+    {
+      "id": "i186",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Kata 'sejati' pada frasa 'persahabatan sejati' memiliki makna?",
+      "pilihan": [
+        "Tulus, murni, dan abadi tanpa pamrih",
+        "Palsu dan sementara",
+        "Menguntungkan diri sendiri"
+      ],
+      "jawaban_benar": "Tulus, murni, dan abadi tanpa pamrih",
+      "penjelasan": "Persahabatan sejati berakar dari saling tolong dan saling menyayangi."
+    },
+    {
+      "id": "i187",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Mengapa Piko menjatuhkan pita perak dari udara bukan memberikannya langsung di tanah?",
+      "pilihan": [
+        "Karena Piko terbang melayang di angkasa sambil berkicau ceria",
+        "Karena Piko takut pada Kiki",
+        "Karena pitanya jatuh tidak sengaja"
+      ],
+      "jawaban_benar": "Karena Piko terbang melayang di angkasa sambil berkicau ceria",
+      "penjelasan": "Piko menjatuhkannya secara anggun sebagai hadiah kejutan dari langit."
+    },
+    {
+      "id": "i188",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Siapakah yang pertama kali menyatakan syarat bahwa wortel harus dibagikan?",
+      "pilihan": [
+        "Burung Piko di Bab 2",
+        "Kelinci Kiki sendiri",
+        "Nenek Kura-kura"
+      ],
+      "jawaban_benar": "Burung Piko di Bab 2",
+      "penjelasan": "Piko yang menyampaikan amanat hutan kepada Kiki."
+    },
+    {
+      "id": "i189",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Dua jenis warna logam mulia yang menjadi simbol penting di Bab 2 dan 3 adalah?",
+      "pilihan": [
+        "Emas (wortel & cahaya pohon) dan Perak (pita persahabatan)",
+        "Perunggu dan Tembaga",
+        "Besi dan Baja"
+      ],
+      "jawaban_benar": "Emas (wortel & cahaya pohon) dan Perak (pita persahabatan)",
+      "penjelasan": "Emas dan perak melambangkan nilai keluhuran budi pekerti dalam dongeng."
+    },
+    {
+      "id": "i190",
+      "bab": 3,
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Apakah perbuatan Kiki mencerminkan pengamalan gotong royong dan tolong-menolong?",
+      "pilihan": [
+        "Ya, sangat mencerminkan nilai luhur kepedulian sosial",
+        "Tidak, Kiki hanya pamer",
+        "Biasa saja"
+      ],
+      "jawaban_benar": "Ya, sangat mencerminkan nilai luhur kepedulian sosial",
+      "penjelasan": "Membantu teman yang lapar adalah wujud nyata kepedulian sosial."
+    },
+    {
+      "id": "i191",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa total karakter hewan berbeda yang disebutkan namanya secara spesifik sepanjang dongeng (Bab 1-3)?",
+      "pilihan": [
+        "5 karakter (Kiki, Piko, Ciko, Koko, Nenek Kura-kura)",
+        "2 karakter",
+        "8 karakter"
+      ],
+      "jawaban_benar": "5 karakter (Kiki, Piko, Ciko, Koko, Nenek Kura-kura)",
+      "penjelasan": "Dongeng menampilkan kelinci Kiki, burung Piko, beruang Ciko, kancil Koko, kura-kura."
+    },
+    {
+      "id": "i192",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Analisis alur cerita: Tahap penyelesaian konflik (Resolusi) pada dongeng Kiki terjadi saat?",
+      "pilihan": [
+        "Pohon ek tua bercahaya emas dan Piko menjatuhkan pita perak persahabatan",
+        "Kiki menemukan pintu di semak",
+        "Piko melarang memetik wortel"
+      ],
+      "jawaban_benar": "Pohon ek tua bercahaya emas dan Piko menjatuhkan pita perak persahabatan",
+      "penjelasan": "Klimaks kebaikan terbayar lunas dengan kedamaian dan anugerah persahabatan."
+    },
+    {
+      "id": "i193",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa persentase wortel yang diterima Nenek Kura-kura dari total 5 wortel yang dibagikan?",
+      "pilihan": [
+        "20% (1 dari 5)",
+        "50%",
+        "10%"
+      ],
+      "jawaban_benar": "20% (1 dari 5)",
+      "penjelasan": "1 dibagi 5 sama dengan 0,20 atau 20% dari total wortel."
+    },
+    {
+      "id": "i194",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapa persentase wortel yang diterima Beruang Ciko dan Kancil Koko digabungkan?",
+      "pilihan": [
+        "80% (4 dari 5)",
+        "50%",
+        "60%"
+      ],
+      "jawaban_benar": "80% (4 dari 5)",
+      "penjelasan": "4 dari 5 bagian setara dengan 80%."
+    },
+    {
+      "id": "i195",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Kontras visual pita Kiki: Di Bab 1 Kiki memakai pita warna UNGU, sedangkan hadiah di Bab 3 berwarna?",
+      "pilihan": [
+        "Perak",
+        "Emas",
+        "Kuning"
+      ],
+      "jawaban_benar": "Perak",
+      "penjelasan": "Bab 1: pita ungu di telinga; Bab 3: pita perak persahabatan dari Piko."
+    },
+    {
+      "id": "i196",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Karakteristik kearifan lokal yang tercermin dari penggunaan wadah 'keranjang bambu' adalah?",
+      "pilihan": [
+        "Pemanfaatan anyaman tradisional nusantara yang ramah lingkungan",
+        "Kemewahan barang impor",
+        "Penggunaan teknologi mesin"
+      ],
+      "jawaban_benar": "Pemanfaatan anyaman tradisional nusantara yang ramah lingkungan",
+      "penjelasan": "Bambu adalah material kearifan lokal yang lekat dengan budaya Indonesia."
+    },
+    {
+      "id": "i197",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Mengapa kata 'keluarga' disematkan pada tokoh Beruang Ciko ('keluarga Beruang Ciko')?",
+      "pilihan": [
+        "Menunjukkan bahwa 2 wortel dinikmati bersama anggota keluarga beruang",
+        "Karena beruangnya sendirian",
+        "Tidak ada alasan"
+      ],
+      "jawaban_benar": "Menunjukkan bahwa 2 wortel dinikmati bersama anggota keluarga beruang",
+      "penjelasan": "Penggunaan kata keluarga menekankan kebersamaan berbagi rezeki di rumah."
+    },
+    {
+      "id": "i198",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Apakah dongeng ini memiliki alur maju (progresif), mundur (flashback), atau campuran?",
+      "pilihan": [
+        "Alur maju (kronologis dari pagi Selasa hingga pembagian wortel selesai)",
+        "Alur mundur",
+        "Alur acak"
+      ],
+      "jawaban_benar": "Alur maju (kronologis dari pagi Selasa hingga pembagian wortel selesai)",
+      "penjelasan": "Peristiwa bergerak runtut dari Bab 1, berlanjut ke Bab 2, dan tuntas di Bab 3."
+    },
+    {
+      "id": "i199",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Struktur tema sentral cerita 'Kiki Si Kelinci dan Kebun Wortel Ajaib' adalah?",
+      "pilihan": [
+        "Kebaikan hati dan kesediaan berbagi menghasilkan kebahagiaan abadi",
+        "Pentingnya menguasai ilmu sihir",
+        "Kekuatan fisik mengalahkan segalanya"
+      ],
+      "jawaban_benar": "Kebaikan hati dan kesediaan berbagi menghasilkan kebahagiaan abadi",
+      "penjelasan": "Pesan moral abadi dongeng ini adalah ketulusan berbagi membawa persahabatan sejati."
+    },
+    {
+      "id": "i200",
+      "bab": 3,
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Secara keseluruhan, berapa jumlah bab pembagian dongeng berseri ini?",
+      "pilihan": [
+        "3 Bab (Bab 1, Bab 2, dan Bab 3)",
+        "5 Bab",
+        "2 Bab"
+      ],
+      "jawaban_benar": "3 Bab (Bab 1, Bab 2, dan Bab 3)",
+      "penjelasan": "Cerpen terbagi apik ke dalam 3 babak pembacaan berjenjang 7-7-6 soal."
     }
   ]
 }

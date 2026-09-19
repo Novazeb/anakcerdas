@@ -57,6 +57,7 @@
           :question-number="quizStore.currentQuestionNumber"
           :total-questions="quizStore.totalQuestions"
           :mascot="quizStore.categoryMeta.maskot"
+          :user-age-group="quizStore.userAgeGroup"
           :is-answered="quizStore.isAnswering"
           :selected-option="quizStore.lastSelectedOption"
           :is-correct="quizStore.lastAnswerIsCorrect"

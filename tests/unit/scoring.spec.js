@@ -6,11 +6,11 @@ import natureData from '@/data/questions.alam.json'
 import socialData from '@/data/questions.sosial.json'
 
 describe('Questions and Shuffle composable', () => {
-  it('all 4 datasets contain exactly 50 questions with 3 choices and correct answer matching a choice', () => {
+  it('all 4 datasets contain exactly 200 questions with 3 choices and correct answer matching a choice', () => {
     const datasets = [mathData, memoryData, natureData, socialData]
 
     for (const dataset of datasets) {
-      expect(dataset.soal.length).toBe(50)
+      expect(dataset.soal.length).toBe(200)
 
       for (const q of dataset.soal) {
         expect(q.id).toBeDefined()
@@ -24,7 +24,7 @@ describe('Questions and Shuffle composable', () => {
     }
   })
 
-  it('prepareQuizQuestions samples exactly 20 progressive questions from 50 pool', () => {
+  it('prepareQuizQuestions samples exactly 20 progressive questions from 200 pool', () => {
     const raw = mathData.soal
     const prepared = prepareQuizQuestions(raw)
 

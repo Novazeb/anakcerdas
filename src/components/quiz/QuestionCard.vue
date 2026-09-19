@@ -37,24 +37,24 @@
 
     <!-- Concrete Pictorial Clue (Concrete-Pictorial-Abstract for Kids) -->
     <div v-if="concreteVisual" class="mb-3 flex justify-center sm:justify-start">
-      <!-- Math Concrete Objects (e.g. 🍎🍎 + 🍎🍎🍎 = ?) -->
+      <!-- Math Concrete Objects (Direct icons without rounded boxes/borders) -->
       <div
         v-if="concreteVisual.type === 'math'"
-        class="py-1 px-3 bg-[#FFFDF0] rounded-felt-md border border-dashed border-amber-300 text-sm sm:text-base font-numeric font-extrabold text-brand-cocoa flex items-center gap-2 shadow-xs select-none"
+        class="py-1 flex items-center gap-2 select-none font-numeric text-brand-cocoa"
       >
-        <span class="bg-white px-2 py-0.5 rounded border border-amber-200 tracking-wider text-base sm:text-lg">
+        <span class="tracking-wider text-xl sm:text-2xl leading-none">
           {{ concreteVisual.first }}
         </span>
-        <span class="text-brand-raspberry text-base font-black">
+        <span class="text-brand-raspberry text-lg sm:text-xl font-black">
           {{ concreteVisual.op }}
         </span>
         <span
-          class="px-2 py-0.5 rounded border tracking-wider"
-          :class="concreteVisual.isSecondNumeric ? 'bg-amber-100/80 border-amber-300 font-extrabold text-brand-cocoa text-sm sm:text-base font-numeric' : 'bg-white border-amber-200 text-base sm:text-lg'"
+          class="tracking-wider"
+          :class="concreteVisual.isSecondNumeric ? 'font-extrabold font-numeric text-lg sm:text-2xl text-brand-cocoa' : 'text-xl sm:text-2xl leading-none'"
         >
           {{ concreteVisual.second }}
         </span>
-        <span class="text-brand-cocoa/60 text-sm sm:text-base font-bold">
+        <span class="text-brand-cocoa/60 text-lg sm:text-xl font-bold">
           = ?
         </span>
       </div>
@@ -88,6 +88,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import { useQuizStore } from '@/stores/quizStore'
 import MascotCharacter from '@/components/common/MascotCharacter.vue'
 import AnswerOption from '@/components/quiz/AnswerOption.vue'
 
@@ -108,6 +109,10 @@ const props = defineProps({
     type: String,
     default: 'bear'
   },
+  userAgeGroup: {
+    type: String,
+    default: null
+  },
   isAnswered: {
     type: Boolean,
     default: false
@@ -121,6 +126,9 @@ const props = defineProps({
     default: null
   }
 })
+
+const quizStore = useQuizStore()
+const activeAge = computed(() => props.userAgeGroup || quizStore.userAgeGroup || '7-9')
 
 const emit = defineEmits(['select-answer'])
 
@@ -154,8 +162,13 @@ const tierBadgeClass = computed(() => {
   return 'bg-pink-50 text-pink-700 border-pink-300'
 })
 
-// Concrete visual representation for kids
+// Concrete visual representation for kids (disabled for 10-12 years old)
 const concreteVisual = computed(() => {
+  // SD Lanjutan (10-12 years old) does not need arithmetic SVG / concrete fruit clues
+  if (activeAge.value === '10-12') {
+    return null
+  }
+
   const qText = props.question?.pertanyaan || ''
 
   // 1. Math arithmetic detection (e.g., 2 + 3, 5 - 2, 5 x 2, 6 : 2)

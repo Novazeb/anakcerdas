@@ -2,17 +2,17 @@
 
 > **Website Latihan Soal Interaktif, Ceria, dan Ramah Anak (Usia di Bawah 12 Tahun)**
 
-AnakCerdas adalah platform web edukasi berbasis **Vue 3** yang dirancang dengan konsep *"Kamar Bermain Boneka Flanel"*. Aplikasi ini menghadirkan pengalaman belajar yang menyenangkan seperti bermain, dilengkapi visual boneka jahitan tangan, efek suara marimba ceria, 3 pilihan tema musik, dan bank soal 200 soal bertingkat tanpa rasa takut gagal.
+AnakCerdas adalah platform web edukasi berbasis **Vue 3** yang dirancang dengan konsep *"Kamar Bermain Boneka Flanel"*. Aplikasi ini menghadirkan pengalaman belajar yang menyenangkan seperti bermain, dilengkapi visual boneka jahitan tangan, efek suara marimba ceria, 3 pilihan tema musik, dan bank soal 800 soal bertingkat tanpa rasa takut gagal.
 
 ---
 
 ## ✨ Fitur Utama
 
-- **4 Modul Petualangan (Total 200 Bank Soal, 20 Soal Bertingkat per Sesi Permainan)**:
-  - 🧮 **Matematika (50 Soal)**: Penjumlahan, pengurangan, perkalian, pembagian, dan teka-teki logika dipandu *Beruang Kiki*.
-  - 🧠 **Ingatan (Cerpen + 50 Soal)**: Membaca cerpen bergambar *"Kiki Si Kelinci dan Kebun Wortel Ajaib"* disusul uji daya ingat bertingkat dipandu *Kelinci Kiki*.
-  - 🌱 **Pengetahuan Alam (50 Soal)**: Flora, fauna, cuaca, tata surya, dan anatomi tubuh manusia dipandu *Landak Dudu*.
-  - 🏘️ **Pengetahuan Sosial (50 Soal)**: Budi pekerti, gotong royong, sopan santun, sejarah, budaya nusantara, dan simbol negara dipandu *Kucing Ramah*.
+- **4 Modul Petualangan (Total 800 Bank Soal, 200 Soal per Kategori, 20 Soal Bertingkat per Sesi Permainan)**:
+  - 🧮 **Matematika (200 Soal)**: Penjumlahan, pengurangan, perkalian, pembagian, dan teka-teki logika dipandu *Beruang Kiki*.
+  - 🧠 **Ingatan (Cerpen + 200 Soal)**: Membaca cerpen bergambar *"Kiki Si Kelinci dan Kebun Wortel Ajaib"* disusul uji daya ingat bertingkat dipandu *Kelinci Kiki*.
+  - 🌱 **Pengetahuan Alam (200 Soal)**: Flora, fauna, cuaca, tata surya, anatomi tubuh manusia, dan sains dipandu *Landak Dudu*.
+  - 🏘️ **Pengetahuan Sosial (200 Soal)**: Budi pekerti, gotong royong, sopan santun, sejarah, budaya nusantara, dan simbol negara dipandu *Kucing Miko*.
 - **Sistem Level Progresif 4 Tingkat (Selalu Diacak & Berjenjang)**:
   - 🌱 **Soal 1 – 5**: *Level 1 (Mudah / Pengenalan)*
   - ⭐ **Soal 6 – 10**: *Level 2 (Ringan / Pemahaman)*

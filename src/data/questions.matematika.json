@@ -867,6 +867,2484 @@
         "7-9",
         "10-12"
       ]
+    },
+    {
+      "id": "m51",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 1 + 2?",
+      "pilihan": [
+        "3",
+        "4",
+        "2"
+      ],
+      "jawaban_benar": "3",
+      "penjelasan": "1 jari ditambah 2 jari sama dengan 3 jari."
+    },
+    {
+      "id": "m52",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 2 + 2?",
+      "pilihan": [
+        "4",
+        "5",
+        "3"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "2 kelinci ditambah 2 kelinci menjadi 4 kelinci."
+    },
+    {
+      "id": "m53",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 3 + 1?",
+      "pilihan": [
+        "4",
+        "5",
+        "3"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "3 apel ditambah 1 apel sama dengan 4 apel."
+    },
+    {
+      "id": "m54",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 4 + 2?",
+      "pilihan": [
+        "6",
+        "5",
+        "7"
+      ],
+      "jawaban_benar": "6",
+      "penjelasan": "4 stroberi ditambah 2 stroberi hasilnya 6."
+    },
+    {
+      "id": "m55",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 + 1?",
+      "pilihan": [
+        "6",
+        "7",
+        "5"
+      ],
+      "jawaban_benar": "6",
+      "penjelasan": "5 kue ditambah 1 kue hasilnya 6 kue."
+    },
+    {
+      "id": "m56",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 2 + 5?",
+      "pilihan": [
+        "7",
+        "6",
+        "8"
+      ],
+      "jawaban_benar": "7",
+      "penjelasan": "2 ditambah 5 hasilnya 7."
+    },
+    {
+      "id": "m57",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 3 + 4?",
+      "pilihan": [
+        "7",
+        "8",
+        "6"
+      ],
+      "jawaban_benar": "7",
+      "penjelasan": "3 bintang ditambah 4 bintang menjadi 7 bintang."
+    },
+    {
+      "id": "m58",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 + 3?",
+      "pilihan": [
+        "8",
+        "7",
+        "9"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "5 balon ditambah 3 balon menjadi 8 balon."
+    },
+    {
+      "id": "m59",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 6 + 2?",
+      "pilihan": [
+        "8",
+        "9",
+        "7"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "6 kelereng ditambah 2 kelereng hasilnya 8."
+    },
+    {
+      "id": "m60",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 7 + 1?",
+      "pilihan": [
+        "8",
+        "9",
+        "7"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "7 ditambah 1 menghasilkan 8."
+    },
+    {
+      "id": "m61",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 4 + 5?",
+      "pilihan": [
+        "9",
+        "8",
+        "10"
+      ],
+      "jawaban_benar": "9",
+      "penjelasan": "4 permen ditambah 5 permen menjadi 9 permen."
+    },
+    {
+      "id": "m62",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 6 + 3?",
+      "pilihan": [
+        "9",
+        "8",
+        "10"
+      ],
+      "jawaban_benar": "9",
+      "penjelasan": "6 bunga ditambah 3 bunga hasilnya 9 bunga."
+    },
+    {
+      "id": "m63",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 + 5?",
+      "pilihan": [
+        "10",
+        "9",
+        "11"
+      ],
+      "jawaban_benar": "10",
+      "penjelasan": "Sepuluh jari tanganmu terbagi 5 di kiri dan 5 di kanan."
+    },
+    {
+      "id": "m64",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 8 + 2?",
+      "pilihan": [
+        "10",
+        "9",
+        "11"
+      ],
+      "jawaban_benar": "10",
+      "penjelasan": "8 ditambah 2 sama dengan 10."
+    },
+    {
+      "id": "m65",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 9 + 1?",
+      "pilihan": [
+        "10",
+        "8",
+        "11"
+      ],
+      "jawaban_benar": "10",
+      "penjelasan": "9 ditambah 1 pas menjadi 10."
+    },
+    {
+      "id": "m66",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 3 - 1?",
+      "pilihan": [
+        "2",
+        "1",
+        "3"
+      ],
+      "jawaban_benar": "2",
+      "penjelasan": "3 donat dimakan 1 sisa 2 donat."
+    },
+    {
+      "id": "m67",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 4 - 2?",
+      "pilihan": [
+        "2",
+        "1",
+        "3"
+      ],
+      "jawaban_benar": "2",
+      "penjelasan": "4 kupu-kupu terbang 2 sisa 2 kupu-kupu."
+    },
+    {
+      "id": "m68",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 - 3?",
+      "pilihan": [
+        "2",
+        "3",
+        "1"
+      ],
+      "jawaban_benar": "2",
+      "penjelasan": "5 kelereng hilang 3 sisa 2 kelereng."
+    },
+    {
+      "id": "m69",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 4 - 1?",
+      "pilihan": [
+        "3",
+        "2",
+        "4"
+      ],
+      "jawaban_benar": "3",
+      "penjelasan": "4 dikurangi 1 hasilnya 3."
+    },
+    {
+      "id": "m70",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 - 1?",
+      "pilihan": [
+        "4",
+        "3",
+        "5"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "5 dikurangi 1 hasilnya 4."
+    },
+    {
+      "id": "m71",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 6 - 2?",
+      "pilihan": [
+        "4",
+        "5",
+        "3"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "6 kue dimakan 2 tersisa 4 kue."
+    },
+    {
+      "id": "m72",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 7 - 2?",
+      "pilihan": [
+        "5",
+        "4",
+        "6"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "7 dikurangi 2 menghasilkan 5."
+    },
+    {
+      "id": "m73",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 8 - 3?",
+      "pilihan": [
+        "5",
+        "6",
+        "4"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "8 dikurang 3 menyisakan 5."
+    },
+    {
+      "id": "m74",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 9 - 4?",
+      "pilihan": [
+        "5",
+        "4",
+        "6"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "9 dikurangi 4 hasilnya 5."
+    },
+    {
+      "id": "m75",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 7 - 1?",
+      "pilihan": [
+        "6",
+        "5",
+        "8"
+      ],
+      "jawaban_benar": "6",
+      "penjelasan": "7 dikurangi 1 menjadi 6."
+    },
+    {
+      "id": "m76",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 8 - 2?",
+      "pilihan": [
+        "6",
+        "7",
+        "5"
+      ],
+      "jawaban_benar": "6",
+      "penjelasan": "8 dikurangi 2 hasilnya 6."
+    },
+    {
+      "id": "m77",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 9 - 2?",
+      "pilihan": [
+        "7",
+        "6",
+        "8"
+      ],
+      "jawaban_benar": "7",
+      "penjelasan": "9 dikurang 2 adalah 7."
+    },
+    {
+      "id": "m78",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 10 - 2?",
+      "pilihan": [
+        "8",
+        "7",
+        "9"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "10 dikurangi 2 tersisa 8."
+    },
+    {
+      "id": "m79",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 10 - 5?",
+      "pilihan": [
+        "5",
+        "4",
+        "6"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "10 jari ditutup 5 tersisa 5 jari."
+    },
+    {
+      "id": "m80",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 10 - 1?",
+      "pilihan": [
+        "9",
+        "8",
+        "10"
+      ],
+      "jawaban_benar": "9",
+      "penjelasan": "10 dikurangi 1 hasilnya 9."
+    },
+    {
+      "id": "m81",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 0 + 7?",
+      "pilihan": [
+        "7",
+        "0",
+        "8"
+      ],
+      "jawaban_benar": "7",
+      "penjelasan": "Angka berapa pun jika ditambah 0 hasilnya tetap angka itu sendiri."
+    },
+    {
+      "id": "m82",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 8 - 0?",
+      "pilihan": [
+        "8",
+        "0",
+        "7"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "8 tidak dikurangi apa-apa tetap utuh 8."
+    },
+    {
+      "id": "m83",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Manakah angka yang lebih besar antara 3 dan 7?",
+      "pilihan": [
+        "7",
+        "3",
+        "Sama"
+      ],
+      "jawaban_benar": "7",
+      "penjelasan": "7 bernilai lebih banyak daripada 3."
+    },
+    {
+      "id": "m84",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Manakah angka yang lebih kecil antara 2 dan 9?",
+      "pilihan": [
+        "2",
+        "9",
+        "Sama"
+      ],
+      "jawaban_benar": "2",
+      "penjelasan": "2 lebih sedikit jumlahnya daripada 9."
+    },
+    {
+      "id": "m85",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapa jumlah sisi yang dimiliki oleh bangun segitiga?",
+      "pilihan": [
+        "3",
+        "4",
+        "2"
+      ],
+      "jawaban_benar": "3",
+      "penjelasan": "Segitiga memiliki 3 sisi dan 3 sudut."
+    },
+    {
+      "id": "m86",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapa jumlah sudut pada bangun persegi (kotak)?",
+      "pilihan": [
+        "4",
+        "3",
+        "5"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "Persegi memiliki 4 sudut siku-siku dan 4 sisi sama panjang."
+    },
+    {
+      "id": "m87",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Benda apa yang bentuknya lingkaran bulat sempurna?",
+      "pilihan": [
+        "Roda sepeda",
+        "Buku tulis",
+        "Pintu rumah"
+      ],
+      "jawaban_benar": "Roda sepeda",
+      "penjelasan": "Roda sepeda berbentuk bulat melingkar tanpa sudut."
+    },
+    {
+      "id": "m88",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 10 + 4?",
+      "pilihan": [
+        "14",
+        "13",
+        "15"
+      ],
+      "jawaban_benar": "14",
+      "penjelasan": "10 ditambah 4 menjadi 14."
+    },
+    {
+      "id": "m89",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 12 + 3?",
+      "pilihan": [
+        "15",
+        "14",
+        "16"
+      ],
+      "jawaban_benar": "15",
+      "penjelasan": "12 ditambah 3 menghasilkan 15."
+    },
+    {
+      "id": "m90",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 11 + 5?",
+      "pilihan": [
+        "16",
+        "15",
+        "17"
+      ],
+      "jawaban_benar": "16",
+      "penjelasan": "11 ditambah 5 hasilnya 16."
+    },
+    {
+      "id": "m91",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 14 + 4?",
+      "pilihan": [
+        "18",
+        "17",
+        "19"
+      ],
+      "jawaban_benar": "18",
+      "penjelasan": "14 ditambah 4 menjadi 18."
+    },
+    {
+      "id": "m92",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 15 + 5?",
+      "pilihan": [
+        "20",
+        "19",
+        "25"
+      ],
+      "jawaban_benar": "20",
+      "penjelasan": "15 ditambah 5 genap menjadi 20."
+    },
+    {
+      "id": "m93",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 20 + 7?",
+      "pilihan": [
+        "27",
+        "26",
+        "28"
+      ],
+      "jawaban_benar": "27",
+      "penjelasan": "20 ditambah 7 hasilnya 27."
+    },
+    {
+      "id": "m94",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 22 + 6?",
+      "pilihan": [
+        "28",
+        "27",
+        "29"
+      ],
+      "jawaban_benar": "28",
+      "penjelasan": "22 ditambah 6 menjadi 28."
+    },
+    {
+      "id": "m95",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 30 + 10?",
+      "pilihan": [
+        "40",
+        "35",
+        "50"
+      ],
+      "jawaban_benar": "40",
+      "penjelasan": "3 puluhan ditambah 1 puluhan sama dengan 4 puluhan (40)."
+    },
+    {
+      "id": "m96",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 25 + 5?",
+      "pilihan": [
+        "30",
+        "29",
+        "35"
+      ],
+      "jawaban_benar": "30",
+      "penjelasan": "25 ditambah 5 menghasilkan 30."
+    },
+    {
+      "id": "m97",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 13 - 3?",
+      "pilihan": [
+        "10",
+        "9",
+        "11"
+      ],
+      "jawaban_benar": "10",
+      "penjelasan": "13 dikurangi 3 kembali menjadi 10."
+    },
+    {
+      "id": "m98",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 15 - 4?",
+      "pilihan": [
+        "11",
+        "10",
+        "12"
+      ],
+      "jawaban_benar": "11",
+      "penjelasan": "15 dikurangi 4 menyisakan 11."
+    },
+    {
+      "id": "m99",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 16 - 6?",
+      "pilihan": [
+        "10",
+        "12",
+        "9"
+      ],
+      "jawaban_benar": "10",
+      "penjelasan": "16 dikurangi 6 tersisa 10."
+    },
+    {
+      "id": "m100",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 18 - 5?",
+      "pilihan": [
+        "13",
+        "12",
+        "14"
+      ],
+      "jawaban_benar": "13",
+      "penjelasan": "18 dikurangi 5 hasilnya 13."
+    },
+    {
+      "id": "m101",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 20 - 5?",
+      "pilihan": [
+        "15",
+        "14",
+        "16"
+      ],
+      "jawaban_benar": "15",
+      "penjelasan": "20 dikurang 5 adalah 15."
+    },
+    {
+      "id": "m102",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 20 - 10?",
+      "pilihan": [
+        "10",
+        "15",
+        "5"
+      ],
+      "jawaban_benar": "10",
+      "penjelasan": "20 dikurangi separuhnya (10) tersisa 10."
+    },
+    {
+      "id": "m103",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 28 - 8?",
+      "pilihan": [
+        "20",
+        "18",
+        "22"
+      ],
+      "jawaban_benar": "20",
+      "penjelasan": "28 dikurangi 8 tersisa 20."
+    },
+    {
+      "id": "m104",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 35 - 5?",
+      "pilihan": [
+        "30",
+        "25",
+        "32"
+      ],
+      "jawaban_benar": "30",
+      "penjelasan": "35 dikurangi 5 hasilnya 30."
+    },
+    {
+      "id": "m105",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 40 - 20?",
+      "pilihan": [
+        "20",
+        "30",
+        "10"
+      ],
+      "jawaban_benar": "20",
+      "penjelasan": "40 dikurangi 20 menghasilkan 20."
+    },
+    {
+      "id": "m106",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 50 - 25?",
+      "pilihan": [
+        "25",
+        "30",
+        "20"
+      ],
+      "jawaban_benar": "25",
+      "penjelasan": "50 dikurangi 25 adalah 25."
+    },
+    {
+      "id": "m107",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Angka kelanjutan dari pola 2, 4, 6, ... adalah?",
+      "pilihan": [
+        "8",
+        "7",
+        "9"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "Pola ini melompat 2 angka setiap langkah: 2, 4, 6, 8."
+    },
+    {
+      "id": "m108",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Angka kelanjutan dari pola 5, 10, 15, ... adalah?",
+      "pilihan": [
+        "20",
+        "18",
+        "25"
+      ],
+      "jawaban_benar": "20",
+      "penjelasan": "Pola ini melompat 5 angka setiap langkah: 5, 10, 15, 20."
+    },
+    {
+      "id": "m109",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Angka kelanjutan dari pola 10, 20, 30, ... adalah?",
+      "pilihan": [
+        "40",
+        "50",
+        "35"
+      ],
+      "jawaban_benar": "40",
+      "penjelasan": "Pola ini bertambah 10 setiap langkah: 10, 20, 30, 40."
+    },
+    {
+      "id": "m110",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Angka kelanjutan dari pola 3, 6, 9, ... adalah?",
+      "pilihan": [
+        "12",
+        "11",
+        "15"
+      ],
+      "jawaban_benar": "12",
+      "penjelasan": "Pola ini bertambah 3 angka setiap langkah: 3, 6, 9, 12."
+    },
+    {
+      "id": "m111",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Jika jarum panjang di angka 12 dan jarum pendek di angka 4, jam menunjukkan pukul?",
+      "pilihan": [
+        "04.00",
+        "12.04",
+        "04.12"
+      ],
+      "jawaban_benar": "04.00",
+      "penjelasan": "Jarum pendek menunjukkan jam (4) dan jarum panjang di 12 menunjukkan menit tepat (00)."
+    },
+    {
+      "id": "m112",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Jika jarum panjang di angka 12 dan jarum pendek di angka 8, jam menunjukkan pukul?",
+      "pilihan": [
+        "08.00",
+        "12.08",
+        "08.12"
+      ],
+      "jawaban_benar": "08.00",
+      "penjelasan": "Jarum pendek di angka 8 berarti pukul delapan tepat (08.00)."
+    },
+    {
+      "id": "m113",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Jika jarum panjang menunjuk angka 6, artinya telah lewat berapa menit?",
+      "pilihan": [
+        "30 menit",
+        "15 menit",
+        "45 menit"
+      ],
+      "jawaban_benar": "30 menit",
+      "penjelasan": "Angka 6 pada jam menunjukkan setengah jam atau 30 menit."
+    },
+    {
+      "id": "m114",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa nilai dari selembar uang Rp2.000 ditambah selembar Rp1.000?",
+      "pilihan": [
+        "Rp3.000",
+        "Rp2.500",
+        "Rp4.000"
+      ],
+      "jawaban_benar": "Rp3.000",
+      "penjelasan": "2.000 + 1.000 = 3.000 rupiah."
+    },
+    {
+      "id": "m115",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa nilai dari 2 lembar uang Rp5.000?",
+      "pilihan": [
+        "Rp10.000",
+        "Rp7.000",
+        "Rp15.000"
+      ],
+      "jawaban_benar": "Rp10.000",
+      "penjelasan": "5.000 + 5.000 = 10.000 rupiah."
+    },
+    {
+      "id": "m116",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Budi punya uang Rp10.000 lalu beli es krim seharga Rp4.000. Berapa uang kembaliannya?",
+      "pilihan": [
+        "Rp6.000",
+        "Rp5.000",
+        "Rp7.000"
+      ],
+      "jawaban_benar": "Rp6.000",
+      "penjelasan": "10.000 dikurangi 4.000 sama dengan 6.000 rupiah."
+    },
+    {
+      "id": "m117",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bangun ruang yang bentuknya seperti kotak kardus atau dadu disebut?",
+      "pilihan": [
+        "Kubus",
+        "Bola",
+        "Kerucut"
+      ],
+      "jawaban_benar": "Kubus",
+      "penjelasan": "Kubus memiliki 6 sisi berbentuk persegi yang sama persis ukurannya."
+    },
+    {
+      "id": "m118",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bangun ruang yang bentuknya seperti bola sepak atau jeruk disebut?",
+      "pilihan": [
+        "Bola",
+        "Tabung",
+        "Prisma"
+      ],
+      "jawaban_benar": "Bola",
+      "penjelasan": "Bola adalah bangun ruang bulat sempurna tanpa sudut."
+    },
+    {
+      "id": "m119",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bangun ruang yang bentuknya seperti kaleng susu atau drum disebut?",
+      "pilihan": [
+        "Tabung",
+        "Balok",
+        "Limas"
+      ],
+      "jawaban_benar": "Tabung",
+      "penjelasan": "Tabung memiliki alas dan tutup berbentuk lingkaran yang sejajar."
+    },
+    {
+      "id": "m120",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa jumlah sisi yang dimiliki oleh bangun persegi panjang?",
+      "pilihan": [
+        "4",
+        "3",
+        "5"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "Persegi panjang memiliki 4 sisi, terdiri dari 2 pasang sisi sejajar."
+    },
+    {
+      "id": "m121",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Manakah yang merupakan bilangan genap?",
+      "pilihan": [
+        "8",
+        "7",
+        "9"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "Bilangan genap bisa dibagi 2 tanpa sisa (contoh: 2, 4, 6, 8)."
+    },
+    {
+      "id": "m122",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Manakah yang merupakan bilangan ganjil?",
+      "pilihan": [
+        "7",
+        "6",
+        "10"
+      ],
+      "jawaban_benar": "7",
+      "penjelasan": "Bilangan ganjil jika dibagi 2 menyisakan 1 (contoh: 1, 3, 5, 7, 9)."
+    },
+    {
+      "id": "m123",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bilangan loncat mundur: 10, 9, 8, 7, ... angka berikutnya adalah?",
+      "pilihan": [
+        "6",
+        "5",
+        "8"
+      ],
+      "jawaban_benar": "6",
+      "penjelasan": "Hitungan mundur berkurang 1 setiap langkah: 7 berkurang 1 menjadi 6."
+    },
+    {
+      "id": "m124",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa hasil dari 5 pasang sepatu jika dihitung satu per satu?",
+      "pilihan": [
+        "10 sepatu",
+        "5 sepatu",
+        "15 sepatu"
+      ],
+      "jawaban_benar": "10 sepatu",
+      "penjelasan": "1 pasang ada 2 sepatu, maka 5 pasang ada 5 x 2 = 10 sepatu."
+    },
+    {
+      "id": "m125",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapakah hasil dari 14 + 6?",
+      "pilihan": [
+        "20",
+        "19",
+        "21"
+      ],
+      "jawaban_benar": "20",
+      "penjelasan": "14 ditambah 6 genap menjadi 20."
+    },
+    {
+      "id": "m126",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 2 x 3?",
+      "pilihan": [
+        "6",
+        "5",
+        "8"
+      ],
+      "jawaban_benar": "6",
+      "penjelasan": "2 dikali 3 sama dengan 2 + 2 + 2 = 6."
+    },
+    {
+      "id": "m127",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 2 x 4?",
+      "pilihan": [
+        "8",
+        "6",
+        "10"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "2 dikali 4 sama dengan 8."
+    },
+    {
+      "id": "m128",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 2 x 5?",
+      "pilihan": [
+        "10",
+        "8",
+        "12"
+      ],
+      "jawaban_benar": "10",
+      "penjelasan": "2 dikali 5 menghasilkan 10."
+    },
+    {
+      "id": "m129",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 3 x 3?",
+      "pilihan": [
+        "9",
+        "6",
+        "12"
+      ],
+      "jawaban_benar": "9",
+      "penjelasan": "3 kelompok berisi 3 benda totalnya ada 9."
+    },
+    {
+      "id": "m130",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 3 x 4?",
+      "pilihan": [
+        "12",
+        "10",
+        "15"
+      ],
+      "jawaban_benar": "12",
+      "penjelasan": "3 dikali 4 sama dengan 12."
+    },
+    {
+      "id": "m131",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 3 x 5?",
+      "pilihan": [
+        "15",
+        "12",
+        "18"
+      ],
+      "jawaban_benar": "15",
+      "penjelasan": "3 dikali 5 menghasilkan 15."
+    },
+    {
+      "id": "m132",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 4 x 2?",
+      "pilihan": [
+        "8",
+        "6",
+        "10"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "4 dikali 2 sama dengan 8."
+    },
+    {
+      "id": "m133",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 4 x 3?",
+      "pilihan": [
+        "12",
+        "14",
+        "16"
+      ],
+      "jawaban_benar": "12",
+      "penjelasan": "4 dikali 3 sama dengan 12."
+    },
+    {
+      "id": "m134",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 4 x 4?",
+      "pilihan": [
+        "16",
+        "12",
+        "20"
+      ],
+      "jawaban_benar": "16",
+      "penjelasan": "4 dikali 4 menghasilkan 16."
+    },
+    {
+      "id": "m135",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 x 2?",
+      "pilihan": [
+        "10",
+        "7",
+        "15"
+      ],
+      "jawaban_benar": "10",
+      "penjelasan": "5 dikali 2 sama dengan 10."
+    },
+    {
+      "id": "m136",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 x 3?",
+      "pilihan": [
+        "15",
+        "12",
+        "20"
+      ],
+      "jawaban_benar": "15",
+      "penjelasan": "5 dikali 3 sama dengan 15."
+    },
+    {
+      "id": "m137",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 x 4?",
+      "pilihan": [
+        "20",
+        "25",
+        "15"
+      ],
+      "jawaban_benar": "20",
+      "penjelasan": "5 dikali 4 menghasilkan 20."
+    },
+    {
+      "id": "m138",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 x 5?",
+      "pilihan": [
+        "25",
+        "20",
+        "30"
+      ],
+      "jawaban_benar": "25",
+      "penjelasan": "5 dikali 5 sama dengan 25."
+    },
+    {
+      "id": "m139",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 6 x 2?",
+      "pilihan": [
+        "12",
+        "14",
+        "10"
+      ],
+      "jawaban_benar": "12",
+      "penjelasan": "6 dikali 2 adalah 12."
+    },
+    {
+      "id": "m140",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 7 x 2?",
+      "pilihan": [
+        "14",
+        "16",
+        "12"
+      ],
+      "jawaban_benar": "14",
+      "penjelasan": "7 dikali 2 sama dengan 14."
+    },
+    {
+      "id": "m141",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 8 x 2?",
+      "pilihan": [
+        "16",
+        "18",
+        "14"
+      ],
+      "jawaban_benar": "16",
+      "penjelasan": "8 dikali 2 adalah 16."
+    },
+    {
+      "id": "m142",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 9 x 2?",
+      "pilihan": [
+        "18",
+        "16",
+        "20"
+      ],
+      "jawaban_benar": "18",
+      "penjelasan": "9 dikali 2 adalah 18."
+    },
+    {
+      "id": "m143",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 10 x 3?",
+      "pilihan": [
+        "30",
+        "20",
+        "40"
+      ],
+      "jawaban_benar": "30",
+      "penjelasan": "10 dikali 3 sama dengan 30."
+    },
+    {
+      "id": "m144",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 6 : 2?",
+      "pilihan": [
+        "3",
+        "2",
+        "4"
+      ],
+      "jawaban_benar": "3",
+      "penjelasan": "6 dibagi rata ke 2 orang masing-masing mendapat 3."
+    },
+    {
+      "id": "m145",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 8 : 2?",
+      "pilihan": [
+        "4",
+        "3",
+        "5"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "8 dibagi 2 sama dengan 4."
+    },
+    {
+      "id": "m146",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 10 : 2?",
+      "pilihan": [
+        "5",
+        "4",
+        "6"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "10 dibagi 2 sama dengan 5."
+    },
+    {
+      "id": "m147",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 9 : 3?",
+      "pilihan": [
+        "3",
+        "2",
+        "4"
+      ],
+      "jawaban_benar": "3",
+      "penjelasan": "9 dibagi 3 hasilnya 3."
+    },
+    {
+      "id": "m148",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 12 : 3?",
+      "pilihan": [
+        "4",
+        "3",
+        "5"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "12 dibagi 3 sama dengan 4."
+    },
+    {
+      "id": "m149",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 15 : 3?",
+      "pilihan": [
+        "5",
+        "4",
+        "6"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "15 dibagi 3 sama dengan 5."
+    },
+    {
+      "id": "m150",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 16 : 4?",
+      "pilihan": [
+        "4",
+        "5",
+        "3"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "16 dibagi 4 sama dengan 4."
+    },
+    {
+      "id": "m151",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 20 : 4?",
+      "pilihan": [
+        "5",
+        "4",
+        "6"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "20 dibagi 4 menghasilkan 5."
+    },
+    {
+      "id": "m152",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 20 : 5?",
+      "pilihan": [
+        "4",
+        "5",
+        "3"
+      ],
+      "jawaban_benar": "4",
+      "penjelasan": "20 dibagi 5 hasilnya 4."
+    },
+    {
+      "id": "m153",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 25 : 5?",
+      "pilihan": [
+        "5",
+        "4",
+        "6"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "25 dibagi 5 sama dengan 5."
+    },
+    {
+      "id": "m154",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapa menit dalam 1 jam penuh?",
+      "pilihan": [
+        "60 menit",
+        "30 menit",
+        "100 menit"
+      ],
+      "jawaban_benar": "60 menit",
+      "penjelasan": "1 jam memiliki durasi tepat 60 menit."
+    },
+    {
+      "id": "m155",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Berapa detik dalam 1 menit?",
+      "pilihan": [
+        "60 detik",
+        "100 detik",
+        "30 detik"
+      ],
+      "jawaban_benar": "60 detik",
+      "penjelasan": "1 menit terdiri dari 60 detik."
+    },
+    {
+      "id": "m156",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "1 meter sama dengan berapa sentimeter (cm)?",
+      "pilihan": [
+        "100 cm",
+        "10 cm",
+        "1.000 cm"
+      ],
+      "jawaban_benar": "100 cm",
+      "penjelasan": "1 meter setara dengan 100 sentimeter."
+    },
+    {
+      "id": "m157",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "1 kilogram (kg) sama dengan berapa gram?",
+      "pilihan": [
+        "1.000 gram",
+        "100 gram",
+        "500 gram"
+      ],
+      "jawaban_benar": "1.000 gram",
+      "penjelasan": "1 kg sama dengan 1.000 gram."
+    },
+    {
+      "id": "m158",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Pecahan 1/2 artinya satu benda dibagi menjadi berapa bagian sama besar?",
+      "pilihan": [
+        "2 bagian",
+        "3 bagian",
+        "4 bagian"
+      ],
+      "jawaban_benar": "2 bagian",
+      "penjelasan": "1/2 (setengah) berarti satu bagian dari dua bagian yang sama besar."
+    },
+    {
+      "id": "m159",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Pecahan 1/4 sering juga disebut dengan istilah?",
+      "pilihan": [
+        "Seperempat",
+        "Setengah",
+        "Sepertiga"
+      ],
+      "jawaban_benar": "Seperempat",
+      "penjelasan": "1/4 adalah satu per empat atau seperempat bagian."
+    },
+    {
+      "id": "m160",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Pecahan 2/4 nilainya sama dengan pecahan?",
+      "pilihan": [
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "jawaban_benar": "1/2",
+      "penjelasan": "2/4 jika disederhanakan sama nilainya dengan 1/2 (setengah)."
+    },
+    {
+      "id": "m161",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Sebuah pizza dipotong menjadi 8 potong sama besar. Jika Budi makan 2 potong, bagian yang dimakan adalah?",
+      "pilihan": [
+        "2/8",
+        "1/8",
+        "3/8"
+      ],
+      "jawaban_benar": "2/8",
+      "penjelasan": "Budi makan 2 dari total 8 potong, jadi pecahannya 2/8 (atau 1/4)."
+    },
+    {
+      "id": "m162",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Ibu membeli 3 kantong jeruk. Tiap kantong berisi 6 jeruk. Berapa total jeruk ibu?",
+      "pilihan": [
+        "18 jeruk",
+        "15 jeruk",
+        "21 jeruk"
+      ],
+      "jawaban_benar": "18 jeruk",
+      "penjelasan": "3 kantong dikali 6 jeruk = 18 jeruk."
+    },
+    {
+      "id": "m163",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Doni punya 24 kelereng dibagikan sama rata ke 4 temannya. Tiap anak dapat berapa kelereng?",
+      "pilihan": [
+        "6 kelereng",
+        "5 kelereng",
+        "7 kelereng"
+      ],
+      "jawaban_benar": "6 kelereng",
+      "penjelasan": "24 dibagi 4 sama dengan 6 kelereng."
+    },
+    {
+      "id": "m164",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 12 x 4?",
+      "pilihan": [
+        "48",
+        "44",
+        "52"
+      ],
+      "jawaban_benar": "48",
+      "penjelasan": "12 x 4 = (10 x 4) + (2 x 4) = 40 + 8 = 48."
+    },
+    {
+      "id": "m165",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 15 x 3?",
+      "pilihan": [
+        "45",
+        "40",
+        "50"
+      ],
+      "jawaban_benar": "45",
+      "penjelasan": "15 x 3 = 45."
+    },
+    {
+      "id": "m166",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 25 x 4?",
+      "pilihan": [
+        "100",
+        "75",
+        "125"
+      ],
+      "jawaban_benar": "100",
+      "penjelasan": "25 dikali 4 menghasilkan tepat 100."
+    },
+    {
+      "id": "m167",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 14 x 5?",
+      "pilihan": [
+        "70",
+        "65",
+        "75"
+      ],
+      "jawaban_benar": "70",
+      "penjelasan": "14 dikali 5 sama dengan 70."
+    },
+    {
+      "id": "m168",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 16 x 3?",
+      "pilihan": [
+        "48",
+        "46",
+        "52"
+      ],
+      "jawaban_benar": "48",
+      "penjelasan": "16 dikali 3 hasilnya 48."
+    },
+    {
+      "id": "m169",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 20 x 6?",
+      "pilihan": [
+        "120",
+        "100",
+        "140"
+      ],
+      "jawaban_benar": "120",
+      "penjelasan": "20 x 6 = 120."
+    },
+    {
+      "id": "m170",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 50 x 4?",
+      "pilihan": [
+        "200",
+        "150",
+        "250"
+      ],
+      "jawaban_benar": "200",
+      "penjelasan": "50 dikali 4 sama dengan 200."
+    },
+    {
+      "id": "m171",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 75 x 2?",
+      "pilihan": [
+        "150",
+        "140",
+        "160"
+      ],
+      "jawaban_benar": "150",
+      "penjelasan": "75 dikali 2 menghasilkan 150."
+    },
+    {
+      "id": "m172",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 100 : 4?",
+      "pilihan": [
+        "25",
+        "20",
+        "30"
+      ],
+      "jawaban_benar": "25",
+      "penjelasan": "100 dibagi 4 sama dengan 25."
+    },
+    {
+      "id": "m173",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 120 : 6?",
+      "pilihan": [
+        "20",
+        "25",
+        "18"
+      ],
+      "jawaban_benar": "20",
+      "penjelasan": "120 dibagi 6 sama dengan 20."
+    },
+    {
+      "id": "m174",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 150 : 3?",
+      "pilihan": [
+        "50",
+        "45",
+        "60"
+      ],
+      "jawaban_benar": "50",
+      "penjelasan": "150 dibagi 3 menghasilkan 50."
+    },
+    {
+      "id": "m175",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 200 : 5?",
+      "pilihan": [
+        "40",
+        "35",
+        "50"
+      ],
+      "jawaban_benar": "40",
+      "penjelasan": "200 dibagi 5 sama dengan 40."
+    },
+    {
+      "id": "m176",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 5 + 3 x 4?",
+      "pilihan": [
+        "17",
+        "32",
+        "20"
+      ],
+      "jawaban_benar": "17",
+      "penjelasan": "Kerjakan perkalian dulu: 3 x 4 = 12, lalu 5 + 12 = 17."
+    },
+    {
+      "id": "m177",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 20 - 4 x 3?",
+      "pilihan": [
+        "8",
+        "16",
+        "48"
+      ],
+      "jawaban_benar": "8",
+      "penjelasan": "Perkalian dihitung dahulu: 4 x 3 = 12, lalu 20 - 12 = 8."
+    },
+    {
+      "id": "m178",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari (15 + 5) : 4?",
+      "pilihan": [
+        "5",
+        "4",
+        "6"
+      ],
+      "jawaban_benar": "5",
+      "penjelasan": "Operasi dalam tanda kurung dihitung dulu: 15 + 5 = 20, lalu 20 : 4 = 5."
+    },
+    {
+      "id": "m179",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari (8 + 2) x 5?",
+      "pilihan": [
+        "50",
+        "40",
+        "18"
+      ],
+      "jawaban_benar": "50",
+      "penjelasan": "Tanda kurung dulu: 8 + 2 = 10, lalu 10 x 5 = 50."
+    },
+    {
+      "id": "m180",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 50 - 10 : 2?",
+      "pilihan": [
+        "45",
+        "20",
+        "40"
+      ],
+      "jawaban_benar": "45",
+      "penjelasan": "Pembagian dulu: 10 : 2 = 5, lalu 50 - 5 = 45."
+    },
+    {
+      "id": "m181",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Sebuah persegi memiliki panjang sisi 6 cm. Berapakah luasnya?",
+      "pilihan": [
+        "36 cm²",
+        "24 cm²",
+        "12 cm²"
+      ],
+      "jawaban_benar": "36 cm²",
+      "penjelasan": "Luas persegi = sisi x sisi = 6 x 6 = 36 cm²."
+    },
+    {
+      "id": "m182",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Sebuah persegi memiliki panjang sisi 7 cm. Berapakah kelilingnya?",
+      "pilihan": [
+        "28 cm",
+        "49 cm",
+        "21 cm"
+      ],
+      "jawaban_benar": "28 cm",
+      "penjelasan": "Keliling persegi = 4 x sisi = 4 x 7 = 28 cm."
+    },
+    {
+      "id": "m183",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Persegi panjang berukuran panjang 8 cm dan lebar 5 cm. Berapakah luasnya?",
+      "pilihan": [
+        "40 cm²",
+        "26 cm²",
+        "13 cm²"
+      ],
+      "jawaban_benar": "40 cm²",
+      "penjelasan": "Luas persegi panjang = panjang x lebar = 8 x 5 = 40 cm²."
+    },
+    {
+      "id": "m184",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Persegi panjang berukuran panjang 10 cm dan lebar 4 cm. Berapakah kelilingnya?",
+      "pilihan": [
+        "28 cm",
+        "40 cm",
+        "20 cm"
+      ],
+      "jawaban_benar": "28 cm",
+      "penjelasan": "Keliling = 2 x (panjang + lebar) = 2 x (10 + 4) = 2 x 14 = 28 cm."
+    },
+    {
+      "id": "m185",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah 50% dari angka 200?",
+      "pilihan": [
+        "100",
+        "50",
+        "150"
+      ],
+      "jawaban_benar": "100",
+      "penjelasan": "50% artinya setengah dari jumlah keseluruhan: 200 : 2 = 100."
+    },
+    {
+      "id": "m186",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah 25% dari angka 80?",
+      "pilihan": [
+        "20",
+        "25",
+        "40"
+      ],
+      "jawaban_benar": "20",
+      "penjelasan": "25% artinya seperempat dari keseluruhan: 80 : 4 = 20."
+    },
+    {
+      "id": "m187",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah 10% dari angka 150?",
+      "pilihan": [
+        "15",
+        "10",
+        "25"
+      ],
+      "jawaban_benar": "15",
+      "penjelasan": "10% dari 150 adalah 150 : 10 = 15."
+    },
+    {
+      "id": "m188",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Angka kelanjutan dari pola 2, 4, 8, 16, ... adalah?",
+      "pilihan": [
+        "32",
+        "24",
+        "30"
+      ],
+      "jawaban_benar": "32",
+      "penjelasan": "Pola ini dikali 2 setiap langkah: 16 x 2 = 32."
+    },
+    {
+      "id": "m189",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Angka kelanjutan dari pola 1, 4, 9, 16, ... adalah?",
+      "pilihan": [
+        "25",
+        "20",
+        "24"
+      ],
+      "jawaban_benar": "25",
+      "penjelasan": "Ini adalah pola bilangan kuadrat: 1x1, 2x2, 3x3, 4x4, lalu 5x5 = 25."
+    },
+    {
+      "id": "m190",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Angka kelanjutan dari pola 100, 90, 80, 70, ... adalah?",
+      "pilihan": [
+        "60",
+        "50",
+        "65"
+      ],
+      "jawaban_benar": "60",
+      "penjelasan": "Pola berkurang 10 setiap langkah: 70 - 10 = 60."
+    },
+    {
+      "id": "m191",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 1/2 + 1/4?",
+      "pilihan": [
+        "3/4",
+        "2/6",
+        "2/4"
+      ],
+      "jawaban_benar": "3/4",
+      "penjelasan": "1/2 sama dengan 2/4. Maka 2/4 + 1/4 = 3/4."
+    },
+    {
+      "id": "m192",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil dari 3/5 - 1/5?",
+      "pilihan": [
+        "2/5",
+        "4/5",
+        "2/10"
+      ],
+      "jawaban_benar": "2/5",
+      "penjelasan": "Karena penyebutnya sama (5), kurangkan pembilangnya: 3 - 1 = 2, hasilnya 2/5."
+    },
+    {
+      "id": "m193",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil desimal dari pecahan 1/2?",
+      "pilihan": [
+        "0,5",
+        "0,2",
+        "0,25"
+      ],
+      "jawaban_benar": "0,5",
+      "penjelasan": "Pecahan 1/2 setara dengan desimal 0,5."
+    },
+    {
+      "id": "m194",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Berapakah hasil desimal dari pecahan 1/4?",
+      "pilihan": [
+        "0,25",
+        "0,4",
+        "0,5"
+      ],
+      "jawaban_benar": "0,25",
+      "penjelasan": "Pecahan 1/4 setara dengan desimal 0,25."
+    },
+    {
+      "id": "m195",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Suhu air mula-mula 28°C lalu naik sebesar 15°C. Berapakah suhu akhir air sekarang?",
+      "pilihan": [
+        "43°C",
+        "33°C",
+        "45°C"
+      ],
+      "jawaban_benar": "43°C",
+      "penjelasan": "28 + 15 = 43°C."
+    },
+    {
+      "id": "m196",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Sebuah bus membawa 35 penumpang. Di halte A turun 10 orang dan naik 8 orang. Berapa penumpang bus sekarang?",
+      "pilihan": [
+        "33 orang",
+        "30 orang",
+        "35 orang"
+      ],
+      "jawaban_benar": "33 orang",
+      "penjelasan": "35 - 10 = 25 orang, lalu 25 + 8 = 33 orang."
+    },
+    {
+      "id": "m197",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Umur Kakak 14 tahun, umur Adik 6 tahun lebih muda. Berapakah umur Adik?",
+      "pilihan": [
+        "8 tahun",
+        "9 tahun",
+        "7 tahun"
+      ],
+      "jawaban_benar": "8 tahun",
+      "penjelasan": "14 dikurangi 6 sama dengan 8 tahun."
+    },
+    {
+      "id": "m198",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Sebuah mobil melaju dengan kecepatan 60 km/jam selama 2 jam. Berapa jarak yang ditempuh?",
+      "pilihan": [
+        "120 km",
+        "100 km",
+        "140 km"
+      ],
+      "jawaban_benar": "120 km",
+      "penjelasan": "Jarak = kecepatan x waktu = 60 x 2 = 120 km."
+    },
+    {
+      "id": "m199",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Sebuah tali panjangnya 3 meter dipotong menjadi 6 bagian sama panjang. Berapa cm panjang tiap bagian?",
+      "pilihan": [
+        "50 cm",
+        "60 cm",
+        "40 cm"
+      ],
+      "jawaban_benar": "50 cm",
+      "penjelasan": "3 meter = 300 cm. 300 : 6 = 50 cm per bagian."
+    },
+    {
+      "id": "m200",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Jika 3 buah buku harganya Rp15.000, berapakah harga 1 buah buku?",
+      "pilihan": [
+        "Rp5.000",
+        "Rp4.000",
+        "Rp6.000"
+      ],
+      "jawaban_benar": "Rp5.000",
+      "penjelasan": "15.000 dibagi 3 = Rp5.000 per buku."
     }
   ]
 }

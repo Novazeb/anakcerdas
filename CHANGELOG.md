@@ -76,15 +76,16 @@ Dokumentasi lengkap mengenai evolusi fitur, perbaikan antarmuka, dan peningkatan
      - *Benar:* *"Wah, Hebat Banget, [Nama Anak]! ⭐"*
      - *Salah:* *"Hampir Tepat, [Nama Anak]! 💡 Jangan berkecil hati ya, kata [Nama Maskot] jawaban yang benar adalah: '...'."*
    - Nama maskot dinamis mengikuti modul kuis: *Beruang Kiki* 🐻, *Kelinci Kiki* 🐰, *Landak Dudu* 🦔, dan *Kucing Miko* 🐱.
-7. **Bank Soal Adaptif Kelompok Usia:**
-   - Soal difilter berdasarkan usia anak:
-     - **4–6 Tahun:** Disajikan soal-soal hitungan 1–10 konkret bergambar dan pengenalan flora/fauna dasar.
+7. **Ekspansi Masif Bank Soal (Total 800 Soal, 200 per Kategori):**
+   - Melipatgandakan bank soal dari 50 menjadi **200 soal berkualitas tinggi** pada masing-masing dari 4 kategori (total 800 soal).
+   - Soal difilter dan diprioritaskan berdasarkan kelompok usia:
+     - **4–6 Tahun:** Soal hitungan 1–10 konkret, pengenalan flora/fauna dasar, budi pekerti sehari-hari.
      - **7–9 Tahun:** Kurva seimbang 4 tingkat (Mudah s.d Tantangan).
-     - **10–12 Tahun:** Soal penalaran cerita, perkalian/pembagian lanjutan, sains analitis, dan wawasan sosial.
-8. **Representasi Visual Konkret pada Soal (*Concrete-Pictorial-Abstract*):**
-    - Tepat di bawah pertanyaan, hadir bantuan visual yang bisa dihitung dengan jari:
-      - *Matematika:* Logika matematis konkret yang ramah nalar anak. Penjumlahan & pengurangan menampilkan objek konkret di kedua sisi (`[ 🍎🍎 ] + [ 🍎🍎🍎 ] = ?`), sedangkan perkalian & pembagian menampilkan objek konkret dikalikan angka pengali murni (`[ 🍎🍎🍎🍎🍎 ] × [ 2 ] = ?`), sehingga anak tidak bingung mengalikan "apel dengan apel".
-      - *Alam & Sosial:* Lencana topik konkret (🐝 Lebah, 🇮🇩 Bendera, 🦒 Jerapah, dll.).
+     - **10–12 Tahun:** Soal penalaran cerita, perkalian/pembagian multi-digit, sains analitis, dan wawasan kebangsaan.
+8. **Representasi Visual Matematika yang Alami & Adaptif:**
+   - **Tanpa Bingkai Rounded Corners:** Untuk anak usia dini/awal (4–6 dan 7–9 tahun), kotak rounded card dan badge pembungkus dihapus sehingga deretan gambar apel dan angka tampil murni dan leluasa seperti benda nyata di atas meja.
+   - **Logika Konkret Ramah Nalar Anak:** Penjumlahan & pengurangan menampilkan objek konkret di kedua sisi (`🍎🍎 + 🍎🍎🍎 = ?`), sedangkan perkalian & pembagian menampilkan objek konkret dikalikan angka pengali murni (`🍎🍎🍎🍎🍎 × 2 = ?`).
+   - **Bebas Visual untuk SD Lanjutan (10–12 Tahun):** Bantuan visual buah apel otomatis ditiadakan sepenuhnya untuk anak usia 10–12 tahun agar mereka fokus melatih daya abstraksi hitungan teks dan logika.
 9. **Modul Ingatan Sistem 3 Bab (7 – 7 – 6 Soal):**
    - Mengubah format dinding teks panjang menjadi alur membaca buku cerita bertahap:
      - **Bab 1:** *Kiki & Pintu Rahasia* (baca 2 paragraf) ➡️ Jawab **Soal 1 s.d 7**.
@@ -94,6 +95,8 @@ Dokumentasi lengkap mengenai evolusi fitur, perbaikan antarmuka, dan peningkatan
 10. **Penyimpanan Koleksi Bintang di `localStorage`:**
     - Rekor bintang terbaik anak tersimpan secara persisten di browser.
     - Total bintang ditampilkan di beranda (*"⭐ X Bintang Terkumpul!"*) dan lencana bintang pada setiap kartu menu (`⭐ X/20`).
+11. **Sistem Pintar Anti-Soal Berulang (*Smart Session History Tracking*):**
+    - Sistem mencatat riwayat ID soal yang baru saja dijawab di sesi sebelumnya. Sesi kuis berikutnya memprioritaskan soal-soal segar yang belum pernah dikerjakan, menjamin variasi belajar anak selalu baru dan tidak cepat berulang.
 
 ---
 

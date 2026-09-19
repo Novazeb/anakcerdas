@@ -867,6 +867,2481 @@
         "7-9",
         "10-12"
       ]
+    },
+    {
+      "id": "a51",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagian tubuh apa yang kita gunakan untuk melihat pemandangan indah?",
+      "pilihan": [
+        "Mata",
+        "Telinga",
+        "Hidung"
+      ],
+      "jawaban_benar": "Mata",
+      "penjelasan": "Mata adalah indra penglihatan kita."
+    },
+    {
+      "id": "a52",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagian tubuh apa yang kita gunakan untuk mendengarkan lagu merdu?",
+      "pilihan": [
+        "Telinga",
+        "Mata",
+        "Mulut"
+      ],
+      "jawaban_benar": "Telinga",
+      "penjelasan": "Telinga berfungsi sebagai indra pendengaran."
+    },
+    {
+      "id": "a53",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Indra apa yang kita gunakan untuk mencium harumnya bunga mawar?",
+      "pilihan": [
+        "Hidung",
+        "Lidah",
+        "Kulit"
+      ],
+      "jawaban_benar": "Hidung",
+      "penjelasan": "Hidung adalah indra penciuman untuk mencium berbagai aroma."
+    },
+    {
+      "id": "a54",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bagian lidah berfungsi untuk merasakan rasa makanan. Rasa gula adalah?",
+      "pilihan": [
+        "Manis",
+        "Pahit",
+        "Asin"
+      ],
+      "jawaban_benar": "Manis",
+      "penjelasan": "Lidah mengecap rasa manis pada gula dan madu."
+    },
+    {
+      "id": "a55",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Rasa buah lemon yang asam dirasakan oleh indra apa?",
+      "pilihan": [
+        "Lidah",
+        "Mata",
+        "Hidung"
+      ],
+      "jawaban_benar": "Lidah",
+      "penjelasan": "Lidah adalah indra pengecap rasa makanan dan minuman."
+    },
+    {
+      "id": "a56",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan apakah yang berbunyi 'meong-meong' dan suka dielus?",
+      "pilihan": [
+        "Kucing",
+        "Kambing",
+        "Anjing"
+      ],
+      "jawaban_benar": "Kucing",
+      "penjelasan": "Kucing mengeong saat lapar atau menyapa kita."
+    },
+    {
+      "id": "a57",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan berkaki empat yang berbunyi 'moo-moo' dan menghasilkan susu adalah?",
+      "pilihan": [
+        "Sapi",
+        "Kuda",
+        "Kucing"
+      ],
+      "jawaban_benar": "Sapi",
+      "penjelasan": "Sapi betina menghasilkan susu sapi yang sehat."
+    },
+    {
+      "id": "a58",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Suara 'kwek-kwek' adalah bunyi dari hewan apa yang suka berenang?",
+      "pilihan": [
+        "Bebek",
+        "Ayam",
+        "Burung pipit"
+      ],
+      "jawaban_benar": "Bebek",
+      "penjelasan": "Bebek berkicau kwek-kwek dan memiliki selaput di kakinya."
+    },
+    {
+      "id": "a59",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Ayam jantan berkokok di waktu kapan untuk membangunkan kita?",
+      "pilihan": [
+        "Pagi hari",
+        "Malam hari",
+        "Siang bolong"
+      ],
+      "jawaban_benar": "Pagi hari",
+      "penjelasan": "Ayam jantan berkokok 'kukuruyuk' saat fajar menyingsing."
+    },
+    {
+      "id": "a60",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan apa yang hidup di dalam air dan bernapas menggunakan insang?",
+      "pilihan": [
+        "Ikan",
+        "Kelinci",
+        "Kera"
+      ],
+      "jawaban_benar": "Ikan",
+      "penjelasan": "Ikan berenang di air dan bernapas dengan insang."
+    },
+    {
+      "id": "a61",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Benda langit raksasa yang bersinar terang dan menghangatkan bumi di siang hari adalah?",
+      "pilihan": [
+        "Matahari",
+        "Bulan",
+        "Bintang"
+      ],
+      "jawaban_benar": "Matahari",
+      "penjelasan": "Matahari adalah bintang induk yang menerangi bumi kita."
+    },
+    {
+      "id": "a62",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Benda langit yang sering terlihat bulat sabit indah di malam hari adalah?",
+      "pilihan": [
+        "Bulan",
+        "Matahari",
+        "Awan"
+      ],
+      "jawaban_benar": "Bulan",
+      "penjelasan": "Bulan adalah satelit bumi yang bersinar memantulkan cahaya matahari."
+    },
+    {
+      "id": "a63",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Buah pisang yang sudah matang dan manis biasanya berwarna apa?",
+      "pilihan": [
+        "Kuning",
+        "Ungu",
+        "Biru"
+      ],
+      "jawaban_benar": "Kuning",
+      "penjelasan": "Kulit buah pisang matang berwarna kuning cerah."
+    },
+    {
+      "id": "a64",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Sayuran berbentuk kerucut panjang warna oranye yang sangat disukai kelinci adalah?",
+      "pilihan": [
+        "Wortel",
+        "Bayam",
+        "Terong"
+      ],
+      "jawaban_benar": "Wortel",
+      "penjelasan": "Wortel kaya akan vitamin A yang sangat baik untuk mata."
+    },
+    {
+      "id": "a65",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapa jumlah kaki yang dimiliki oleh seekor ayam?",
+      "pilihan": [
+        "2 kaki",
+        "4 kaki",
+        "6 kaki"
+      ],
+      "jawaban_benar": "2 kaki",
+      "penjelasan": "Unggas seperti ayam dan bebek memiliki 2 kaki."
+    },
+    {
+      "id": "a66",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Berapa jumlah kaki yang dimiliki oleh seekor sapi atau kambing?",
+      "pilihan": [
+        "4 kaki",
+        "2 kaki",
+        "6 kaki"
+      ],
+      "jawaban_benar": "4 kaki",
+      "penjelasan": "Mamalia darat seperti sapi dan kambing memiliki 4 kaki."
+    },
+    {
+      "id": "a67",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan apa yang bertubuh mungil dan bisa menghasilkan madu manis di sarangnya?",
+      "pilihan": [
+        "Lebah",
+        "Semut",
+        "Lalat"
+      ],
+      "jawaban_benar": "Lebah",
+      "penjelasan": "Lebah mengumpulkan nektar bunga lalu menjadikannya madu."
+    },
+    {
+      "id": "a68",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Burung bisa terbang tinggi di angkasa karena memiliki apa?",
+      "pilihan": [
+        "Sayap",
+        "Sirip",
+        "Tanduk"
+      ],
+      "jawaban_benar": "Sayap",
+      "penjelasan": "Sayap dan bulu burung dirancang untuk terbang di udara."
+    },
+    {
+      "id": "a69",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan yang terkenal memiliki leher sangat panjang untuk memakan daun tinggi adalah?",
+      "pilihan": [
+        "Jerapah",
+        "Gajah",
+        "Kuda"
+      ],
+      "jawaban_benar": "Jerapah",
+      "penjelasan": "Jerapah adalah hewan tertinggi di bumi berkat leher panjangnya."
+    },
+    {
+      "id": "a70",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan darat terbesar yang memiliki belalai panjang dan telinga lebar adalah?",
+      "pilihan": [
+        "Gajah",
+        "Badak",
+        "Kuda nil"
+      ],
+      "jawaban_benar": "Gajah",
+      "penjelasan": "Gajah menggunakan belalainya untuk minum, makan, dan menyapa."
+    },
+    {
+      "id": "a71",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Tumbuhan membutuhkan air dan apa untuk tumbuh subur?",
+      "pilihan": [
+        "Cahaya matahari",
+        "Es batu",
+        "Minyak goreng"
+      ],
+      "jawaban_benar": "Cahaya matahari",
+      "penjelasan": "Sinar matahari dan air adalah kebutuhan utama tumbuhan."
+    },
+    {
+      "id": "a72",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Warna daun pada sebagian besar tumbuhan yang subur dan segar adalah?",
+      "pilihan": [
+        "Hijau",
+        "Merah",
+        "Ungu"
+      ],
+      "jawaban_benar": "Hijau",
+      "penjelasan": "Zat klorofil memberikan warna hijau alami pada daun."
+    },
+    {
+      "id": "a73",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bunga melati terkenal dengan warnanya yang putih dan aromanya yang?",
+      "pilihan": [
+        "Wangi semerbak",
+        "Bau asam",
+        "Tidak berbau"
+      ],
+      "jawaban_benar": "Wangi semerbak",
+      "penjelasan": "Bunga melati harum dan menjadi bunga puspa bangsa Indonesia."
+    },
+    {
+      "id": "a74",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Air hujan yang turun dari langit berasal dari kumpulan apa yang menebal?",
+      "pilihan": [
+        "Awan mendung",
+        "Pelangi",
+        "Kabut pagi"
+      ],
+      "jawaban_benar": "Awan mendung",
+      "penjelasan": "Uap air yang berkumpul di atmosfer membentuk awan mendung pembawa hujan."
+    },
+    {
+      "id": "a75",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Lengkungan warna-warni indah di langit yang sering muncul setelah hujan reda disebut?",
+      "pilihan": [
+        "Pelangi",
+        "Komet",
+        "Kilat"
+      ],
+      "jawaban_benar": "Pelangi",
+      "penjelasan": "Pelangi terjadi akibat pembiasan sinar matahari pada butiran air hujan."
+    },
+    {
+      "id": "a76",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan apakah yang jalannya sangat lambat dan membawa cangkang keras di punggungnya?",
+      "pilihan": [
+        "Kura-kura",
+        "Kelinci",
+        "Kijang"
+      ],
+      "jawaban_benar": "Kura-kura",
+      "penjelasan": "Cangkang tempurung kura-kura melindungi tubuh lunaknya dari musuh."
+    },
+    {
+      "id": "a77",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan melompat lincah berbulu lembut dengan telinga panjang pemakan wortel adalah?",
+      "pilihan": [
+        "Kelinci",
+        "Kucing",
+        "Hamster"
+      ],
+      "jawaban_benar": "Kelinci",
+      "penjelasan": "Kelinci melompat dengan kaki belakangnya yang kuat."
+    },
+    {
+      "id": "a78",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan air yang terkenal sangat cerdas, ramah pada manusia, dan suka melompat di laut adalah?",
+      "pilihan": [
+        "Lumba-lumba",
+        "Hiu",
+        "Gurita"
+      ],
+      "jawaban_benar": "Lumba-lumba",
+      "penjelasan": "Lumba-lumba adalah mamalia laut yang sangat cerdas dan bernapas dengan paru-paru."
+    },
+    {
+      "id": "a79",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bila kita meletakkan es batu di tempat panas, es batu akan?",
+      "pilihan": [
+        "Mencair",
+        "Membeku",
+        "Menjadi batu"
+      ],
+      "jawaban_benar": "Mencair",
+      "penjelasan": "Suhu panas mengubah es padat menjadi air cair."
+    },
+    {
+      "id": "a80",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan yang suka makan rumput segar di padang rumput contohnya adalah?",
+      "pilihan": [
+        "Kambing",
+        "Harimau",
+        "Buaya"
+      ],
+      "jawaban_benar": "Kambing",
+      "penjelasan": "Kambing adalah hewan herbivora pemakan dedaunan dan rumput."
+    },
+    {
+      "id": "a81",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Hewan laut yang memiliki 8 lengan panjang dengan cangkir hisap adalah?",
+      "pilihan": [
+        "Gurita",
+        "Bintang laut",
+        "Ikan paus"
+      ],
+      "jawaban_benar": "Gurita",
+      "penjelasan": "Gurita (octopus) memiliki 8 tentakel yang fleksibel."
+    },
+    {
+      "id": "a82",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Binatang melata yang tidak memiliki kaki dan bergerak dengan perutnya adalah?",
+      "pilihan": [
+        "Ular",
+        "Kadal",
+        "Biawak"
+      ],
+      "jawaban_benar": "Ular",
+      "penjelasan": "Ular melata menggunakan otot-otot di perut dan sisiknya."
+    },
+    {
+      "id": "a83",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Benda hidup di sekitar kita contohnya adalah?",
+      "pilihan": [
+        "Pohon mangga",
+        "Batu kali",
+        "Kursi kayu"
+      ],
+      "jawaban_benar": "Pohon mangga",
+      "penjelasan": "Pohon mangga bisa tumbuh besar, bernapas, dan berkembang biak."
+    },
+    {
+      "id": "a84",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Benda mati di sekitar kita contohnya adalah?",
+      "pilihan": [
+        "Sepeda",
+        "Kucing",
+        "Bunga mawar"
+      ],
+      "jawaban_benar": "Sepeda",
+      "penjelasan": "Sepeda tidak bernapas, tidak butuh makan, dan tidak tumbuh besar."
+    },
+    {
+      "id": "a85",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Kupu-kupu yang cantik bermula dari hewan apa yang merayap di daun?",
+      "pilihan": [
+        "Ulat",
+        "Cacing",
+        "Jangkrik"
+      ],
+      "jawaban_benar": "Ulat",
+      "penjelasan": "Ulat makan daun sebelum tidur di kepompong menjadi kupu-kupu."
+    },
+    {
+      "id": "a86",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Pohon kelapa banyak kita jumpai tumbuh subur di daerah?",
+      "pilihan": [
+        "Tepi pantai",
+        "Puncak gunung bersalju",
+        "Gurun pasir"
+      ],
+      "jawaban_benar": "Tepi pantai",
+      "penjelasan": "Pohon kelapa sangat menyukai sinar matahari pantai dan angin tropis."
+    },
+    {
+      "id": "a87",
+      "tingkat": 1,
+      "tingkat_nama": "Mudah",
+      "usia": [
+        "4-6",
+        "7-9"
+      ],
+      "pertanyaan": "Bintang yang kita lihat berkelap-kelip di langit malam tampak kecil karena?",
+      "pilihan": [
+        "Jaraknya sangat jauh",
+        "Ukurannya kecil",
+        "Bintangnya redup"
+      ],
+      "jawaban_benar": "Jaraknya sangat jauh",
+      "penjelasan": "Bintang berukuran raksasa tapi tampak titik kecil karena jaraknya triliunan kilometer."
+    },
+    {
+      "id": "a88",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan yang hanya memakan tumbuhan (daun dan rumput) disebut kelompok?",
+      "pilihan": [
+        "Herbivora",
+        "Karnivora",
+        "Omnivora"
+      ],
+      "jawaban_benar": "Herbivora",
+      "penjelasan": "Herbivora adalah sebutan untuk hewan pemakan tumbuhan."
+    },
+    {
+      "id": "a89",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan yang memakan daging hewan lain seperti singa dan harimau disebut?",
+      "pilihan": [
+        "Karnivora",
+        "Herbivora",
+        "Insektivora"
+      ],
+      "jawaban_benar": "Karnivora",
+      "penjelasan": "Karnivora memiliki gigi taring tajam untuk merobek daging."
+    },
+    {
+      "id": "a90",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan yang memakan segalanya (tumbuhan sekaligus daging) seperti ayam atau tikus disebut?",
+      "pilihan": [
+        "Omnivora",
+        "Herbivora",
+        "Karnivora"
+      ],
+      "jawaban_benar": "Omnivora",
+      "penjelasan": "Omnivora memakan biji-bijian, serangga, dan makanan lainnya."
+    },
+    {
+      "id": "a91",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bagian tumbuhan yang bertugas menyerap air dan mineral dari dalam tanah adalah?",
+      "pilihan": [
+        "Akar",
+        "Daun",
+        "Bunga"
+      ],
+      "jawaban_benar": "Akar",
+      "penjelasan": "Akar menancap di tanah untuk menyerap air dan mengokohkan tanaman."
+    },
+    {
+      "id": "a92",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bagian tumbuhan tempat terjadinya fotosintesis atau pembuatan makanan adalah?",
+      "pilihan": [
+        "Daun",
+        "Batang",
+        "Buah"
+      ],
+      "jawaban_benar": "Daun",
+      "penjelasan": "Klorofil pada daun memanfaatkan cahaya matahari untuk memasak makanan."
+    },
+    {
+      "id": "a93",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bagian tumbuhan yang berfungsi untuk memikat serangga penyerbuk dan menghasilkan biji adalah?",
+      "pilihan": [
+        "Bunga",
+        "Akar",
+        "Duri"
+      ],
+      "jawaban_benar": "Bunga",
+      "penjelasan": "Bunga memiliki warna dan nektar harum untuk penyerbukan."
+    },
+    {
+      "id": "a94",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Benda berwujud padat yang dipindahkan ke wadah berbeda akan memiliki bentuk yang?",
+      "pilihan": [
+        "Tetap",
+        "Berubah mengikuti wadah",
+        "Menghilang"
+      ],
+      "jawaban_benar": "Tetap",
+      "penjelasan": "Benda padat seperti batu dan pensil bentuk dan volumenya selalu tetap."
+    },
+    {
+      "id": "a95",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Benda berwujud cair seperti sirup jika dituangkan ke dalam mangkuk akan berbentuk?",
+      "pilihan": [
+        "Seperti mangkuk",
+        "Tetap seperti botol",
+        "Bulat utuh"
+      ],
+      "jawaban_benar": "Seperti mangkuk",
+      "penjelasan": "Sifat benda cair adalah bentuknya berubah mengikuti wadah yang ditempatinya."
+    },
+    {
+      "id": "a96",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Proses perubahan benda cair menjadi gas saat air mendidih disebut?",
+      "pilihan": [
+        "Menguap",
+        "Membeku",
+        "Mencair"
+      ],
+      "jawaban_benar": "Menguap",
+      "penjelasan": "Uap panas yang keluar dari panci mendidih adalah contoh peristiwa menguap."
+    },
+    {
+      "id": "a97",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Proses perubahan benda gas menjadi titik-titik air seperti embun pagi disebut?",
+      "pilihan": [
+        "Mengembun",
+        "Menyublim",
+        "Membeku"
+      ],
+      "jawaban_benar": "Mengembun",
+      "penjelasan": "Uap air di udara yang dingin berubah menjadi tetesan embun pagi."
+    },
+    {
+      "id": "a98",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Mengapa buah apel yang lepas dari tangkainya selalu jatuh ke bawah ke tanah?",
+      "pilihan": [
+        "Gaya gravitasi bumi",
+        "Gaya gesek",
+        "Ditiup angin"
+      ],
+      "jawaban_benar": "Gaya gravitasi bumi",
+      "penjelasan": "Gravitasi bumi menarik semua benda bermassa ke arah pusat bumi."
+    },
+    {
+      "id": "a99",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan yang berkembang biak dengan cara bertelur contohnya adalah?",
+      "pilihan": [
+        "Ayam dan burung",
+        "Kucing dan sapi",
+        "Kuda dan kambing"
+      ],
+      "jawaban_benar": "Ayam dan burung",
+      "penjelasan": "Hewan ovipar seperti unggas, ikan, dan reptil bertelur."
+    },
+    {
+      "id": "a100",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan yang berkembang biak dengan cara melahirkan anak contohnya adalah?",
+      "pilihan": [
+        "Kucing dan sapi",
+        "Ayam dan bebek",
+        "Katak dan ikan"
+      ],
+      "jawaban_benar": "Kucing dan sapi",
+      "penjelasan": "Hewan mamalia melahirkan anak dan menyusui bayinya."
+    },
+    {
+      "id": "a101",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Alat pernapasan manusia saat menghirup oksigen segar adalah?",
+      "pilihan": [
+        "Paru-paru",
+        "Insang",
+        "Trakea"
+      ],
+      "jawaban_benar": "Paru-paru",
+      "penjelasan": "Paru-paru manusia menukar karbon dioksida dengan oksigen."
+    },
+    {
+      "id": "a102",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Udara bersih yang kita hirup untuk bernapas kaya akan gas?",
+      "pilihan": [
+        "Oksigen",
+        "Karbon monoksida",
+        "Asap"
+      ],
+      "jawaban_benar": "Oksigen",
+      "penjelasan": "Tubuh kita membutuhkan gas oksigen agar organ-organ berfungsi."
+    },
+    {
+      "id": "a103",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Pohon dan tumbuhan hijau melepaskan gas apa yang sangat berguna bagi manusia?",
+      "pilihan": [
+        "Oksigen",
+        "Karbon",
+        "Nitrogen"
+      ],
+      "jawaban_benar": "Oksigen",
+      "penjelasan": "Tumbuhan mengeluarkan oksigen bersih dari proses fotosintesis siang hari."
+    },
+    {
+      "id": "a104",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Berapa jumlah musim di negara kita Indonesia?",
+      "pilihan": [
+        "2 musim (Hujan & Kemarau)",
+        "4 musim",
+        "1 musim"
+      ],
+      "jawaban_benar": "2 musim (Hujan & Kemarau)",
+      "penjelasan": "Indonesia beriklim tropis sehingga memiliki musim hujan dan musim kemarau."
+    },
+    {
+      "id": "a105",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Alat untuk mengukur derajat suhu udara atau suhu badan disebut?",
+      "pilihan": [
+        "Termometer",
+        "Barometer",
+        "Penggaris"
+      ],
+      "jawaban_benar": "Termometer",
+      "penjelasan": "Termometer mengukur tingkat panas atau dinginnya suatu benda."
+    },
+    {
+      "id": "a106",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Zat makanan apa yang banyak terkandung dalam nasi dan roti sebagai sumber energi?",
+      "pilihan": [
+        "Karbohidrat",
+        "Protein",
+        "Kalsium"
+      ],
+      "jawaban_benar": "Karbohidrat",
+      "penjelasan": "Karbohidrat memberi tenaga untuk kita berlari dan belajar."
+    },
+    {
+      "id": "a107",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Zat gizi yang sangat penting untuk membangun otot tubuh dari ikan dan telur adalah?",
+      "pilihan": [
+        "Protein",
+        "Lemak jenuh",
+        "Gula"
+      ],
+      "jawaban_benar": "Protein",
+      "penjelasan": "Protein membantu masa pertumbuhan dan perbaikan jaringan tubuh."
+    },
+    {
+      "id": "a108",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Kalsium yang banyak terdapat di dalam susu sangat bermanfaat untuk kesehatan apa?",
+      "pilihan": [
+        "Tulang dan gigi",
+        "Rambut saja",
+        "Kuku saja"
+      ],
+      "jawaban_benar": "Tulang dan gigi",
+      "penjelasan": "Kalsium memperkuat tulang agar tidak keropos dan gigi tidak berlubang."
+    },
+    {
+      "id": "a109",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan yang dapat hidup di dua alam (di darat dan di air) disebut hewan?",
+      "pilihan": [
+        "Amfibi",
+        "Reptil",
+        "Mamalia"
+      ],
+      "jawaban_benar": "Amfibi",
+      "penjelasan": "Katak dan salamander adalah contoh hewan amfibi."
+    },
+    {
+      "id": "a110",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Katak bernapas dengan insang saat masih menjadi apa?",
+      "pilihan": [
+        "Kecebong / Berudu",
+        "Telur",
+        "Katak dewasa"
+      ],
+      "jawaban_benar": "Kecebong / Berudu",
+      "penjelasan": "Saat masih menjadi kecebong di air, katak bernapas menggunakan insang."
+    },
+    {
+      "id": "a111",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Ikan paus dan lumba-lumba bernapas menggunakan apa?",
+      "pilihan": [
+        "Paru-paru",
+        "Insang",
+        "Kulit"
+      ],
+      "jawaban_benar": "Paru-paru",
+      "penjelasan": "Paus dan lumba-lumba adalah mamalia air yang bernapas dengan paru-paru."
+    },
+    {
+      "id": "a112",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Kelelawar adalah hewan mamalia yang unik karena memiliki kemampuan apa?",
+      "pilihan": [
+        "Bisa terbang di udara",
+        "Bisa bernapas di dalam air",
+        "Bisa bertelur banyak"
+      ],
+      "jawaban_benar": "Bisa terbang di udara",
+      "penjelasan": "Kelelawar adalah satu-satunya mamalia sejati yang dapat terbang."
+    },
+    {
+      "id": "a113",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan nocturnal adalah hewan yang lebih aktif beraktivitas pada waktu?",
+      "pilihan": [
+        "Malam hari",
+        "Siang hari",
+        "Pagi subuh"
+      ],
+      "jawaban_benar": "Malam hari",
+      "penjelasan": "Hewan nocturnal seperti burung hantu dan kelelawar berburu di malam hari."
+    },
+    {
+      "id": "a114",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Mengapa unta bisa bertahan hidup berhari-hari di padang pasir tanpa makan?",
+      "pilihan": [
+        "Menyimpan lemak di punuknya",
+        "Meminum air laut",
+        "Tidak butuh makan"
+      ],
+      "jawaban_benar": "Menyimpan lemak di punuknya",
+      "penjelasan": "Lemak di punuk unta diubah menjadi energi saat tidak ada makanan."
+    },
+    {
+      "id": "a115",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Mengapa pohon jati menggugurkan daunnya pada musim kemarau?",
+      "pilihan": [
+        "Mengurangi penguapan air",
+        "Karena daunnya kotor",
+        "Supaya pohonnya mati"
+      ],
+      "jawaban_benar": "Mengurangi penguapan air",
+      "penjelasan": "Menggugurkan daun mencegah pohon jati kehabisan cadangan air di musim kering."
+    },
+    {
+      "id": "a116",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Zat hijau daun pada tumbuhan yang menangkap sinar matahari disebut?",
+      "pilihan": [
+        "Klorofil",
+        "Klorin",
+        "Kalsium"
+      ],
+      "jawaban_benar": "Klorofil",
+      "penjelasan": "Klorofil berperan penting dalam proses pembuatan makanan pada tumbuhan."
+    },
+    {
+      "id": "a117",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Benda apa yang dapat ditarik dengan kuat oleh batang magnet?",
+      "pilihan": [
+        "Paku besi",
+        "Penggaris plastik",
+        "Penghapus karet"
+      ],
+      "jawaban_benar": "Paku besi",
+      "penjelasan": "Magnet menarik benda-benda feromagnetik yang terbuat dari besi atau baja."
+    },
+    {
+      "id": "a118",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Dua kutub magnet yang senama (Utara bertemu Utara) jika didekatkan akan?",
+      "pilihan": [
+        "Tolak-menolak",
+        "Tarik-menarik",
+        "Menempel kuat"
+      ],
+      "jawaban_benar": "Tolak-menolak",
+      "penjelasan": "Kutub yang senama saling menjauh (tolak-menolak)."
+    },
+    {
+      "id": "a119",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Dua kutub magnet yang berlawanan (Utara bertemu Selatan) jika didekatkan akan?",
+      "pilihan": [
+        "Tarik-menarik",
+        "Tolak-menolak",
+        "Diam saja"
+      ],
+      "jawaban_benar": "Tarik-menarik",
+      "penjelasan": "Kutub magnet yang tidak sejenis akan saling tarik-menarik."
+    },
+    {
+      "id": "a120",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Bayangan kita akan terlihat paling pendek saat matahari berada di mana?",
+      "pilihan": [
+        "Tepat di atas kepala (siang)",
+        "Di ufuk timur (pagi)",
+        "Di ufuk barat (sore)"
+      ],
+      "jawaban_benar": "Tepat di atas kepala (siang)",
+      "penjelasan": "Saat matahari tepat di atas kepala jam 12 siang, bayangan tepat di bawah kaki kita."
+    },
+    {
+      "id": "a121",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Cahaya merambat secara?",
+      "pilihan": [
+        "Lurus",
+        "Melingkar",
+        "Zig-zag"
+      ],
+      "jawaban_benar": "Lurus",
+      "penjelasan": "Sifat cahaya adalah merambat lurus seperti sorotan lampu senter."
+    },
+    {
+      "id": "a122",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Benda bening yang dapat meneruskan hampir seluruh cahaya yang mengenainya adalah?",
+      "pilihan": [
+        "Kaca jendela",
+        "Papan tulis",
+        "Karton tebal"
+      ],
+      "jawaban_benar": "Kaca jendela",
+      "penjelasan": "Benda bening transparan memungkinkan cahaya melewatinya."
+    },
+    {
+      "id": "a123",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Suara atau bunyi dihasilkan oleh benda yang?",
+      "pilihan": [
+        "Bergetar",
+        "Diam kaku",
+        "Sangat dingin"
+      ],
+      "jawaban_benar": "Bergetar",
+      "penjelasan": "Getaran merambat melalui udara menjadi gelombang bunyi yang kita dengar."
+    },
+    {
+      "id": "a124",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Sumber energi panas dan cahaya terbesar bagi kehidupan di planet bumi adalah?",
+      "pilihan": [
+        "Matahari",
+        "Api unggun",
+        "Lampu pijar"
+      ],
+      "jawaban_benar": "Matahari",
+      "penjelasan": "Matahari memancarkan panas dan energi tak terbatas untuk seluruh makhluk bumi."
+    },
+    {
+      "id": "a125",
+      "tingkat": 2,
+      "tingkat_nama": "Ringan",
+      "usia": [
+        "7-9"
+      ],
+      "pertanyaan": "Hewan pemakan serangga seperti cecak dan bunglon disebut hewan?",
+      "pilihan": [
+        "Insektivora",
+        "Herbivora",
+        "Karnivora"
+      ],
+      "jawaban_benar": "Insektivora",
+      "penjelasan": "Insektivora mengkhususkan makanannya pada serangga."
+    },
+    {
+      "id": "a126",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Planet terdekat dari Matahari dalam sistem tata surya kita adalah?",
+      "pilihan": [
+        "Merkurius",
+        "Venus",
+        "Bumi"
+      ],
+      "jawaban_benar": "Merkurius",
+      "penjelasan": "Merkurius adalah planet yang letaknya paling dekat dengan matahari."
+    },
+    {
+      "id": "a127",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Planet yang dikenal paling terang dan sering dijuluki 'Bintang Fajar' adalah?",
+      "pilihan": [
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "jawaban_benar": "Venus",
+      "penjelasan": "Venus memantulkan cahaya matahari sangat kuat sehingga tampak bersinar terang."
+    },
+    {
+      "id": "a128",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Planet terbesar di tata surya kita adalah planet?",
+      "pilihan": [
+        "Jupiter",
+        "Saturnus",
+        "Neptunus"
+      ],
+      "jawaban_benar": "Jupiter",
+      "penjelasan": "Jupiter adalah raksasa gas dengan ukuran paling besar di tata surya."
+    },
+    {
+      "id": "a129",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Planet yang memiliki sistem cincin es dan debu paling indah dan jelas terlihat adalah?",
+      "pilihan": [
+        "Saturnus",
+        "Uranus",
+        "Mars"
+      ],
+      "jawaban_benar": "Saturnus",
+      "penjelasan": "Cincin spektakuler Saturnus terbuat dari miliaran partikel es dan batu."
+    },
+    {
+      "id": "a130",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Planet yang sering dijuluki sebagai 'Planet Merah' karena tanahnya kaya oksida besi adalah?",
+      "pilihan": [
+        "Mars",
+        "Bumi",
+        "Venus"
+      ],
+      "jawaban_benar": "Mars",
+      "penjelasan": "Permukaan Mars berwarna kemerahan akibat debu besi berkarat."
+    },
+    {
+      "id": "a131",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Perputaran bumi pada porosnya sendiri disebut dengan istilah?",
+      "pilihan": [
+        "Rotasi bumi",
+        "Revolusi bumi",
+        "Evolusi"
+      ],
+      "jawaban_benar": "Rotasi bumi",
+      "penjelasan": "Rotasi bumi membutuhkan waktu sekitar 24 jam dan menyebabkan pergantian siang-malam."
+    },
+    {
+      "id": "a132",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Perputaran bumi mengelilingi matahari secara penuh dalam satu tahun disebut?",
+      "pilihan": [
+        "Revolusi bumi",
+        "Rotasi bumi",
+        "Gerhana"
+      ],
+      "jawaban_benar": "Revolusi bumi",
+      "penjelasan": "Revolusi bumi memakan waktu 365,25 hari dan menyebabkan perubahan musim."
+    },
+    {
+      "id": "a133",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Bunglon dapat mengubah warna kulitnya sesuai lingkungan sekitar untuk berkamuflase. Kemampuan ini disebut?",
+      "pilihan": [
+        "Mimikri",
+        "Autotomi",
+        "Ekolokasi"
+      ],
+      "jawaban_benar": "Mimikri",
+      "penjelasan": "Mimikri membantu bunglon bersembunyi dari predator dan mangsa."
+    },
+    {
+      "id": "a134",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Cicak memutuskan ekornya sendiri saat merasa terancam bahaya. Kemampuan ini disebut?",
+      "pilihan": [
+        "Autotomi",
+        "Mimikri",
+        "Hibernasi"
+      ],
+      "jawaban_benar": "Autotomi",
+      "penjelasan": "Autotomi adalah pelepasan bagian tubuh untuk mengalihkan perhatian pemangsa."
+    },
+    {
+      "id": "a135",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Kelelawar dan lumba-lumba memanfaatkan pantulan suara untuk mendeteksi benda. Sistem ini disebut?",
+      "pilihan": [
+        "Ekolokasi",
+        "Fotosintesis",
+        "Respirasi"
+      ],
+      "jawaban_benar": "Ekolokasi",
+      "penjelasan": "Gelombang suara frekuensi tinggi yang memantul kembali memberi peta lokasi objek."
+    },
+    {
+      "id": "a136",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hewan berdarah dingin yang suhu tubuhnya menyesuaikan suhu lingkungan contohnya adalah?",
+      "pilihan": [
+        "Kadal dan ular",
+        "Burung dan kelinci",
+        "Sapi dan anjing"
+      ],
+      "jawaban_benar": "Kadal dan ular",
+      "penjelasan": "Reptil dan ikan adalah hewan poikiloterm (berdarah dingin)."
+    },
+    {
+      "id": "a137",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hewan berdarah panas yang dapat menjaga kestabilan suhu tubuhnya sendiri contohnya adalah?",
+      "pilihan": [
+        "Burung dan mamalia",
+        "Katak dan buaya",
+        "Ikan mas dan udang"
+      ],
+      "jawaban_benar": "Burung dan mamalia",
+      "penjelasan": "Mamalia dan unggas memiliki suhu tubuh konstan (homoioterm)."
+    },
+    {
+      "id": "a138",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Organ tubuh manusia yang memompa darah bersih ke seluruh bagian tubuh tanpa henti adalah?",
+      "pilihan": [
+        "Jantung",
+        "Hati",
+        "Paru-paru"
+      ],
+      "jawaban_benar": "Jantung",
+      "penjelasan": "Jantung berdetak memompa darah yang membawa oksigen dan nutrisi."
+    },
+    {
+      "id": "a139",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Organ tubuh yang berfungsi menyaring racun dan memproduksi cairan empedu adalah?",
+      "pilihan": [
+        "Hati (Liver)",
+        "Lambung",
+        "Pankreas"
+      ],
+      "jawaban_benar": "Hati (Liver)",
+      "penjelasan": "Hati adalah organ penetral racun terbesar dalam tubuh manusia."
+    },
+    {
+      "id": "a140",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Organ tubuh berbentuk mirip sepasang kacang yang bertugas menyaring sisa metabolisme menjadi urine adalah?",
+      "pilihan": [
+        "Ginjal",
+        "Usus halus",
+        "Limpa"
+      ],
+      "jawaban_benar": "Ginjal",
+      "penjelasan": "Ginjal menyaring darah dan membuang limbah cair melalui urine."
+    },
+    {
+      "id": "a141",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Proses pencernaan makanan secara mekanik pada tubuh manusia pertama kali terjadi di dalam?",
+      "pilihan": [
+        "Mulut",
+        "Lambung",
+        "Kerongkongan"
+      ],
+      "jawaban_benar": "Mulut",
+      "penjelasan": "Gigi mengunyah makanan dibantu air liur di dalam mulut."
+    },
+    {
+      "id": "a142",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Penyerapan sari-sari makanan ke dalam aliran darah manusia terutama terjadi di dalam?",
+      "pilihan": [
+        "Usus halus",
+        "Lambung",
+        "Usus besar"
+      ],
+      "jawaban_benar": "Usus halus",
+      "penjelasan": "Vili-vili di dinding usus halus menyerap nutrisi makanan."
+    },
+    {
+      "id": "a143",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Penyerapan kembali air dan pembusukan sisa makanan terjadi pada organ?",
+      "pilihan": [
+        "Usus besar",
+        "Usus buntu",
+        "Kerongkongan"
+      ],
+      "jawaban_benar": "Usus besar",
+      "penjelasan": "Usus besar menyerap kelebihan air sebelum sisa makanan dibuang."
+    },
+    {
+      "id": "a144",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Benda yang mudah menghantarkan arus listrik atau panas disebut benda?",
+      "pilihan": [
+        "Konduktor",
+        "Isolator",
+        "Semikonduktor"
+      ],
+      "jawaban_benar": "Konduktor",
+      "penjelasan": "Tembaga, besi, dan aluminium adalah contoh konduktor yang baik."
+    },
+    {
+      "id": "a145",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Benda yang sulit atau tidak dapat menghantarkan panas dan listrik disebut?",
+      "pilihan": [
+        "Isolator",
+        "Konduktor",
+        "Generator"
+      ],
+      "jawaban_benar": "Isolator",
+      "penjelasan": "Kayu, karet, dan plastik adalah contoh isolator yang aman."
+    },
+    {
+      "id": "a146",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Gaya yang timbul ketika dua permukaan benda saling bersentuhan dan bergesekan disebut gaya?",
+      "pilihan": [
+        "Gaya gesek",
+        "Gaya pegas",
+        "Gaya magnet"
+      ],
+      "jawaban_benar": "Gaya gesek",
+      "penjelasan": "Gaya gesek memperlambat gerak benda dan menghasilkan panas jika digosok."
+    },
+    {
+      "id": "a147",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Ban mobil dan sepeda dibuat memiliki alur bermotif agar?",
+      "pilihan": [
+        "Memperbesar gaya gesek sehingga tidak tergelincir",
+        "Lebih cepat berjalan",
+        "Lebih ringan"
+      ],
+      "jawaban_benar": "Memperbesar gaya gesek sehingga tidak tergelincir",
+      "penjelasan": "Alur ban mencengkeram aspal jalan basah dengan lebih mantap."
+    },
+    {
+      "id": "a148",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Gaya yang bekerja pada ketapel yang ditarik atau busur panah disebut gaya?",
+      "pilihan": [
+        "Gaya pegas",
+        "Gaya gravitasi",
+        "Gaya listrik"
+      ],
+      "jawaban_benar": "Gaya pegas",
+      "penjelasan": "Sifat elastisitas karet dan pegas menghasilkan gaya pegas saat diregangkan."
+    },
+    {
+      "id": "a149",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Metamorfosis pada belalang dan kecoak disebut tidak sempurna karena tidak melalui fase apa?",
+      "pilihan": [
+        "Kepompong (Pupa)",
+        "Telur",
+        "Nimfa"
+      ],
+      "jawaban_benar": "Kepompong (Pupa)",
+      "penjelasan": "Metamorfosis tidak sempurna: Telur -> Nimfa -> Dewasa (tanpa kepompong)."
+    },
+    {
+      "id": "a150",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Bagian darah manusia yang bertugas melawan kuman penyakit dan infeksi adalah?",
+      "pilihan": [
+        "Sel darah putih (Leukosit)",
+        "Sel darah merah (Eritrosit)",
+        "Keping darah"
+      ],
+      "jawaban_benar": "Sel darah putih (Leukosit)",
+      "penjelasan": "Leukosit adalah prajurit kekebalan tubuh yang melawan bakteri dan virus."
+    },
+    {
+      "id": "a151",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Sel darah merah mengandung zat hemoglobin yang memberi warna merah dan berfungsi membawa?",
+      "pilihan": [
+        "Oksigen",
+        "Limbah kotor",
+        "Garam"
+      ],
+      "jawaban_benar": "Oksigen",
+      "penjelasan": "Hemoglobin mengikat oksigen dari paru-paru untuk disebarkan ke tubuh."
+    },
+    {
+      "id": "a152",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Keping darah (trombosit) memiliki fungsi sangat penting dalam proses?",
+      "pilihan": [
+        "Pembekuan darah saat luka",
+        "Menghasilkan energi",
+        "Mencerna makanan"
+      ],
+      "jawaban_benar": "Pembekuan darah saat luka",
+      "penjelasan": "Trombosit menutup luka agar darah berhenti mengalir keluar."
+    },
+    {
+      "id": "a153",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Peristiwa jatuhnya serbuk sari ke kepala putik pada bunga dinamakan?",
+      "pilihan": [
+        "Penyerbukan",
+        "Pencangkokan",
+        "Fotosintesis"
+      ],
+      "jawaban_benar": "Penyerbukan",
+      "penjelasan": "Penyerbukan adalah awal dari proses perkembangbiakan generatif tumbuhan berbunga."
+    },
+    {
+      "id": "a154",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hewan pemakan bangkai yang membantu membersihkan hutan dari bangkai busuk contohnya adalah?",
+      "pilihan": [
+        "Burung hering / bangkai",
+        "Kelinci",
+        "Rusa"
+      ],
+      "jawaban_benar": "Burung hering / bangkai",
+      "penjelasan": "Burung pemakan bangkai mencegah penyebaran wabah penyakit di alam bebas."
+    },
+    {
+      "id": "a155",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Simbiosis saling menguntungkan antara dua makhluk hidup berbeda dinamakan simbiosis?",
+      "pilihan": [
+        "Mutualisme",
+        "Komensalisme",
+        "Parasitisme"
+      ],
+      "jawaban_benar": "Mutualisme",
+      "penjelasan": "Contohnya lebah madu mendapat nektar dan bunga terbantu penyerbukannya."
+    },
+    {
+      "id": "a156",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Simbiosis di mana satu pihak untung dan pihak lain dirugikan disebut simbiosis?",
+      "pilihan": [
+        "Parasitisme",
+        "Mutualisme",
+        "Komensalisme"
+      ],
+      "jawaban_benar": "Parasitisme",
+      "penjelasan": "Contohnya benalu yang mengisap sari makanan dari pohon inangnya."
+    },
+    {
+      "id": "a157",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Simbiosis di mana satu pihak untung tetapi pihak lain tidak dirugikan disebut?",
+      "pilihan": [
+        "Komensalisme",
+        "Mutualisme",
+        "Parasitisme"
+      ],
+      "jawaban_benar": "Komensalisme",
+      "penjelasan": "Contohnya ikan remora yang berenang di dekat ikan hiu untuk mencari sisa remah makanan."
+    },
+    {
+      "id": "a158",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hewan berkantung yang mengasuh anaknya di dalam kantung perut seperti kanguru disebut?",
+      "pilihan": [
+        "Marsupial",
+        "Plasental",
+        "Reptilia"
+      ],
+      "jawaban_benar": "Marsupial",
+      "penjelasan": "Marsupialia memiliki kantung (marsupium) khusus untuk melindungi bayinya."
+    },
+    {
+      "id": "a159",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hewan mamalia asli Australia yang bertelur dan memiliki paruh bebek adalah?",
+      "pilihan": [
+        "Platipus",
+        "Koala",
+        "Wombat"
+      ],
+      "jawaban_benar": "Platipus",
+      "penjelasan": "Platipus adalah mamalia monotremata yang bertelur namun tetap menyusui anaknya."
+    },
+    {
+      "id": "a160",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Hewan tercepat di daratan bumi yang bisa berlari hingga 100 km/jam adalah?",
+      "pilihan": [
+        "Cheetah",
+        "Singa",
+        "Kuda pacu"
+      ],
+      "jawaban_benar": "Cheetah",
+      "penjelasan": "Cheetah memiliki tulang punggung fleksibel dan cakar tajam untuk akselerasi kilat."
+    },
+    {
+      "id": "a161",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Burung terbesar di dunia yang tidak bisa terbang namun bisa berlari sangat kencang adalah?",
+      "pilihan": [
+        "Burung unta",
+        "Burung merak",
+        "Burung elang"
+      ],
+      "jawaban_benar": "Burung unta",
+      "penjelasan": "Burung unta memiliki kaki jenjang yang sangat kuat untuk berlari di padang savana."
+    },
+    {
+      "id": "a162",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Proses pengikisan tanah oleh aliran air atau hembusan angin kencang disebut?",
+      "pilihan": [
+        "Erosi",
+        "Abrasi",
+        "Korosi"
+      ],
+      "jawaban_benar": "Erosi",
+      "penjelasan": "Erosi dapat dicegah dengan menanam pohon berakar kuat (reboisasi)."
+    },
+    {
+      "id": "a163",
+      "tingkat": 3,
+      "tingkat_nama": "Sedang",
+      "usia": [
+        "7-9",
+        "10-12"
+      ],
+      "pertanyaan": "Pengikisan pantai yang disebabkan oleh hantaman ombak laut secara terus-menerus disebut?",
+      "pilihan": [
+        "Abrasi",
+        "Erosi",
+        "Sedimentasi"
+      ],
+      "jawaban_benar": "Abrasi",
+      "penjelasan": "Abrasi pantai dapat dihambat dengan menanam hutan bakau (mangrove)."
+    },
+    {
+      "id": "a164",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Dalam rantai makanan di sawah, posisi padi berperan sebagai apa?",
+      "pilihan": [
+        "Produsen",
+        "Konsumen I",
+        "Pengurai"
+      ],
+      "jawaban_benar": "Produsen",
+      "penjelasan": "Tumbuhan menghasilkan makanannya sendiri lewat fotosintesis sehingga disebut produsen."
+    },
+    {
+      "id": "a165",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Dalam rantai makanan, belalang yang memakan daun padi menempati posisi sebagai?",
+      "pilihan": [
+        "Konsumen primer (Tingkat I)",
+        "Konsumen sekunder",
+        "Produsen"
+      ],
+      "jawaban_benar": "Konsumen primer (Tingkat I)",
+      "penjelasan": "Konsumen primer adalah hewan herbivora yang langsung memakan tumbuhan produsen."
+    },
+    {
+      "id": "a166",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Makhluk hidup seperti jamur dan bakteri yang menguraikan sisa makhluk hidup mati disebut?",
+      "pilihan": [
+        "Dekomposer (Pengurai)",
+        "Produsen",
+        "Konsumen puncak"
+      ],
+      "jawaban_benar": "Dekomposer (Pengurai)",
+      "penjelasan": "Pengurai mengembalikan unsur hara penting ke dalam tanah."
+    },
+    {
+      "id": "a167",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Dalam proses fotosintesis, gas apa yang diserap oleh daun tumbuhan dari udara?",
+      "pilihan": [
+        "Karbon dioksida (CO₂)",
+        "Oksigen (O₂)",
+        "Nitrogen"
+      ],
+      "jawaban_benar": "Karbon dioksida (CO₂)",
+      "penjelasan": "Tumbuhan menyerap CO₂ dan air dengan bantuan cahaya matahari."
+    },
+    {
+      "id": "a168",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Dua hasil utama dari peristiwa fotosintesis tumbuhan hijau adalah?",
+      "pilihan": [
+        "Oksigen dan Glukosa",
+        "Karbon dioksida dan Air",
+        "Gas metana dan Nitrogen"
+      ],
+      "jawaban_benar": "Oksigen dan Glukosa",
+      "penjelasan": "Fotosintesis menghasilkan oksigen segar untuk bernapas dan karbohidrat/glukosa."
+    },
+    {
+      "id": "a169",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Lapisan atmosfer bumi yang mengandung gas ozon dan melindungi kita dari radiasi ultraviolet berbahaya adalah?",
+      "pilihan": [
+        "Stratosfer",
+        "Troposfer",
+        "Mesosfer"
+      ],
+      "jawaban_benar": "Stratosfer",
+      "penjelasan": "Lapisan ozon berada di stratosfer menyaring sinar ultraviolet matahari."
+    },
+    {
+      "id": "a170",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Lapisan atmosfer paling bawah tempat terjadinya gejala cuaca seperti hujan, angin, dan awan adalah?",
+      "pilihan": [
+        "Troposfer",
+        "Termosfer",
+        "Eksosfer"
+      ],
+      "jawaban_benar": "Troposfer",
+      "penjelasan": "Troposfer membentang dari permukaan tanah hingga ketinggian sekitar 10-12 km."
+    },
+    {
+      "id": "a171",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Bagian lapisan bumi paling luar tempat kita hidup berpijak dan membangun kota disebut?",
+      "pilihan": [
+        "Kerak bumi",
+        "Mantel bumi",
+        "Inti bumi"
+      ],
+      "jawaban_benar": "Kerak bumi",
+      "penjelasan": "Kerak bumi adalah lapisan batuan padat terluar yang relatif tipis."
+    },
+    {
+      "id": "a172",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Pusat bumi yang memiliki suhu sangat tinggi dan terbuat dari besi dan nikel padat adalah?",
+      "pilihan": [
+        "Inti dalam",
+        "Inti luar",
+        "Mantel luar"
+      ],
+      "jawaban_benar": "Inti dalam",
+      "penjelasan": "Inti dalam bumi bertekanan dahsyat dan sangat panas mirip suhu permukaan matahari."
+    },
+    {
+      "id": "a173",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Alat yang digunakan para ilmuwan untuk mencatat dan mengukur getaran gempa bumi adalah?",
+      "pilihan": [
+        "Seismometer (Seismograf)",
+        "Termometer",
+        "Anemometer"
+      ],
+      "jawaban_benar": "Seismometer (Seismograf)",
+      "penjelasan": "Seismograf merekam gelombang seismik yang dipicu oleh patahan lempeng bumi."
+    },
+    {
+      "id": "a174",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Skala yang umum digunakan untuk menyatakan besarnya kekuatan (magnitudo) gempa bumi adalah?",
+      "pilihan": [
+        "Skala Richter / MMI",
+        "Skala Celsius",
+        "Skala Newton"
+      ],
+      "jawaban_benar": "Skala Richter / MMI",
+      "penjelasan": "Skala Richter mengukur energi yang dilepaskan di titik pusat gempa."
+    },
+    {
+      "id": "a175",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Gelombang laut raksasa yang terjadi akibat gempa bumi berpusat di dasar laut disebut?",
+      "pilihan": [
+        "Tsunami",
+        "Pasang purnama",
+        "Arus rip"
+      ],
+      "jawaban_benar": "Tsunami",
+      "penjelasan": "Pergeseran lempeng bawah laut secara vertikal memicu gelombang air tsunami dahsyat."
+    },
+    {
+      "id": "a176",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Energi yang dapat terus diperbarui dan tidak akan pernah habis terpakai disebut energi?",
+      "pilihan": [
+        "Terbarukan (Renewable)",
+        "Fosil",
+        "Nuklir konvensional"
+      ],
+      "jawaban_benar": "Terbarukan (Renewable)",
+      "penjelasan": "Matahari, angin, dan air adalah sumber energi bersih yang selalu ada."
+    },
+    {
+      "id": "a177",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Pembangkit listrik yang memanfaatkan tiupan angin kencang menggunakan turbin disebut?",
+      "pilihan": [
+        "PLTB (Bayu/Angin)",
+        "PLTU (Uap)",
+        "PLTA (Air)"
+      ],
+      "jawaban_benar": "PLTB (Bayu/Angin)",
+      "penjelasan": "Turbin angin raksasa memutar generator untuk menghasilkan energi listrik."
+    },
+    {
+      "id": "a178",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Panel surya (solar cell) mengubah energi cahaya matahari menjadi energi apa?",
+      "pilihan": [
+        "Energi listrik",
+        "Energi kimia",
+        "Energi gerak"
+      ],
+      "jawaban_benar": "Energi listrik",
+      "penjelasan": "Efek fotovoltaik pada silikon panel surya menghasilkan arus listrik."
+    },
+    {
+      "id": "a179",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Pembangkit Listrik Tenaga Air (PLTA) memanfaatkan energi potensial dan kinetik dari?",
+      "pilihan": [
+        "Aliran air waduk/sungai",
+        "Uap batu bara",
+        "Minyak bumi"
+      ],
+      "jawaban_benar": "Aliran air waduk/sungai",
+      "penjelasan": "Aliran air memutar turbin generator air untuk menghasilkan listrik."
+    },
+    {
+      "id": "a180",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Bahan bakar fosil seperti batu bara dan minyak bumi berasal dari endapan apa?",
+      "pilihan": [
+        "Sisa jasad makhluk purba jutaan tahun lalu",
+        "Lahar gunung berapi",
+        "Batu karang laut"
+      ],
+      "jawaban_benar": "Sisa jasad makhluk purba jutaan tahun lalu",
+      "penjelasan": "Bahan bakar fosil tidak terbarukan karena butuh jutaan tahun untuk terbentuk."
+    },
+    {
+      "id": "a181",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Gas rumah kaca utama di atmosfer yang memicu pemanasan global jika kadarnya berlebihan adalah?",
+      "pilihan": [
+        "Karbon dioksida (CO₂)",
+        "Oksigen (O₂)",
+        "Helium"
+      ],
+      "jawaban_benar": "Karbon dioksida (CO₂)",
+      "penjelasan": "Emisi gas buang kendaraan dan pabrik memerangkap panas di atmosfer bumi."
+    },
+    {
+      "id": "a182",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Hewan vertebrata adalah kelompok hewan yang memiliki ciri khas utama apa?",
+      "pilihan": [
+        "Memiliki tulang belakang",
+        "Tidak punya rangka",
+        "Berdarah dingin selalu"
+      ],
+      "jawaban_benar": "Memiliki tulang belakang",
+      "penjelasan": "Ikan, amfibi, reptil, burung, dan mamalia adalah golongan hewan bertulang belakang."
+    },
+    {
+      "id": "a183",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Hewan avertebrata (invertebrata) adalah hewan yang tidak memiliki?",
+      "pilihan": [
+        "Tulang belakang",
+        "Jantung",
+        "Mata"
+      ],
+      "jawaban_benar": "Tulang belakang",
+      "penjelasan": "Serangga, cacing, cumi-cumi, dan ubur-ubur adalah hewan tanpa tulang belakang."
+    },
+    {
+      "id": "a184",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Zat tunggal yang tidak dapat diuraikan lagi menjadi zat lain yang lebih sederhana disebut?",
+      "pilihan": [
+        "Unsur",
+        "Senyawa",
+        "Campuran"
+      ],
+      "jawaban_benar": "Unsur",
+      "penjelasan": "Contoh unsur adalah oksigen murni, hidrogen, emas murni, dan besi."
+    },
+    {
+      "id": "a185",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Air murni (H₂O) merupakan gabungan dua atom hidrogen dan satu atom oksigen, sehingga tergolong?",
+      "pilihan": [
+        "Senyawa",
+        "Unsur",
+        "Campuran heterogen"
+      ],
+      "jawaban_benar": "Senyawa",
+      "penjelasan": "Senyawa terdiri dari dua atau lebih unsur kimia yang terikat secara kimiawi."
+    },
+    {
+      "id": "a186",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Campuran air dan pasir dapat dipisahkan secara fisik dengan metode apa?",
+      "pilihan": [
+        "Penyaringan (Filtrasi)",
+        "Kromatografi",
+        "Penyulingan"
+      ],
+      "jawaban_benar": "Penyaringan (Filtrasi)",
+      "penjelasan": "Kertas saring menahan butiran pasir dan membiarkan cairan air lolos."
+    },
+    {
+      "id": "a187",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Peristiwa perubahan wujud zat dari padat langsung menjadi gas tanpa mencair disebut?",
+      "pilihan": [
+        "Menyublim",
+        "Mengembun",
+        "Mengkristal"
+      ],
+      "jawaban_benar": "Menyublim",
+      "penjelasan": "Kapur barus (kamper) mengecil di dalam lemari karena peristiwa menyublim."
+    },
+    {
+      "id": "a188",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Peristiwa perubahan gas menjadi zat padat contohnya pada pembentukan kristal salju disebut?",
+      "pilihan": [
+        "Mengkristal (Deposisi)",
+        "Mencair",
+        "Menguap"
+      ],
+      "jawaban_benar": "Mengkristal (Deposisi)",
+      "penjelasan": "Uap air dingin di awan berubah langsung menjadi kepingan kristal es padat."
+    },
+    {
+      "id": "a189",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Hukum kekekalan energi menyatakan bahwa energi tidak dapat diciptakan atau dimusnahkan, tetapi hanya dapat?",
+      "pilihan": [
+        "Diubah bentuknya",
+        "Dihilangkan",
+        "Dibuat dari nol"
+      ],
+      "jawaban_benar": "Diubah bentuknya",
+      "penjelasan": "Energi listrik pada setrika berubah menjadi energi panas."
+    },
+    {
+      "id": "a190",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Ketika kita menjatuhkan batu dari lantai atas, energi potensial gravitasinya berubah menjadi energi apa?",
+      "pilihan": [
+        "Energi kinetik (gerak)",
+        "Energi kimia",
+        "Energi nuklir"
+      ],
+      "jawaban_benar": "Energi kinetik (gerak)",
+      "penjelasan": "Saat jatuh makin cepat, energi potensial berkurang dan energi kinetik bertambah."
+    },
+    {
+      "id": "a191",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Satuan standar internasional (SI) untuk mengukur besarnya gaya adalah?",
+      "pilihan": [
+        "Newton",
+        "Joule",
+        "Watt"
+      ],
+      "jawaban_benar": "Newton",
+      "penjelasan": "Nama satuan gaya diambil dari fisikawan Sir Isaac Newton."
+    },
+    {
+      "id": "a192",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Satuan standar internasional untuk menyatakan daya listrik adalah?",
+      "pilihan": [
+        "Watt",
+        "Volt",
+        "Ampere"
+      ],
+      "jawaban_benar": "Watt",
+      "penjelasan": "Besarnya daya listrik bola lampu dinyatakan dalam satuan Watt."
+    },
+    {
+      "id": "a193",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Gerhana matahari terjadi ketika posisi benda langit sejajar dalam urutan apa?",
+      "pilihan": [
+        "Matahari - Bulan - Bumi",
+        "Matahari - Bumi - Bulan",
+        "Bumi - Matahari - Bulan"
+      ],
+      "jawaban_benar": "Matahari - Bulan - Bumi",
+      "penjelasan": "Bayangan bulan menutupi sebagian atau seluruh permukaan matahari dari pandangan bumi."
+    },
+    {
+      "id": "a194",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Gerhana bulan terjadi ketika posisi bumi berada tepat di antara?",
+      "pilihan": [
+        "Matahari dan Bulan",
+        "Bulan dan Merkurius",
+        "Mars dan Venus"
+      ],
+      "jawaban_benar": "Matahari dan Bulan",
+      "penjelasan": "Bumi menghalangi sinar matahari sehingga bayangan bumi jatuh menutupi bulan."
+    },
+    {
+      "id": "a195",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Pasang naik air laut tertinggi (pasang purnama) dipengaruhi oleh gaya gravitasi dari?",
+      "pilihan": [
+        "Bulan dan Matahari",
+        "Angin badai",
+        "Rotasi bumi saja"
+      ],
+      "jawaban_benar": "Bulan dan Matahari",
+      "penjelasan": "Gravitasi bulan yang dekat dengan bumi menarik massa air laut bumi."
+    },
+    {
+      "id": "a196",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Komet sering dijuluki 'bintang berekor', ekor komet selalu menjauhi apa?",
+      "pilihan": [
+        "Matahari",
+        "Bulan",
+        "Bumi"
+      ],
+      "jawaban_benar": "Matahari",
+      "penjelasan": "Angin matahari (solar wind) meniup partikel debu dan gas komet menjauh dari matahari."
+    },
+    {
+      "id": "a197",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Kumpulan gas, debu, dan miliaran bintang yang terikat oleh gravitasi disebut?",
+      "pilihan": [
+        "Galaksi",
+        "Asteroid",
+        "Nebula"
+      ],
+      "jawaban_benar": "Galaksi",
+      "penjelasan": "Bumi dan tata surya kita berada di dalam galaksi Bima Sakti (Milky Way)."
+    },
+    {
+      "id": "a198",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Bintang terdekat dengan bumi kita selain matahari adalah?",
+      "pilihan": [
+        "Proxima Centauri",
+        "Sirius",
+        "Betelgeuse"
+      ],
+      "jawaban_benar": "Proxima Centauri",
+      "penjelasan": "Proxima Centauri berjarak sekitar 4,24 tahun cahaya dari tata surya kita."
+    },
+    {
+      "id": "a199",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Peristiwa jatuhnya batuan luar angkasa ke atmosfer bumi hingga terbakar berpijar disebut?",
+      "pilihan": [
+        "Meteor",
+        "Meteorit",
+        "Asteroid"
+      ],
+      "jawaban_benar": "Meteor",
+      "penjelasan": "Gaya gesek dengan udara atmosfer membuat batu meteor berpijar di langit malam."
+    },
+    {
+      "id": "a200",
+      "tingkat": 4,
+      "tingkat_nama": "Tantangan",
+      "usia": [
+        "10-12"
+      ],
+      "pertanyaan": "Jika batuan luar angkasa tidak habis terbakar dan mendarat menabrak permukaan bumi, batu itu disebut?",
+      "pilihan": [
+        "Meteorit",
+        "Meteor",
+        "Komet"
+      ],
+      "jawaban_benar": "Meteorit",
+      "penjelasan": "Meteorit adalah sisa meteor yang berhasil mencapai daratan bumi."
     }
   ]
 }
