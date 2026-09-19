@@ -17,17 +17,11 @@
         <p class="text-xs font-body font-semibold text-brand-cocoa/70 hidden sm:block">Belajar & Bermain Ceria</p>
       </div>
     </RouterLink>
-
-    <!-- Header Actions (Audio Toggle) -->
-    <div class="flex items-center gap-3">
-      <AudioToggle />
-    </div>
   </header>
 </template>
 
 <script setup>
 import { RouterLink } from 'vue-router'
-import AudioToggle from '@/components/common/AudioToggle.vue'
 import IconTeddy from '@/components/icons/IconTeddy.vue'
 import { useAudioStore } from '@/stores/audioStore'
 

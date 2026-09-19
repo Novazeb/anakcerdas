@@ -1,27 +1,39 @@
 <template>
-  <div class="quiz-view min-h-[calc(100vh-80px)] flex flex-col justify-between px-3 sm:px-6 pb-6 sm:pb-10 relative">
-    <!-- Top Quiz Navigation Header -->
-    <div class="max-w-3xl mx-auto w-full flex items-center justify-between py-2 mb-1 z-20">
-      <!-- Back to Menu Button -->
-      <button
-        @click="handleBackClick"
-        class="felt-btn px-3.5 py-1.5 sm:px-4 sm:py-2 bg-cream-deep hover:bg-white text-brand-cocoa text-xs sm:text-sm font-display font-bold rounded-felt-full border-2 border-brand-cocoa/20 flex items-center gap-1.5 shadow-sm transition-all"
-      >
-        <IconArrowLeft class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-brand-cocoa" />
-        <span>Menu</span>
-      </button>
+  <div class="quiz-view min-h-[calc(100vh-80px)] flex flex-col justify-between px-3 sm:px-6 pb-4 sm:pb-8 relative">
+    <!-- Ultra-compact Top Bar in Quiz Mode -->
+    <div class="max-w-2xl mx-auto w-full flex items-center justify-between pt-2 pb-1 z-20 pr-14 sm:pr-16">
+      <div class="flex items-center gap-2">
+        <!-- Back to Menu Button -->
+        <button
+          @click="handleBackClick"
+          class="felt-btn px-3 py-1 sm:px-3.5 sm:py-1.5 bg-cream-deep hover:bg-white text-brand-cocoa text-xs font-display font-bold rounded-full border border-brand-cocoa/20 flex items-center gap-1 shadow-xs transition-all"
+          title="Kembali ke Menu"
+        >
+          <IconArrowLeft class="w-3.5 h-3.5 text-brand-cocoa" />
+          <span>Menu</span>
+        </button>
 
-      <!-- Category Title Badge with SVG Icon -->
-      <div class="flex items-center gap-1.5 sm:gap-2 px-3 py-1 sm:px-4 sm:py-1.5 rounded-felt-full bg-white border-2 border-dashed border-brand-raspberry shadow-sm">
-        <IconCategory :category="quizStore.currentCategory" custom-class="w-4 h-4 sm:w-5 sm:h-5 text-brand-raspberry" />
-        <span class="text-xs sm:text-base font-display font-extrabold text-brand-cocoa">
-          {{ quizStore.categoryMeta.judul }}
-        </span>
+        <!-- Intip Dongeng Button (Only in Ingatan / Memory Category during question phase) -->
+        <button
+          v-if="quizStore.currentCategory === 'ingatan' && !quizStore.isStoryPhase"
+          @click="showPeekStoryModal = true"
+          class="felt-btn px-3 py-1 bg-[#FAF6FF] hover:bg-white text-category-memory-dark text-xs font-display font-bold rounded-full border border-category-memory-dark/40 flex items-center gap-1 shadow-xs transition-all animate-pulse-subtle"
+          title="Lihat Kembali Dongeng Kiki"
+        >
+          <span>📖</span>
+          <span>Intip Dongeng</span>
+        </button>
+      </div>
+
+      <!-- Category Label with Icon -->
+      <div class="flex items-center gap-1 text-xs font-display font-extrabold text-brand-cocoa/70">
+        <IconCategory :category="quizStore.currentCategory" custom-class="w-3.5 h-3.5 text-brand-raspberry" />
+        <span class="truncate max-w-[120px] sm:max-w-none">{{ quizStore.categoryMeta.judul }}</span>
       </div>
     </div>
 
     <!-- Main Container -->
-    <div class="max-w-3xl mx-auto w-full flex-1 flex flex-col justify-center my-auto">
+    <div class="max-w-2xl mx-auto w-full flex-1 flex flex-col justify-center my-auto">
       <!-- 1. STORY PHASE (Ingatan Module) -->
       <StoryIntro
         v-if="quizStore.isStoryPhase && quizStore.categoryMeta.cerpen"
@@ -30,7 +42,7 @@
       />
 
       <!-- 2. QUESTION PHASE -->
-      <div v-else-if="quizStore.currentQuestion" class="space-y-3 sm:space-y-4">
+      <div v-else-if="quizStore.currentQuestion" class="space-y-2.5 sm:space-y-3">
         <!-- Progress Stitch Indicator -->
         <StitchTrail
           mode="progress"
@@ -97,6 +109,42 @@
         </div>
       </div>
     </div>
+
+    <!-- Intip Dongeng Modal (Peek Story Modal during Memory Quiz) -->
+    <div
+      v-if="showPeekStoryModal"
+      class="fixed inset-0 z-50 bg-brand-cocoa/50 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4"
+    >
+      <div class="felt-card p-5 sm:p-6 bg-white max-w-lg w-full max-h-[85vh] flex flex-col border-3 border-dashed border-category-memory shadow-felt-card animate-bounce-gentle">
+        <div class="flex items-center justify-between border-b pb-2 mb-3 shrink-0">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">📖</span>
+            <h3 class="text-lg sm:text-xl font-display font-extrabold text-brand-cocoa">
+              Intip Cerita: {{ quizStore.categoryMeta.cerpen?.judul }}
+            </h3>
+          </div>
+          <button
+            @click="showPeekStoryModal = false"
+            class="w-7 h-7 rounded-full hover:bg-cream-deep flex items-center justify-center text-brand-cocoa font-bold text-sm"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div class="flex-1 overflow-y-auto space-y-2.5 text-xs sm:text-sm font-body text-brand-cocoa/90 leading-relaxed bg-[#FAF6FF] p-3.5 sm:p-4 rounded-felt-md border border-dashed border-category-memory/40">
+          <p v-for="(p, idx) in quizStore.categoryMeta.cerpen?.paragraf" :key="idx">
+            {{ p }}
+          </p>
+        </div>
+
+        <button
+          @click="showPeekStoryModal = false"
+          class="felt-btn w-full mt-3 py-2.5 bg-category-memory hover:bg-category-memory-dark text-brand-cocoa font-bold text-sm rounded-felt-md shrink-0"
+        >
+          Tutup & Lanjut Menjawab
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -131,6 +179,7 @@ const audioStore = useAudioStore()
 const confetti = useConfetti()
 
 const showQuitModal = ref(false)
+const showPeekStoryModal = ref(false)
 
 const initializeQuiz = () => {
   const cat = props.category || route.params.category || 'matematika'
