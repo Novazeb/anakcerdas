@@ -82,9 +82,9 @@ Dokumentasi lengkap mengenai evolusi fitur, perbaikan antarmuka, dan peningkatan
      - **7–9 Tahun:** Kurva seimbang 4 tingkat (Mudah s.d Tantangan).
      - **10–12 Tahun:** Soal penalaran cerita, perkalian/pembagian lanjutan, sains analitis, dan wawasan sosial.
 8. **Representasi Visual Konkret pada Soal (*Concrete-Pictorial-Abstract*):**
-   - Tepat di bawah pertanyaan, hadir bantuan visual yang bisa dihitung dengan jari:
-     - *Matematika:* `[ 🍎🍎 ] + [ 🍎🍎🍎 ] = ?` atau balon/bintang.
-     - *Alam & Sosial:* Lencana topik konkret (🐝 Lebah, 🇮🇩 Bendera, 🦒 Jerapah, dll.).
+    - Tepat di bawah pertanyaan, hadir bantuan visual yang bisa dihitung dengan jari:
+      - *Matematika:* Logika matematis konkret yang ramah nalar anak. Penjumlahan & pengurangan menampilkan objek konkret di kedua sisi (`[ 🍎🍎 ] + [ 🍎🍎🍎 ] = ?`), sedangkan perkalian & pembagian menampilkan objek konkret dikalikan angka pengali murni (`[ 🍎🍎🍎🍎🍎 ] × [ 2 ] = ?`), sehingga anak tidak bingung mengalikan "apel dengan apel".
+      - *Alam & Sosial:* Lencana topik konkret (🐝 Lebah, 🇮🇩 Bendera, 🦒 Jerapah, dll.).
 9. **Modul Ingatan Sistem 3 Bab (7 – 7 – 6 Soal):**
    - Mengubah format dinding teks panjang menjadi alur membaca buku cerita bertahap:
      - **Bab 1:** *Kiki & Pintu Rahasia* (baca 2 paragraf) ➡️ Jawab **Soal 1 s.d 7**.

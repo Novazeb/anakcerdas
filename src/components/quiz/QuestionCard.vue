@@ -48,7 +48,10 @@
         <span class="text-brand-raspberry text-base font-black">
           {{ concreteVisual.op }}
         </span>
-        <span class="bg-white px-2 py-0.5 rounded border border-amber-200 tracking-wider text-base sm:text-lg">
+        <span
+          class="px-2 py-0.5 rounded border tracking-wider"
+          :class="concreteVisual.isSecondNumeric ? 'bg-amber-100/80 border-amber-300 font-extrabold text-brand-cocoa text-sm sm:text-base font-numeric' : 'bg-white border-amber-200 text-base sm:text-lg'"
+        >
           {{ concreteVisual.second }}
         </span>
         <span class="text-brand-cocoa/60 text-sm sm:text-base font-bold">
@@ -155,8 +158,8 @@ const tierBadgeClass = computed(() => {
 const concreteVisual = computed(() => {
   const qText = props.question?.pertanyaan || ''
 
-  // 1. Math arithmetic detection (e.g., 2 + 3, 5 - 2, 3 x 3)
-  const mathMatch = qText.match(/(\d+)\s*([\+\-\x\:\*])\s*(\d+)/i)
+  // 1. Math arithmetic detection (e.g., 2 + 3, 5 - 2, 5 x 2, 6 : 2)
+  const mathMatch = qText.match(/(\d+)\s*([\+\-\x\:\*\/])\s*(\d+)/i)
   if (mathMatch) {
     const n1 = parseInt(mathMatch[1], 10)
     const rawOp = mathMatch[2]
@@ -166,14 +169,20 @@ const concreteVisual = computed(() => {
     const icon = itemIcons[(n1 + n2 + props.questionNumber) % itemIcons.length]
 
     let opSymbol = rawOp
-    if (rawOp === '*' || rawOp.toLowerCase() === 'x') opSymbol = '×'
-    if (rawOp === ':') opSymbol = '÷'
+    const isMultiply = rawOp === '*' || rawOp.toLowerCase() === 'x'
+    const isDivide = rawOp === ':' || rawOp === '/'
+    if (isMultiply) opSymbol = '×'
+    if (isDivide) opSymbol = '÷'
 
-    if (n1 <= 10 && n2 <= 10) {
+    const isSecondNumeric = isMultiply || isDivide
+    const canShow = isSecondNumeric ? (n1 <= 10 && n2 <= 20) : (n1 <= 10 && n2 <= 10)
+
+    if (canShow) {
       return {
         type: 'math',
         first: icon.repeat(n1),
-        second: icon.repeat(n2),
+        second: isSecondNumeric ? `${n2}` : icon.repeat(n2),
+        isSecondNumeric,
         op: opSymbol
       }
     }
