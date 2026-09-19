@@ -19,18 +19,35 @@
 
     <!-- Music Selector Modal (Appears upon entering web) -->
     <MusicSelectorModal />
+
+    <!-- User Profile Modal (Name & Age Selection) -->
+    <UserProfileModal />
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import AppHeader from '@/components/common/AppHeader.vue'
 import AudioToggle from '@/components/common/AudioToggle.vue'
 import MusicSelectorModal from '@/components/common/MusicSelectorModal.vue'
+import UserProfileModal from '@/components/common/UserProfileModal.vue'
+import { useQuizStore } from '@/stores/quizStore'
 
 const route = useRoute()
+const quizStore = useQuizStore()
+
 const isQuizRoute = computed(() => route.name === 'quiz' || (route.path && route.path.startsWith('/kuis')))
+
+onMounted(() => {
+  quizStore.loadUserProfile()
+  // Trigger onboarding modal on first visit if no custom profile is saved
+  if (!quizStore.hasCustomProfile) {
+    setTimeout(() => {
+      quizStore.openProfileModal()
+    }, 300)
+  }
+})
 </script>
 
 <style>

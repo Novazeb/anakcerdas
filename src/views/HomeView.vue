@@ -33,15 +33,29 @@
     <div class="max-w-5xl mx-auto w-full z-10 relative pt-4 sm:pt-8 flex flex-col items-center">
       <!-- Hero Section -->
       <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-12 space-y-3">
-        <!-- Welcoming Kiki Mascot -->
-        <div class="flex justify-center mb-2">
+        <!-- Welcoming Kiki Mascot & Profile Switcher -->
+        <div class="flex flex-col items-center gap-2 mb-2">
           <MascotCharacter character="bear" emotion="happy" size="md" />
+
+          <!-- Profile Badge: Click to Edit / Switch Profile -->
+          <button
+            @click="quizStore.openProfileModal"
+            class="felt-btn px-3.5 py-1 bg-white hover:bg-cream-deep text-brand-cocoa text-xs font-display font-bold rounded-full border border-brand-cocoa/20 shadow-xs flex items-center gap-1.5 transition-all group"
+            title="Klik untuk ubah Nama & Usia"
+          >
+            <span>👤</span>
+            <span>{{ quizStore.userName }}</span>
+            <span class="text-[10px] px-1.5 py-0.5 bg-brand-gold/30 rounded-full font-numeric font-bold text-amber-900 border border-brand-gold/40">
+              {{ quizStore.userAgeLabel }}
+            </span>
+            <span class="text-brand-raspberry text-xs group-hover:scale-120 transition-transform">✏️</span>
+          </button>
         </div>
 
         <div class="flex flex-wrap items-center justify-center gap-2">
           <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cream-deep border-2 border-dashed border-brand-raspberry/50 text-brand-cocoa font-numeric font-bold text-xs sm:text-sm shadow-sm">
             <IconSparkle class="w-4 h-4 text-brand-raspberry" />
-            <span>Kumpulan Latihan Soal Interaktif untuk Anak</span>
+            <span>Kumpulan Latihan Soal Interaktif</span>
           </div>
 
           <!-- Total Stars Achievement Badge (if any) -->
@@ -55,7 +69,7 @@
         </div>
 
         <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-brand-cocoa tracking-tight leading-tight">
-          Ayo Main & Belajar Bareng!
+          Halo, {{ quizStore.userName }}! 🎈
         </h2>
 
         <p class="text-base sm:text-lg font-body font-semibold text-brand-cocoa/80 max-w-lg mx-auto">
@@ -84,7 +98,7 @@
         <MenuCard
           id="ingatan"
           title="Ingatan"
-          description="Dongeng kelinci Kiki & uji daya ingatmu."
+          description="Dongeng kelinci Kiki & uji daya ingatmu per bab."
           color-key="memory"
           mascot-type="rabbit"
           :question-count="20"
@@ -157,6 +171,7 @@ const selectedMascot = ref('bear')
 onMounted(() => {
   audioStore.initAudio()
   quizStore.loadSavedProgress()
+  quizStore.loadUserProfile()
 })
 
 const handleSelectCategory = (categoryId) => {

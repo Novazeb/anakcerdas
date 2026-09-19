@@ -34,10 +34,11 @@
 
     <!-- Main Container -->
     <div class="max-w-2xl mx-auto w-full flex-1 flex flex-col justify-center my-auto">
-      <!-- 1. STORY PHASE (Ingatan Module) -->
+      <!-- 1. STORY PHASE (Ingatan Module: Bab 1, 2, 3) -->
       <StoryIntro
         v-if="quizStore.isStoryPhase && quizStore.categoryMeta.cerpen"
         :cerpen="quizStore.categoryMeta.cerpen"
+        :chapter="quizStore.activeStoryChapter"
         @start="handleStartAfterStory"
       />
 
@@ -195,7 +196,7 @@ watch(() => props.category, () => {
 })
 
 const handleStartAfterStory = () => {
-  quizStore.markStoryRead()
+  quizStore.markStoryChapterRead(quizStore.activeStoryChapter)
 }
 
 const handleSelectAnswer = (option) => {

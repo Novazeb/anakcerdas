@@ -9,7 +9,7 @@ describe('quizStore', () => {
 
   it('initializes quiz with 20 questions sampled progressively from 50 questions pool', () => {
     const store = useQuizStore()
-    const categories = ['matematika', 'ingatan', 'pengetahuan-alam', 'pengetahuan-sosial']
+    const categories = ['matematika', 'pengetahuan-alam', 'pengetahuan-sosial']
 
     for (const cat of categories) {
       store.startQuiz(cat)
@@ -27,17 +27,69 @@ describe('quizStore', () => {
     }
   })
 
-  it('correctly handles story reading state for ingatan module', () => {
+  it('initializes ingatan module with 7-7-6 chapter question progression', () => {
+    const store = useQuizStore()
+    store.startQuiz('ingatan')
+    expect(store.questions.length).toBe(20)
+
+    // Questions 1-7 from Bab 1
+    for (let i = 0; i < 7; i++) expect(store.questions[i].bab).toBe(1)
+    // Questions 8-14 from Bab 2
+    for (let i = 7; i < 14; i++) expect(store.questions[i].bab).toBe(2)
+    // Questions 15-20 from Bab 3
+    for (let i = 14; i < 20; i++) expect(store.questions[i].bab).toBe(3)
+  })
+
+  it('correctly handles profile setup and child name', () => {
+    const store = useQuizStore()
+    store.setUserProfile({ name: 'Aisyah', ageGroup: '4-6' })
+
+    expect(store.userName).toBe('Aisyah')
+    expect(store.userAgeGroup).toBe('4-6')
+    expect(store.hasCustomProfile).toBe(true)
+    expect(store.userAgeLabel).toContain('4-6')
+  })
+
+  it('progresses through 3 story chapters in ingatan module', () => {
     const store = useQuizStore()
     store.startQuiz('ingatan')
 
+    // Chapter 1
     expect(store.isStoryPhase).toBe(true)
-    expect(store.storyRead).toBe(false)
-    expect(store.categoryMeta.cerpen).not.toBeNull()
-
-    store.markStoryRead()
+    expect(store.activeStoryChapter).toBe(1)
+    store.markStoryChapterRead(1)
     expect(store.isStoryPhase).toBe(false)
-    expect(store.storyRead).toBe(true)
+
+    // Complete questions 1 to 7 (indices 0 to 6)
+    for (let i = 0; i < 7; i++) {
+      const q = store.currentQuestion
+      store.submitAnswer(q.jawaban_benar)
+      store.nextQuestion()
+    }
+
+    // Now at question 8 (index 7): Chapter 2 story phase triggers
+    expect(store.currentIndex).toBe(7)
+    expect(store.activeStoryChapter).toBe(2)
+    expect(store.isStoryPhase).toBe(true)
+
+    // Mark Chapter 2 read
+    store.markStoryChapterRead(2)
+    expect(store.isStoryPhase).toBe(false)
+
+    // Complete questions 8 to 14 (indices 7 to 13)
+    for (let i = 7; i < 14; i++) {
+      const q = store.currentQuestion
+      store.submitAnswer(q.jawaban_benar)
+      store.nextQuestion()
+    }
+
+    // Now at question 15 (index 14): Chapter 3 story phase triggers
+    expect(store.currentIndex).toBe(14)
+    expect(store.activeStoryChapter).toBe(3)
+    expect(store.isStoryPhase).toBe(true)
+
+    store.markStoryChapterRead(3)
+    expect(store.isStoryPhase).toBe(false)
   })
 
   it('records correct answers and calculates score', () => {

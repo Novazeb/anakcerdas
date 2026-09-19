@@ -33,19 +33,20 @@
               </div>
 
               <div class="space-y-1 flex-1">
-                <!-- Status Title -->
+                <!-- Status Title with Child Name -->
                 <div class="flex items-center gap-2">
                   <IconParty v-if="isCorrect" class="w-6 h-6 text-emerald-600 animate-bounce" />
                   <IconLightbulb v-else class="w-6 h-6 text-amber-600 animate-pulse" />
                   <h4 class="font-display font-extrabold text-xl sm:text-2xl leading-none">
-                    {{ isCorrect ? 'Wah, Kamu Hebat!' : 'Hampir Tepat!' }}
+                    <span v-if="isCorrect">Wah, Hebat Banget, {{ quizStore.userName }}! ⭐</span>
+                    <span v-else>Hampir Tepat, {{ quizStore.userName }}! 💡</span>
                   </h4>
                 </div>
 
-                <!-- Explanation / Correct Answer -->
+                <!-- Explanation / Correct Answer with Mascot Buddy Encouragement -->
                 <p class="font-body text-xs sm:text-sm font-semibold leading-snug text-brand-cocoa/85">
-                  <span v-if="!isCorrect" class="font-bold text-amber-800">
-                    Jawaban yang benar: "{{ correctAnswer }}".
+                  <span v-if="!isCorrect" class="block font-bold text-amber-900 mb-0.5">
+                    Jangan berkecil hati ya, kata {{ quizStore.activeMascotName }} jawaban yang benar adalah: "{{ correctAnswer }}".
                   </span>
                   <span v-if="explanation" class="block text-brand-cocoa/75 mt-0.5">
                     💡 {{ explanation }}
@@ -85,6 +86,7 @@ import IconParty from '@/components/icons/IconParty.vue'
 import IconLightbulb from '@/components/icons/IconLightbulb.vue'
 import IconArrowRight from '@/components/icons/IconArrowRight.vue'
 import IconTrophy from '@/components/icons/IconTrophy.vue'
+import { useQuizStore } from '@/stores/quizStore'
 
 const props = defineProps({
   show: {
@@ -114,6 +116,7 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['next'])
+const quizStore = useQuizStore()
 const sheetRef = ref(null)
 
 watch(() => props.show, (newVal) => {

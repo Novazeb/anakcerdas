@@ -16,9 +16,24 @@ const CATEGORY_MAP = {
 }
 
 const STORAGE_KEY = 'anakcerdas_stars_v1'
+const PROFILE_KEY = 'anakcerdas_profile_v1'
+
+const MASCOT_NAMES = {
+  'bear': 'Beruang Kiki',
+  'rabbit': 'Kelinci Kiki',
+  'hedgehog': 'Landak Dudu',
+  'cat': 'Kucing Miko'
+}
 
 export const useQuizStore = defineStore('quiz', {
   state: () => ({
+    // User Profile
+    userName: 'Sahabat Pintar',
+    userAgeGroup: '7-9', // '4-6' | '7-9' | '10-12'
+    hasCustomProfile: false,
+    showProfileModal: false,
+
+    // Quiz Session
     currentCategory: 'matematika',
     categoryMeta: {
       judul: '',
@@ -37,6 +52,12 @@ export const useQuizStore = defineStore('quiz', {
     isAnswering: false,
     lastSelectedOption: null,
     lastAnswerIsCorrect: null,
+
+    // Memory Module Chapter Progress (7 - 7 - 6)
+    activeStoryChapter: 1,
+    chapterReadStatus: { 1: false, 2: false, 3: false },
+
+    // Stars Persisted
     savedProgress: {}
   }),
 
@@ -59,7 +80,22 @@ export const useQuizStore = defineStore('quiz', {
     },
     wrongAnswers: (state) => state.answers.filter((a) => !a.isCorrect),
     isStoryPhase: (state) => {
-      return (state.currentCategory === 'ingatan' || state.currentCategory === 'memory') && !state.storyRead
+      if (state.currentCategory !== 'ingatan' && state.currentCategory !== 'memory') return false
+      // Story phase activates when the active chapter hasn't been read yet
+      return !state.chapterReadStatus[state.activeStoryChapter]
+    },
+    activeMascotName: (state) => {
+      return MASCOT_NAMES[state.categoryMeta.maskot] || 'Kiki'
+    },
+    userAgeLabel: (state) => {
+      if (state.userAgeGroup === '4-6') return '4-6 Thn (PAUD/TK)'
+      if (state.userAgeGroup === '10-12') return '10-12 Thn (SD Lanjutan)'
+      return '7-9 Thn (SD Awal)'
+    },
+    currentChapterData: (state) => {
+      const cerpen = state.categoryMeta.cerpen
+      if (!cerpen || !cerpen.bab) return null
+      return cerpen.bab.find(b => b.nomor === state.activeStoryChapter) || cerpen.bab[0]
     },
     totalStarsEarned: (state) => {
       return Object.values(state.savedProgress).reduce((acc, stars) => acc + (Number(stars) || 0), 0)
@@ -70,6 +106,47 @@ export const useQuizStore = defineStore('quiz', {
   },
 
   actions: {
+    loadUserProfile() {
+      if (typeof window === 'undefined' || !window.localStorage) return
+      try {
+        const raw = localStorage.getItem(PROFILE_KEY)
+        if (raw) {
+          const parsed = JSON.parse(raw)
+          if (parsed && parsed.name) {
+            this.userName = parsed.name
+            this.userAgeGroup = parsed.ageGroup || '7-9'
+            this.hasCustomProfile = true
+            return
+          }
+        }
+      } catch (e) {}
+      this.hasCustomProfile = false
+    },
+
+    setUserProfile({ name, ageGroup }) {
+      this.userName = name && name.trim() ? name.trim() : 'Sahabat Pintar'
+      this.userAgeGroup = ageGroup || '7-9'
+      this.hasCustomProfile = true
+      this.showProfileModal = false
+
+      if (typeof window !== 'undefined' && window.localStorage) {
+        try {
+          localStorage.setItem(
+            PROFILE_KEY,
+            JSON.stringify({ name: this.userName, ageGroup: this.userAgeGroup })
+          )
+        } catch (e) {}
+      }
+    },
+
+    openProfileModal() {
+      this.showProfileModal = true
+    },
+
+    closeProfileModal() {
+      this.showProfileModal = false
+    },
+
     loadSavedProgress() {
       if (typeof window === 'undefined' || !window.localStorage) return
       try {
@@ -98,6 +175,8 @@ export const useQuizStore = defineStore('quiz', {
 
     startQuiz(categoryKey) {
       this.loadSavedProgress()
+      this.loadUserProfile()
+
       const key = categoryKey ? categoryKey.toLowerCase() : 'matematika'
       const data = CATEGORY_MAP[key] || CATEGORY_MAP['matematika']
 
@@ -111,22 +190,33 @@ export const useQuizStore = defineStore('quiz', {
         cerpen: data.cerpen || null
       }
       this.rawQuestions = data.soal
-      this.questions = prepareQuizQuestions(data.soal)
+      this.questions = prepareQuizQuestions(data.soal, this.userAgeGroup, data.kategori)
       this.currentIndex = 0
       this.answers = []
       this.isFinished = false
-      this.storyRead = !data.cerpen // If no cerpen, mark as read immediately
+      this.storyRead = !data.cerpen
       this.isAnswering = false
       this.lastSelectedOption = null
       this.lastAnswerIsCorrect = null
+
+      // Reset memory chapters
+      this.activeStoryChapter = 1
+      this.chapterReadStatus = { 1: false, 2: false, 3: false }
+    },
+
+    markStoryChapterRead(chapterNum) {
+      const ch = chapterNum || this.activeStoryChapter
+      this.chapterReadStatus[ch] = true
+      if (ch >= 3) {
+        this.storyRead = true
+      }
     },
 
     markStoryRead() {
-      this.storyRead = true
+      this.markStoryChapterRead(this.activeStoryChapter)
     },
 
     submitAnswer(selectedOption) {
-      // Idempotency & Debounce guard: prevent multi-clicks / double answers
       if (this.isAnswering || this.answers.length > this.currentIndex || !this.currentQuestion) {
         return null
       }
@@ -158,10 +248,21 @@ export const useQuizStore = defineStore('quiz', {
         this.isAnswering = false
         this.lastSelectedOption = null
         this.lastAnswerIsCorrect = null
+
+        // Check if advancing into a new Chapter in Memory category:
+        // Soal 1-7 = Chapter 1 (indices 0..6)
+        // Soal 8-14 = Chapter 2 (indices 7..13)
+        // Soal 15-20 = Chapter 3 (indices 14..19)
+        if (this.currentCategory === 'ingatan' || this.currentCategory === 'memory') {
+          if (this.currentIndex === 7 && !this.chapterReadStatus[2]) {
+            this.activeStoryChapter = 2
+          } else if (this.currentIndex === 14 && !this.chapterReadStatus[3]) {
+            this.activeStoryChapter = 3
+          }
+        }
       } else {
         this.isFinished = true
         this.isAnswering = false
-        // Persist stars to localStorage
         this.saveCategoryStars(this.currentCategory, this.score)
       }
     },
