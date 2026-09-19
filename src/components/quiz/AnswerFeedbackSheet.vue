@@ -12,46 +12,47 @@
         <!-- Overlay backdrop for focus -->
         <div class="fixed inset-0 bg-brand-cocoa/20 -z-10 transition-opacity"></div>
 
-        <!-- Bottom Sheet Container -->
+        <!-- Bottom Sheet Container (Roomier height & larger fonts) -->
         <div
           :class="[
-            'border-t-4 shadow-2xl px-4 py-4 sm:py-5 transition-all',
+            'border-t-4 shadow-2xl px-5 sm:px-8 py-5 sm:py-7 transition-all',
             isCorrect
               ? 'bg-[#F0FDF4] border-emerald-500 text-emerald-950'
               : 'bg-[#FFFBEB] border-amber-500 text-amber-950'
           ]"
         >
-          <div class="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
             <!-- Left Info: Mascot + Title + Explanation -->
-            <div class="flex items-start sm:items-center gap-3.5 w-full sm:w-auto flex-1">
+            <div class="flex items-start sm:items-center gap-4 w-full sm:w-auto flex-1">
               <div class="shrink-0 pt-1 sm:pt-0">
                 <MascotCharacter
                   :character="mascot"
                   :emotion="isCorrect ? 'happy' : 'empathetic'"
                   size="sm"
+                  class="scale-110 sm:scale-125 transition-transform"
                 />
               </div>
 
-              <div class="space-y-1 flex-1">
+              <div class="space-y-1.5 flex-1">
                 <!-- Status Title with Child Name -->
                 <div class="flex items-center gap-2">
-                  <IconParty v-if="isCorrect" class="w-6 h-6 text-emerald-600 animate-bounce" />
-                  <IconLightbulb v-else class="w-6 h-6 text-amber-600 animate-pulse" />
-                  <h4 class="font-display font-extrabold text-xl sm:text-2xl leading-none">
+                  <IconParty v-if="isCorrect" class="w-6 h-6 sm:w-7 sm:h-7 text-emerald-600 animate-bounce" />
+                  <IconLightbulb v-else class="w-6 h-6 sm:w-7 sm:h-7 text-amber-600 animate-pulse" />
+                  <h4 class="font-display font-extrabold text-xl sm:text-2xl md:text-3xl leading-none">
                     <span v-if="isCorrect">Wah, Hebat Banget, {{ quizStore.userName }}! ⭐</span>
                     <span v-else>Hampir Tepat, {{ quizStore.userName }}! 💡</span>
                   </h4>
                 </div>
 
                 <!-- Explanation / Correct Answer with Mascot Buddy Encouragement -->
-                <p class="font-body text-xs sm:text-sm font-semibold leading-snug text-brand-cocoa/85">
-                  <span v-if="!isCorrect" class="block font-bold text-amber-900 mb-0.5">
-                    Jangan berkecil hati ya, kata {{ quizStore.activeMascotName }} jawaban yang benar adalah: "{{ correctAnswer }}".
-                  </span>
-                  <span v-if="explanation" class="block text-brand-cocoa/75 mt-0.5">
+                <div class="font-body text-sm sm:text-base md:text-lg leading-relaxed text-brand-cocoa/90">
+                  <p v-if="!isCorrect" class="font-bold text-amber-950 mb-1">
+                    Jangan berkecil hati ya, kata {{ quizStore.activeMascotName }} jawaban yang benar adalah: <span class="underline decoration-amber-400 font-extrabold">"{{ correctAnswer }}"</span>.
+                  </p>
+                  <p v-if="explanation" class="text-brand-cocoa/85 font-medium leading-relaxed bg-black/5 p-2.5 rounded-felt-sm border border-dashed border-brand-cocoa/15">
                     💡 {{ explanation }}
-                  </span>
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -61,15 +62,15 @@
                 @click="handleNext"
                 autofocus
                 :class="[
-                  'felt-btn w-full sm:w-auto px-6 py-3 font-display font-bold text-base sm:text-lg rounded-felt-md shadow-felt-button flex items-center justify-center gap-2 transition-all',
+                  'felt-btn w-full sm:w-auto px-7 py-3.5 sm:px-8 sm:py-4 font-display font-bold text-base sm:text-lg md:text-xl rounded-felt-md shadow-felt-button flex items-center justify-center gap-2.5 transition-all',
                   isCorrect
                     ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
                     : 'bg-brand-pink hover:bg-brand-raspberry text-white'
                 ]"
               >
                 <span>{{ isLastQuestion ? 'Lihat Hasil Akhir' : 'Soal Berikutnya' }}</span>
-                <IconTrophy v-if="isLastQuestion" class="w-5 h-5 text-white" />
-                <IconArrowRight v-else class="w-5 h-5 text-white" />
+                <IconTrophy v-if="isLastQuestion" class="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                <IconArrowRight v-else class="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </button>
             </div>
           </div>
